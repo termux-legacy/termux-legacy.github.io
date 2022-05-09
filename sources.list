@@ -1,0 +1,6 @@
+deb https://termux-legacy.github.io/termux-packages stable main
+deb https://termux-legacy.github.io/game-packages-21 games stable
+deb https://termux-legacy.github.io/science-packages-21 science stable
+deb https://termux-legacy.github.io/termux-root-packages-21 root stable
+deb https://termux-legacy.github.io/x11-packages-21 x11 main
+#deb https://termux-legacy.github.io/unstable-packages-21 unstable main
