@@ -1,0 +1,3881 @@
+Package: adwaita-icon-theme
+Architecture: all
+Installed-Size: 42468
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.34.3-1
+Homepage: https://www.gnome.org
+Depends: hicolor-icon-theme
+Description: Freedesktop.org Hicolor icon theme
+Filename: all/adwaita-icon-theme_3.34.3-1_all.deb
+SHA1: 12f874eb08be39e412a3d1186fc57526dff3ca5c
+SHA256: 28df1544c21483f0aa2b53bf8dcae1d1bbbe261e320790697b78972125e901c7
+Size: 10798212
+
+Package: aterm
+Architecture: i686
+Installed-Size: 168
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.1-15
+Homepage: https://sourceforge.net/projects/aterm/
+Depends: libice, libsm, libx11, libxext, xorg-fonts-75dpi | xorg-fonts-100dpi
+Description: An xterm replacement with transparency support
+Filename: i686/aterm_1.0.1-15_i686.deb
+SHA1: 041f78caa4c5b53d4f0da6a3eb63c8c0c0150f36
+SHA256: 468dbd8b63309e778c0d9ba4377c009de69614fe6405031fde9eb54f85ae4f58
+Size: 56668
+
+Package: atk
+Architecture: i686
+Installed-Size: 460
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.34.1-1
+Homepage: https://www.gtk.org
+Depends: glib
+Conflicts: libatk
+Replaces: libatk
+Description: The interface definitions of accessibility infrastructure
+Filename: i686/atk_2.34.1-1_i686.deb
+SHA1: 397b142e6c7bc65bbf024405a7bcd232d0e8f216
+SHA256: d90ce7b91ca2bc7e100e49320164321551d8a416aee5f5924cccf0eaf8b3680d
+Size: 65430
+
+Package: bochs
+Architecture: i686
+Installed-Size: 5064
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.6.9-3
+Homepage: http://bochs.sourceforge.net/
+Depends: atk, fontconfig, freetype, gdk-pixbuf, glib, gtk2, pango-x, libc++, libcairo-x, libgraphite, libx11, libxpm, libxrandr, ncurses, readline
+Description: Bochs is a highly portable open source IA-32 (x86) PC emulator and debugger written in C++.
+Filename: i686/bochs_2.6.9-3_i686.deb
+SHA1: d2f2de1aed7d9050cc6a24b979a988c80d4b53a7
+SHA256: 3ee2e2c4e2aa41d62fdfb94bc107211503466bf45c56c0a1cfb802d8e5c4fa7f
+Size: 1251426
+
+Package: dbus-glib
+Architecture: i686
+Installed-Size: 368
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.110-5
+Homepage: https://dbus.freedesktop.org
+Breaks: dbus-glib-dev
+Depends: dbus, glib
+Replaces: dbus-glib-dev
+Description: GLib bindings for DBUS
+Filename: i686/dbus-glib_0.110-5_i686.deb
+SHA1: 73bafa864267a671d8bef2589bf4f12d6b5aa296
+SHA256: df74b5b39e31bc500a353a74138d5884e6b66a5a48ef69a1fbbe27bc27d7e098
+Size: 69944
+
+Package: dbus-glib-static
+Architecture: i686
+Installed-Size: 212
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.110-5
+Homepage: https://dbus.freedesktop.org
+Depends: dbus-glib (= 0.110-5)
+Description: Static libraries for dbus-glib
+Filename: i686/dbus-glib-static_0.110-5_i686.deb
+SHA1: 27c057e11f123f150ba6cbf974e55aa5bcf787e2
+SHA256: 31fc26dff7884ed03a2129c3bab0b56cadfbc9c9ca804eeec24971d2d794d7a3
+Size: 48468
+
+Package: dbus
+Architecture: i686
+Installed-Size: 1568
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.12.16-7
+Homepage: https://dbus.freedesktop.org
+Breaks: dbus-dev
+Depends: libexpat, libx11
+Replaces: dbus-dev
+Description: Freedesktop.org message bus system
+Filename: i686/dbus_1.12.16-7_i686.deb
+SHA1: 56d31ca22b649a5eaad9456f16d45bf9232b4b07
+SHA256: c50e1aa79ba7e682a31c12785030c5f92df103fdcf68deea0078ff61f8f1428a
+Size: 407194
+
+Package: dbus-static
+Architecture: i686
+Installed-Size: 480
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.12.16-7
+Homepage: https://dbus.freedesktop.org
+Depends: dbus (= 1.12.16-7)
+Description: Static libraries for dbus
+Filename: i686/dbus-static_1.12.16-7_i686.deb
+SHA1: b2bfbeea48ce6f93524193800df31dce70633c0e
+SHA256: 30e93233d60b69771723ed2b9741a5dd8aa3067df7f5f7be48537754003472ba
+Size: 115898
+
+Package: desktop-file-utils
+Architecture: i686
+Installed-Size: 212
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.24-2
+Homepage: https://www.freedesktop.org/wiki/Software/desktop-file-utils
+Depends: glib
+Description: Command line utilities for working with desktop entries
+Filename: i686/desktop-file-utils_0.24-2_i686.deb
+SHA1: a607a7fc91ab1ad7086ffd8a8480cb8484bd8028
+SHA256: 02bf210e5845997f5455e21ccf782f951da73e93e111a27d146499fe667f94d7
+Size: 34366
+
+Package: dmenu
+Architecture: i686
+Installed-Size: 100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.9-5
+Homepage: https://tools.suckless.org/dmenu/
+Depends: dash, freetype, libxinerama, libx11, libxft
+Description: Generic menu for X
+Filename: i686/dmenu_4.9-5_i686.deb
+SHA1: 5082cd1e8255bfc0685c8349db94336600bfbc94
+SHA256: 11649713589fe7334c70eab3e1f51ccbd95ac713a61984df2686b2f9caebd550
+Size: 14350
+
+Package: dosbox
+Architecture: i686
+Installed-Size: 1900
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.74.3-4
+Homepage: https://sourceforge.net/projects/dosbox/
+Depends: libc++, libpng, libx11, sdl, sdl-net, zlib
+Description: Emulator with builtin DOS for running DOS Games
+Filename: i686/dosbox_0.74.3-4_i686.deb
+SHA1: c6caeb3474f1937bcb4cc41c4e4f6f34ad33c3e4
+SHA256: 345aac0bbd47f00ac20e7bb2aa1b99fd9584aaf7a0ab40b62def4cd2caf23c55
+Size: 569528
+
+Package: dwm
+Architecture: i686
+Installed-Size: 92
+Maintainer: Tristan Ross <spaceboyross@yandex.com>
+Version: 6.2-5
+Homepage: https://dwm.suckless.org/
+Depends: libx11, libxinerama, libxft, freetype, st, dmenu
+Description: A dynamic window manager for X
+Filename: i686/dwm_6.2-5_i686.deb
+SHA1: 824b26b9105c714f2829b9448363803e78d0f46f
+SHA256: 5f19d2b9047379e8b6c3f0abc2d68e8b5bdc617107175e02b1c714e03c108e57
+Size: 18916
+
+Package: emacs-x
+Architecture: i686
+Installed-Size: 98248
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 26.3-3
+Homepage: https://www.gnu.org/software/emacs/
+Depends: atk, fontconfig, freetype, gdk-pixbuf, giflib, glib, gtk3, libandroid-shmem, libcairo-x, libgnutls, libice, libjpeg-turbo, libpng, librsvg, libsm, libtiff, libx11, libxcb, libxext, libxfixes, libxft, libxinerama, libxml2, libxpm, libxrandr, libxrender, littlecms, ncurses, pango-x, zlib
+Conflicts: emacs
+Replaces: emacs
+Provides: emacs
+Description: Extensible, customizable text editor-and more (with X11 support)
+Filename: i686/emacs-x_26.3-3_i686.deb
+SHA1: 14d3485ef1fdc2b7224cd718e117922c4b981c3e
+SHA256: eb94f21ec3aac25e74b5ef0424413b1fbaa92797b0a1ece54ad0f244578d1220
+Size: 34938606
+
+Package: exo
+Architecture: i686
+Installed-Size: 3556
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.12.10-1
+Homepage: https://www.xfce.org/
+Depends: hicolor-icon-theme, libxfce4ui
+Conflicts: libexo
+Replaces: libexo
+Provides: libexo
+Description: Application library for XFCE
+Filename: i686/exo_0.12.10-1_i686.deb
+SHA1: 6000e9b292c352e2252c3b04f4e650eec01d472e
+SHA256: 2c0ce90122c92cac209cc50ec30f02e6d63c9dc2f57635c7c1503719526eb05b
+Size: 417884
+
+Package: exo-static
+Architecture: i686
+Installed-Size: 692
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.12.10-1
+Homepage: https://www.xfce.org/
+Depends: exo (= 0.12.10-1)
+Description: Static libraries for exo
+Filename: i686/exo-static_0.12.10-1_i686.deb
+SHA1: 3e7d21c73fe0b9d20e5e377dfaf739214ff1e6b6
+SHA256: 7749141994680857a85a1728c11e33dd73b1ae18514b507cbebc4b7f389ae456
+Size: 125050
+
+Package: feh
+Architecture: i686
+Installed-Size: 528
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.3-1
+Homepage: https://feh.finalrewind.org/
+Depends: imlib2, libandroid-shmem, libcurl, libexif, libpng, libx11, libxinerama
+Description: Fast and light imlib2-based image viewer
+Filename: i686/feh_3.3-1_i686.deb
+SHA1: 43565186c51b97b545ca3eec08e4e601d0d020ff
+SHA256: d4d83d6e1a387904c07a5167eb21c64f9bad6dd954115ae13787f7a4db39cef2
+Size: 156636
+
+Package: florence
+Architecture: i686
+Installed-Size: 1120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.6.3-11
+Homepage: https://sourceforge.net/projects/florence/
+Depends: atk, fontconfig, freetype, fribidi, gdk-pixbuf, glib, gstreamer, gtk3, harfbuzz, libandroid-shmem, libcairo-x, libcroco, libpixman, libpng, librsvg, libx11, libxcb, libxext, libxi, libxml2, libxrender, libxtst, pango-x, zlib
+Description: A configurable on-screen virtual keyboard
+Filename: i686/florence_0.6.3-11_i686.deb
+SHA1: 2aae3e2ce31e70cb225376c959b2c3dd0ad3b8a1
+SHA256: 2b8575d4a5f17d4f8de63b48f1a49dba78bd1f9302c6046ce23bc034df18860f
+Size: 151884
+
+Package: fltk-editor
+Architecture: i686
+Installed-Size: 68
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0-termux-9
+Homepage: https://www.fltk.org/
+Depends: fltk, libc++
+Description: Simple text editor
+Filename: i686/fltk-editor_1.0-termux-9_i686.deb
+SHA1: a3bb0fd0c95517b86f68ee780bdfb7572f332b62
+SHA256: e1f78d22186e67e52721cce081057f26400aafaaef2273d230175f5d3ad5391f
+Size: 16758
+
+Package: fltk
+Architecture: i686
+Installed-Size: 2692
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.5-6
+Homepage: https://www.fltk.org/
+Depends: fontconfig, glu, libc++, libjpeg-turbo, libpng, libx11, libxcursor, libxext, libxfixes, libxft, libxinerama, libxrender, mesa, zlib
+Description: Graphical user interface toolkit for X
+Filename: i686/fltk_1.3.5-6_i686.deb
+SHA1: acb04210fe04b413cbe55dc59a1741ad27923c33
+SHA256: 4828735a0a64b305f1bc0af3e519180ff7df6fc6d452f72334307ebb110f6497
+Size: 717040
+
+Package: fltk-static
+Architecture: i686
+Installed-Size: 2120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.5-6
+Homepage: https://www.fltk.org/
+Depends: fltk (= 1.3.5-6)
+Description: Static libraries for fltk
+Filename: i686/fltk-static_1.3.5-6_i686.deb
+SHA1: 0616f647de97cfc416af8f0141f9d1ff5c522e67
+SHA256: 4462dca0a3f346e7e40864ba07115e9d0357f49793247f9bf6dec035e3f81981
+Size: 522122
+
+Package: fluxbox
+Architecture: i686
+Installed-Size: 2456
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.7-16
+Homepage: http://www.fluxbox.org
+Depends: feh, fribidi, imlib2, libc++, libxft, libxinerama, libxpm, libxrandr, xorg-xmessage
+Recommends: aterm
+Description: A lightweight and highly-configurable window manager
+Filename: i686/fluxbox_1.3.7-16_i686.deb
+SHA1: 3e51f2f086af691bccdc2bdbb1debb81bbe48b41
+SHA256: d46c0ddc9967cc5a19b7581523e16cfba8133aaa2babb1b479dfb35fbfee249d
+Size: 510558
+
+Package: freeglut
+Architecture: i686
+Installed-Size: 376
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.2.1-1
+Homepage: http://freeglut.sourceforge.net/
+Depends: glu, libxi, libxrandr, mesa
+Description: Provides functionality for small OpenGL programs
+Filename: i686/freeglut_3.2.1-1_i686.deb
+SHA1: c751c2654e6384cfcc18ef6bdd959d6daffd990d
+SHA256: 531e3fb6566465d3a68c95603a1bf153ced54a2694a590a858a0e01e15dea16c
+Size: 81720
+
+Package: freeglut-static
+Architecture: i686
+Installed-Size: 440
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.2.1-1
+Homepage: http://freeglut.sourceforge.net/
+Depends: freeglut (= 3.2.1-1)
+Description: Static libraries for freeglut
+Filename: i686/freeglut-static_3.2.1-1_i686.deb
+SHA1: aea73037a7ae97f85464acb4a60b5da873897bbc
+SHA256: a30293f50d4d874b7ad44e96155ea405097d5ef33c6ba0f7f7b50b52ab991761
+Size: 90652
+
+Package: galculator
+Architecture: i686
+Installed-Size: 964
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.1.4-9
+Homepage: https://sourceforge.net/projects/galculator/
+Depends: atk, gdk-pixbuf, glib, gtk3, libandroid-shmem, libcairo-x, pango-x
+Description: GTK+ based scientific calculator
+Filename: i686/galculator_2.1.4-9_i686.deb
+SHA1: c7eb48e6038236eb2928fb8c1690e5ef6fdf56a2
+SHA256: 361b6d9e5a9961ae51f96a7d514fb4fd73883f4efb75e09f3c075d74d873b132
+Size: 61850
+
+Package: garcon
+Architecture: i686
+Installed-Size: 1176
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.6.4-3
+Homepage: https://www.xfce.org/
+Depends: libxfce4ui
+Conflicts: libgarcon
+Replaces: libgarcon
+Provides: libgarcon
+Description: Implementation of the freedesktop.org menu specification
+Filename: i686/garcon_0.6.4-3_i686.deb
+SHA1: 969ef7602d7e0e8c0da304df2aa7ef2b1cad3234
+SHA256: 622ef55f0724b805b2ca3a69b7b1b56b6dce5c6b916a07dbaa06e5b6f4d3f7a5
+Size: 88126
+
+Package: garcon-static
+Architecture: i686
+Installed-Size: 236
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.6.4-3
+Homepage: https://www.xfce.org/
+Depends: garcon (= 0.6.4-3)
+Description: Static libraries for garcon
+Filename: i686/garcon-static_0.6.4-3_i686.deb
+SHA1: f76b8744190eb5df0191c6b1fc115c144fa860da
+SHA256: e078e9bb74c985e4348a6a37b9bffe459e0f45d60979c0f7e4bf3c8e46be4a96
+Size: 45070
+
+Package: geany
+Architecture: i686
+Installed-Size: 8632
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.36.0-1
+Homepage: https://www.geany.org/
+Depends: atk, fontconfig, freetype, fribidi, gdk-pixbuf, glib, gtk3, harfbuzz, libandroid-glob, libandroid-shmem, libbz2, libc++, libcairo-x, libffi, libgraphite, liblzma, libpixman, libpng, libuuid, libx11, libxau, libxcb, libxdmcp, libxext, libxml2, libxrender, pango-x, pcre, zlib
+Recommends: clang, make
+Description: Fast and lightweight IDE
+Filename: i686/geany_1.36.0-1_i686.deb
+SHA1: bb31da526dfc5b75f1845f91509031b2cedab09a
+SHA256: a566692f34c926be6d7ccb4b01ce9edad2a1a4c35f0fb925ef8c74ecc4c28988
+Size: 2494084
+
+Package: geany-static
+Architecture: i686
+Installed-Size: 5156
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.36.0-1
+Homepage: https://www.geany.org/
+Depends: geany (= 1.36.0-1)
+Description: Static libraries for geany
+Filename: i686/geany-static_1.36.0-1_i686.deb
+SHA1: d639af21ad687ccd70a4c30cf30065cce31c6877
+SHA256: ddc6fc9e40623d9fbe9ad092ffd3fba85206127d600881d84a0cc80e5ab2797b
+Size: 1081118
+
+Package: glu
+Architecture: i686
+Installed-Size: 436
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 9.0.1-4
+Homepage: https://cgit.freedesktop.org/mesa/glu/
+Depends: libandroid-shmem, libc++, libdrm, libexpat, libx11, libxau, libxcb, libxdamage, libxdmcp, libxext, libxfixes, libxshmfence, mesa, zlib
+Conflicts: libglu
+Replaces: libglu
+Description: Mesa OpenGL Utility library
+Filename: i686/glu_9.0.1-4_i686.deb
+SHA1: 1088033d2e9d10e3faeaa3f2a05eb586387f663d
+SHA256: 33852f04d43470834cf940fc65f97b2d05003c96607c3aea88b9ec9aefa57b2b
+Size: 133208
+
+Package: glu-static
+Architecture: i686
+Installed-Size: 692
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 9.0.1-4
+Homepage: https://cgit.freedesktop.org/mesa/glu/
+Depends: glu (= 9.0.1-4)
+Description: Static libraries for glu
+Filename: i686/glu-static_9.0.1-4_i686.deb
+SHA1: b9a7b3b3a0bd8f11385b097da0b7ffe1d10f5f5f
+SHA256: 6ba358af7ad9876913795481a6ff80c39844de0a70178e6367072cc722a6b0a0
+Size: 170306
+
+Package: gpg-crypter
+Architecture: i686
+Installed-Size: 168
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.1-5
+Homepage: https://sourceforge.net/projects/gpg-crypter/
+Depends: atk, gdk-pixbuf, glib, gpgme, gtk3, libandroid-shmem, libassuan, libcairo-x, libgpg-error, pango-x, pinentry-gtk
+Description: A graphical front-end to GnuPG(GPG) using the GTK3 toolkit and libgpgme
+Filename: i686/gpg-crypter_0.4.1-5_i686.deb
+SHA1: b3e13db55a59be4fa8c5059c8a1da00a22d82650
+SHA256: b09268e9076047251421b4e060a69028b1ee20f5c6d149ffcacc2eedff0c8c09
+Size: 17626
+
+Package: gtk-update-icon-cache
+Architecture: i686
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.24.12-1
+Homepage: https://www.gtk.org/
+Depends: glib, gdk-pixbuf, libandroid-shmem
+Description: GTK+ icon cache updater
+Filename: i686/gtk-update-icon-cache_3.24.12-1_i686.deb
+SHA1: eedd91f936d8e2c175195d04a4ccff92bb7520d9
+SHA256: 1c9b3c02764e03d28bd62c8c080a4ac09f8d4c1ce4d1fbc9b461c75bfdcaff73
+Size: 9862
+
+Package: gtk2
+Architecture: i686
+Installed-Size: 7580
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.24.32-16
+Homepage: https://www.gtk.org/
+Depends: adwaita-icon-theme, atk, coreutils, desktop-file-utils, glib-bin, gtk-update-icon-cache, libcairo-x, librsvg, libxcomposite, libxcursor, libxdamage, libxi, libxinerama, libxrandr, pango-x, shared-mime-info, ttf-dejavu
+Conflicts: libgtk2
+Replaces: libgtk2
+Description: GObject-based multi-platform GUI toolkit (legacy)
+Filename: i686/gtk2_2.24.32-16_i686.deb
+SHA1: 2b354ba8c8fcf66abe1943fb7fcf421c7d5368c6
+SHA256: d704bd91bcace3a173f41a63a425cd4532165dfb1351398b31c9249af6900316
+Size: 1847562
+
+Package: gtk2-static
+Architecture: i686
+Installed-Size: 8100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.24.32-16
+Homepage: https://www.gtk.org/
+Depends: gtk2 (= 2.24.32-16)
+Description: Static libraries for gtk2
+Filename: i686/gtk2-static_2.24.32-16_i686.deb
+SHA1: b0a5f50d8276761df34608559c06a385ee84338c
+SHA256: 1cdc7e78bbe3969149d0b2c07aedda2a0e4bcc5068468f52c8822ec32da3d0d2
+Size: 1863844
+
+Package: gtk3
+Architecture: i686
+Installed-Size: 13648
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.24.12-1
+Homepage: https://www.gtk.org/
+Depends: adwaita-icon-theme, atk, coreutils, desktop-file-utils, gdk-pixbuf, glib, glib-bin, gtk-update-icon-cache, libcairo-x, libepoxy, libxcomposite, libxcursor, libxdamage, libxfixes, libxi, libxinerama, libxrandr, pango-x, shared-mime-info, ttf-dejavu
+Conflicts: libgtk3
+Replaces: libgtk3
+Description: GObject-based multi-platform GUI toolkit
+Filename: i686/gtk3_3.24.12-1_i686.deb
+SHA1: 0da290fd7fddcf006cef9ce6d5c1f3308f967944
+SHA256: f71b2eb947539e5e57e3dde32e0ff40fe76c3a7d01c01681809e26ff53300fc6
+Size: 2928998
+
+Package: gtk3-static
+Architecture: i686
+Installed-Size: 11612
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.24.12-1
+Homepage: https://www.gtk.org/
+Depends: gtk3 (= 3.24.12-1)
+Description: Static libraries for gtk3
+Filename: i686/gtk3-static_3.24.12-1_i686.deb
+SHA1: b90d55e59b661fc8d11d75b1cf6591193c64fee3
+SHA256: 1ff6735385ed4bc1515aed00164c895852e7e82e1286db139459a4d60ca4c33b
+Size: 2489010
+
+Package: hexchat
+Architecture: i686
+Installed-Size: 1240
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.14.2-7
+Homepage: https://hexchat.github.io/
+Depends: gdk-pixbuf, glib, gtk2, liblua, libnotify, libx11, openssl, pango-x, python
+Description: A popular and easy to use graphical IRC (chat) client
+Filename: i686/hexchat_2.14.2-7_i686.deb
+SHA1: 9244ce006b25ed9b949958e4316cb4994a1c83af
+SHA256: 00db996665f6433603f273010c3751f747468c965ca69908cb2e94abc3306f9a
+Size: 322658
+
+Package: hicolor-icon-theme
+Architecture: all
+Installed-Size: 100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.17-12
+Homepage: https://www.freedesktop.org/wiki/Software/icon-theme/
+Description: Freedesktop.org Hicolor icon theme
+Filename: all/hicolor-icon-theme_0.17-12_all.deb
+SHA1: 0fe8b97eb09cfe5d53ff3903f2481d0789f570b6
+SHA256: fa8e27771a35b63160d050473d299c5416d57c981bbdbb20674a526c67d4a7a6
+Size: 4708
+
+Package: imagemagick-x
+Architecture: i686
+Installed-Size: 19380
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.9.5-1
+Homepage: https://www.imagemagick.org/
+Depends: fftw, fontconfig, freetype, fribidi, glib, harfbuzz, libandroid-support, libbz2, libcairo-x, libffi, libgraphite, libjpeg-turbo, liblzma, libpixman, libpng, libtiff, libuuid, libwebp, libx11, libxau, libxcb, libxdmcp, libxext, libxml2, littlecms, openjpeg, pango-x, pcre, zlib
+Conflicts: imagemagick
+Replaces: imagemagick
+Provides: imagemagick
+Description: Suite to create, edit, compose, or convert images in a variety of formats
+Filename: i686/imagemagick-x_7.0.9.5-1_i686.deb
+SHA1: 004ac30a49e3326ea5e19ce889ff0af7ab7afb20
+SHA256: 85a0b8d8161719eb6ae845dc9b10375a772cda0d60b7cfeb58822226d10b3e87
+Size: 6880736
+
+Package: imagemagick-x-static
+Architecture: i686
+Installed-Size: 7436
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.9.5-1
+Homepage: https://www.imagemagick.org/
+Depends: imagemagick-x (= 7.0.9.5-1)
+Description: Static libraries for imagemagick-x
+Filename: i686/imagemagick-x-static_7.0.9.5-1_i686.deb
+SHA1: d3c070a9a646b223f671d3d2675193615ceeffa6
+SHA256: 0e1fda0fb2aad668deef474957bfb27a54366a88fbce47b49111b811ad2ce34d
+Size: 1752500
+
+Package: imlib2
+Architecture: i686
+Installed-Size: 1128
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.1-10
+Homepage: https://sourceforge.net/projects/enlightenment/
+Depends: freetype, giflib, libandroid-shmem, libbz2, libid3tag, libjpeg-turbo, libpng, libtiff, libxext, zlib
+Description: Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
+Filename: i686/imlib2_1.5.1-10_i686.deb
+SHA1: e5b3eb9a1dd2a56b77e6f79dceac101266387ea0
+SHA256: 90614d01e5682378fd24a1e7415b4c19fc4fa1ac8a81572f785ecec2b749bb9e
+Size: 478280
+
+Package: imlib2-static
+Architecture: i686
+Installed-Size: 488
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.1-10
+Homepage: https://sourceforge.net/projects/enlightenment/
+Depends: imlib2 (= 1.5.1-10)
+Description: Static libraries for imlib2
+Filename: i686/imlib2-static_1.5.1-10_i686.deb
+SHA1: 7a6f8485c2f7e7d105c057c79a8a74846f3417fa
+SHA256: c43e440bee5b1ccef9281fc176ef8fa53bac51eaa663c239933c651d4f6956ec
+Size: 118592
+
+Package: iso-codes
+Architecture: all
+Installed-Size: 2984
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.3-2
+Homepage: https://salsa.debian.org/iso-codes-team/iso-codes
+Description: Lists of the country, language, and currency names
+Filename: all/iso-codes_4.3-2_all.deb
+SHA1: 00ce6b85e24daf6b8930dc0948cbe34a0419c4e5
+SHA256: 879c9481a4ab34b5d9812da9347affbacbdcce5829c34eef25f2fac1fb2df479
+Size: 253660
+
+Package: libart-lgpl
+Architecture: i686
+Installed-Size: 328
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.3.21-6
+Homepage: https://www.levien.com/libart/
+Description: A library for high-performance 2D graphics
+Filename: i686/libart-lgpl_2.3.21-6_i686.deb
+SHA1: 3f1f554fcea4db9e4b701c13080a8c40fbbf67c9
+SHA256: b4d0fc74d7da4672dfc2367c17ae6ffc129285e2f7e1ddf0aa736cf12cbdecf8
+Size: 46796
+
+Package: libart-lgpl-static
+Architecture: i686
+Installed-Size: 156
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.3.21-6
+Homepage: https://www.levien.com/libart/
+Depends: libart-lgpl (= 2.3.21-6)
+Description: Static libraries for libart-lgpl
+Filename: i686/libart-lgpl-static_2.3.21-6_i686.deb
+SHA1: a6539ded7ec814455bacdc13168f31b444fe1dd4
+SHA256: 64b03c0cd07581a03bd936e0e793c68d2085f5a23a42bd2f0c71a47d1f9fdcdf
+Size: 42690
+
+Package: libcairo-x
+Architecture: i686
+Installed-Size: 1440
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.16.0-11
+Homepage: https://cairographics.org
+Depends: fontconfig, freetype, glib, liblzo, libpixman, libpng, librsvg, libx11, libxcb, libxext, libxrender, poppler, zlib
+Conflicts: libcairo, libcairo-gobject, libcairo-dev
+Replaces: libcairo, libcairo-gobject
+Provides: libcairo, libcairo-gobject
+Description: Cairo 2D vector graphics library (with X)
+Filename: i686/libcairo-x_1.16.0-11_i686.deb
+SHA1: 3a158994c0c87ddbb039eaa6f56385bb42e3e545
+SHA256: ccbc5eed178903388834c355e97a560d5c182c50bed61a003f1aa773ee0e615c
+Size: 461204
+
+Package: libcairo-x-static
+Architecture: i686
+Installed-Size: 1960
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.16.0-11
+Homepage: https://cairographics.org
+Depends: libcairo-x (= 1.16.0-11)
+Description: Static libraries for libcairo-x
+Filename: i686/libcairo-x-static_1.16.0-11_i686.deb
+SHA1: af8180a4cce2d3667e16f388a2fc827e8e938cb2
+SHA256: b1215b89e2ebb365e1f7ac3d88e62451692828f1ff225aa1221e5c7b94d315a7
+Size: 542588
+
+Package: libdrm
+Architecture: i686
+Installed-Size: 616
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.4.100-1
+Homepage: https://dri.freedesktop.org/wiki/
+Description: Userspace interface to kernel DRM services
+Filename: i686/libdrm_2.4.100-1_i686.deb
+SHA1: 4d48d3390e964ca92e781cd7766540dd33ce4a80
+SHA256: 4757348e7903051584c9c26682438a260f8c84f765fe824ac226e09458158452
+Size: 119316
+
+Package: libdrm-static
+Architecture: i686
+Installed-Size: 112
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.4.100-1
+Homepage: https://dri.freedesktop.org/wiki/
+Depends: libdrm (= 2.4.100-1)
+Description: Static libraries for libdrm
+Filename: i686/libdrm-static_2.4.100-1_i686.deb
+SHA1: 96585b154a75f2cb6e2bda2600b6c1163b538f28
+SHA256: 48ebe5d2b8ddd27557fddb6c82de33076e446ab81715c40c004087cd76dcee75
+Size: 23834
+
+Package: libepoxy
+Architecture: i686
+Installed-Size: 2332
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.4-1
+Homepage: https://github.com/anholt/libepoxy
+Depends: mesa
+Description: Library handling OpenGL function pointer management
+Filename: i686/libepoxy_1.5.4-1_i686.deb
+SHA1: 87e6aacfb064e9aa9359ae80348e9deb5f2b1ae6
+SHA256: 05cd41434bdcd87eb4300683e86e9c6d20da3a20a9af46ad958b8789a5744c66
+Size: 258876
+
+Package: libevdev
+Architecture: i686
+Installed-Size: 236
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.8.0-2
+Homepage: https://www.freedesktop.org/wiki/Software/libevdev/
+Description: Wrapper library for evdev devices
+Filename: i686/libevdev_1.8.0-2_i686.deb
+SHA1: 25928f57c23a530aa92c42118fbde372ec67f496
+SHA256: 5d3228f70866ae0f765b8381c65ef5ec6b465dd8a6aa2d0384a5dad7fc5e1b28
+Size: 39240
+
+Package: libevdev-static
+Architecture: i686
+Installed-Size: 160
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.8.0-2
+Homepage: https://www.freedesktop.org/wiki/Software/libevdev/
+Depends: libevdev (= 1.8.0-2)
+Description: Static libraries for libevdev
+Filename: i686/libevdev-static_1.8.0-2_i686.deb
+SHA1: 6a8448736bc548d582109be66ac6253cb2549f1b
+SHA256: 8daaf08d6edd4742a242c99e189c05b923bfc3bc64e195fd2c0df2512cfff277
+Size: 28478
+
+Package: libfakekey
+Architecture: i686
+Installed-Size: 72
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.3-5
+Homepage: https://www.yoctoproject.org/tools-resources/projects/matchbox
+Depends: libx11, libxtst
+Description: X virtual keyboard library.
+Filename: i686/libfakekey_0.3-5_i686.deb
+SHA1: d93b734a89cf1334ccd678d3081b61a59c9c493c
+SHA256: 36241dac37682447768999c176cf95bcc3123a60972161aca9f615cbad723d0d
+Size: 4612
+
+Package: libfakekey-static
+Architecture: i686
+Installed-Size: 88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.3-5
+Homepage: https://www.yoctoproject.org/tools-resources/projects/matchbox
+Depends: libfakekey (= 0.3-5)
+Description: Static libraries for libfakekey
+Filename: i686/libfakekey-static_0.3-5_i686.deb
+SHA1: d5b6e6b7aa5551309710c702c6a1707a75c0aa0f
+SHA256: 6823675b0924af216fffe683b8d799789f7ed4101868bbdb3063d063e60e3173
+Size: 16186
+
+Package: libfm-extra
+Architecture: i686
+Installed-Size: 92
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.1-5
+Homepage: https://lxde.org/
+Depends: glib
+Description: Extra library for file management
+Filename: i686/libfm-extra_1.3.1-5_i686.deb
+SHA1: 2db841da284833c87f3364170a9c54d5b998628f
+SHA256: 31e016cdef06a349b1ab7606b30ac5cf84d93d58f080087fc37c541d6b8b53d5
+Size: 10580
+
+Package: libfm-extra-static
+Architecture: i686
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.1-5
+Homepage: https://lxde.org/
+Depends: libfm-extra (= 1.3.1-5)
+Description: Static libraries for libfm-extra
+Filename: i686/libfm-extra-static_1.3.1-5_i686.deb
+SHA1: a1666c47a9b9f733cad85cd5a6d80e868ea03f0f
+SHA256: 57bd8ed8659a646faf0f417fc979fea49b4192547f373c2003ef5951f30f7c4d
+Size: 8540
+
+Package: libfm
+Architecture: i686
+Installed-Size: 1380
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.1-5
+Homepage: https://lxde.org/
+Depends: atk, glib, gtk3, libandroid-support, libcairo-x, libexif, libffi, libfm, menu-cache, pango-x, pcre
+Conflicts: libfm-extra
+Replaces: libfm-extra
+Provides: libfm-extra (= 1.3.1)
+Description: Library for file management
+Filename: i686/libfm_1.3.1-5_i686.deb
+SHA1: 6bd181fb34641ec4c376453a44e96f159dbfc3c1
+SHA256: 1067be013f518cd164e407b9e19256ed49fce47ce7aaaf7afe6cb9f242c408af
+Size: 274932
+
+Package: libfm-static
+Architecture: i686
+Installed-Size: 968
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.1-5
+Homepage: https://lxde.org/
+Depends: libfm (= 1.3.1-5)
+Description: Static libraries for libfm
+Filename: i686/libfm-static_1.3.1-5_i686.deb
+SHA1: aa68d42401cb091ac7a18757fe3f591f31194678
+SHA256: 58d0155dc8c9b7568fd44c821b6ad4686c5cf0dad550e5eb4d10ee34d0beb7f1
+Size: 235620
+
+Package: libfontenc
+Architecture: i686
+Installed-Size: 88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-5
+Homepage: https://xorg.freedesktop.org/
+Depends: zlib
+Description: X11 font encoding library
+Filename: i686/libfontenc_1.1.4-5_i686.deb
+SHA1: a7dcf6c82807845594e73ca807bb6b75257e0dec
+SHA256: f2421ef8a54ca576ea8f9d1d5906a24156a9f0b3255ef2e4d6c0f7f9ee59ce96
+Size: 11224
+
+Package: libfontenc-static
+Architecture: i686
+Installed-Size: 56
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libfontenc (= 1.1.4-5)
+Description: Static libraries for libfontenc
+Filename: i686/libfontenc-static_1.1.4-5_i686.deb
+SHA1: f3775abf0e0a1ffbbc9c6e3fbf5aac22df561641
+SHA256: a3f6ae66f92327f5f08f76f7990e8a1da9dfa4b671e7c41ffafefc3559ca2a08
+Size: 9930
+
+Package: libglade
+Architecture: i686
+Installed-Size: 236
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6.4-6
+Homepage: https://www.gnome.org/
+Depends: atk, fontconfig, freetype, gdk-pixbuf, glib, gtk2, libcairo-x, libxml2, pango-x
+Suggests: python2
+Description: Allows you to load glade interface files in a program at runtime
+Filename: i686/libglade_2.6.4-6_i686.deb
+SHA1: 45cf0c9f3db3a284995425ef5713f01db6dc9616
+SHA256: 030bb7561f9d69e1709e5688298bcca95fdd44d16edadbab9a41dd08e80f0b87
+Size: 39640
+
+Package: libglade-static
+Architecture: i686
+Installed-Size: 132
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6.4-6
+Homepage: https://www.gnome.org/
+Depends: libglade (= 2.6.4-6)
+Description: Static libraries for libglade
+Filename: i686/libglade-static_2.6.4-6_i686.deb
+SHA1: 975c0544a19450abe82698d4562a8c47c8aca588
+SHA256: 12e9a36328aba82cb11f282434e2bea6dccd185f108f5e767bcbe80952255ff5
+Size: 29064
+
+Package: libgnomecanvas
+Architecture: i686
+Installed-Size: 340
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.30.3-6
+Homepage: https://www.gnome.org/
+Depends: atk, glib, gtk2, libart-lgpl, libglade, pango-x
+Description: The GNOME Canvas library
+Filename: i686/libgnomecanvas_2.30.3-6_i686.deb
+SHA1: a84dd3c9ee776339a18a533aec444588f61be1e3
+SHA256: 5ebd04a1ae7c34f45f24414cdd4170865796dd48cdf21e1dee748f294fd076fe
+Size: 75252
+
+Package: libgnomecanvas-static
+Architecture: i686
+Installed-Size: 320
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.30.3-6
+Homepage: https://www.gnome.org/
+Depends: libgnomecanvas (= 2.30.3-6)
+Description: Static libraries for libgnomecanvas
+Filename: i686/libgnomecanvas-static_2.30.3-6_i686.deb
+SHA1: f3d56dc08172d6a400233334e0390a24865fbc53
+SHA256: a11e5438d7ce0bb284ae763663d534b191f1df0a74241e791519903f7cce7f02
+Size: 73638
+
+Package: libice
+Architecture: i686
+Installed-Size: 416
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.10-4
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Inter-Client Exchange library
+Filename: i686/libice_1.0.10-4_i686.deb
+SHA1: 9a5c54f0014b6eee2f09def95963d0a22ff63c3c
+SHA256: 6bba608db288d7a7287ecee4d4aa1ec9fd8f2c696dec42ecd1c2d32bdf6cda31
+Size: 66676
+
+Package: libice-static
+Architecture: i686
+Installed-Size: 136
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.10-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libice (= 1.0.10-4)
+Description: Static libraries for libice
+Filename: i686/libice-static_1.0.10-4_i686.deb
+SHA1: 263bb5b6794b0e3d54c1fc503a3aed7759d524cd
+SHA256: 849ac6a41f6bfbec815d95f2143d75973fc64334d3589fdc8f788759667ca126
+Size: 33366
+
+Package: libnotify
+Architecture: i686
+Installed-Size: 176
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.7.8-5
+Homepage: https://developer.gnome.org/notification-spec/
+Depends: gdk-pixbuf, glib
+Description: Library for sending desktop notifications
+Filename: i686/libnotify_0.7.8-5_i686.deb
+SHA1: f94fa5e367bf6be9048ea43ea18e56ff8505a949
+SHA256: 58027d398664b5100e8d0c38ee27d2e370d0c2ab8e96a24fe9f78c90c019272b
+Size: 23410
+
+Package: libpciaccess
+Architecture: i686
+Installed-Size: 100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.16-4
+Homepage: https://xorg.freedesktop.org/
+Description: X11 PCI access library
+Filename: i686/libpciaccess_0.16-4_i686.deb
+SHA1: f3bb39e557eba19f3e9b8aeb05df095997ad7c60
+SHA256: af3198fdafc7d87b4c8fce50da2fcc0dd33aad0a2265e314443f798666efc232
+Size: 16366
+
+Package: libpciaccess-static
+Architecture: i686
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.16-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libpciaccess (= 0.16-4)
+Description: Static libraries for libpciaccess
+Filename: i686/libpciaccess-static_0.16-4_i686.deb
+SHA1: 409022bceec20cd0cc775443695b933aae56adfd
+SHA256: 071e6bd501c594bbb4e5865c43b91d8a5469785d43a18fe18ef042fce690b6e9
+Size: 13536
+
+Package: libsm
+Architecture: i686
+Installed-Size: 324
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libuuid
+Description: X11 Session Management library
+Filename: i686/libsm_1.2.3-8_i686.deb
+SHA1: 1b6bca2b22690f1e1f4c4eb23db6d57bf9fd96d6
+SHA256: 5067647a21db1e373a97c43d199f9aa31590f31c6216f2cc1df396bc82d94e9b
+Size: 39788
+
+Package: libsm-static
+Architecture: i686
+Installed-Size: 64
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libsm (= 1.2.3-8)
+Description: Static libraries for libsm
+Filename: i686/libsm-static_1.2.3-8_i686.deb
+SHA1: e9ba6490c45585435e271dd4f2e291d8309af3f1
+SHA256: e1e37400123272cd00e5e14e155b6e2c1169d069a3c4e5c06b77b8809c969968
+Size: 10860
+
+Package: libunique
+Architecture: i686
+Installed-Size: 320
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.6-4
+Homepage: https://gnome.org
+Depends: glib, gtk2
+Description: Library for writing single instance applications
+Filename: i686/libunique_1.1.6-4_i686.deb
+SHA1: 9d7ef955c5afb6bda160dc0d74516460a0d0c5d5
+SHA256: 6b269b21eb95156b4f5b802d1706b213c97168a98d145a173cc378de40c6fcc6
+Size: 32578
+
+Package: libunique-static
+Architecture: i686
+Installed-Size: 304
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.6-4
+Homepage: https://gnome.org
+Depends: libunique (= 1.1.6-4)
+Description: Static libraries for libunique
+Filename: i686/libunique-static_1.1.6-4_i686.deb
+SHA1: 33c5074b7a510df16e0448bbb3875858553d2b81
+SHA256: b3a3e5a8de523e88af2831c92b623e3561a3ae541bf2e6b30ad8f8ef2b767502
+Size: 62538
+
+Package: libwayland
+Architecture: i686
+Installed-Size: 780
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.17.0-5
+Homepage: https://wayland.freedesktop.org/
+Depends: libandroid-support, libffi, libxml2, libexpat
+Description: Wayland protocol library
+Filename: i686/libwayland_1.17.0-5_i686.deb
+SHA1: 6f67daaed7f89f05e03377bf805f20db412c618b
+SHA256: 88548ce66c8552bb3e7ed49a1c6deb3edd98de3064f6a0afbbb69c4df0f3c7b3
+Size: 103688
+
+Package: libwayland-protocols
+Architecture: i686
+Installed-Size: 600
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.17-3
+Homepage: https://wayland.freedesktop.org/
+Depends: libandroid-support
+Description: Wayland protocols library
+Filename: i686/libwayland-protocols_1.17-3_i686.deb
+SHA1: c398859a779922c028d0f9f0fc2b3fcfd8377b57
+SHA256: 78a84ceac31fedc6c4779fd1db551484a9be5fc7c30d495dd8cfca764a071299
+Size: 56752
+
+Package: libwayland-static
+Architecture: i686
+Installed-Size: 472
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.17.0-5
+Homepage: https://wayland.freedesktop.org/
+Depends: libwayland (= 1.17.0-5)
+Description: Static libraries for libwayland
+Filename: i686/libwayland-static_1.17.0-5_i686.deb
+SHA1: 9936a64f6aa47d5967851d7cde1efa8b6ad1facd
+SHA256: 8af7e3f4d732aaf52fb0a1df1286db1837e407923278addf838b92ba459d6d37
+Size: 93634
+
+Package: libwnck
+Architecture: i686
+Installed-Size: 404
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.32.0-3
+Homepage: https://gitlab.gnome.org/GNOME/libwnck
+Depends: gtk2, startup-notification
+Description: Window Navigator Construction Kit
+Filename: i686/libwnck_3.32.0-3_i686.deb
+SHA1: 19df259d0b54e724f45ce66124f36df99da3c5e3
+SHA256: 168dd43725f0f262650988f3038e65dddec0eabfe7249d621f4c0fd880575555
+Size: 90086
+
+Package: libwnck-static
+Architecture: i686
+Installed-Size: 368
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.32.0-3
+Homepage: https://gitlab.gnome.org/GNOME/libwnck
+Depends: libwnck (= 3.32.0-3)
+Description: Static libraries for libwnck
+Filename: i686/libwnck-static_3.32.0-3_i686.deb
+SHA1: b6563f6669b2a706fe3ef472712a299bd75ff26b
+SHA256: dd01dfdf324616de981fbc29a0edbddb66780b37ff155725a195e1b762e8d8d2
+Size: 85176
+
+Package: libx11
+Architecture: i686
+Installed-Size: 14024
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.6.9-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libandroid-support, libxcb
+Recommends: xorg-xauth
+Description: X11 client-side library
+Filename: i686/libx11_1.6.9-1_i686.deb
+SHA1: 6906bd76fa75010cc99f2688a2af972f71ffd9f5
+SHA256: 06f9f3c9914828c377201d18c1f30524d61596ab59286fb8d1b0a2043e1d4a99
+Size: 1956198
+
+Package: libx11-static
+Architecture: i686
+Installed-Size: 1612
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.6.9-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11 (= 1.6.9-1)
+Description: Static libraries for libx11
+Filename: i686/libx11-static_1.6.9-1_i686.deb
+SHA1: 6ed460804c5b6a9b8391a4b90665b3b3abb97ada
+SHA256: 6d19ffababfd3e4c18794f98296e89d848dabe37df9fca6597d617c8ef22bb92
+Size: 540848
+
+Package: libxau
+Architecture: i686
+Installed-Size: 116
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.9-6
+Homepage: https://xorg.freedesktop.org/
+Description: X11 authorisation library
+Filename: i686/libxau_1.0.9-6_i686.deb
+SHA1: 5deb0df6d72916c797f0c12784bd90d1b0950af9
+SHA256: f9a1247791819aff550170f26ca1e216765fbc9ec939655879e68afc32f1051b
+Size: 8372
+
+Package: libxau-static
+Architecture: i686
+Installed-Size: 48
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.9-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libxau (= 1.0.9-6)
+Description: Static libraries for libxau
+Filename: i686/libxau-static_1.0.9-6_i686.deb
+SHA1: 73d2d5b597c3d766edb6ce627b08cb80842bcccf
+SHA256: ebde06504015bf690f211109a130c60c8918024557310ea8bc7835a5666d1480
+Size: 4520
+
+Package: libxaw
+Architecture: i686
+Installed-Size: 1732
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.13-16
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libsm, libuuid, libx11, libxau, libxcb, libxdmcp, libxext, libxmu, libxpm, libxt
+Description: X11 Athena Widget library
+Filename: i686/libxaw_1.0.13-16_i686.deb
+SHA1: a8a39652212bfa4eb92285d9247b9a7cd40cddd5
+SHA256: 1f45dba491d4561991d7dbef16d50cc7f24195948ea9adf3789d3fce862d88a1
+Size: 281868
+
+Package: libxaw-static
+Architecture: i686
+Installed-Size: 868
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.13-16
+Homepage: https://xorg.freedesktop.org/
+Depends: libxaw (= 1.0.13-16)
+Description: Static libraries for libxaw
+Filename: i686/libxaw-static_1.0.13-16_i686.deb
+SHA1: f6fcc3777f73963f810b20ea0710e701dd572134
+SHA256: 947d060580dd28a7bf8b146d69c760e10ea0eb0a4a1cb29ad03b7f4f1e213f45
+Size: 187456
+
+Package: libxcb
+Architecture: i686
+Installed-Size: 12480
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.13.1-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libxau, libxdmcp
+Recommends: xorg-xauth
+Description: X11 client-side library
+Filename: i686/libxcb_1.13.1-7_i686.deb
+SHA1: ca9f2d544a8b196673df34b2ab747dcc355d8131
+SHA256: d723c88233ab3b8149eb271b5fa4e907fa144f7e42e2000d04dbd892c4a22f5b
+Size: 879474
+
+Package: libxcb-static
+Architecture: i686
+Installed-Size: 980
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.13.1-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb (= 1.13.1-7)
+Description: Static libraries for libxcb
+Filename: i686/libxcb-static_1.13.1-7_i686.deb
+SHA1: ffc5fb92ceb466edbda0398563b19b8e3b45fe52
+SHA256: 88e6126179308f26e43de4b816bfddc9e65d4dffe6a048223c5645094d641af6
+Size: 116886
+
+Package: libxcomposite
+Architecture: i686
+Installed-Size: 132
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp
+Description: X11 Composite extension library
+Filename: i686/libxcomposite_0.4.5-5_i686.deb
+SHA1: 8f05f6986d53ba924453a569a7c3a49f06ae0379
+SHA256: 6522994faba1e9ec669d27a0b3c601c2e9d5e023588bfdfe3d36f089d02b5bc6
+Size: 8924
+
+Package: libxcomposite-static
+Architecture: i686
+Installed-Size: 40
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxcomposite (= 0.4.5-5)
+Description: Static libraries for libxcomposite
+Filename: i686/libxcomposite-static_0.4.5-5_i686.deb
+SHA1: c4200716d4d4f5c8507be28730db13d99cbc1085
+SHA256: 26a270e3c247d67d01a1eccc3aec4d3259c6745cd37ce38b43e8fc2292525ab2
+Size: 3074
+
+Package: libxcursor
+Architecture: i686
+Installed-Size: 252
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxfixes, libxrender
+Description: X cursor management library
+Filename: i686/libxcursor_1.2.0-5_i686.deb
+SHA1: ff53b1a35d717e5abf18e0e6b7c1ba50de95f0f8
+SHA256: c006dd62b48f22eb7bcf09eaf569081194af722481803647217b5c21003f6daf
+Size: 22826
+
+Package: libxcursor-static
+Architecture: i686
+Installed-Size: 72
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxcursor (= 1.2.0-5)
+Description: Static libraries for libxcursor
+Filename: i686/libxcursor-static_1.2.0-5_i686.deb
+SHA1: bb9548d766d03ecec671c5b9616b726d9f5cad18
+SHA256: 9bad8cb71bed7c6281253f5df6e689b61e9c28e9df5370035e08d5c9d19d7884
+Size: 14674
+
+Package: libxdamage
+Architecture: i686
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxfixes
+Description: X11 damaged region extension library
+Filename: i686/libxdamage_1.1.5-5_i686.deb
+SHA1: 979450933ad684874d622fee2cb77aa669df606f
+SHA256: e2f8966ba689f62d4564af6b2dca4830b6fca241f2c4a60d287f155dd0506356
+Size: 4796
+
+Package: libxdamage-static
+Architecture: i686
+Installed-Size: 40
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxdamage (= 1.1.5-5)
+Description: Static libraries for libxdamage
+Filename: i686/libxdamage-static_1.1.5-5_i686.deb
+SHA1: 57f11243da5b34fa611fb921cbeda9a3cfdd21c3
+SHA256: a7b21353c425bfd04cf3ecd422c742e9ca327a1464b19ddf6ea960dc4268df25
+Size: 3172
+
+Package: libxdmcp
+Architecture: i686
+Installed-Size: 188
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.3-6
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Display Manager Control Protocol library
+Filename: i686/libxdmcp_1.1.3-6_i686.deb
+SHA1: 3d9433311738cb7ac2ca57e6a49c802cdf846706
+SHA256: c4d4591cc22422960709e5e4aa5b71f44ebda857da459ced6048833a135c0422
+Size: 23654
+
+Package: libxdmcp-static
+Architecture: i686
+Installed-Size: 56
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.3-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libxdmcp (= 1.1.3-6)
+Description: Static libraries for libxdmcp
+Filename: i686/libxdmcp-static_1.1.3-6_i686.deb
+SHA1: e5df7e10cf235d326e38e795d1084751a91f9db7
+SHA256: 8ccc9a6477f1527295b6ea176b40fdcc52869b49877b9aa286adb541a420e05d
+Size: 6992
+
+Package: libxext
+Architecture: i686
+Installed-Size: 588
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.4-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp
+Description: X11 miscellaneous extensions library
+Filename: i686/libxext_1.3.4-5_i686.deb
+SHA1: adb23e7ec6be8ab8696448eede6a36b0160426cb
+SHA256: bbcdf7e69bd88dbfd8bc737b018a7814ef9ad3114ace38e9300fc9541610d108
+Size: 94738
+
+Package: libxext-static
+Architecture: i686
+Installed-Size: 112
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.4-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxext (= 1.3.4-5)
+Description: Static libraries for libxext
+Filename: i686/libxext-static_1.3.4-5_i686.deb
+SHA1: cdeacc9457fb98ed238ef0bafe51004779e3112a
+SHA256: cec76a1e514d04c75c77cf750c4c8d1bfdb04a121cb668aac1d9b94d27524ff3
+Size: 20402
+
+Package: libxfce4ui
+Architecture: i686
+Installed-Size: 2028
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.15.0-1
+Homepage: https://www.xfce.org/
+Depends: gtk2, gtk3, hicolor-icon-theme, libsm, libxfce4util, startup-notification, xfconf
+Description: Commonly used XFCE widgets among XFCE applications
+Filename: i686/libxfce4ui_4.15.0-1_i686.deb
+SHA1: 2692a194bd07046aad02cc5a5d9458d4c553aa43
+SHA256: d2aeee9f9c1c75a82e540f04ef20509d414c41cc2fd042d936a235fb045f98df
+Size: 213202
+
+Package: libxfce4ui-static
+Architecture: i686
+Installed-Size: 184
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.15.0-1
+Homepage: https://www.xfce.org/
+Depends: libxfce4ui (= 4.15.0-1)
+Description: Static libraries for libxfce4ui
+Filename: i686/libxfce4ui-static_4.15.0-1_i686.deb
+SHA1: cbecf487efb1d26501b54a439087b6f4bd5a10e1
+SHA256: 1bcff66cbfa025f786222698b112dd7085895045a2caed18dfebe77c6993ddbf
+Size: 37908
+
+Package: libxfce4util
+Architecture: i686
+Installed-Size: 1140
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.0-4
+Homepage: https://www.xfce.org/
+Depends: glib
+Description: Basic utility non-GUI functions for XFCE
+Filename: i686/libxfce4util_4.14.0-4_i686.deb
+SHA1: 7c51807645432924c0eeae97d8a5b6c0b7db901d
+SHA256: 2cfe6f77c362e264889782cbaca71400510a0984e9c8aee715dc87404dcbad27
+Size: 72416
+
+Package: libxfce4util-static
+Architecture: i686
+Installed-Size: 104
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.0-4
+Homepage: https://www.xfce.org/
+Depends: libxfce4util (= 4.14.0-4)
+Description: Static libraries for libxfce4util
+Filename: i686/libxfce4util-static_4.14.0-4_i686.deb
+SHA1: bec1854252122de53d7b2083ffdf221db9581705
+SHA256: d3bb7ae777bc6734139c51ec9d705e1901da655e58c756d0e8c38643c51ab085
+Size: 20684
+
+Package: libxfixes
+Architecture: i686
+Installed-Size: 100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.0.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: X11 miscellaneous 'fixes' extension library
+Filename: i686/libxfixes_5.0.3-9_i686.deb
+SHA1: 6401058536fd7bc1b98f3835f39b6ddb71c97ba2
+SHA256: d047917c053cdd567fc0525811bf59b77caf48acb1eb97e7333305a245b834f8
+Size: 10008
+
+Package: libxfixes-static
+Architecture: i686
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.0.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: libxfixes (= 5.0.3-9)
+Description: Static libraries for libxfixes
+Filename: i686/libxfixes-static_5.0.3-9_i686.deb
+SHA1: e933904c83d140a9ae475a6b0b2b67be53832832
+SHA256: 7430e61d1e1ea4cc81e58c48b715f64f88ab4d56477a3dd3d2f3ff56a1e1d371
+Size: 5800
+
+Package: libxfont2
+Architecture: i686
+Installed-Size: 240
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.4-2
+Homepage: https://xorg.freedesktop.org/
+Depends: freetype, libfontenc, zlib
+Description: X11 font rasterisation library
+Filename: i686/libxfont2_2.0.4-2_i686.deb
+SHA1: 2c5dd5b2562ca39f57d7ccc179859a4dba3c4117
+SHA256: a4b9679d50128aae952535dd528272c567d0bc432e3980ec52d43c330cbbcdaf
+Size: 89080
+
+Package: libxfont2-static
+Architecture: i686
+Installed-Size: 312
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.4-2
+Homepage: https://xorg.freedesktop.org/
+Depends: libxfont2 (= 2.0.4-2)
+Description: Static libraries for libxfont2
+Filename: i686/libxfont2-static_2.0.4-2_i686.deb
+SHA1: aae4303d87cf43301e6e289a515bbfb4f873a85b
+SHA256: 5463523cf0de3cea0dfa4d28d05fe3edb79e72956c118089bfb1f626f058ec45
+Size: 103998
+
+Package: libxft
+Architecture: i686
+Installed-Size: 164
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.3.3-5
+Homepage: https://xorg.freedesktop.org/
+Depends: fontconfig, freetype, libbz2, liblzma, libpng, libuuid, libx11, libxau, libxcb, libxdmcp, libxml2, libxrender
+Description: FreeType-based font drawing library for X
+Filename: i686/libxft_2.3.3-5_i686.deb
+SHA1: 5e22e9f111af7ec7c707ef07bbe74c2b1ad47884
+SHA256: 134a87caf2345ce946b8e57888165cb7a702980dd37d1f814ff562f64ad6d588
+Size: 36490
+
+Package: libxft-static
+Architecture: i686
+Installed-Size: 116
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.3.3-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxft (= 2.3.3-5)
+Description: Static libraries for libxft
+Filename: i686/libxft-static_2.3.3-5_i686.deb
+SHA1: 5b278d1388a66540b3b2f0b6e11f4304c026a266
+SHA256: 606277eb1af34227371420f6afeda904a0b68f5a474691bfce507b61890b7a78
+Size: 29414
+
+Package: libxi
+Architecture: i686
+Installed-Size: 764
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.7.10-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Description: X11 Input extension library
+Filename: i686/libxi_1.7.10-4_i686.deb
+SHA1: ca50c3d3c5035f4d1dea41de032bc99c00b22abd
+SHA256: 3db87ac84839d5756118906b0476a8c0429b1aedca0525440072442e926ac8d3
+Size: 136782
+
+Package: libxi-static
+Architecture: i686
+Installed-Size: 140
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.7.10-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libxi (= 1.7.10-4)
+Description: Static libraries for libxi
+Filename: i686/libxi-static_1.7.10-4_i686.deb
+SHA1: cfbaaa4046aa9bfab62eb23f6586d8b21a3fff1f
+SHA256: a48afd2b46f012a906e26bffb9455997c73c24fb3feb95e1a828e70261612690
+Size: 23834
+
+Package: libxinerama
+Architecture: i686
+Installed-Size: 108
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Description: X11 Xinerama extension library
+Filename: i686/libxinerama_1.1.4-8_i686.deb
+SHA1: f350ea2d057d68340f8c0942db4df1118603d09b
+SHA256: 9cd8768d3fd281a712d20980098024a8876b504c47f51c218c1dae38dc54a03a
+Size: 7394
+
+Package: libxinerama-static
+Architecture: i686
+Installed-Size: 40
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libxinerama (= 1.1.4-8)
+Description: Static libraries for libxinerama
+Filename: i686/libxinerama-static_1.1.4-8_i686.deb
+SHA1: 2eb02b5499ac63979ee47bcd3a10f58b90403492
+SHA256: 4c447d296b7d7300905683dfffcd53f9db011d5fb96f522ffc92ba4df9780975
+Size: 3100
+
+Package: libxkbcommon
+Architecture: i686
+Installed-Size: 608
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.9.1-1
+Homepage: https://xkbcommon.org/
+Depends: libxcb, xkeyboard-config
+Description: Keymap handling library for toolkits and window systems
+Filename: i686/libxkbcommon_0.9.1-1_i686.deb
+SHA1: d84115931ce7121fe8356d13121d69bb240cdd28
+SHA256: 43e14af13fbd31d4246c9863658bc59107dc6e1353cce4634e872965544b220d
+Size: 129654
+
+Package: libxkbfile
+Architecture: i686
+Installed-Size: 224
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp
+Description: X11 keyboard file manipulation library
+Filename: i686/libxkbfile_1.1.0-5_i686.deb
+SHA1: e7bc9c5016eaca7facaa4be51deb50b54034ea13
+SHA256: 28419c21e579ea5881f98e7ad2c3cd2454489c3b84c9e2a9f4e8fac5a87f73b2
+Size: 56012
+
+Package: libxkbfile-static
+Architecture: i686
+Installed-Size: 200
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxkbfile (= 1.1.0-5)
+Description: Static libraries for libxkbfile
+Filename: i686/libxkbfile-static_1.1.0-5_i686.deb
+SHA1: 59ca3a8440d905a283a0c10cf301b8bdd027199d
+SHA256: ef3fcba48d1af5bdd9128efe007d96553883fc2cb5cf162274bee47af71a658f
+Size: 58136
+
+Package: libxklavier
+Architecture: i686
+Installed-Size: 204
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.4-1
+Homepage: https://www.freedesktop.org/wiki/Software/LibXklavier/
+Depends: glib, iso-codes, libxi, libxkbfile, libxml2, xkeyboard-config
+Description: High-level API for X Keyboard Extension
+Filename: i686/libxklavier_5.4-1_i686.deb
+SHA1: 7692ccb3a1f6284cf6fd64a41971a8f57edf7ba0
+SHA256: 605f54e574742146ae53d13050b9aa6538a93726288aba5904891202c8997636
+Size: 40270
+
+Package: libxklavier-static
+Architecture: i686
+Installed-Size: 176
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.4-1
+Homepage: https://www.freedesktop.org/wiki/Software/LibXklavier/
+Depends: libxklavier (= 5.4-1)
+Description: Static libraries for libxklavier
+Filename: i686/libxklavier-static_5.4-1_i686.deb
+SHA1: 01c0020738f758ac623e4abb07a0977e3a67e147
+SHA256: 1bc604527a4fde6fed4da33845ffed6dcee191b645f632bf46529e7289e66fcd
+Size: 39766
+
+Package: libxmu
+Architecture: i686
+Installed-Size: 428
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.3-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libsm, libuuid, libx11, libxau, libxcb, libxdmcp, libxext, libxt
+Description: X11 miscellaneous micro-utility library
+Filename: i686/libxmu_1.1.3-6_i686.deb
+SHA1: e25d01a459a94ebc8377a6dd82cc6d5308ba8f2c
+SHA256: 9f58286cb3df5cdb151600df740fc66ab676b18489a6066e12bd19a4309ca32b
+Size: 62374
+
+Package: libxmu-static
+Architecture: i686
+Installed-Size: 184
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.3-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libxmu (= 1.1.3-6)
+Description: Static libraries for libxmu
+Filename: i686/libxmu-static_1.1.3-6_i686.deb
+SHA1: e8d73d5c6418c4e418db6ec8956bb8918f033b95
+SHA256: f9cb05c3bff0d24fc4c1b761a9c0ee58b13fb3cf182395ebd41497ba2c19251b
+Size: 40972
+
+Package: libxpm
+Architecture: i686
+Installed-Size: 184
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.5.13-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxt
+Description: X11 pixmap library
+Filename: i686/libxpm_3.5.13-1_i686.deb
+SHA1: d933da33436ee2c857701ea7ee44f2a46efcd58f
+SHA256: ed51d754e58d4f7a488558b73b2860e7dcc8299cfc6de6676bc3fc3e4e0ed32a
+Size: 40038
+
+Package: libxpm-static
+Architecture: i686
+Installed-Size: 116
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.5.13-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxpm (= 3.5.13-1)
+Description: Static libraries for libxpm
+Filename: i686/libxpm-static_3.5.13-1_i686.deb
+SHA1: 1569cab0db94c0a1d27f68243ad78d2fd9e07ef3
+SHA256: 5f51dd20908e3666660934c7ede6826c6f8c603b1084a8c158ce5c46f9eaf70b
+Size: 26788
+
+Package: libxrandr
+Architecture: i686
+Installed-Size: 188
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.2-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxrender
+Description: X11 RandR extension library
+Filename: i686/libxrandr_1.5.2-5_i686.deb
+SHA1: 9b163fdd4b480603d32969d9732283a992e522e9
+SHA256: 48160d7d7bc6ca7e03648610f1c38a3fa66081c4fa3878637a56ece3ea235071
+Size: 20994
+
+Package: libxrandr-static
+Architecture: i686
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.2-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxrandr (= 1.5.2-5)
+Description: Static libraries for libxrandr
+Filename: i686/libxrandr-static_1.5.2-5_i686.deb
+SHA1: 9302bf0200c43332045e825038df23d772e81114
+SHA256: c61c1387a9556c9d86d58bf356bbf57ef7e2732618db8b9d7cb180e25f419783
+Size: 12432
+
+Package: libxrender
+Architecture: i686
+Installed-Size: 132
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.9.10-10
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: X Rendering Extension client library
+Filename: i686/libxrender_0.9.10-10_i686.deb
+SHA1: 7254a8287230de3b17dc7511092dc55a7ceca4a9
+SHA256: 11264301ce6c620faf0a3d3c6df401123ac6399465954c726b5f73ec15e3b20f
+Size: 19278
+
+Package: libxrender-static
+Architecture: i686
+Installed-Size: 72
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.9.10-10
+Homepage: https://xorg.freedesktop.org/
+Depends: libxrender (= 0.9.10-10)
+Description: Static libraries for libxrender
+Filename: i686/libxrender-static_0.9.10-10_i686.deb
+SHA1: b6a20f94ab159319418c12cf760318d0474ab469
+SHA256: 55b59ca1831936a23a0f68b3badabbca3cfc95550349d34a25ba15cc190786c2
+Size: 12574
+
+Package: libxshmfence
+Architecture: i686
+Installed-Size: 68
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3-9
+Homepage: https://xorg.freedesktop.org/
+Description: A library that exposes a event API on top of Linux futexes
+Filename: i686/libxshmfence_1.3-9_i686.deb
+SHA1: 2f42d12480032d5f0d93608b368b5ac6d17032ab
+SHA256: b0b458022a02ba991fc6eaa19e844bf15363ac6e2ab62c70ccd6a72fc01687aa
+Size: 3968
+
+Package: libxshmfence-static
+Architecture: i686
+Installed-Size: 40
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: libxshmfence (= 1.3-9)
+Description: Static libraries for libxshmfence
+Filename: i686/libxshmfence-static_1.3-9_i686.deb
+SHA1: 1b199ebd8cf79f3dddf1829ef6fcef5da347ae33
+SHA256: 5546c3618e9c341ca7df9935f7fa4d093880e61bd12c86e87a9ae0c5eb4af6f8
+Size: 2674
+
+Package: libxss
+Architecture: i686
+Installed-Size: 140
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Description: X11 Screen Saver extension library
+Filename: i686/libxss_1.2.3-8_i686.deb
+SHA1: a97979242265cf2afdeb6900099dd21f6b064a7d
+SHA256: e29a12927e303a36f18c69e0a5a650d888694d9ed42a2ddb67810e790fe86ae6
+Size: 11382
+
+Package: libxss-static
+Architecture: i686
+Installed-Size: 40
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libxss (= 1.2.3-8)
+Description: Static libraries for libxss
+Filename: i686/libxss-static_1.2.3-8_i686.deb
+SHA1: ce8917ba99b8c4f5d99f5b26a11308dc230482d7
+SHA256: 3f10736b45bd1a394ae8b6b7ebb0d3320131e34a8774f8d5e55ec769d54c08a3
+Size: 3710
+
+Package: libxt
+Architecture: i686
+Installed-Size: 3032
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libsm, libuuid, libx11, libxau, libxcb, libxdmcp
+Description: X11 toolkit intrinsics library
+Filename: i686/libxt_1.2.0-5_i686.deb
+SHA1: c75feffd44d8a807f011047fbfd6cc0dfcdf2505
+SHA256: 7387dbf06dfcd87f9fea2d72400da57c16bdd7dfc3a58c343897657c64f0b032
+Size: 479518
+
+Package: libxt-static
+Architecture: i686
+Installed-Size: 460
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxt (= 1.2.0-5)
+Description: Static libraries for libxt
+Filename: i686/libxt-static_1.2.0-5_i686.deb
+SHA1: 31c4ecf0c2c4f098754de680cb7c87386af0779d
+SHA256: 44fd9866a37175be26fa5b0f91be1ce04a74d3a843c3e853736e61f70ac868c3
+Size: 136302
+
+Package: libxtst
+Architecture: i686
+Installed-Size: 224
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxi
+Description: X11 Testing -- Resource extension library
+Filename: i686/libxtst_1.2.3-8_i686.deb
+SHA1: e48512e9e7ad835a090cd6960df653eec5784f22
+SHA256: afee623d961f44d62f9135e9d8f7008abde2e2aaccf7861a21a47f64204f22ad
+Size: 24754
+
+Package: libxtst-static
+Architecture: i686
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libxtst (= 1.2.3-8)
+Description: Static libraries for libxtst
+Filename: i686/libxtst-static_1.2.3-8_i686.deb
+SHA1: 39c80a2f7ab7f64d339f53970ef2601026479f63
+SHA256: 9646110f5fc933e6d2125d418fb79021f67a823fa8254d2986132448a5d42051
+Size: 7578
+
+Package: libxxf86dga
+Architecture: i686
+Installed-Size: 184
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Description: X11 Direct Graphics Access extension library
+Filename: i686/libxxf86dga_1.1.5-5_i686.deb
+SHA1: 895c611da71b17c4559a2074c57c485745d75c4d
+SHA256: a21e76e5169696b761e6eb45ba68c39415d1d917a716cbea9e7bfd35828adc40
+Size: 13396
+
+Package: libxxf86dga-static
+Architecture: i686
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxxf86dga (= 1.1.5-5)
+Description: Static libraries for libxxf86dga
+Filename: i686/libxxf86dga-static_1.1.5-5_i686.deb
+SHA1: ed5c663368731bd103664bebb88d636921e87b33
+SHA256: eac6378ad3be7ee7cf5efb3a87e2b7d25413161795603a0ff42cb10d9c8b291f
+Size: 6962
+
+Package: libxxf86vm
+Architecture: i686
+Installed-Size: 188
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-11
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Description: X11 XFree86 video mode extension library
+Filename: i686/libxxf86vm_1.1.4-11_i686.deb
+SHA1: 97a19702bdb9b9ca77347cf68d07ceaed3e6294b
+SHA256: 1bd13f66dbb6f6cfaef882b7f075822efe5c2025ec677dbc8d37514b00079340
+Size: 12616
+
+Package: libxxf86vm-static
+Architecture: i686
+Installed-Size: 48
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-11
+Homepage: https://xorg.freedesktop.org/
+Depends: libxxf86vm (= 1.1.4-11)
+Description: Static libraries for libxxf86vm
+Filename: i686/libxxf86vm-static_1.1.4-11_i686.deb
+SHA1: 7dbeed7ce048ac89366acfc4ca64d0f9977c499d
+SHA256: ca11c4bc609a7d1c4744530f60907dc267deca9ae426289870018270db91ed98
+Size: 5906
+
+Package: loqui
+Architecture: i686
+Installed-Size: 576
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.6.4-6
+Homepage: https://launchpad.net/loqui
+Depends: atk, fontconfig, freetype, gdk-pixbuf, glib, gtk2, libandroid-shmem, libcairo-x, libffi, pango-x, pcre
+Description: IRC client for the Gtk+-2.0 environment
+Filename: i686/loqui_0.6.4-6_i686.deb
+SHA1: 046dd702b48182a0c841860e667b15787751a2ed
+SHA256: 93b4126fa23532072617c73475293ccc2426436fc452bb7b554665361a8b2f9d
+Size: 150594
+
+Package: lxde-icon-theme
+Architecture: all
+Installed-Size: 8512
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.5.1-3
+Homepage: https://lxde.org/
+Depends: gtk-update-icon-cache
+Description: LXDE default icon theme based on nuoveXT2
+Filename: all/lxde-icon-theme_0.5.1-3_all.deb
+SHA1: 1edc7c49acdd5a52c8eee030c5ec28c57fa7133c
+SHA256: 3402a8cbdd73ff6ac09d4e7962c604f4b583715ea43a0740a276855d0cbb476e
+Size: 4467422
+
+Package: lxmenu-data
+Architecture: all
+Installed-Size: 252
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.1.5-5
+Homepage: https://lxde.org/
+Description: Freedesktop.org desktop menus for LXDE
+Filename: all/lxmenu-data_0.1.5-5_all.deb
+SHA1: 6edfcb065ff982900a5e73ed1f49c6ea4013093c
+SHA256: 5f26ea960102cbe172b5ce70951f89154294e02ed5f8a187bf667743e81f2f5d
+Size: 44714
+
+Package: matchbox-keyboard
+Architecture: i686
+Installed-Size: 168
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.1.1-8
+Homepage: https://www.yoctoproject.org/software-item/matchbox/
+Depends: libexpat, libfakekey, libpng, libx11, libxft, libxrender, libxtst, zlib
+Recommends: ttf-dejavu
+Description: An on-screen virtual keyboard.
+Filename: i686/matchbox-keyboard_0.1.1-8_i686.deb
+SHA1: 9088db86aacc2ffcc96d3fe7063cc92dddd74372
+SHA256: 0570ccc3b750c2ca2605f96e8ee80e2385188d35821929de9aee88fa35510d39
+Size: 18644
+
+Package: menu-cache
+Architecture: i686
+Installed-Size: 168
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-6
+Homepage: https://lxde.org/
+Depends: glib, libfm-extra
+Description: Caching mechanism for freedesktop.org compliant menus
+Filename: i686/menu-cache_1.1.0-6_i686.deb
+SHA1: 91ee4708de429654054701a2cbac52e401eea468
+SHA256: da32470f6874860f40487923305eae39ad564113550251ef908fe3e23f0e069b
+Size: 31634
+
+Package: menu-cache-static
+Architecture: i686
+Installed-Size: 56
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-6
+Homepage: https://lxde.org/
+Depends: menu-cache (= 1.1.0-6)
+Description: Static libraries for menu-cache
+Filename: i686/menu-cache-static_1.1.0-6_i686.deb
+SHA1: 68f1a0204f9c81da0c764f125d2e260d350a4c4e
+SHA256: 30d3fb5f4abb36c284b83cd18b91eab782ac8c8749b18c52739d6e2986e3aabd
+Size: 9466
+
+Package: mesa
+Architecture: i686
+Installed-Size: 5156
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 17.3.9-14
+Homepage: https://www.mesa3d.org
+Depends: libandroid-shmem, libexpat, libdrm, libx11, libxdamage, libxext, libxml2, libxshmfence, zlib
+Conflicts: libmesa
+Replaces: libmesa
+Description: An open-source implementation of the OpenGL specification
+Filename: i686/mesa_17.3.9-14_i686.deb
+SHA1: cdf40d243ff4ae6f0b58df2822657c3c19ace92a
+SHA256: 2755a83077681c6653727d56e6107fc99c30f89605abbe70f079bdac4f04242c
+Size: 1159584
+
+Package: mpv-x
+Architecture: i686
+Installed-Size: 1608
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.29.1-14
+Homepage: https://mpv.io/
+Depends: ffmpeg, libandroid-glob, libandroid-shmem, libass, libdrm, littlecms, libjpeg-turbo, libcaca, liblua52, libx11, libxext, libxinerama, libxss, libxrandr, openal-soft, pulseaudio, zlib
+Conflicts: mpv
+Replaces: mpv
+Description: Command-line media player
+Filename: i686/mpv-x_0.29.1-14_i686.deb
+SHA1: e5d9ac94f31a6dd037d91b9ebd1bfc4b16858a94
+SHA256: fea15eae52502ef29620136d9deef1d5a8a5fa321ed1903a06154deaa9e9c18a
+Size: 705028
+
+Package: mtdev
+Architecture: i686
+Installed-Size: 100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://bitmath.org/code/mtdev/
+Description: A stand-alone library which transforms all variants of kernel MT events to the slotted type B protocol
+Filename: i686/mtdev_1.1.5-5_i686.deb
+SHA1: faaf0434b10cb95d9b6da330eb35c2276be9e6b8
+SHA256: 725183ceac8e9d8f0ba63f506741c9a4e6cd85a80cdf6d094ac3c3401c9d07e5
+Size: 11060
+
+Package: mtdev-static
+Architecture: i686
+Installed-Size: 48
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://bitmath.org/code/mtdev/
+Depends: mtdev (= 1.1.5-5)
+Description: Static libraries for mtdev
+Filename: i686/mtdev-static_1.1.5-5_i686.deb
+SHA1: 10cedd2411985461b29108ddffaff5950d183482
+SHA256: c47dd856c2226264fe6813187a7bed28be038f11205c5db51d1b4f599f762ec2
+Size: 7686
+
+Package: mtpaint
+Architecture: i686
+Installed-Size: 720
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.49.19-5
+Homepage: https://sourceforge.net/projects/mtpaint/
+Depends: atk, fontconfig, freetype, gdk-pixbuf, giflib, glib, gtk2, libandroid-glob, libandroid-shmem, libcairo-x, libjpeg-turbo, littlecms, pango-x, libpng, libtiff, libwebp, libx11, zlib
+Recommends: gifsicle
+Description: Simple paint program for creating icons and pixel based artwork
+Filename: i686/mtpaint_3.49.19-5_i686.deb
+SHA1: dd416d15cce49ffe06bf0fa00a6c00f094fdcd00
+SHA256: 3926bee224a8757de816b66dde1d09e464adbf5abcebe41157a4d2e7071b95d3
+Size: 286896
+
+Package: obconf
+Architecture: i686
+Installed-Size: 448
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.4-8
+Homepage: http://openbox.org/wiki/ObConf:About
+Depends: atk, fontconfig, freetype, gdk-pixbuf, glib, gtk2, imlib2, libandroid-shmem, libcairo-x, libglade, libice, librsvg, libsm, libx11, libxft, libxml2, openbox, pango-x, startup-notification
+Description: A configuration tool for the Openbox window manager
+Filename: i686/obconf_2.0.4-8_i686.deb
+SHA1: bd76f100425f8a315e66b5c0e4e3d14febe21ebe
+SHA256: c027862651e8171daf9cd5ce56213052f49f311c4756bb22f1dfe3cc413c87c6
+Size: 43774
+
+Package: openbox
+Architecture: i686
+Installed-Size: 1240
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.6.1-31
+Homepage: http://openbox.org
+Depends: bash, fontconfig, freetype, fribidi, gdk-pixbuf, glib, harfbuzz, imlib2, libandroid-shmem, libbz2, libcairo-x, libcroco, libffi, libgraphite, libice, liblzma, libpixman, libpng, librsvg, libsm, libuuid, libx11, libxau, libxcb, libxcursor, libxdmcp, libxext, libxfixes, libxft, libxinerama, libxml2, libxrandr, libxrender, pango-x, pcre, startup-notification, xcb-util, zlib
+Recommends: obconf
+Suggests: aterm, fltk, geany, the-powder-toy, dosbox
+Description: Highly configurable and lightweight X11 window manager
+Filename: i686/openbox_3.6.1-31_i686.deb
+SHA1: 6a1e449d91b2e7842a3c392ff58ac085876499d4
+SHA256: 0c1ebea71735df9fd22b9ba16d909e8d22fd0a48bb4f22f445f14d3f4b0109c5
+Size: 225226
+
+Package: openbox-static
+Architecture: i686
+Installed-Size: 216
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.6.1-31
+Homepage: http://openbox.org
+Depends: openbox (= 3.6.1-31)
+Description: Static libraries for openbox
+Filename: i686/openbox-static_3.6.1-31_i686.deb
+SHA1: 0d458dbb4b0045f2b6add20af71ddbc6272adfa7
+SHA256: 8b631f1676c4887cdc6f28d34855740ea396fe7c6c543478c653d2e86b39d057
+Size: 52016
+
+Package: openttd-gfx
+Architecture: all
+Installed-Size: 5200
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.5.5-4
+Homepage: https://dev.openttdcoop.org/projects/opengfx
+Description: A free graphics set for openttd
+Filename: all/openttd-gfx_0.5.5-4_all.deb
+SHA1: 2dc538def670c592f6926c232369e61c0bbc001d
+SHA256: aa1a8044d1649aeaeb7b3a9220708623500f7922b253619a633b8c06f7dce1af
+Size: 2874042
+
+Package: openttd
+Architecture: i686
+Installed-Size: 16756
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.9.3-2
+Homepage: https://www.openttd.org/
+Depends: desktop-file-utils, fontconfig, hicolor-icon-theme, libicu, liblzma, liblzo, libpng, openttd-gfx, openttd-msx, openttd-sfx, sdl
+Description: An engine for running Transport Tycoon Deluxe
+Filename: i686/openttd_1.9.3-2_i686.deb
+SHA1: 5ea8eb3d762ba87be727f83c4c57083d5c3c51ee
+SHA256: 12a71d5413d3aeadcee37223539c67190e79375fa4cf47b8706b6bc9f4c56d7a
+Size: 4379956
+
+Package: openttd-msx
+Architecture: all
+Installed-Size: 816
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.3.1-4
+Homepage: https://bundles.openttdcoop.org/openmsx
+Description: Free music set for openttd
+Filename: all/openttd-msx_0.3.1-4_all.deb
+SHA1: df10b199359208867489f64a5f4342d997bd6996
+SHA256: ba97fc77de9b7bda0d5554128e3cac380fbbc862712fbb8611337b178bad9837
+Size: 87132
+
+Package: openttd-sfx
+Architecture: all
+Installed-Size: 12888
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.2.3-4
+Homepage: https://bundles.openttdcoop.org/opensfx
+Description: Free sound set for openttd
+Filename: all/openttd-sfx_0.2.3-4_all.deb
+SHA1: f8c7930437ff6ac2c8fe429611ada546ce154264
+SHA256: 910950ea2f35c9976dc428c1616e44081f3ac008a836453de25d361141c8dfa1
+Size: 9464108
+
+Package: pango-x
+Architecture: i686
+Installed-Size: 856
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.44.6-4
+Homepage: https://www.pango.org/
+Depends: fontconfig, fribidi, glib, harfbuzz, libcairo-x, libxft, zlib
+Conflicts: pango, pango-dev
+Replaces: pango
+Provides: pango
+Description: Library for laying out and rendering text (with X)
+Filename: i686/pango-x_1.44.6-4_i686.deb
+SHA1: 14272ab3fef6c8e72835c0cfebda8187eefdbe00
+SHA256: fb001a6a1cc971cbd717576f8f18d464e2a643a045299b9bfe429a3f69b6258d
+Size: 188118
+
+Package: pcmanfm
+Architecture: i686
+Installed-Size: 432
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.1-5
+Homepage: https://lxde.org/
+Depends: atk, glib, gtk3, libandroid-shmem, libcairo-x, libfm, libx11, lxmenu-data, pango-x
+Recommends: xarchiver
+Description: Extremely fast and lightweight file manager
+Filename: i686/pcmanfm_1.3.1-5_i686.deb
+SHA1: b0e7e5c187c072106f3bc9b6264c3b08af9b3c20
+SHA256: 5910d663cbbf640a49c97e33be7b429af437a18edb14e13fa203d91b3a349de6
+Size: 80344
+
+Package: pinentry-gtk
+Architecture: i686
+Installed-Size: 208
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-8
+Homepage: https://www.gnupg.org/related_software/pinentry/index.html
+Depends: atk, fontconfig, freetype, gdk-pixbuf, glib, gtk2, libandroid-shmem, libassuan, libcairo-x, libgpg-error, ncurses, pango-x
+Conflicts: pinentry
+Replaces: pinentry
+Provides: pinentry
+Description: Dialog allowing secure password entry (with gtk2 support)
+Filename: i686/pinentry-gtk_1.1.0-8_i686.deb
+SHA1: 583a61506176cf73627e5e28992024c4ba3cdf0b
+SHA256: 8174b1beebb45c7f2e4c7047ecf1d0c8cefff1c689ac560f72b03c77190cb592
+Size: 46214
+
+Package: plotutils
+Architecture: i686
+Installed-Size: 2364
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6-9
+Homepage: https://directory.fsf.org/wiki/Plotutils
+Depends: libice, libpng, libsm, libx11, libxaw, libxext, libxmu, libxt, zlib
+Description: Set of utilities and libraries for plotting.
+Filename: i686/plotutils_2.6-9_i686.deb
+SHA1: 740a243b53175fd34c2e082170e79600e4d354b9
+SHA256: 5c7e54a001640caeb777927b7a08a0f536620f3d2cde5a353421d5b04683d115
+Size: 582594
+
+Package: plotutils-static
+Architecture: i686
+Installed-Size: 1540
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6-9
+Homepage: https://directory.fsf.org/wiki/Plotutils
+Depends: plotutils (= 2.6-9)
+Description: Static libraries for plotutils
+Filename: i686/plotutils-static_2.6-9_i686.deb
+SHA1: 6adf91872299eb3a87b1b0f0d94ba36d72d13fc7
+SHA256: 14a215b5715f0a7394f90a56920fbaa26501e237d4213ab0e3c19aca5950c8a4
+Size: 335460
+
+Package: polybar
+Architecture: i686
+Installed-Size: 2324
+Maintainer: Tristan Ross <spaceboyross@yandex.com>
+Version: 3.4.1-1
+Homepage: https://polybar.github.io
+Depends: fontconfig, freetype, libandroid-glob, libandroid-shmem, libc++, libcairo-x, libcurl, libxcb, pulseaudio, xcb-util-cursor, xcb-util-image, xcb-util-xrm, xcb-util-wm
+Description: A fast and easy-to-use status bar
+Filename: i686/polybar_3.4.1-1_i686.deb
+SHA1: 052362abb83765a92c26a356fbf268c59de3af8a
+SHA256: 3f9e8e1d8dab463ee2a8200f6b0e18d0a882167cec51cb811212d647bda28e46
+Size: 516028
+
+Package: putty
+Architecture: i686
+Installed-Size: 3808
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.73-1
+Homepage: https://www.chiark.greenend.org.uk/~sgtatham/putty/
+Depends: atk, gdk-pixbuf, glib, gtk3, libandroid-glob, libandroid-shmem, libcairo-x, libx11, pango-x
+Description: A terminal integrated SSH/Telnet client
+Filename: i686/putty_0.73-1_i686.deb
+SHA1: 9f79cc1e9db4f79991a29527afff06a2e8743f46
+SHA256: b933c862b891b7371375cc618ff0bb2c9c0b872748f679a33a7b43b5ee39be3f
+Size: 624082
+
+Package: pypanel
+Architecture: i686
+Installed-Size: 184
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.4-16
+Homepage: https://sourceforge.net/projects/pypanel/
+Depends: freetype, imlib2, libandroid-shmem, libx11, libxft, python2, python2-xlib
+Description: A lightweight panel/taskbar for X11 window managers written in python.
+Filename: i686/pypanel_2.4-16_i686.deb
+SHA1: 995c9111ba352e9484bf815b3896adcd0cf5dfd5
+SHA256: b77385dd355aed55d01f7dd5cad8b3d503ab4fec8d15e0ad68595d290fe9fd45
+Size: 27402
+
+Package: python2-six
+Architecture: all
+Installed-Size: 164
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.12.0-5
+Homepage: https://pypi.org/project/six/
+Depends: python2
+Description: Python 2 and 3 compatibility utilities
+Filename: all/python2-six_1.12.0-5_all.deb
+SHA1: 1c498724148434015d7e849cf321568f60bfa66b
+SHA256: 45150773e8f3237d18c8f772731a606f4e715f628764ef8e804a887d6eb91624
+Size: 19002
+
+Package: python2-xlib
+Architecture: all
+Installed-Size: 1264
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.24-4
+Homepage: https://github.com/python-xlib/python-xlib
+Depends: libx11, python2, python2-six
+Description: A fully functional X client library for Python programs
+Filename: all/python2-xlib_0.24-4_all.deb
+SHA1: 30b4ed240810dd671b3ef1173a379261fb02d206
+SHA256: 8c5a3e0949f5a9854a83b930f3e68fe7c4d035a325248acae07da79f4cd825b7
+Size: 150872
+
+Package: qemu-common
+Architecture: i686
+Installed-Size: 14584
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcap, libcurl, libffi, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, openssl, pcre, sdl2, zlib
+Description: A set common files for the QEMU emulators
+Filename: i686/qemu-common_1:3.1.0-6_i686.deb
+SHA1: f72d39db313d6b63226ba088f64a0d3d16c7e27f
+SHA256: 215a8ca4f95e01b6ff5ad497d4e46f18b5b9ba770b155c79dfab92c04248dbad
+Size: 4000696
+
+Package: qemu-system-aarch64
+Architecture: i686
+Installed-Size: 9140
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator (aarch64)
+Filename: i686/qemu-system-aarch64_1:3.1.0-6_i686.deb
+SHA1: 6f559b2f0865ec30175d8e847b38f2537eb3b1ea
+SHA256: 59ecd0bdc4144f413deaba8e1c61f819ee2b149f262b15b9e4c4e46b97a32cec
+Size: 2388212
+
+Package: qemu-system-arm
+Architecture: i686
+Installed-Size: 8508
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator (arm)
+Filename: i686/qemu-system-arm_1:3.1.0-6_i686.deb
+SHA1: 4d7d08172fcad141537d777294b721015b850f2f
+SHA256: 85aa65ec3b2d48894d205b61199c420237fe182ce38a4cdc6dbdceb670485e5b
+Size: 2236908
+
+Package: qemu-system-i386
+Architecture: i686
+Installed-Size: 7532
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator and virtualizer (i386)
+Filename: i686/qemu-system-i386_1:3.1.0-6_i686.deb
+SHA1: 17988de74dc3f0487e20eec8343cbd95894158b1
+SHA256: c18a29109d4f9ac05d282d127bf52596b0409c5508d84dd924a6ac30126934a9
+Size: 1909104
+
+Package: qemu-system-riscv32
+Architecture: i686
+Installed-Size: 4208
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator (riscv32)
+Filename: i686/qemu-system-riscv32_1:3.1.0-6_i686.deb
+SHA1: 48f8e843568590d2dc0bdcd43e1401512bd055e7
+SHA256: 72246c17606d2b241b1c1e7776272e5da2f65d209088ee17386e9b9000a40c6d
+Size: 1283024
+
+Package: qemu-system-riscv64
+Architecture: i686
+Installed-Size: 4216
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator (riscv64)
+Filename: i686/qemu-system-riscv64_1:3.1.0-6_i686.deb
+SHA1: 0296c7015223224952a5503bd7f6266febc3c32c
+SHA256: 9c32306b41d1bcfaa443ffcf38af9960dc396125f023d69b05fdc2e128065e97
+Size: 1285740
+
+Package: qemu-system-x86_64
+Architecture: i686
+Installed-Size: 7580
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator and virtualizer (x86_64)
+Filename: i686/qemu-system-x86_64_1:3.1.0-6_i686.deb
+SHA1: 7015722e862ed24bc2730c0edbcfcbd5644a6e58
+SHA256: 340d46ce4993344b11d855b14d1c56223d1bbccf0ac0f811c0333c73b05c0916
+Size: 1926038
+
+Package: qemu-utils
+Architecture: i686
+Installed-Size: 3900
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libnettle, libnfs, libssh2, libxml2, qemu-common (= 1:3.1.0-6)
+Description: A set of utilities for working with the QEMU emulators
+Filename: i686/qemu-utils_1:3.1.0-6_i686.deb
+SHA1: cea4503bb52f4c3722f5c1a40e0a81e09692ee3c
+SHA256: a9a36d58482f30456ce4da28ac4296fa767bd9745f33f6f6f31cd4fde7713b24
+Size: 668328
+
+Package: qgit
+Architecture: i686
+Installed-Size: 1112
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.8-6
+Homepage: https://github.com/tibirna/qgit
+Depends: git, hicolor-icon-theme, qt5-base
+Description: A git GUI viewer
+Filename: i686/qgit_2.8-6_i686.deb
+SHA1: ae311bac5dc87584e8b3dbc4ac7e7cc987d1b4f8
+SHA256: 857734e32061ba0670249ab13670663f1a92c8ec29378054a5398415ccbd26a4
+Size: 333650
+
+Package: qgit
+Architecture: i686
+Installed-Size: 1132
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.9
+Homepage: https://github.com/tibirna/qgit
+Depends: git, hicolor-icon-theme, qt5-base
+Description: A git GUI viewer
+Filename: i686/qgit_2.9_i686.deb
+SHA1: 493f41be421c5252f3cd0452ee3a70e6a2ac1499
+SHA256: 4b6177e0d5bc3a4f53bad83cfa49a91689d2668e054e04ca569d6176e3a4f662
+Size: 340538
+
+Package: qt5-base
+Architecture: i686
+Installed-Size: 65340
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Description: A cross-platform application and UI framework
+Filename: i686/qt5-base_5.11.3-4_i686.deb
+SHA1: e7bc6929255e277395e85e785dc06e9cbfd41061
+SHA256: b42a00083bbdbc46cded72b99d6e2f7cef687d7a9bca1c38e02bc9074b828910
+Size: 12284884
+
+Package: qt5-base
+Architecture: i686
+Installed-Size: 65332
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-5
+Homepage: https://qt-project.org/
+Breaks: qt5-x11extras-dev
+Depends: harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Replaces: qt5-x11extras-dev
+Description: A cross-platform application and UI framework
+Filename: i686/qt5-base_5.11.3-5_i686.deb
+SHA1: 4207324e0172f62e8d0dbb8adf77fbdc8836c213
+SHA256: f14ee45170d10005b6aa1b08b8d12a0a42496bfb00b2ad1dfeb7f16a3504633d
+Size: 12286694
+
+Package: qt5-base
+Architecture: i686
+Installed-Size: 69644
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-6
+Homepage: https://qt-project.org/
+Breaks: qt5-x11extras-dev
+Depends: harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Replaces: qt5-x11extras-dev
+Description: A cross-platform application and UI framework
+Filename: i686/qt5-base_5.11.3-6_i686.deb
+SHA1: 7c9947951e1a517bc530b04c8b88df51045b5b34
+SHA256: 39bcc0404695fc9ae149725c17e436c78761bb8235eba1e3e1feca699bb1c211
+Size: 13297528
+
+Package: qt5-base
+Architecture: i686
+Installed-Size: 61848
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-7
+Homepage: https://qt-project.org/
+Breaks: qt5-x11extras-dev
+Depends: harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Replaces: qt5-x11extras-dev
+Description: A cross-platform application and UI framework
+Filename: i686/qt5-base_5.11.3-7_i686.deb
+SHA1: 187e6b72fa3da0e63327e1427edd70afc910d331
+SHA256: cb3afc86d69181a3bcb45f29316414d30ff31cafabfe11400317d8f058262ae5
+Size: 11335194
+
+Package: qt5-base
+Architecture: i686
+Installed-Size: 66752
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-8
+Homepage: https://qt-project.org/
+Breaks: qt5-x11extras-dev
+Depends: dbus, harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Replaces: qt5-x11extras-dev
+Description: A cross-platform application and UI framework
+Filename: i686/qt5-base_5.11.3-8_i686.deb
+SHA1: 89d174ba5c5767f1756b0efc9ff60e9e871bd4ea
+SHA256: ffc29b0dc845c32540f51277fc89832ca0d97693f1e58d033ea53790f778559b
+Size: 12135268
+
+Package: qt5-base
+Architecture: i686
+Installed-Size: 66752
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-9
+Homepage: https://qt-project.org/
+Breaks: qt5-x11extras-dev
+Depends: dbus, harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Replaces: qt5-x11extras-dev
+Description: A cross-platform application and UI framework
+Filename: i686/qt5-base_5.11.3-9_i686.deb
+SHA1: 2019db826576917c3861ad15244c24a9d0c9a66a
+SHA256: 0b3a2d4bdf87fc8bf7074f3bdbe813604b7fdcbe71f4e9ee7273d2eb77a7c735
+Size: 12137416
+
+Package: qt5-base-static
+Architecture: i686
+Installed-Size: 4340
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base (= 5.11.3-4)
+Description: Static libraries for qt5-base
+Filename: i686/qt5-base-static_5.11.3-4_i686.deb
+SHA1: 3903ca13b7a78d66a556c34362e30883a9507107
+SHA256: 0fea22ebe6a59a9072ca0982c006b58eedb40ff3f08792cd5e1b9ecab8a9695b
+Size: 1047906
+
+Package: qt5-base-static
+Architecture: i686
+Installed-Size: 4340
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-5
+Homepage: https://qt-project.org/
+Depends: qt5-base (= 5.11.3-5)
+Description: Static libraries for qt5-base
+Filename: i686/qt5-base-static_5.11.3-5_i686.deb
+SHA1: 70bac20a5ce4fb90dd463be97f4c8de8bd1edb82
+SHA256: c33e145e760c2c5aa9b9bb1b0f2db34a48bde2c83d683472fe6d04cfc3fc419c
+Size: 1048546
+
+Package: qt5-declarative-dev
+Architecture: i686
+Installed-Size: 10268
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-declarative, qt5-base (= 5.11.3-4)
+Description: Classes for QML and JavaScript languages
+Filename: i686/qt5-declarative-dev_5.11.3-4_i686.deb
+SHA1: 930e6f31455d0b5d622e7b5f87b4fcf6e21b1666
+SHA256: 9f7506a48de39e0e7182b6e53b6c7b255873d4a3cc109feb3cecc6c85ddccd04
+Size: 1021648
+
+Package: qt5-declarative
+Architecture: i686
+Installed-Size: 1564
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-4)
+Description: Classes for QML and JavaScript languages
+Filename: i686/qt5-declarative_5.11.3-4_i686.deb
+SHA1: ea0f6b872532a09d2440f014e76bcecafad1f34a
+SHA256: 9447f0b445f09349388e0f495830375ef7f920cc5f3b755c377b72a6bf859e6c
+Size: 252586
+
+Package: qt5-declarative
+Architecture: i686
+Installed-Size: 11800
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-5
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-5)
+Breaks: qt5-declarative-dev
+Replaces: qt5-declarative-dev
+Description: Classes for QML and JavaScript languages
+Filename: i686/qt5-declarative_5.11.3-5_i686.deb
+SHA1: 80b764a83e60fe1cae435033029ff85f8f268d87
+SHA256: 98c071760074144c5a4d28ef7980d7bf934572de7fcd634f1d2c5b5e0c9cba80
+Size: 1297508
+
+Package: qt5-declarative
+Architecture: i686
+Installed-Size: 11800
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-6
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-6)
+Breaks: qt5-declarative-dev
+Replaces: qt5-declarative-dev
+Description: Classes for QML and JavaScript languages
+Filename: i686/qt5-declarative_5.11.3-6_i686.deb
+SHA1: 72cd796cc271bd13cfb299138ba549ea26957f0c
+SHA256: cfc942af134001afd0e0093d666f9f26c74a88f04ea0da126ab9fd43ffb8f7f9
+Size: 1297000
+
+Package: qt5-declarative
+Architecture: i686
+Installed-Size: 19240
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-7
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-7)
+Breaks: qt5-declarative-dev
+Replaces: qt5-declarative-dev
+Description: Classes for QML and JavaScript languages
+Filename: i686/qt5-declarative_5.11.3-7_i686.deb
+SHA1: f38962ff08d87542684ed2aaf5b0979ecb84359b
+SHA256: 6a2f62fe222cfa4c64d2fa32e90ca3b145aa7359769f83bbc7f2f20153615ac8
+Size: 3139304
+
+Package: qt5-declarative
+Architecture: i686
+Installed-Size: 19240
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-8
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-8)
+Breaks: qt5-declarative-dev
+Replaces: qt5-declarative-dev
+Description: Classes for QML and JavaScript languages
+Filename: i686/qt5-declarative_5.11.3-8_i686.deb
+SHA1: ac2c522c96c4d44e5f7216958af11e833628b272
+SHA256: 5f87539a95ead9f7e2b03c8caf889d52d6af3e457e877d03e0a33db81bc727e0
+Size: 3137456
+
+Package: qt5-declarative
+Architecture: i686
+Installed-Size: 19240
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-9
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-9)
+Breaks: qt5-declarative-dev
+Replaces: qt5-declarative-dev
+Description: Classes for QML and JavaScript languages
+Filename: i686/qt5-declarative_5.11.3-9_i686.deb
+SHA1: 386082c84522b6ee276588402b1e9d463bf141e6
+SHA256: 5b8fa0e211e3d101fb94ce09a8feae1b6920c274ed88b7e7c8bd454a6604d328
+Size: 3138390
+
+Package: qt5-tools-dev
+Architecture: i686
+Installed-Size: 1220
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-tools, qt5-base (= 5.11.3-4)
+Description: Qt development tools (incomplete !)
+Filename: i686/qt5-tools-dev_5.11.3-4_i686.deb
+SHA1: c7bf0a5c201c076dace301d6932cee58bbd40305
+SHA256: 522d84edf5cab7775e2b5c4455e4668e8aa46fd80f3397468d2ffd2eade31051
+Size: 143464
+
+Package: qt5-tools
+Architecture: i686
+Installed-Size: 5652
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-4)
+Description: Qt development tools (incomplete !)
+Filename: i686/qt5-tools_5.11.3-4_i686.deb
+SHA1: 63438ce26d796f832579536ec406cb58b4fceab4
+SHA256: eadbee19b3944542b172bbf273f4c58f61cdba81917c5d1bf584bf2289925997
+Size: 775806
+
+Package: qt5-tools
+Architecture: i686
+Installed-Size: 6844
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-5
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-5)
+Breaks: qt5-tools-dev
+Replaces: qt5-tools-dev
+Description: Qt development tools (incomplete !)
+Filename: i686/qt5-tools_5.11.3-5_i686.deb
+SHA1: ba55e0bfa086f38948da3f705322f20b007eb8da
+SHA256: 20a2ff2cd1680dc2faff673ed3c6fffac868e9771ccc1cf40a66fa12601d0862
+Size: 912830
+
+Package: qt5-tools
+Architecture: i686
+Installed-Size: 6844
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-6
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-6)
+Breaks: qt5-tools-dev
+Replaces: qt5-tools-dev
+Description: Qt development tools (incomplete !)
+Filename: i686/qt5-tools_5.11.3-6_i686.deb
+SHA1: 72ad0fc7f1f197322261a8282de5570fd6eae5c1
+SHA256: 70b92badd23cc0161d045b32754f5e1717ed1354d722e3597cdf93254956f313
+Size: 913482
+
+Package: qt5-tools
+Architecture: i686
+Installed-Size: 7196
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-7
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-7)
+Breaks: qt5-tools-dev
+Replaces: qt5-tools-dev
+Description: Qt development tools (incomplete !)
+Filename: i686/qt5-tools_5.11.3-7_i686.deb
+SHA1: feb349fa1501e1e86ef88a2417b843e4c1fd9fb5
+SHA256: 033dcf5777867e93f71e82d047c1701839f3c5c21b19f788e6496e47a763a244
+Size: 1002346
+
+Package: qt5-tools
+Architecture: i686
+Installed-Size: 7196
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-8
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-8)
+Breaks: qt5-tools-dev
+Replaces: qt5-tools-dev
+Description: Qt development tools (incomplete !)
+Filename: i686/qt5-tools_5.11.3-8_i686.deb
+SHA1: 4fc7b77e58a4988c04529d5a4174d854f9a57d69
+SHA256: 12be6fd3e5daf2fce2c5b20e21729e88e70bbd7fb2b01f87150bcb74442f25a6
+Size: 1002098
+
+Package: qt5-tools
+Architecture: i686
+Installed-Size: 7196
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-9
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-9)
+Breaks: qt5-tools-dev
+Replaces: qt5-tools-dev
+Description: Qt development tools (incomplete !)
+Filename: i686/qt5-tools_5.11.3-9_i686.deb
+SHA1: 6a9f782531b4f2f4b58582e9371383c823206fab
+SHA256: 54e0121a7c47cf309f9a26226e7ee3228143af102c1e91c44ed30c2110f93b5b
+Size: 1002270
+
+Package: qt5-x11extras-dev
+Architecture: i686
+Installed-Size: 120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-x11extras, qt5-base (= 5.11.3-4)
+Description: Qt platform-specific APIs for X11
+Filename: i686/qt5-x11extras-dev_5.11.3-4_i686.deb
+SHA1: b04d212518d1fba4aada335fa04ad143ec020f7c
+SHA256: a3e5a30f81dbc090233c3ff1c9341f1ea96174652e8623a1628100d8a47d435b
+Size: 5268
+
+Package: qt5-x11extras
+Architecture: i686
+Installed-Size: 28
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-4)
+Description: Qt platform-specific APIs for X11
+Filename: i686/qt5-x11extras_5.11.3-4_i686.deb
+SHA1: fe6dc6503bc4817f0c01c0690a94e0daf24f4242
+SHA256: b315dcc6bae99e808ba5b0cd196d8153c6735cdcf9a7e86d304318bf68a3110d
+Size: 836
+
+Package: qt5-x11extras
+Architecture: i686
+Installed-Size: 120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-5
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-5)
+Description: Qt platform-specific APIs for X11
+Filename: i686/qt5-x11extras_5.11.3-5_i686.deb
+SHA1: 5998c35d855fb48a5f2da6905fad253c8e55e79c
+SHA256: bb1533230ed13694cd6326a55cd22cb6b93630cfa879fc6a47c33a5d4370f2ed
+Size: 5292
+
+Package: qt5-x11extras
+Architecture: i686
+Installed-Size: 120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-6
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-6)
+Description: Qt platform-specific APIs for X11
+Filename: i686/qt5-x11extras_5.11.3-6_i686.deb
+SHA1: 0113d41ed78e54048666d35feb00f887dbc74794
+SHA256: d741276716f99889ac6fc850c11fcef9dac6d01c2a513a0834814652d2d7d56b
+Size: 5300
+
+Package: qt5-x11extras
+Architecture: i686
+Installed-Size: 136
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-7
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-7)
+Description: Qt platform-specific APIs for X11
+Filename: i686/qt5-x11extras_5.11.3-7_i686.deb
+SHA1: dd6aaf0aa69d5df53491114a44d1d7a4c0b6f9aa
+SHA256: 02e44c7acfc16db1545b7100f4a2ca4597f99e8bf0d72d067d7e510968f548c8
+Size: 9432
+
+Package: qt5-x11extras
+Architecture: i686
+Installed-Size: 136
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-8
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-8)
+Description: Qt platform-specific APIs for X11
+Filename: i686/qt5-x11extras_5.11.3-8_i686.deb
+SHA1: b61442f16da5568a9f540c558c6c0d835576ecab
+SHA256: 7a5ff439cfbdd24824970fdca0fc426d6f46bf0a654c82c87758db040899f518
+Size: 9420
+
+Package: qt5-x11extras
+Architecture: i686
+Installed-Size: 136
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-9
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-9)
+Description: Qt platform-specific APIs for X11
+Filename: i686/qt5-x11extras_5.11.3-9_i686.deb
+SHA1: e9e42c8aa7336587f46a5be1fd90242ce23339f5
+SHA256: a697e1828d67230ca911edc11773e69c563f35ba4010ae7afc8858a243aee587
+Size: 9430
+
+Package: rofi
+Architecture: i686
+Installed-Size: 636
+Maintainer: Tristan Ross <spaceboyross@yandex.com>
+Version: 1.5.4-6
+Homepage: https://github.com/DaveDavenport/rofi
+Depends: libandroid-glob, libandroid-shmem, startup-notification, libxkbcommon, xcb-util-wm, xcb-util-xrm, librsvg, libcairo-x
+Description: A window switcher, application launcher and dmenu replacement
+Filename: i686/rofi_1.5.4-6_i686.deb
+SHA1: 63909709a4a26ec176abc7b8c213db54e2afe8ce
+SHA256: ea59ca8e21e3b186c339c2f9799268d65ddf27aa39e7c083165000b32e6a51f4
+Size: 147562
+
+Package: sdl
+Architecture: i686
+Installed-Size: 1680
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.15-22
+Homepage: https://www.libsdl.org
+Depends: libandroid-glob, libflac, libogg, libsndfile, libvorbis, libx11, libxext, libxrandr, libxrender, pulseaudio
+Conflicts: libsdl
+Replaces: libsdl
+Description: A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard
+Filename: i686/sdl_1.2.15-22_i686.deb
+SHA1: bf54b8a1ca79804d705ebb6266787c0090258655
+SHA256: 23c1ea6ef148bd7786b4139d17ea8fd5d0118ae99cf2b9b7c8991bec448518af
+Size: 289836
+
+Package: sdl-image
+Architecture: i686
+Installed-Size: 116
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.12-2
+Homepage: https://www.libsdl.org/projects/SDL_image/
+Depends: libjpeg-turbo, libpng, libtiff, sdl, zlib
+Description: A simple library to load images of various formats as SDL surfaces
+Filename: i686/sdl-image_1.2.12-2_i686.deb
+SHA1: 5d069f88b44b47e03865db3dacb337f905e28a68
+SHA256: 05360bcc7de864b3df0b3183d7bedbb7a24b0f768b5ed91f038b35cedff3088c
+Size: 21832
+
+Package: sdl-image-static
+Architecture: i686
+Installed-Size: 96
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.12-2
+Homepage: https://www.libsdl.org/projects/SDL_image/
+Depends: sdl-image (= 1.2.12-2)
+Description: Static libraries for sdl-image
+Filename: i686/sdl-image-static_1.2.12-2_i686.deb
+SHA1: 76f57ab995833c1864892bb98380ddfd4a1dbb05
+SHA256: beb68f61704fee98105ea76a6f96a85ed7ba7b4d58006ed376addab5f04d5a8c
+Size: 22432
+
+Package: sdl-net
+Architecture: i686
+Installed-Size: 92
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.8-14
+Homepage: https://www.libsdl.org/projects/SDL_net/
+Depends: libandroid-glob, libflac, libogg, libsndfile, libvorbis, pulseaudio, sdl
+Conflicts: libsdl-net
+Replaces: libsdl-net
+Description: A small sample cross-platform networking library
+Filename: i686/sdl-net_1.2.8-14_i686.deb
+SHA1: 6010be33104a6090d027474b142e436f14c8223f
+SHA256: 08e7713b8a1bea827ae46b3515be67399fe4c022fdfe53ed0a19f2bdbdf7b633
+Size: 11000
+
+Package: sdl-net-static
+Architecture: i686
+Installed-Size: 48
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.8-14
+Homepage: https://www.libsdl.org/projects/SDL_net/
+Depends: sdl-net (= 1.2.8-14)
+Description: Static libraries for sdl-net
+Filename: i686/sdl-net-static_1.2.8-14_i686.deb
+SHA1: afc2837d80a63df3fa43e8a31200bc00b2137ef8
+SHA256: 076a514814fad8be18b6c4d8e031288a88784f12d523766d956725ed3e3c7ebb
+Size: 6088
+
+Package: sdl-static
+Architecture: i686
+Installed-Size: 532
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.15-22
+Homepage: https://www.libsdl.org
+Depends: sdl (= 1.2.15-22)
+Description: Static libraries for sdl
+Filename: i686/sdl-static_1.2.15-22_i686.deb
+SHA1: 8a6dee884ff74b78af9c592efaa4f51adc31c873
+SHA256: e5acfbc26333f298645bb92259ca9c2fdd9c23c4c20d2ed9c109d732345ab4aa
+Size: 144850
+
+Package: sdl2
+Architecture: i686
+Installed-Size: 2796
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.10-4
+Homepage: https://www.libsdl.org
+Depends: libandroid-glob, libflac, libogg, libsndfile, libvorbis, libx11, libxau, libxcb, libxcursor, libxdmcp, libxext, libxfixes, libxi, libxinerama, libxrandr, libxrender, libxss, libxxf86vm, pulseaudio
+Conflicts: libsdl2
+Replaces: libsdl2
+Description: A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard (version 2)
+Filename: i686/sdl2_2.0.10-4_i686.deb
+SHA1: 06e26c5db30ea15ed94a3e13d4a9a09c6a4690f9
+SHA256: 8bcbec24d1a11bf47a44f548235b721c610e328896dd6743e55e2b221ed8dbde
+Size: 477446
+
+Package: sdl2-image
+Architecture: i686
+Installed-Size: 180
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.5-6
+Homepage: https://www.libsdl.org/projects/SDL_image
+Depends: libandroid-glob, libflac, libjpeg-turbo, liblzma, libogg, libpng, libsndfile, libtiff, libvorbis, libwebp, libx11, libxau, libxcb, libxcursor, libxdmcp, libxext, libxfixes, libxi, libxinerama, libxrandr, libxrender, libxss, libxxf86vm, pulseaudio, sdl2, zlib
+Description: A simple library to load images of various formats as SDL surfaces (version 2)
+Filename: i686/sdl2-image_2.0.5-6_i686.deb
+SHA1: 66d4620c792e4e3268f99059842a48c0603a1625
+SHA256: 1f3092db977b7c94d9149f7e5ad99f282eb848c3657ced0d0e2e1d7425f6af90
+Size: 51032
+
+Package: sdl2-image-static
+Architecture: i686
+Installed-Size: 176
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.5-6
+Homepage: https://www.libsdl.org/projects/SDL_image
+Depends: sdl2-image (= 2.0.5-6)
+Description: Static libraries for sdl2-image
+Filename: i686/sdl2-image-static_2.0.5-6_i686.deb
+SHA1: a1a0d9e97f7a5c1d1c9f0bc057b65901659dfc8a
+SHA256: e3f36ecfcb6aad6129174d83a046e0698f5b6c3e9aee031cae508ae64c9353af
+Size: 54346
+
+Package: sdl2-static
+Architecture: i686
+Installed-Size: 1704
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.10-4
+Homepage: https://www.libsdl.org
+Depends: sdl2 (= 2.0.10-4)
+Description: Static libraries for sdl2
+Filename: i686/sdl2-static_2.0.10-4_i686.deb
+SHA1: 62d3fcca4905b7a3f288c2c0e4ecbddb973251a0
+SHA256: 954f3807162eed8a84b73565476960c54b74982d9852d39d4107a557de428a80
+Size: 373934
+
+Package: sdl2-ttf
+Architecture: i686
+Installed-Size: 108
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.15-5
+Homepage: https://www.libsdl.org/projects/SDL_ttf
+Depends: freetype, mesa, sdl2
+Description: A library that allows you to use TrueType fonts in your SDL applications (version 2)
+Filename: i686/sdl2-ttf_2.0.15-5_i686.deb
+SHA1: 1302a8e673f150574dc3cf3175810f657f6857a8
+SHA256: f2fa2df7fb55262251d41b6daeb40887f3854ebbfdc6a7103c054ec2d4c398a0
+Size: 14358
+
+Package: sdl2-ttf-static
+Architecture: i686
+Installed-Size: 56
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.15-5
+Homepage: https://www.libsdl.org/projects/SDL_ttf
+Depends: sdl2-ttf (= 2.0.15-5)
+Description: Static libraries for sdl2-ttf
+Filename: i686/sdl2-ttf-static_2.0.15-5_i686.deb
+SHA1: a406cdfba5a42613bd3a60fb8e2e6bbe1e5296a0
+SHA256: afaef3d69aab9166dd3501f721573628a061766b283e3036b51b3852724856b6
+Size: 10472
+
+Package: shared-mime-info
+Architecture: i686
+Installed-Size: 2368
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.15-1
+Homepage: https://freedesktop.org/Software/shared-mime-info
+Depends: coreutils, glib, libxml2
+Description: Freedesktop.org Shared MIME Info
+Filename: i686/shared-mime-info_1.15-1_i686.deb
+SHA1: 0d1f976ea4afd0f0eb15df6e7133bacbdcee36a4
+SHA256: 8450ebff70b06726b81924ce0450d362e92e97c79774a85403b85cca85f6f509
+Size: 242658
+
+Package: st
+Architecture: i686
+Installed-Size: 112
+Maintainer: Tristan Ross <spaceboyross@yandex.com>
+Version: 0.8.2-6
+Homepage: https://st.suckless.org/
+Depends: libxft, libxext
+Description: A simple virtual terminal emulator for X
+Filename: i686/st_0.8.2-6_i686.deb
+SHA1: 40888bda89681b9de4336b8189533193acbf1e69
+SHA256: 489f9be10f1f7b79b904d17d70a75318dbbbba51497cf9dfce75886d8ef79616
+Size: 26004
+
+Package: startup-notification
+Architecture: i686
+Installed-Size: 120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.12-10
+Homepage: https://www.freedesktop.org/
+Depends: libx11, libxcb, xcb-util
+Description: Utility libraries for XC Binding
+Filename: i686/startup-notification_0.12-10_i686.deb
+SHA1: 0b9475e6d3398c95a18b606dab844678a8f2e858
+SHA256: 1f6ad53d9b6c6d22b0ad82719b10dfcf419f1bb3624a8d1c1dc05079ea0e9046
+Size: 14194
+
+Package: startup-notification-static
+Architecture: i686
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.12-10
+Homepage: https://www.freedesktop.org/
+Depends: startup-notification (= 0.12-10)
+Description: Static libraries for startup-notification
+Filename: i686/startup-notification-static_0.12-10_i686.deb
+SHA1: a7c378349d0f2af0655479b5c06b43f55f0ae7c7
+SHA256: fd6c6744f4b52d3312dd1f22884e60a6837727e9afeb9b028d4a988f169a5e31
+Size: 12304
+
+Package: telepathy-glib
+Architecture: i686
+Installed-Size: 21768
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.24.1-4
+Homepage: http://telepathy.freedesktop.org/
+Breaks: telepathy-glib-dev
+Depends: dbus-glib
+Replaces: telepathy-glib-dev
+Description: GLib bindings for the Telepathy D-Bus protocol
+Filename: i686/telepathy-glib_0.24.1-4_i686.deb
+SHA1: 8d73f490255c667549c441d595f7885abdd7eb1c
+SHA256: 1bb78b78037c0e8c722409618da95c4eca2fa2d66743992582d552b1c5ec829e
+Size: 1309836
+
+Package: telepathy-glib-static
+Architecture: i686
+Installed-Size: 3252
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.24.1-4
+Homepage: http://telepathy.freedesktop.org/
+Depends: telepathy-glib (= 0.24.1-4)
+Description: Static libraries for telepathy-glib
+Filename: i686/telepathy-glib-static_0.24.1-4_i686.deb
+SHA1: 6909d05722eeaef80d10bef973ebb49b8665850e
+SHA256: f8ce2bfd7c06ad42e5fc48d6c5927eec14775b3c4f740b9c39b3e0364062ba04
+Size: 572266
+
+Package: termux-x11
+Architecture: i686
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0-1
+Homepage: https://github.com/termux/x11-packages
+Depends: libwayland
+Description: Utility to start X11 Termux add-on
+Filename: i686/termux-x11_1.0-1_i686.deb
+SHA1: 44e502c321fd8ff57ed0854ceab000b20f7b0fbb
+SHA256: f8322916e31675b405b31f75edb3c1d229579bd461344e4593fa28fdce809127
+Size: 2700
+
+Package: the-powder-toy
+Architecture: i686
+Installed-Size: 2416
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 94.1-5
+Homepage: https://powdertoy.co.uk/
+Depends: fftw, libbz2, libc++, liblua52, sdl2, libx11, zlib
+Description: The Powder Toy is a free physics sandbox game
+Filename: i686/the-powder-toy_94.1-5_i686.deb
+SHA1: 3a53c64c45bd5dd31a95654f93b61ed8d57cdfc0
+SHA256: 8a79106309a3add62ea68e850adce1b53b83ab22660bb265b8db763de2e3148b
+Size: 661544
+
+Package: thunar
+Architecture: i686
+Installed-Size: 6552
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.8.9-4
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Depends: desktop-file-utils, exo, hicolor-icon-theme, libexif, libnotify, libpng, libxfce4ui, libxfce4util
+Description: Modern file manager for XFCE environment
+Filename: i686/thunar_1.8.9-4_i686.deb
+SHA1: 99ccc9836512c5835c51ae6a1263043e4680233b
+SHA256: a9af51f9515bc0737974307e5886b5b960169a69c453e9a8944c6debcea05d4b
+Size: 979036
+
+Package: thunar-static
+Architecture: i686
+Installed-Size: 356
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.8.9-4
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Depends: thunar (= 1.8.9-4)
+Description: Static libraries for thunar
+Filename: i686/thunar-static_1.8.9-4_i686.deb
+SHA1: 736342eca6bba31291ac30f4af537c2510d4d3d8
+SHA256: a5c3a5642c6bad8bda00cd179f03320c04ec32b4e0994e20ee5cf020386fde66
+Size: 66272
+
+Package: tigervnc
+Architecture: i686
+Installed-Size: 2980
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.9.0-34
+Homepage: https://tigervnc.org/
+Depends: freetype, libandroid-shmem, libbz2, libc++, libdrm, libexpat, libgnutls, libjpeg-turbo, libpixman, libpng, libuuid, libx11, libxau, libxcb, libxdamage, libxdmcp, libxext, libxxf86vm, libxfixes, libxfont2, libxshmfence, mesa, openssl, perl, xkeyboard-config, xorg-xauth, xorg-xkbcomp
+Suggests: aterm, xorg-twm
+Description: Suite of VNC servers. Based on the VNC 4 branch of TightVNC.
+Filename: i686/tigervnc_1.9.0-34_i686.deb
+SHA1: ab2666c87b7ebddf780ab37501fc8dadb5061dcd
+SHA256: 33a314021464fcad8529d536710d8bf967410063b61b3dcce2e322408889b1c8
+Size: 910332
+
+Package: tigervnc-viewer
+Architecture: i686
+Installed-Size: 468
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.9.0-34
+Homepage: https://tigervnc.org/
+Depends: fltk, fontconfig, libandroid-shmem, libc++, libgnutls, libice, libjpeg-turbo, libsm, libx11, libxcursor, libxext, libxfixes, libxft, libxinerama, libxrender, tigervnc (= 1.9.0-34)
+Conflicts: tigervnc (<< 1.9.0-4)
+Description: A VNC viewer from TigerVNC package
+Filename: i686/tigervnc-viewer_1.9.0-34_i686.deb
+SHA1: 9337e0c544279ad44ca26e60aa22e3e6cafa8bb0
+SHA256: 1b2e64a5fd672b84bced11196bd1c3c40a2762fd2b8754b2ad527f12a5377acd
+Size: 141556
+
+Package: transmission-gtk
+Architecture: i686
+Installed-Size: 4340
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.94-7
+Homepage: https://transmissionbt.com/
+Depends: atk, gdk-pixbuf, glib, gtk3, libcairo-x, libcurl, libevent, openssl, pango-x, zlib
+Conflicts: transmission
+Replaces: transmission
+Description: Easy, lean and powerful BitTorrent client (gtk3)
+Filename: i686/transmission-gtk_2.94-7_i686.deb
+SHA1: f66bd354e754a8a8c75b2b095fb29f16c2c032dd
+SHA256: 6179c654cce1947ab708efd31afab6f8fd3511f9835562da23d657f137d59f27
+Size: 769096
+
+Package: ttf-dejavu
+Architecture: all
+Installed-Size: 10096
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.37-6
+Homepage: https://dejavu-fonts.github.io/
+Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+Filename: all/ttf-dejavu_2.37-6_all.deb
+SHA1: 68f1ee5f620822e038fdf0d193db1f58d0db6af6
+SHA256: 13cbbb961fb0f175adeb484c858a6718849bfdcc1f1cb3ee964712c5d31734fe
+Size: 2469248
+
+Package: uget
+Architecture: i686
+Installed-Size: 692
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.2.2-5
+Homepage: https://ugetdm.com/
+Depends: atk, gdk-pixbuf, glib, gstreamer, gtk3, libandroid-shmem, libcairo-x, libcurl, libnotify, openssl, pango-x
+Suggests: aria2
+Description: GTK+ download manager featuring download classification and HTML import
+Filename: i686/uget_2.2.2-5_i686.deb
+SHA1: 2485c8c043babdeaa2984d6c24b62234bab0976b
+SHA256: fc5a08f9833c38b5e4126cfc6efb92ab2dc6b02b00298f144462a4123865023c
+Size: 191636
+
+Package: vim-gtk
+Architecture: i686
+Installed-Size: 28988
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 8.2.0000-1
+Homepage: https://www.vim.org
+Depends: gdk-pixbuf, glib, gtk3, libcairo-x, libice, libiconv, liblua, libsm, libx11, libxpm, libxt, ncurses, pango-x, python
+Conflicts: vim, vim-python, vim-runtime
+Description: Vi IMproved - enhanced vi editor
+Filename: i686/vim-gtk_8.2.0000-1_i686.deb
+SHA1: 5346d6a30d29c2a6a448ae22ab5f162a6904a238
+SHA256: 57f6549d068f8815902a78a47ae0075fc7815eb2a586eae3bd001bb08374547d
+Size: 5846946
+
+Package: wireshark-gtk
+Architecture: i686
+Installed-Size: 76420
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6.11-2
+Homepage: https://www.wireshark.org/
+Depends: atk, c-ares, desktop-file-utils, gdk-pixbuf, glib, gtk3, hicolor-icon-theme, krb5, libandroid-shmem, libcairo-x, libgcrypt, libgnutls, libgpg-error, liblua52, liblz4, libmaxminddb, libnghttp2, libnl, libpcap, libssh, libxml2, pango-x, zlib
+Conflicts: tshark, wireshark, wireshark-cli
+Replaces: tshark, wireshark, wireshark-cli
+Provides: tshark, wireshark, wireshark-cli
+Description: Network protocol analyzer
+Filename: i686/wireshark-gtk_2.6.11-2_i686.deb
+SHA1: 6b6a9a3a9bd45d9b9b8521c023945e89fc52a03d
+SHA256: 3fc738496606dc71804d71b0b758db353db1c674c71e1456ae83dd2adcb6b310
+Size: 16842612
+
+Package: wireshark-gtk-static
+Architecture: i686
+Installed-Size: 93568
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6.11-2
+Homepage: https://www.wireshark.org/
+Depends: wireshark-gtk (= 2.6.11-2)
+Description: Static libraries for wireshark-gtk
+Filename: i686/wireshark-gtk-static_2.6.11-2_i686.deb
+SHA1: ab0f08ec651161f5006fb9142eb91ce591962950
+SHA256: cab8a85f3d8320739e76e051d08f43dc775d013cc6235fcfb4cad503657a04f4
+Size: 17184430
+
+Package: x2x
+Architecture: i686
+Installed-Size: 128
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 20180709-4
+Homepage: https://github.com/dottedmag/x2x
+Depends: libxtst
+Description: Allows the keyboard, mouse on one X display to be used to control another X display
+Filename: i686/x2x_20180709-4_i686.deb
+SHA1: 9a102b31d1b4c635538cfe4a5d487911242fc3ff
+SHA256: 2c59f63152946ba02459a187e5aa4f1910f04555705daf23e4ff7b636cf500cb
+Size: 22412
+
+Package: xarchiver
+Architecture: i686
+Installed-Size: 792
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.5.4.14-5
+Homepage: https://github.com/ib/xarchiver
+Depends: atk, binutils, bzip2, cpio, glib, gtk3, gzip, libandroid-shmem, libcairo-x, lzip, lzop, p7zip, tar, unrar, unzip, xz-utils, zip, zstd, zlib
+Description: GTK+ frontend to various command line archivers
+Filename: i686/xarchiver_0.5.4.14-5_i686.deb
+SHA1: c25b82b9cd17acbad26d63f921f8243229cf80de
+SHA256: 698c7f649cc3a4c55893481cf85535cc5bb0b43b496b0a105964138142ed4a73
+Size: 340016
+
+Package: xbitmaps
+Architecture: all
+Installed-Size: 484
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.2-10
+Homepage: https://xorg.freedesktop.org/
+Description: X.org Bitmap files
+Filename: all/xbitmaps_1.1.2-10_all.deb
+SHA1: fad82c6b2832ec9901e628d2f7d9a1010870e7e3
+SHA256: eb0b5dbc07bc624084d9023c1f5081b7f2a56cc3c50df709d8c2e7b620e8af0c
+Size: 18344
+
+Package: xcb-proto
+Architecture: all
+Installed-Size: 1056
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.13-9
+Homepage: https://xcb.freedesktop.org/
+Conflicts: xcbproto
+Replaces: xcbproto
+Description: XML-XCB protocol descriptions
+Filename: all/xcb-proto_1.13-9_all.deb
+SHA1: dc6321a93ead4b81b12527f123442b3b73a72c9a
+SHA256: abbd53956d0337167abe8ac85b819790ab0d99eb889c151a95d9178c946cd8cb
+Size: 102260
+
+Package: xcb-util-cursor
+Architecture: i686
+Installed-Size: 92
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.1.3-8
+Homepage: https://cgit.freedesktop.org/xcb/util-cursor
+Depends: libandroid-shmem, libxcb, xcb-util-image, xcb-util-renderutil
+Description: XCB cursor library
+Filename: i686/xcb-util-cursor_0.1.3-8_i686.deb
+SHA1: 6095a9219cbde0f1c77daa191674b921c2525571
+SHA256: 81e20fbc6411de85e92d24127e7b81ec65c93e265cef6987293e5f25d160cbbe
+Size: 8750
+
+Package: xcb-util-cursor-static
+Architecture: i686
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.1.3-8
+Homepage: https://cgit.freedesktop.org/xcb/util-cursor
+Depends: xcb-util-cursor (= 0.1.3-8)
+Description: Static libraries for xcb-util-cursor
+Filename: i686/xcb-util-cursor-static_0.1.3-8_i686.deb
+SHA1: d4afc28d66680874950bd0514f9b018271cead08
+SHA256: 8109be315c110362ee997ffaa37a699a189915645ecb3ad155cb40934c4d9f6a
+Size: 7550
+
+Package: xcb-util
+Architecture: i686
+Installed-Size: 108
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-9
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb
+Description: Utility libraries for XC Binding
+Filename: i686/xcb-util_0.4.0-9_i686.deb
+SHA1: 6d88023f7920b3c1e0f4fb46c2bd7ee585fe529b
+SHA256: 87178a9432bb673180a892974dfa55b0b5b5836e497afb60be8518c16ec7627b
+Size: 8594
+
+Package: xcb-util-image
+Architecture: i686
+Installed-Size: 120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libandroid-shmem, libxcb, xcb-util
+Description: Utility libraries for XC Binding - Port of Xlib's XImage and XShmImage functions
+Filename: i686/xcb-util-image_0.4.0-7_i686.deb
+SHA1: d49c4d00738374ec9b037e3a7feb5c3304fa81fa
+SHA256: 5e6e9209d43beeef064d24611b89e51786fcdb6ea56857c7c6c5b8052af358db
+Size: 14412
+
+Package: xcb-util-image-static
+Architecture: i686
+Installed-Size: 44
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-7
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util-image (= 0.4.0-7)
+Description: Static libraries for xcb-util-image
+Filename: i686/xcb-util-image-static_0.4.0-7_i686.deb
+SHA1: b41535229772dfa1f4aac3c73008605720f81803
+SHA256: c52fe71122c9766e1b659fb4b70755d59684dfa2fb3c07167281b7307fcfab4e
+Size: 6198
+
+Package: xcb-util-keysyms
+Architecture: i686
+Installed-Size: 80
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb
+Description: Utility libraries for XC Binding - Standard X key constants and conversion to/from keycodes
+Filename: i686/xcb-util-keysyms_0.4.0-7_i686.deb
+SHA1: 40072ab52f60ffec0981ad71baae6838e3825f2f
+SHA256: 65a5ba5b2f5928d0479219fd4379d7901b5f72d4a649074246fdf1a0c58cb10d
+Size: 4704
+
+Package: xcb-util-keysyms-static
+Architecture: i686
+Installed-Size: 40
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-7
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util-keysyms (= 0.4.0-7)
+Description: Static libraries for xcb-util-keysyms
+Filename: i686/xcb-util-keysyms-static_0.4.0-7_i686.deb
+SHA1: 2d29336a0d5ba2c03c40316a60db83eb19cce50a
+SHA256: 2069cda13be19e4718e249fc2d6296a8c307232e3d26e81ebffea178083a7e2a
+Size: 3464
+
+Package: xcb-util-renderutil
+Architecture: i686
+Installed-Size: 88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.3.9-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb
+Description: Utility libraries for XC Binding - Convenience functions for the Render extension
+Filename: i686/xcb-util-renderutil_0.3.9-7_i686.deb
+SHA1: 4903810f6077343a662eb157248eb4610a318629
+SHA256: f861b685357ab014d5c1851fd584a4724b6334d03110ba31fa7586c355d51373
+Size: 6330
+
+Package: xcb-util-renderutil-static
+Architecture: i686
+Installed-Size: 44
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.3.9-7
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util-renderutil (= 0.3.9-7)
+Description: Static libraries for xcb-util-renderutil
+Filename: i686/xcb-util-renderutil-static_0.3.9-7_i686.deb
+SHA1: 5f3224e2cab13ad471314f8d9de78cf0ef9d0835
+SHA256: 101bcf4816f6c0387ff4611ba79b82c58f05bb4b4c6fa7f7d5215019cce17273
+Size: 4362
+
+Package: xcb-util-static
+Architecture: i686
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-9
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util (= 0.4.0-9)
+Description: Static libraries for xcb-util
+Filename: i686/xcb-util-static_0.4.0-9_i686.deb
+SHA1: 170341ada0d5b42b78d8c6fab9d051ee398f8e9f
+SHA256: 8f469054fc145142674011886dd72daabefff5f91617975ecf7ec270ddd442d0
+Size: 6326
+
+Package: xcb-util-wm
+Architecture: i686
+Installed-Size: 272
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.1-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb
+Description: Utility libraries for XC Binding - client and window-manager helpers for ICCCM
+Filename: i686/xcb-util-wm_0.4.1-7_i686.deb
+SHA1: d290baeadd0f981306d37270eef52277e96e9eb7
+SHA256: 03c47a9af4411af53a8f515eccfc86c8d160f81b6ecdf989a318c7a9a6ae8190
+Size: 28046
+
+Package: xcb-util-wm-static
+Architecture: i686
+Installed-Size: 100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.1-7
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util-wm (= 0.4.1-7)
+Description: Static libraries for xcb-util-wm
+Filename: i686/xcb-util-wm-static_0.4.1-7_i686.deb
+SHA1: e020aa9a6550619e70596206a78a148be20ff390
+SHA256: b3eb5dafc40002528bf0341b94dbfeae8c210ea99a62517ee70656785239edd8
+Size: 12092
+
+Package: xcb-util-xrm
+Architecture: i686
+Installed-Size: 96
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3-8
+Homepage: https://github.com/Airblader/xcb-util-xrm/
+Depends: libxau, libxcb, libxdmcp, xcb-util
+Description: XCB utility functions for the X resource manager
+Filename: i686/xcb-util-xrm_1.3-8_i686.deb
+SHA1: 9f0f631de41bb93f6b4ff96dc219c969ab3e8b20
+SHA256: 4a706b33863a0bfec5a5e86d14ae1348861d70623ea50a5a764f6429045a11f4
+Size: 10828
+
+Package: xcb-util-xrm-static
+Architecture: i686
+Installed-Size: 56
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3-8
+Homepage: https://github.com/Airblader/xcb-util-xrm/
+Depends: xcb-util-xrm (= 1.3-8)
+Description: Static libraries for xcb-util-xrm
+Filename: i686/xcb-util-xrm-static_1.3-8_i686.deb
+SHA1: a37342ca2be20f0875f9c980a8e00566f3a04359
+SHA256: 43402750de9b2f2f5e560e5c27fb05944d5fd80dbbd684caf347ef04754c9315
+Size: 8220
+
+Package: xcompmgr
+Architecture: i686
+Installed-Size: 88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.8-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxcomposite, libxdamage, libxext, libxfixes, libxrender
+Description: Composite Window-effects manager for X.org
+Filename: i686/xcompmgr_1.1.8-5_i686.deb
+SHA1: 383588498b51fac093843c8771832cc4436e3534
+SHA256: ff3e19c21103ca742358c11bd3c615b608aa97804f6eb95ed1287273f092bdf7
+Size: 13084
+
+Package: xfce
+Architecture: all
+Installed-Size: 4
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0-2
+Homepage: https://github.com/termux/x11-packages
+Depends: thunar, xfce4-panel, xfce4-session, xfce4-settings, xfconf, xfwm4
+Description: A metapackage that installs all parts of the XFCE desktop environment
+Filename: all/xfce_1.0-2_all.deb
+SHA1: b8b7935bd02220d7ba138e81a9742c62aec295bc
+SHA256: 13e1e5199ee93dd1c0124999d8dcba31ee850b7b1f4a9143e572ca5d2b9d6f5a
+Size: 738
+
+Package: xfce4-panel
+Architecture: i686
+Installed-Size: 3952
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.15.0-1
+Homepage: https://www.xfce.org/
+Depends: desktop-file-utils, exo, hicolor-icon-theme, garcon, libwnck, libxfce4ui, xfconf
+Description: Panel for the XFCE environment
+Filename: i686/xfce4-panel_4.15.0-1_i686.deb
+SHA1: 6ce03a733795f5d386ae72f1e29a9ca18644203f
+SHA256: 2da5a4097782137499548b00e5d41a685d66fb57821da9baff7078e89f3b725d
+Size: 563120
+
+Package: xfce4-panel-static
+Architecture: i686
+Installed-Size: 1080
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.15.0-1
+Homepage: https://www.xfce.org/
+Depends: xfce4-panel (= 4.15.0-1)
+Description: Static libraries for xfce4-panel
+Filename: i686/xfce4-panel-static_4.15.0-1_i686.deb
+SHA1: 5d93a665c97511aee96aa9fd1d437daf952a32a4
+SHA256: ab5de7caf6797ddb543a756b01438fe4f0659ec05505699a205a88061b72d35c
+Size: 165432
+
+Package: xfce4-session
+Architecture: i686
+Installed-Size: 2020
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.0-4
+Homepage: https://www.xfce.org/
+Depends: gnupg, hicolor-icon-theme, libsm, libwnck, libxfce4ui, xfce4-settings, xfdesktop, xfwm4, xorg-iceauth, xorg-xrdb
+Description: A session manager for XFCE environment
+Filename: i686/xfce4-session_4.14.0-4_i686.deb
+SHA1: e97d7c3968b05757a199fde30e9647192db8b4b0
+SHA256: 582dc8eb1230c8012881b29a91f459cb29463dc31e1750a8af56a1211bcd15b5
+Size: 263608
+
+Package: xfce4-settings
+Architecture: i686
+Installed-Size: 3800
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.1-2
+Homepage: https://www.xfce.org/
+Depends: exo, garcon, libnotify, libxfce4ui, libxklavier, lxde-icon-theme
+Description: Settings manager for XFCE environment
+Filename: i686/xfce4-settings_4.14.1-2_i686.deb
+SHA1: 298593af87feb99495d3e7a4c589e8191f622ce0
+SHA256: ac8010f9fdd7693880accebc81fc6ee2245516b568a2fedbe350c89f1edeb9b9
+Size: 502924
+
+Package: xfconf
+Architecture: i686
+Installed-Size: 1280
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.1-5
+Homepage: https://www.xfce.org/
+Depends: dbus, libxfce4util
+Description: Flexible, easy-to-use configuration management system
+Filename: i686/xfconf_4.14.1-5_i686.deb
+SHA1: faf7933e59ae58e4ac61cb9acd1fa04dc5b62d33
+SHA256: 8504587c468ab719c6430ea93293d3e5eccec2fe2437a7accd0e198440664ad4
+Size: 118432
+
+Package: xfconf-static
+Architecture: i686
+Installed-Size: 160
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.1-5
+Homepage: https://www.xfce.org/
+Depends: xfconf (= 4.14.1-5)
+Description: Static libraries for xfconf
+Filename: i686/xfconf-static_4.14.1-5_i686.deb
+SHA1: fe2bd76616dc5ee90b8b45b1bd6fd4acf107219f
+SHA256: 04d9bb3854208bb116213161a85ec7aa9881f84b37a54329d3e9673a4918d988
+Size: 31906
+
+Package: xfdesktop
+Architecture: i686
+Installed-Size: 3152
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.1-3
+Homepage: https://www.xfce.org/
+Depends: exo, garcon, hicolor-icon-theme, libwnck, libxfce4ui, startup-notification, thunar
+Description: A desktop manager for XFCE environment
+Filename: i686/xfdesktop_4.14.1-3_i686.deb
+SHA1: 7e2818d67d96a30034f3c6af96ad5dcbed21c2c8
+SHA256: 9d4dc87c374c65416483bb3a05fa341b4144254b9f67a2520198be1d08a707f5
+Size: 789652
+
+Package: xfwm4
+Architecture: i686
+Installed-Size: 5228
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.0-3
+Homepage: https://www.xfce.org/
+Depends: hicolor-icon-theme, libepoxy, libwnck, libxfce4ui, startup-notification, xfconf
+Description: Window manager for XFCE environment
+Filename: i686/xfwm4_4.14.0-3_i686.deb
+SHA1: 341926fc113cc708f89507b4d8f7017db2245f07
+SHA256: c02ccee5aa126573674264e84e4d44eedf7b819a779e2b45b39f0eb2896dc45f
+Size: 358660
+
+Package: xkeyboard-config
+Architecture: all
+Installed-Size: 3960
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.28-1
+Homepage: https://www.freedesktop.org/wiki/Software/XKeyboardConfig/
+Description: X keyboard configuration files
+Filename: all/xkeyboard-config_2.28-1_all.deb
+SHA1: fe95ca9958890b95a4eb51dd3b6848c826d19d4f
+SHA256: a3c77749498a97fbfaf774840964ad9479d15517eae9a8d00d62516e05a93939
+Size: 333612
+
+Package: xorg-font-util
+Architecture: i686
+Installed-Size: 324
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.2-2
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org font utilities
+Filename: i686/xorg-font-util_1.3.2-2_i686.deb
+SHA1: 0d2dea134fe0920e06c5494438cb30cf9c2609cf
+SHA256: 4ba553b42a316a2218538e317f1f0596099bde6044649f46bd16fcc5c143fdf8
+Size: 24082
+
+Package: xorg-fonts-100dpi
+Architecture: all
+Installed-Size: 17292
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: fontconfig-utils, xorg-font-util, xorg-fonts-alias, xorg-fonts-encodings, xorg-mkfontscale
+Conflicts: xorg-fonts-lite
+Description: X.org 100dpi fonts
+Filename: all/xorg-fonts-100dpi_1.0.3-9_all.deb
+SHA1: 20a36733b822166622ec98549325a9ea8c96482b
+SHA256: f68ba300f7cae67b97aca61cf494baf584589825271be73125db26740616b860
+Size: 12382040
+
+Package: xorg-fonts-75dpi
+Architecture: all
+Installed-Size: 15996
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: fontconfig-utils, xorg-font-util, xorg-fonts-alias, xorg-fonts-encodings, xorg-mkfontscale
+Conflicts: xorg-fonts-lite
+Description: X.org 75dpi fonts
+Filename: all/xorg-fonts-75dpi_1.0.3-9_all.deb
+SHA1: 77325601df8d4d276dc78af3b009da8e5f28744e
+SHA256: a39f6b6bc7808e2f426da1f9b291529e979f26c0aecf8a291d19973ff6c94c96
+Size: 10726202
+
+Package: xorg-fonts-alias
+Architecture: all
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.3-7
+Homepage: https://xorg.freedesktop.org/
+Description: X.org font alias files
+Filename: all/xorg-fonts-alias_1.0.3-7_all.deb
+SHA1: 3f5962ffb466291e105321025a44f9c20345e325
+SHA256: 4814fe597cad2ff1ab66405deb9c397a413fa65ddbf2bbccf0002d0ea3c952aa
+Size: 2828
+
+Package: xorg-fonts-encodings
+Architecture: all
+Installed-Size: 808
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.5-4
+Homepage: https://xorg.freedesktop.org/
+Description: X.org font encoding files
+Filename: all/xorg-fonts-encodings_1.0.5-4_all.deb
+SHA1: 2da9403665534b76e9bb13e4f24c7e9ba2099429
+SHA256: 9e036e9695fad2149bb7d5e92e41ed874f373885906bbacf3679e21e6a4954af
+Size: 569400
+
+Package: xorg-iceauth
+Architecture: i686
+Installed-Size: 88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.8-3
+Homepage: https://xorg.freedesktop.org/
+Depends: libice
+Description: ICE authority file utility
+Filename: i686/xorg-iceauth_1.0.8-3_i686.deb
+SHA1: 179f1af98f1f9a0ff0877228cf0922f9cacd2265
+SHA256: 29b7e65ba24bcc5cd7582bc68d6c1ce2f3e143a3644078a5be887b5f7d022a4b
+Size: 11398
+
+Package: xorg-luit
+Architecture: i686
+Installed-Size: 96
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.1-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libfontenc
+Description: Filter that can be run between an arbitrary application and a UTF-8 terminal emulator
+Filename: i686/xorg-luit_1.1.1-4_i686.deb
+SHA1: 23a2852519c69df909e1ba9d5368cc3547dc0717
+SHA256: 23d5be820139d1c8da6d74b5f654cc9ce9cc0d9a385f1bcb465d42d30294a49f
+Size: 16416
+
+Package: xorg-mkfontscale
+Architecture: i686
+Installed-Size: 88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.1-7
+Homepage: https://xorg.freedesktop.org/
+Depends: findutils, freetype, libfontenc, zlib
+Conflicts: xorg-mkfontdir
+Replaces: xorg-mkfontdir
+Description: Create an index of scalable font files for X
+Filename: i686/xorg-mkfontscale_1.2.1-7_i686.deb
+SHA1: 902fad628f99770c16ef0a4287b50d4409cd8efb
+SHA256: 82d5e5841a49b5238704f74642bce693bc7f135d2ef663f39b43b5415897fee0
+Size: 17142
+
+Package: xorg-server-xvfb
+Architecture: i686
+Installed-Size: 1416
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.20.5-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libandroid-shmem, libdrm, libpixman, libx11, libxau, libxfont2, libxinerama, libxkbfile, libxshmfence, mesa, openssl, xkeyboard-config, xorg-xkbcomp
+Conflicts: xorg-xvfb
+Replaces: xorg-xvfb
+Description: X virtual framebuffer
+Filename: i686/xorg-server-xvfb_1.20.5-4_i686.deb
+SHA1: c4ff388ee2f1ff89bb69507bafae7cd9fb095c6c
+SHA256: 9a9a44b1a34836f20fa55deef08ad2c04cc6a43c781e11be0528b834686aed62
+Size: 575590
+
+Package: xorg-twm
+Architecture: i686
+Installed-Size: 224
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.10-12
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libsm, libx11, libxext, libxmu, libxt
+Description: Tab Window Manager for the X Window System
+Filename: i686/xorg-twm_1.0.10-12_i686.deb
+SHA1: 8e55d3526dc13a7d49d577267a3fc2ef7dc71ac2
+SHA256: 795d816b9bcfa92e2131f7967d15935591d73edf3aa983241111e4063e46627d
+Size: 77692
+
+Package: xorg-util-macros
+Architecture: all
+Installed-Size: 144
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.19.2-5
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org Autotools macros
+Filename: all/xorg-util-macros_1.19.2-5_all.deb
+SHA1: 69d9500d8255bd948400e9df61ff0f4eb96c6517
+SHA256: d2ac4a18094349646ca6bc218b4f874acf8f015bcfd87e1d69335b2727cc9390
+Size: 21496
+
+Package: xorg-xauth
+Architecture: i686
+Installed-Size: 100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxext, libxmu
+Description: X.Org authorization settings program
+Filename: i686/xorg-xauth_1.1-4_i686.deb
+SHA1: d3fd528aa5484bf2682d8153cc8dcb9531a20074
+SHA256: 71adf69bf8238f81e8c26da3520ae60cce25792ac8192da4e2d2306eb0e5eaa0
+Size: 17904
+
+Package: xorg-xcalc
+Architecture: i686
+Installed-Size: 136
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxaw, libxt, xorg-fonts-75dpi | xorg-fonts-100dpi
+Description: Scientific calculator for X
+Filename: i686/xorg-xcalc_1.1.0-4_i686.deb
+SHA1: 3041cd3335cb1c3d5f67324676d1ad599a32e099
+SHA256: 802fb74926ae53f76fa86ff097da7afd85396afe3864267f71cf3ffb3ad09e8b
+Size: 19302
+
+Package: xorg-xclock
+Architecture: i686
+Installed-Size: 116
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.9-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxaw, libxft, libxkbfile, libxmu, libxrender, libxt
+Conflicts: xclock
+Replaces: xclock
+Description: X clock
+Filename: i686/xorg-xclock_1.0.9-4_i686.deb
+SHA1: f1dc06f11f1e4f2fc061c4f0826a6de61b5940fe
+SHA256: 2d5e8bc8f944147a8587c00fa1f6660b6a99e42ff7c742e86ead6f22410e7d6d
+Size: 22630
+
+Package: xorg-xdpyinfo
+Architecture: i686
+Installed-Size: 88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.2-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxcb, libxcomposite, libxext, libxi, libxinerama, libxrender, libxtst, libxxf86dga, libxxf86vm
+Description: Display information utility for X
+Filename: i686/xorg-xdpyinfo_1.3.2-6_i686.deb
+SHA1: 50de0f815b5612d67fdaa35ae10e6745ab92b735
+SHA256: d2113184e33c176cd856680cd5bb68ae904d57a34451b0ea6b70e9bcf0e059f0
+Size: 12310
+
+Package: xorg-xev
+Architecture: i686
+Installed-Size: 84
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxrandr
+Description: Print contents of X events
+Filename: i686/xorg-xev_1.2.3-6_i686.deb
+SHA1: 26e674663bd20023447d999388e0f76c9d5f2520
+SHA256: 9695bca6beb56aa027e1e1535c733c38b365ae0110fb2a12fac9a0cf38c5b1fa
+Size: 10776
+
+Package: xorg-xhost
+Architecture: i686
+Installed-Size: 72
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.8-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxmu
+Description: Server access control program for X
+Filename: i686/xorg-xhost_1.0.8-1_i686.deb
+SHA1: 7801007d4068b06abd4f844446b03ac8d611c424
+SHA256: 6b2f289279a38c50b325f40f67ee711946638d17395c017637ba88f2f39e17d6
+Size: 8458
+
+Package: xorg-xkbcomp
+Architecture: i686
+Installed-Size: 236
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.4.2-7
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxkbfile
+Description: X Keyboard description compiler
+Filename: i686/xorg-xkbcomp_1.4.2-7_i686.deb
+SHA1: bbfcdd64730cca7cd80c84c2a5758f2477c39387
+SHA256: ac101c4f206fc87c0377ce9af85f701e88e581ed135cbf3c34d669c1180eed16
+Size: 68884
+
+Package: xorg-xlsfonts
+Architecture: i686
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.6-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: List available X fonts
+Filename: i686/xorg-xlsfonts_1.0.6-5_i686.deb
+SHA1: 51604a8bc90c2f92d622ccf467008a5ea9f5ca51
+SHA256: 8cf9816ba32df88f0678bf666da4434e1a533944e08f7dfa97206c412d31da93
+Size: 8214
+
+Package: xorg-xmessage
+Architecture: i686
+Installed-Size: 84
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.5-9
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxaw, libxt
+Description: Display a message or query in a window
+Filename: i686/xorg-xmessage_1.0.5-9_i686.deb
+SHA1: 6e504967fcea69b867098811afaa9dcd7d7eeaeb
+SHA256: 4bf59ff73e847b38e3a85b9dba56f47739e3f6b3f8ebd10504c71bd34435790c
+Size: 9690
+
+Package: xorg-xrdb
+Architecture: i686
+Installed-Size: 88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.0-3
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxmu
+Description: X server resource database utility
+Filename: i686/xorg-xrdb_1.2.0-3_i686.deb
+SHA1: b90c62fe581a109b48fa4125e02497ec470ac760
+SHA256: da142ea628bdeec7e17370917f389e54250eeb0f6dcd447b20fdb08dcdab1368
+Size: 14520
+
+Package: xorg-xsetroot
+Architecture: i686
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.2-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxcursor, libxmu
+Description: Classic X utility to set your root window background to a given pattern or color
+Filename: i686/xorg-xsetroot_1.1.2-8_i686.deb
+SHA1: 9ccd256105859a489641fa08d69016f301b4f862
+SHA256: 1eb2e206ea998733220d00624e397cc307572ed01adb9c518b003f8b09e81aef
+Size: 8264
+
+Package: xorgproto
+Architecture: all
+Installed-Size: 1748
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2019.2-2
+Homepage: https://xorg.freedesktop.org/
+Depends: xorg-util-macros
+Conflicts: x11-proto
+Replaces: x11-proto
+Description: X.Org X11 Protocol headers
+Filename: all/xorgproto_2019.2-2_all.deb
+SHA1: 49404c0fc96f14d57612ca41591d835e6a7b4875
+SHA256: 56d714062b92b9f96ad15527dfcc337ebef778c81492f7d2fa46f812d84681c3
+Size: 174222
+
+Package: xournal
+Architecture: i686
+Installed-Size: 680
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.8.2016-9
+Homepage: https://sourceforge.net/projects/xournal/
+Depends: atk, desktop-file-utils, fontconfig, freetype, glib, gtk2, hicolor-icon-theme, libandroid-shmem, libart-lgpl, libcairo, libgnomecanvas, pango-x, poppler, libx11, shared-mime-info, zlib
+Description: Notetaking and sketching application
+Filename: i686/xournal_0.4.8.2016-9_i686.deb
+SHA1: c08a324d8c1c655982cd83dc073bfd047643e246
+SHA256: c8c8e30ff2be3d2800e962d95f6d5dd31f51d7b28972ed5180f4db9a6959397e
+Size: 208892
+
+Package: xrdp
+Architecture: i686
+Installed-Size: 2328
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.9.11-2
+Homepage: https://github.com/neutrinolabs/xrdp
+Depends: libandroid-shmem, libcrypt, libice, libsm, libuuid, libx11, libxau, libxcb, libxfixes, libxdmcp, libxrandr, openssl, procps, tigervnc
+Description: An open source remote desktop protocol (RDP) server
+Filename: i686/xrdp_0.9.11-2_i686.deb
+SHA1: 5abc805f1e8fe02dbc0e6d57ea4ad923624e3c93
+SHA256: c05a9d90f44492e3de2140a28fc2d6279b72cd685f9669f84d39210739fee40c
+Size: 311892
+
+Package: xrdp-static
+Architecture: i686
+Installed-Size: 468
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.9.11-2
+Homepage: https://github.com/neutrinolabs/xrdp
+Depends: xrdp (= 0.9.11-2)
+Description: Static libraries for xrdp
+Filename: i686/xrdp-static_0.9.11-2_i686.deb
+SHA1: ca4b99bc6b80f5241bd474e60687cf6e689f7066
+SHA256: c166ccc046cc099977aeb90828506d3164821add1b863a6ac86c6379bf2630ba
+Size: 117766
+
+Package: xsel
+Architecture: i686
+Installed-Size: 88
+Maintainer: Doron Behar <me@doronbehar.com>
+Version: 1.2.0.20190505-4
+Homepage: http://www.kfish.org/software/xsel/
+Depends: libx11
+Description: Command-line program for getting and setting the contents of the X selection
+Filename: i686/xsel_1.2.0.20190505-4_i686.deb
+SHA1: ac8aa6c90cf5d48a2dd5117327ca6e97d7c7bd26
+SHA256: d5d34e2fdcf13dce0835c19cd43acfdc4976d0f88a87fa1d8e09886a69d4d83e
+Size: 12898
+
+Package: xterm
+Architecture: all
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 9999-4
+Homepage: https://github.com/termux/x11-packages
+Depends: aterm
+Description: A compatibility wrapper for Aterm
+Filename: all/xterm_9999-4_all.deb
+SHA1: 672b042baa00f8d9a8d52f2a5533fbf3ddfc2805
+SHA256: 9b6d8b95953ec8a371569b676f75c17ab90a6288ed8aeea827b18e31b11d22d1
+Size: 896
+
+Package: xtrans
+Architecture: all
+Installed-Size: 316
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.4.0-5
+Homepage: https://xorg.freedesktop.org/
+Description: X transport library
+Filename: all/xtrans_1.4.0-5_all.deb
+SHA1: 70035ff1c5d0f79230868f05d6c526452ca5cd97
+SHA256: 0b63be0baaac9703adfafd6b96dd8c8616a2be810058c7df54e0dec27b42039c
+Size: 42646
+
+Package: xwayland
+Architecture: i686
+Installed-Size: 1444
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.20.5-5
+Homepage: https://xorg.freedesktop.org/wiki/
+Depends: libandroid-shmem, libdrm, libpciaccess, libpixman, libx11, libxau, libxfont2, libxinerama, libxkbfile, libxshmfence, mesa, openssl, xkeyboard-config, xorg-xkbcomp, libwayland, libwayland-protocols, libepoxy
+Description: Wayland X11 server
+Filename: i686/xwayland_1.20.5-5_i686.deb
+SHA1: 4533518097b89cd4562752a0bc37a92dc13c96e4
+SHA256: 6cba81f5b11d4fee3f0c412540a9d851cc5f97cfba0486ff951e19d74f109ce5
+Size: 586648
+
