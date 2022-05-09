@@ -1,0 +1,565 @@
+Package: atomvm
+Architecture: i686
+Installed-Size: 152
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.git82624fbf-2
+Homepage: https://github.com/bettio/AtomVM
+Depends: zlib
+Description: The minimal Erlang VM implementation
+Filename: i686/atomvm_0.git82624fbf-2_i686.deb
+SHA1: d42e8b32d6b02843a489204262c44fcd72185dba
+SHA256: 74d904dc66c98398b16352c07d06f39bfd4c7763c2f67dd434e7abdf3d53ab1f
+Size: 38706
+
+Package: enscript
+Architecture: i686
+Installed-Size: 1816
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.6.6-4
+Homepage: http://git.savannah.gnu.org/cgit/ensript.git
+Depends: perl
+Description: Enscript converts ASCII text files to PostScript, HTML, RTF, ANSI and overstrikes
+Filename: i686/enscript_1.6.6-4_i686.deb
+SHA1: 53fa07d654038e711386c21a144f2fdba88ca3bb
+SHA256: aecd8b357b63ab645eca0ee7b0bc465964a3a4219d097ac5349a0bc13a45492b
+Size: 259866
+
+Package: geckodriver
+Architecture: i686
+Installed-Size: 5080
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.25.0-1
+Homepage: https://github.com/mozilla/geckodriver
+Description: Proxy for using W3C WebDriver-compatible clients to interact with Gecko-based browsers
+Filename: i686/geckodriver_0.25.0-1_i686.deb
+SHA1: f5665c9be039ce68abef4d07ee6edf590cd938ec
+SHA256: 497c188ad867c35b681c36986bdaf3a78f24045ef1b32bfe5a27a3bc9041ff1d
+Size: 1456052
+
+Package: gflags
+Architecture: i686
+Installed-Size: 408
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.2.2-5
+Homepage: https://github.com/gflags/gflags
+Breaks: gflags-dev
+Depends: libc++
+Replaces: gflags-dev
+Description: A C++ library that implements commandline flags processing
+Filename: i686/gflags_2.2.2-5_i686.deb
+SHA1: 68a744dee540cd0d74db13785cecd03cf8dd2bec
+SHA256: 05caeaaa94a7f61df21404d5ca6b535b18ad03115ea1d9da830bf76aad095e32
+Size: 78916
+
+Package: gitflow-avh
+Architecture: all
+Installed-Size: 448
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.12.3-3
+Homepage: https://github.com/petervanderdoes/gitflow/
+Depends: dash, git
+Description: Extend git with Vincent Driessen's branching model. The AVH Edition adds more functionality.
+Filename: all/gitflow-avh_1.12.3-3_all.deb
+SHA1: 1c5be8499e1897d416a3a8802bd058fc5d803716
+SHA256: 52722ec456d12cd0be731f5fb9d9dd8057dcb36df7f372fb1d378d18c1e1be6d
+Size: 31612
+
+Package: gopass
+Architecture: i686
+Installed-Size: 16120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.8.6-1
+Homepage: https://github.com/gopasspw/gopass
+Depends: git, gnupg
+Suggests: termux-api
+Description: The slightly more awesome standard unix password manager for teams.
+Filename: i686/gopass_1.8.6-1_i686.deb
+SHA1: 52a98e6d6b081eb29ea60ef3da5238f9242ef818
+SHA256: c5cf012a557dbe90acfad5694b0541aafb573e01846a7f1e4d1620d3dd72e770
+Size: 4713318
+
+Package: guile
+Architecture: i686
+Installed-Size: 45840
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.2.6-1
+Homepage: http://www.gnu.org/software/guile/
+Breaks: guile-dev
+Depends: libandroid-support, libffi, libgc, libgmp, libltdl, libunistring
+Replaces: guile-dev
+Description: Portable, embeddable Scheme implementation written in C
+Filename: i686/guile_2.2.6-1_i686.deb
+SHA1: bc3b6ead243b105bc43ea477db2fe12ba912a515
+SHA256: 6bb91ef48529f54c08e125c5bf3772acf627a545b404d8cb816db334c9e2cf4b
+Size: 5625406
+
+Package: guile-static
+Architecture: i686
+Installed-Size: 1784
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.2.6-1
+Homepage: http://www.gnu.org/software/guile/
+Depends: guile (= 2.2.6-1)
+Description: Static libraries for guile
+Filename: i686/guile-static_2.2.6-1_i686.deb
+SHA1: 3a00952bd0734c25de1d6a74f65b7168aca5f307
+SHA256: a8fd82d5a378eb782f1a202abebe7cdaa1ddec20f6032b73f19ac4022c353fc4
+Size: 419462
+
+Package: hiptext
+Architecture: i686
+Installed-Size: 588
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.2-7
+Homepage: https://github.com/jart/hiptext
+Depends: ffmpeg, freetype, gflags, google-glog, libjpeg-turbo, libpng, ncurses
+Description: Turn images into text better than caca/aalib
+Filename: i686/hiptext_0.2-7_i686.deb
+SHA1: 01604a81acc2bc6aae896c632262e36f8604ae83
+SHA256: ebca1b5c8b859c304b26806a0735eeff2799b0ead69369424df233922b49bf14
+Size: 226646
+
+Package: jigdo
+Architecture: i686
+Installed-Size: 436
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.8.0-1
+Homepage: http://atterer.org/jigdo/
+Depends: libbz2, libc++, libdb, wget, zlib
+Description: Distribute large images by sending and receiving the files that make them up
+Filename: i686/jigdo_0.8.0-1_i686.deb
+SHA1: e96bce82ef5503182e2fa895f7adb206354e9bd0
+SHA256: 2427369bb1ec26fa10b5c374116f0deab35d7b3fcfa0fc073914a654c19b0c7b
+Size: 137178
+
+Package: lesspipe
+Architecture: i686
+Installed-Size: 312
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.83-5
+Homepage: http://www-zeuthen.desy.de/~friebel/unix/lesspipe.html
+Depends: less
+Suggests: imagemagick, p7zip, unrar, unzip
+Description: An input filter for the pager less
+Filename: i686/lesspipe_1.83-5_i686.deb
+SHA1: b5069d71b26e9a8c8fcc2f9c67913a5910ac4144
+SHA256: 41d684de520b6e7b601d24ed576c0dc01e28ee171a3fb767dee0e009b73cc9dd
+Size: 35346
+
+Package: libburn
+Architecture: i686
+Installed-Size: 680
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.2-1
+Homepage: https://dev.lovelyhq.com/libburnia
+Breaks: libburn-dev
+Replaces: libburn-dev
+Description: Library for reading, mastering and writing optical discs
+Filename: i686/libburn_1.5.2-1_i686.deb
+SHA1: f0dbbf1163317dd776dacdde4074dfe6a36f3ae2
+SHA256: 3e21dc0dae830492ae09887df0d6e91249d9b1c18a56d76a736bb82859cf7ee8
+Size: 233442
+
+Package: libburn-static
+Architecture: i686
+Installed-Size: 1140
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.2-1
+Homepage: https://dev.lovelyhq.com/libburnia
+Depends: libburn (= 1.5.2-1)
+Description: Static libraries for libburn
+Filename: i686/libburn-static_1.5.2-1_i686.deb
+SHA1: 41857b6a9cbf52d8de4e515615541120abb89628
+SHA256: 0632571332489a3ad669082973e65aeee5cd17d989f9dfea0d6ec22fde339ea0
+Size: 313948
+
+Package: libisoburn
+Architecture: i686
+Installed-Size: 1708
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.2-1
+Homepage: https://dev.lovelyhq.com/libburnia
+Breaks: libisoburn-dev
+Depends: libburn, libisofs, readline
+Conflicts: xorriso
+Replaces: libisoburn-dev
+Description: Frontend for libraries libburn and libisofs
+Filename: i686/libisoburn_1.5.2-1_i686.deb
+SHA1: a493612d709183f7b93dddac1d968778bd5950c7
+SHA256: 0dad8b19747f7a633492d360f9e25fb4100c6ff338c3fc2c043b2a712de31592
+Size: 560280
+
+Package: libisoburn-static
+Architecture: i686
+Installed-Size: 2816
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.2-1
+Homepage: https://dev.lovelyhq.com/libburnia
+Depends: libisoburn (= 1.5.2-1)
+Description: Static libraries for libisoburn
+Filename: i686/libisoburn-static_1.5.2-1_i686.deb
+SHA1: f5a34663210bfee91e4327c37b149cf4bc3fd69b
+SHA256: d8d5d43c280529d90c5ac932834e31112d3e7434a7c5b7bb8dd444e9549258dc
+Size: 744504
+
+Package: libisofs
+Architecture: i686
+Installed-Size: 720
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.2-1
+Homepage: https://dev.lovelyhq.com/libburnia
+Breaks: libisofs-dev
+Depends: libiconv, zlib
+Replaces: libisofs-dev
+Description: Library to pack up hard disk files and directories into a ISO 9660 disk image
+Filename: i686/libisofs_1.5.2-1_i686.deb
+SHA1: 41c0f33c7bb15af092ed890d33597052b6cec3b1
+SHA256: afebcf52dbc10bba1b51c18524affa2e0aceb4799b70f6196fc6dd2f64e1ee2c
+Size: 214018
+
+Package: libisofs-static
+Architecture: i686
+Installed-Size: 1824
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.2-1
+Homepage: https://dev.lovelyhq.com/libburnia
+Depends: libisofs (= 1.5.2-1)
+Description: Static libraries for libisofs
+Filename: i686/libisofs-static_1.5.2-1_i686.deb
+SHA1: cef691d738ecacbd31ef0b8e4a4c285a1ce031d8
+SHA256: 9cb90f5d2f81c95cd7c54aa63e81bb0ffe9161a8a885bf9b722cb0dee2b82e00
+Size: 505362
+
+Package: libopenfec
+Architecture: i686
+Installed-Size: 816
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.4.2.4-5
+Homepage: http://openfec.org
+Breaks: libopenfec-dev
+Replaces: libopenfec-dev
+Description: Application-Level Forward Erasure Correction implementation library
+Filename: i686/libopenfec_1.4.2.4-5_i686.deb
+SHA1: 96b0edc38f5956cb4ea3b246921a7826c0504b8a
+SHA256: 837c1e0cb844a1c704e3f54819952078fc09a5c5409ce12455e5e8efde562ad9
+Size: 205122
+
+Package: metasploit
+Architecture: all
+Installed-Size: 48
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.0.65-1
+Homepage: https://www.metasploit.com/
+Depends: apr, apr-util, autoconf, bison, clang, coreutils, curl, findutils, git, libffi, libgmp, libiconv, libpcap, libsqlite, libtool, libxml2, libxslt, make, ncurses, ncurses, ncurses-utils, openssl, pkg-config, postgresql, readline, resolv-conf, ruby, tar, termux-elf-cleaner, termux-tools, unzip, wget, zip, zlib
+Description: Advanced open-source platform for developing, testing and using exploit code. (installer)
+Filename: all/metasploit_5.0.65-1_all.deb
+SHA1: 1bc0b62dce9b893a48cf6fb1f7c0e514c46a528e
+SHA256: 7881709be218b2e3e490918202b10f2c2957b48fa53e076906333ed5746dce85
+Size: 2724
+
+Package: pandoc
+Architecture: all
+Installed-Size: 97372
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.9-2
+Homepage: https://pandoc.org/
+Depends: qemu-user-x86_64
+Description: Universal markup converter
+Filename: all/pandoc_2.9-2_all.deb
+SHA1: 6c4188e497b3354b47fd5f89b852a63bed87ad7e
+SHA256: 17f0894f41cb61d41a85150fbbbd0f877b266a454961252dd063109443adfec3
+Size: 12497660
+
+Package: qemu-common
+Architecture: i686
+Installed-Size: 14140
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-1
+Homepage: https://www.qemu.org
+Depends: attr, capstone, glib, libandroid-shmem, libbz2, libc++, libcap, libgnutls, liblzo, libnettle, libpixman, ncurses, zlib
+Description: A set common files for the QEMU emulators
+Filename: i686/qemu-common_1:3.1.0-1_i686.deb
+SHA1: 5a463858e978b2307ac94bc520201e36cdcc1503
+SHA256: cd7f5351422a1572048f4e3ef154efee6c915b6eef9ddf24e54223b729722b7e
+Size: 3973246
+
+Package: qemu-system-aarch64-headless
+Architecture: i686
+Installed-Size: 9128
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-1
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, qemu-common (= 1:3.1.0-1)
+Conflicts: qemu-system-aarch64
+Description: A generic and open source machine emulator (aarch64)
+Filename: i686/qemu-system-aarch64-headless_1:3.1.0-1_i686.deb
+SHA1: b844d9e1fb063f4bc06daa3b2c827b4b030bb6d9
+SHA256: b221a04183b63cbc2e5775de1bf91fc90139f883d4a3ed2584a2beca1501ea6b
+Size: 2382960
+
+Package: qemu-system-arm-headless
+Architecture: i686
+Installed-Size: 8496
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-1
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, qemu-common (= 1:3.1.0-1)
+Conflicts: qemu-system-arm
+Description: A generic and open source machine emulator (arm)
+Filename: i686/qemu-system-arm-headless_1:3.1.0-1_i686.deb
+SHA1: 14ed913c5fd04f2d7523db00098f974c508c3f4e
+SHA256: e32142d835fcd364793fcb71e13a02509ed702d8cd9d25afa75a5b8b9f6417ab
+Size: 2233460
+
+Package: qemu-system-i386-headless
+Architecture: i686
+Installed-Size: 7520
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-1
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, qemu-common (= 1:3.1.0-1)
+Conflicts: qemu-system-i386
+Description: A generic and open source machine emulator and virtualizer (i386)
+Filename: i686/qemu-system-i386-headless_1:3.1.0-1_i686.deb
+SHA1: 60995eee25435622e40b0c9a27315635e96a680e
+SHA256: e21f345f953b04c5433a26a943c94603e11bc633bea34acb0b4390db17299dde
+Size: 1906216
+
+Package: qemu-system-riscv32-headless
+Architecture: i686
+Installed-Size: 4196
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-1
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, qemu-common (= 1:3.1.0-1)
+Conflicts: qemu-system-riscv32
+Description: A generic and open source machine emulator (riscv32)
+Filename: i686/qemu-system-riscv32-headless_1:3.1.0-1_i686.deb
+SHA1: 6c85e20a4a3a9d3bb77e90fe8ed10d9bc407186e
+SHA256: 150a3709d655ef9da527d8d2aaa42cb9cd5fc85261f8a625adf0c3cd30a1c08c
+Size: 1277716
+
+Package: qemu-system-riscv64-headless
+Architecture: i686
+Installed-Size: 4204
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-1
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, qemu-common (= 1:3.1.0-1)
+Conflicts: qemu-system-riscv64
+Description: A generic and open source machine emulator (riscv64)
+Filename: i686/qemu-system-riscv64-headless_1:3.1.0-1_i686.deb
+SHA1: ca2fe9a1d7addc92cb631dd8b5c71b334764cc65
+SHA256: a6c4aea1de4be47ec86a2bcf5c107d2a9734689037c9069772d3b53923b51177
+Size: 1281224
+
+Package: qemu-system-x86_64-headless
+Architecture: i686
+Installed-Size: 7568
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-1
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, qemu-common (= 1:3.1.0-1)
+Conflicts: qemu-system-x86_64
+Description: A generic and open source machine emulator and virtualizer (x86_64)
+Filename: i686/qemu-system-x86_64-headless_1:3.1.0-1_i686.deb
+SHA1: f7facdffd1ffd89c526efe620fe8cf4b284082ca
+SHA256: feb09363e761480277f5966b18b73e31af3163e200fdac596071c938ab101909
+Size: 1923258
+
+Package: qemu-user-aarch64
+Architecture: i686
+Installed-Size: 2060
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-1
+Homepage: https://www.qemu.org
+Depends: attr, capstone, glib, libandroid-shmem, libbz2, libc++, libcap, libgnutls, liblzo, libnettle, libpixman, ncurses, zlib
+Description: CPU usermode emulation (aarch64)
+Filename: i686/qemu-user-aarch64_1:3.1.0-1_i686.deb
+SHA1: c8256cac01c348c30f4c9e9fce218c220ff8e03c
+SHA256: 99acbb4ad9c598fc9068aaf573e75be50f7f4feb2d3946a9f239705ed5c978f7
+Size: 578222
+
+Package: qemu-user-arm
+Architecture: i686
+Installed-Size: 1556
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-1
+Homepage: https://www.qemu.org
+Depends: attr, capstone, glib, libandroid-shmem, libbz2, libc++, libcap, libgnutls, liblzo, libnettle, libpixman, ncurses, zlib
+Description: CPU usermode emulation (arm)
+Filename: i686/qemu-user-arm_1:3.1.0-1_i686.deb
+SHA1: 9b0e11ae23c105063c61619794cbf21557c26902
+SHA256: 74d81b0a81822cef572bcb8bb8f4afb7cd764febb8c6476718a03397f525225b
+Size: 465792
+
+Package: qemu-user-i386
+Architecture: i686
+Installed-Size: 1316
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-1
+Homepage: https://www.qemu.org
+Depends: attr, capstone, glib, libandroid-shmem, libbz2, libc++, libcap, libgnutls, liblzo, libnettle, libpixman, ncurses, zlib
+Description: CPU usermode emulation (i386)
+Filename: i686/qemu-user-i386_1:3.1.0-1_i686.deb
+SHA1: 9016d131d04a1c3651622a0b40a9c050c038df68
+SHA256: f23762e9a33c27ddfd9f71fad50c39c44c33b5d9f633c59bf694d4c571646f33
+Size: 379252
+
+Package: qemu-user-riscv32
+Architecture: i686
+Installed-Size: 1044
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-1
+Homepage: https://www.qemu.org
+Depends: attr, capstone, glib, libandroid-shmem, libbz2, libc++, libcap, libgnutls, liblzo, libnettle, libpixman, ncurses, zlib
+Description: CPU usermode emulation (riscv32)
+Filename: i686/qemu-user-riscv32_1:3.1.0-1_i686.deb
+SHA1: a7fcfe40ef3793c389d6f6995a67fb95734bebbf
+SHA256: 70b481cdceedc2bd0b778742b42102f6126fa95c2906ba9838a7279fb77bff74
+Size: 299934
+
+Package: qemu-user-riscv64
+Architecture: i686
+Installed-Size: 1060
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-1
+Homepage: https://www.qemu.org
+Depends: attr, capstone, glib, libandroid-shmem, libbz2, libc++, libcap, libgnutls, liblzo, libnettle, libpixman, ncurses, zlib
+Description: CPU usermode emulation (riscv64)
+Filename: i686/qemu-user-riscv64_1:3.1.0-1_i686.deb
+SHA1: 2941895f48278a9ceeee18bbe1c88ed135b70c09
+SHA256: 52eb3fad734b1891c39413e38c258a039044353736f2b450bb8795373aa6af78
+Size: 307338
+
+Package: qemu-user-x86_64
+Architecture: i686
+Installed-Size: 1340
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-1
+Homepage: https://www.qemu.org
+Depends: attr, capstone, glib, libandroid-shmem, libbz2, libc++, libcap, libgnutls, liblzo, libnettle, libpixman, ncurses, zlib
+Description: CPU usermode emulation (x86_64)
+Filename: i686/qemu-user-x86_64_1:3.1.0-1_i686.deb
+SHA1: 442571dcb9004c386e386a8fc3d2017bcbf2115e
+SHA256: d4338644e4b15e1badf591709b41ab9eedc4443683edbf92048f2c3d5994f98f
+Size: 390324
+
+Package: qemu-utils
+Architecture: i686
+Installed-Size: 3900
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-1
+Homepage: https://www.qemu.org
+Depends: capstone, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libnettle, libnfs, libssh2, libxml2, qemu-common (= 1:3.1.0-1)
+Description: A set of utilities for working with the QEMU emulators
+Filename: i686/qemu-utils_1:3.1.0-1_i686.deb
+SHA1: 211daba4bb1e0091e4d2763e51327500ae812f7a
+SHA256: 593d0bca75099d9f936b84ac893f3d3868f777b5ee74961d88824a9453e01c3a
+Size: 666872
+
+Package: shiori
+Architecture: i686
+Installed-Size: 16772
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.0
+Homepage: https://github.com/go-shiori/shiori
+Description: Simple bookmark manager
+Filename: i686/shiori_1.5.0_i686.deb
+SHA1: f2a3f7c83206f941418e367a325e7ada3d84de05
+SHA256: ac2723e842f701fa5d8645db5dda47981063a32cad8572392810d0c37c98a6cd
+Size: 5799122
+
+Package: shtool
+Architecture: i686
+Installed-Size: 524
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.8-4
+Homepage: http://www.gnu.org/software/shtool/
+Depends: perl
+Description: compilation of small but very stable and portable shell scripts into a single shell tool
+Filename: i686/shtool_2.0.8-4_i686.deb
+SHA1: 6959c52bce8b25940e93a67733548e932f3e4d8e
+SHA256: 9f05e14d0a6341fc834cabc03d457ed7ced8cfcf6e6ebde3bc1e493ba828b281
+Size: 112420
+
+Package: surfraw
+Architecture: i686
+Installed-Size: 684
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.3.0-5
+Homepage: https://gitlab.com/surfraw/Surfraw
+Depends: lynx, perl
+Description: Shell Users' Revolutionary Front Rage Against the Web
+Filename: i686/surfraw_2.3.0-5_i686.deb
+SHA1: f2604e258bd015c967965bb2cca25efc80673d37
+SHA256: 0717b5dba0705f01c1a33e3dfd7c5d93adc4aede55751ea3ca8e7581954029bf
+Size: 75372
+
+Package: tcc
+Architecture: i686
+Installed-Size: 1944
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:0.9.27-5
+Homepage: https://bellard.org/tcc/
+Description: Tiny C Compiler
+Filename: i686/tcc_1:0.9.27-5_i686.deb
+SHA1: 3b81dedafbb83e99a746adef99f04dea28ccaae9
+SHA256: 150d40e178f4e64277b2650b8a725753c19904d2198e9b44d7224a01bad4da4c
+Size: 425552
+
+Package: vlang
+Architecture: i686
+Installed-Size: 1596
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.1.20-4
+Homepage: https://github.com/vlang/v
+Depends: clang
+Description: Simple, fast, safe, compiled language for developing maintainable software
+Filename: i686/vlang_0.1.20-4_i686.deb
+SHA1: f1f39d99712a9e656d87f4964956bd4db42653a0
+SHA256: bf7834074ca8bb4df478e61519b0f96ea08db4a36f15ba592dcdd00a4ac49414
+Size: 319240
+
+Package: yara
+Architecture: i686
+Installed-Size: 784
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.11.0-1
+Homepage: https://github.com/VirusTotal/yara
+Breaks: yara-dev
+Depends: file, openssl
+Replaces: yara-dev
+Description: Tool aimed at helping malware researchers to identify and classify malware samples
+Filename: i686/yara_3.11.0-1_i686.deb
+SHA1: b9bce6e3e7490aed1446b9c516d7ca47b35c4b6a
+SHA256: ac95462d3d663a1342e4819c065123f3b0cbe78db163fb858a0a3388f4f71b04
+Size: 147832
+
+Package: yara-static
+Architecture: i686
+Installed-Size: 440
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.11.0-1
+Homepage: https://github.com/VirusTotal/yara
+Depends: yara (= 3.11.0-1)
+Description: Static libraries for yara
+Filename: i686/yara-static_3.11.0-1_i686.deb
+SHA1: 4ce7be2c06ffa790126923409e9e4c7f292a6a34
+SHA256: 5d4d2b97d6a1bf501240d95ff25d2d2001a930162d018ed35a1aa38d6743dfe4
+Size: 122264
+
+Package: zeronet
+Architecture: all
+Installed-Size: 6252
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.7.1-3
+Homepage: https://zeronet.io/
+Depends: bash, clang, make, openssl-tool, pkg-config, python
+Recommends: tor
+Description: Decentralized websites using Bitcoin crypto and BitTorrent network
+Filename: all/zeronet_0.7.1-3_all.deb
+SHA1: d33532844ae4c2586b0c2f9c57178d75ff824939
+SHA256: d6711efbb91861e0a805fcc3158f2f365f3007369fbc3ab1768e942fe3411635
+Size: 1107900
+
