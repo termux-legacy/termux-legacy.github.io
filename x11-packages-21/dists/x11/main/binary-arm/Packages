@@ -1,0 +1,3881 @@
+Package: adwaita-icon-theme
+Architecture: all
+Installed-Size: 42468
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.34.3-1
+Homepage: https://www.gnome.org
+Depends: hicolor-icon-theme
+Description: Freedesktop.org Hicolor icon theme
+Filename: all/adwaita-icon-theme_3.34.3-1_all.deb
+SHA1: 12f874eb08be39e412a3d1186fc57526dff3ca5c
+SHA256: 28df1544c21483f0aa2b53bf8dcae1d1bbbe261e320790697b78972125e901c7
+Size: 10798212
+
+Package: aterm
+Architecture: arm
+Installed-Size: 156
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.1-15
+Homepage: https://sourceforge.net/projects/aterm/
+Depends: libice, libsm, libx11, libxext, xorg-fonts-75dpi | xorg-fonts-100dpi
+Description: An xterm replacement with transparency support
+Filename: arm/aterm_1.0.1-15_arm.deb
+SHA1: f305e882b7ddaedf981e7551c1e156b7dccaa69e
+SHA256: 60333dd4e05d58e3bc1ed7d9b8ce155e73232bd9a5683ae861e7eeda6362c9a9
+Size: 58906
+
+Package: atk
+Architecture: arm
+Installed-Size: 444
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.34.1-1
+Homepage: https://www.gtk.org
+Depends: glib
+Conflicts: libatk
+Replaces: libatk
+Description: The interface definitions of accessibility infrastructure
+Filename: arm/atk_2.34.1-1_arm.deb
+SHA1: 1fbf6790636f1035b321cfbdf3b5910f187f194d
+SHA256: 686d5680d72242ee276587c4260a05ff7a73334c20c6a8e92e13a2c8bb607b6f
+Size: 64542
+
+Package: bochs
+Architecture: arm
+Installed-Size: 4292
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.6.9-3
+Homepage: http://bochs.sourceforge.net/
+Depends: atk, fontconfig, freetype, gdk-pixbuf, glib, gtk2, pango-x, libc++, libcairo-x, libgraphite, libx11, libxpm, libxrandr, ncurses, readline
+Description: Bochs is a highly portable open source IA-32 (x86) PC emulator and debugger written in C++.
+Filename: arm/bochs_2.6.9-3_arm.deb
+SHA1: e7fea036fe63276d9dcaaf4eb4003345ab2718a6
+SHA256: 0d7b5eb22196a814e1e3852b10829f3c7a980b933bc7749f3ee3e4a931ab78ce
+Size: 1241634
+
+Package: dbus
+Architecture: arm
+Installed-Size: 1480
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.12.16-7
+Homepage: https://dbus.freedesktop.org
+Breaks: dbus-dev
+Depends: libexpat, libx11
+Replaces: dbus-dev
+Description: Freedesktop.org message bus system
+Filename: arm/dbus_1.12.16-7_arm.deb
+SHA1: 9e7a908bf683253a5c922b50f61e9c80789b48c8
+SHA256: 2f6fb7baaf419ab4716ba767b0517ec338e0cfc10162d4f7e3eb5e951a5c2231
+Size: 398628
+
+Package: dbus-glib
+Architecture: arm
+Installed-Size: 328
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.110-5
+Homepage: https://dbus.freedesktop.org
+Breaks: dbus-glib-dev
+Depends: dbus, glib
+Replaces: dbus-glib-dev
+Description: GLib bindings for DBUS
+Filename: arm/dbus-glib_0.110-5_arm.deb
+SHA1: 442c32ac57860a5aa8977b7d486dadcd9d27ef1f
+SHA256: 5541695eb35f887716806d37c34562277ecc153241d5c0cbbf8896ce621fdd31
+Size: 64770
+
+Package: dbus-glib-static
+Architecture: arm
+Installed-Size: 204
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.110-5
+Homepage: https://dbus.freedesktop.org
+Depends: dbus-glib (= 0.110-5)
+Description: Static libraries for dbus-glib
+Filename: arm/dbus-glib-static_0.110-5_arm.deb
+SHA1: 37b49cd8bd3d0f4406dcdf597cddcae71892c83e
+SHA256: e5530b3ae6f51253d927b3f2f8781752ff0a4ceab7f2a7e8416300a653ffc307
+Size: 49936
+
+Package: dbus-static
+Architecture: arm
+Installed-Size: 468
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.12.16-7
+Homepage: https://dbus.freedesktop.org
+Depends: dbus (= 1.12.16-7)
+Description: Static libraries for dbus
+Filename: arm/dbus-static_1.12.16-7_arm.deb
+SHA1: 9cbc42810e663728f06c4b390e7384f379eacc67
+SHA256: 1812626ff67677265d2f6b15f71dfdca17bcb4f44677a9a243a871b209f37ff1
+Size: 120632
+
+Package: desktop-file-utils
+Architecture: arm
+Installed-Size: 196
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.24-2
+Homepage: https://www.freedesktop.org/wiki/Software/desktop-file-utils
+Depends: glib
+Description: Command line utilities for working with desktop entries
+Filename: arm/desktop-file-utils_0.24-2_arm.deb
+SHA1: 2933b67b100c1fcd6da1e642209d053812861d6a
+SHA256: ebf368a438e0ead25403e7ead2f3a13d4c11937e4088d433379218bb9344021e
+Size: 32452
+
+Package: dmenu
+Architecture: arm
+Installed-Size: 100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.9-5
+Homepage: https://tools.suckless.org/dmenu/
+Depends: dash, freetype, libxinerama, libx11, libxft
+Description: Generic menu for X
+Filename: arm/dmenu_4.9-5_arm.deb
+SHA1: 5c08f44a91100ebd19d3bbca239962aba2c94daf
+SHA256: e5ca9aa1ecce78c8491645c67fd1d5a4a986d71f1e601da17b1ac6ccb9707616
+Size: 14280
+
+Package: dosbox
+Architecture: arm
+Installed-Size: 1400
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.74.3-4
+Homepage: https://sourceforge.net/projects/dosbox/
+Depends: libc++, libpng, libx11, sdl, sdl-net, zlib
+Description: Emulator with builtin DOS for running DOS Games
+Filename: arm/dosbox_0.74.3-4_arm.deb
+SHA1: 543c1424754d94821b5ec5561b846dff4e848752
+SHA256: 4adaf41c801c57ad03efbd220bb2cb7ea6da1c3f7af8676635b2a1bc086f23ad
+Size: 536986
+
+Package: dwm
+Architecture: arm
+Installed-Size: 92
+Maintainer: Tristan Ross <spaceboyross@yandex.com>
+Version: 6.2-5
+Homepage: https://dwm.suckless.org/
+Depends: libx11, libxinerama, libxft, freetype, st, dmenu
+Description: A dynamic window manager for X
+Filename: arm/dwm_6.2-5_arm.deb
+SHA1: 4b5124ba25d53f94e65b6035aebb69c2cd92b6f1
+SHA256: 73d43fe4c6a64a7b10f93522d68ee247490c7cd7e757cd2fbd04388eafadb20c
+Size: 21160
+
+Package: emacs-x
+Architecture: arm
+Installed-Size: 97768
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 26.3-3
+Homepage: https://www.gnu.org/software/emacs/
+Depends: atk, fontconfig, freetype, gdk-pixbuf, giflib, glib, gtk3, libandroid-shmem, libcairo-x, libgnutls, libice, libjpeg-turbo, libpng, librsvg, libsm, libtiff, libx11, libxcb, libxext, libxfixes, libxft, libxinerama, libxml2, libxpm, libxrandr, libxrender, littlecms, ncurses, pango-x, zlib
+Conflicts: emacs
+Replaces: emacs
+Provides: emacs
+Description: Extensible, customizable text editor-and more (with X11 support)
+Filename: arm/emacs-x_26.3-3_arm.deb
+SHA1: 530d1b5a864abbe86313d5428c7e840176d0c8da
+SHA256: 6e1bbb65b703452701cd93b76041da73dec65cb3e1c69a0fa95488d29669130b
+Size: 34879160
+
+Package: exo
+Architecture: arm
+Installed-Size: 3468
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.12.10-1
+Homepage: https://www.xfce.org/
+Depends: hicolor-icon-theme, libxfce4ui
+Conflicts: libexo
+Replaces: libexo
+Provides: libexo
+Description: Application library for XFCE
+Filename: arm/exo_0.12.10-1_arm.deb
+SHA1: 638a127e051d9e39de1418746b42351d641ddf80
+SHA256: d9547aa79785c360643fbde233b8164c81e722efd296921f8fd496fe0f373867
+Size: 409018
+
+Package: exo-static
+Architecture: arm
+Installed-Size: 660
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.12.10-1
+Homepage: https://www.xfce.org/
+Depends: exo (= 0.12.10-1)
+Description: Static libraries for exo
+Filename: arm/exo-static_0.12.10-1_arm.deb
+SHA1: 20ef675fc47584c1037fb0c6d0b9a84592cf0051
+SHA256: c75982d7fbd087eadcc6b0680080ec59ba710e5653f7591421203c722394a5db
+Size: 127942
+
+Package: feh
+Architecture: arm
+Installed-Size: 504
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.3-1
+Homepage: https://feh.finalrewind.org/
+Depends: imlib2, libandroid-shmem, libcurl, libexif, libpng, libx11, libxinerama
+Description: Fast and light imlib2-based image viewer
+Filename: arm/feh_3.3-1_arm.deb
+SHA1: fe9695864feefe0b121ecd35267ebcfffe3de066
+SHA256: 2d3ebf85a42680495871f51d442c87c3e7f6ede77009a1c072341f00f34aefdc
+Size: 157150
+
+Package: florence
+Architecture: arm
+Installed-Size: 1096
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.6.3-11
+Homepage: https://sourceforge.net/projects/florence/
+Depends: atk, fontconfig, freetype, fribidi, gdk-pixbuf, glib, gstreamer, gtk3, harfbuzz, libandroid-shmem, libcairo-x, libcroco, libpixman, libpng, librsvg, libx11, libxcb, libxext, libxi, libxml2, libxrender, libxtst, pango-x, zlib
+Description: A configurable on-screen virtual keyboard
+Filename: arm/florence_0.6.3-11_arm.deb
+SHA1: d490b73e8f9ab3bd04b011681a5d34c26ce8c6e5
+SHA256: e4cf7bc0473d2d20eab0c84834c058548be1bb82a62fd796fc0d25cde88dbbd6
+Size: 152498
+
+Package: fltk
+Architecture: arm
+Installed-Size: 2476
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.5-6
+Homepage: https://www.fltk.org/
+Depends: fontconfig, glu, libc++, libjpeg-turbo, libpng, libx11, libxcursor, libxext, libxfixes, libxft, libxinerama, libxrender, mesa, zlib
+Description: Graphical user interface toolkit for X
+Filename: arm/fltk_1.3.5-6_arm.deb
+SHA1: 0915bc12a51624a88972916abf1831d9cf2bc9a1
+SHA256: 6e3f204b246855aaf2a5ee31aa294160498a9df491c151d207621caf4188b326
+Size: 702748
+
+Package: fltk-editor
+Architecture: arm
+Installed-Size: 56
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0-termux-9
+Homepage: https://www.fltk.org/
+Depends: fltk, libc++
+Description: Simple text editor
+Filename: arm/fltk-editor_1.0-termux-9_arm.deb
+SHA1: 9d5f442b15dd46a7ed8c045fba825d231e0d9886
+SHA256: 675d47c50f20e4f9da54a09b8875655a5609f7f60bee00673f2aec3279f4be1c
+Size: 11506
+
+Package: fltk-static
+Architecture: arm
+Installed-Size: 2444
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.5-6
+Homepage: https://www.fltk.org/
+Depends: fltk (= 1.3.5-6)
+Description: Static libraries for fltk
+Filename: arm/fltk-static_1.3.5-6_arm.deb
+SHA1: 6ee71a614f21a19c71a8a207d1d04441662b123e
+SHA256: 1ecb50b2edb6d106d3408502ea7f7d8b15b30cf2ef2f5911944674ffe86d2a66
+Size: 582122
+
+Package: fluxbox
+Architecture: arm
+Installed-Size: 1888
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.7-16
+Homepage: http://www.fluxbox.org
+Depends: feh, fribidi, imlib2, libc++, libxft, libxinerama, libxpm, libxrandr, xorg-xmessage
+Recommends: aterm
+Description: A lightweight and highly-configurable window manager
+Filename: arm/fluxbox_1.3.7-16_arm.deb
+SHA1: b52b40325a1a0f0c387910548b03471487e575f1
+SHA256: 7b17d174a17b6244dbc7350cafb87db5953a82061fca4eb43cc5b00c42d19bf7
+Size: 425736
+
+Package: freeglut
+Architecture: arm
+Installed-Size: 356
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.2.1-1
+Homepage: http://freeglut.sourceforge.net/
+Depends: glu, libxi, libxrandr, mesa
+Description: Provides functionality for small OpenGL programs
+Filename: arm/freeglut_3.2.1-1_arm.deb
+SHA1: 519829e39e7fb94dc84c6f26cd978e9520117a65
+SHA256: a028afd4b55e7e7d0c00e231c8101a3835a2923306ef2c118d2ca7627cb62aa2
+Size: 81014
+
+Package: freeglut-static
+Architecture: arm
+Installed-Size: 448
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.2.1-1
+Homepage: http://freeglut.sourceforge.net/
+Depends: freeglut (= 3.2.1-1)
+Description: Static libraries for freeglut
+Filename: arm/freeglut-static_3.2.1-1_arm.deb
+SHA1: 109a62a6d8857f013d3321efced088b667e7b3a5
+SHA256: 8b9c04cd0d92b21c9dd5ea54a35d84466f7e6bf1613a22824932dc9712116841
+Size: 94950
+
+Package: galculator
+Architecture: arm
+Installed-Size: 952
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.1.4-9
+Homepage: https://sourceforge.net/projects/galculator/
+Depends: atk, gdk-pixbuf, glib, gtk3, libandroid-shmem, libcairo-x, pango-x
+Description: GTK+ based scientific calculator
+Filename: arm/galculator_2.1.4-9_arm.deb
+SHA1: 67163653343c7bc36750b3a3dabddadeef8314a5
+SHA256: a73663edb3f81923bab9fbf14c4ce698f703262ffdb9d989ca1dc2bcf6bf0078
+Size: 65424
+
+Package: garcon
+Architecture: arm
+Installed-Size: 1156
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.6.4-3
+Homepage: https://www.xfce.org/
+Depends: libxfce4ui
+Conflicts: libgarcon
+Replaces: libgarcon
+Provides: libgarcon
+Description: Implementation of the freedesktop.org menu specification
+Filename: arm/garcon_0.6.4-3_arm.deb
+SHA1: a2451d485398c339791e47d6f74e65eb3410bf18
+SHA256: d9c686168d025d3f528dec752ad253a0a245248a08ea2d0a938bbfc6ce4d4eb3
+Size: 84730
+
+Package: garcon-static
+Architecture: arm
+Installed-Size: 232
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.6.4-3
+Homepage: https://www.xfce.org/
+Depends: garcon (= 0.6.4-3)
+Description: Static libraries for garcon
+Filename: arm/garcon-static_0.6.4-3_arm.deb
+SHA1: f052a2ffce065c49c3426799a9b03a4583a8950e
+SHA256: 2906003151ed175e7b473a18f47486ddda65247120d3000719be66041b22f5cb
+Size: 48296
+
+Package: geany
+Architecture: arm
+Installed-Size: 8012
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.36.0-1
+Homepage: https://www.geany.org/
+Depends: atk, fontconfig, freetype, fribidi, gdk-pixbuf, glib, gtk3, harfbuzz, libandroid-glob, libandroid-shmem, libbz2, libc++, libcairo-x, libffi, libgraphite, liblzma, libpixman, libpng, libuuid, libx11, libxau, libxcb, libxdmcp, libxext, libxml2, libxrender, pango-x, pcre, zlib
+Recommends: clang, make
+Description: Fast and lightweight IDE
+Filename: arm/geany_1.36.0-1_arm.deb
+SHA1: 5231c75504d89c23844e55081d56c628288a6779
+SHA256: 3d2c9eb72b493557717e5d90503e88efc4b559e62eebfcd1972e354fc09f8157
+Size: 2396918
+
+Package: geany-static
+Architecture: arm
+Installed-Size: 5656
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.36.0-1
+Homepage: https://www.geany.org/
+Depends: geany (= 1.36.0-1)
+Description: Static libraries for geany
+Filename: arm/geany-static_1.36.0-1_arm.deb
+SHA1: f6b848d424a06d5dd8ae7bbd409a6621ea096250
+SHA256: b57ccf1faef5400122ea0b713b56011b2ca100538b09affee8729ebe8d57c576
+Size: 1152260
+
+Package: glu
+Architecture: arm
+Installed-Size: 332
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 9.0.1-4
+Homepage: https://cgit.freedesktop.org/mesa/glu/
+Depends: libandroid-shmem, libc++, libdrm, libexpat, libx11, libxau, libxcb, libxdamage, libxdmcp, libxext, libxfixes, libxshmfence, mesa, zlib
+Conflicts: libglu
+Replaces: libglu
+Description: Mesa OpenGL Utility library
+Filename: arm/glu_9.0.1-4_arm.deb
+SHA1: 3e42bf5272b2b83a816144129d871ab5b2e69674
+SHA256: e110ea438e9e22861f20accc064f8301cae61feb1febc75b6c4e73c1477c8443
+Size: 119946
+
+Package: glu-static
+Architecture: arm
+Installed-Size: 612
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 9.0.1-4
+Homepage: https://cgit.freedesktop.org/mesa/glu/
+Depends: glu (= 9.0.1-4)
+Description: Static libraries for glu
+Filename: arm/glu-static_9.0.1-4_arm.deb
+SHA1: 7d8bdc03fb7da4d9495b1b2f05b7e535bfa9ad0f
+SHA256: 454f8784eb94bd7ac0dde120de979433af05ae49841ddce658f38852a92889e4
+Size: 161812
+
+Package: gpg-crypter
+Architecture: arm
+Installed-Size: 160
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.1-5
+Homepage: https://sourceforge.net/projects/gpg-crypter/
+Depends: atk, gdk-pixbuf, glib, gpgme, gtk3, libandroid-shmem, libassuan, libcairo-x, libgpg-error, pango-x, pinentry-gtk
+Description: A graphical front-end to GnuPG(GPG) using the GTK3 toolkit and libgpgme
+Filename: arm/gpg-crypter_0.4.1-5_arm.deb
+SHA1: ee8e1d54ad459cbefa8608259de3f80e74bb7176
+SHA256: fefcf06cac78dba79d71a0040b61acffb51b26bfa9e1ab25131f5e7bc5c082ef
+Size: 16628
+
+Package: gtk-update-icon-cache
+Architecture: arm
+Installed-Size: 56
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.24.12-1
+Homepage: https://www.gtk.org/
+Depends: glib, gdk-pixbuf, libandroid-shmem
+Description: GTK+ icon cache updater
+Filename: arm/gtk-update-icon-cache_3.24.12-1_arm.deb
+SHA1: f0f6c538e75ff0678b37cf55cd9a6a75a3f90161
+SHA256: 172566fcde861afbd0afc6e533660b9d416937353d02b31fa9b627b5bac97aba
+Size: 12002
+
+Package: gtk2
+Architecture: arm
+Installed-Size: 6768
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.24.32-16
+Homepage: https://www.gtk.org/
+Depends: adwaita-icon-theme, atk, coreutils, desktop-file-utils, glib-bin, gtk-update-icon-cache, libcairo-x, librsvg, libxcomposite, libxcursor, libxdamage, libxi, libxinerama, libxrandr, pango-x, shared-mime-info, ttf-dejavu
+Conflicts: libgtk2
+Replaces: libgtk2
+Description: GObject-based multi-platform GUI toolkit (legacy)
+Filename: arm/gtk2_2.24.32-16_arm.deb
+SHA1: cdf60a9231e71a583aba18f3356dc945e58d2164
+SHA256: a34f155c375bdc6e9284f6bdc48f2002950490cb7ef81b4396ff83ed1c110a24
+Size: 1774630
+
+Package: gtk2-static
+Architecture: arm
+Installed-Size: 7892
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.24.32-16
+Homepage: https://www.gtk.org/
+Depends: gtk2 (= 2.24.32-16)
+Description: Static libraries for gtk2
+Filename: arm/gtk2-static_2.24.32-16_arm.deb
+SHA1: efa5b9a32067aa51accda13727abc1d77468c75d
+SHA256: dc74547d1532619a59ce57e20d089df9d2c2ce325df3bd6841aae68542903e10
+Size: 1942940
+
+Package: gtk3
+Architecture: arm
+Installed-Size: 12572
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.24.12-1
+Homepage: https://www.gtk.org/
+Depends: adwaita-icon-theme, atk, coreutils, desktop-file-utils, gdk-pixbuf, glib, glib-bin, gtk-update-icon-cache, libcairo-x, libepoxy, libxcomposite, libxcursor, libxdamage, libxfixes, libxi, libxinerama, libxrandr, pango-x, shared-mime-info, ttf-dejavu
+Conflicts: libgtk3
+Replaces: libgtk3
+Description: GObject-based multi-platform GUI toolkit
+Filename: arm/gtk3_3.24.12-1_arm.deb
+SHA1: 9bada2cce953db978fbad504650717f1cb0f68eb
+SHA256: 6ca13ee3e40ae47fb28b81d15b2aeaa4fa29ef921e7729ffab547994de52835b
+Size: 2840270
+
+Package: gtk3-static
+Architecture: arm
+Installed-Size: 11364
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.24.12-1
+Homepage: https://www.gtk.org/
+Depends: gtk3 (= 3.24.12-1)
+Description: Static libraries for gtk3
+Filename: arm/gtk3-static_3.24.12-1_arm.deb
+SHA1: 36b9e978a2970cdfb231fcbf673e7ed9767173d6
+SHA256: c0702eea7a95bceb9a03b092afffed9d27452ac7ad7a03965f3517f553cca4ca
+Size: 2600202
+
+Package: hexchat
+Architecture: arm
+Installed-Size: 1068
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.14.2-7
+Homepage: https://hexchat.github.io/
+Depends: gdk-pixbuf, glib, gtk2, liblua, libnotify, libx11, openssl, pango-x, python
+Description: A popular and easy to use graphical IRC (chat) client
+Filename: arm/hexchat_2.14.2-7_arm.deb
+SHA1: decee33c30407fb7f630b3f5fc5474c7333ccb39
+SHA256: 761a4f4593eb770867f74a6e76532aa046fedaaba47e21eb2e90cb2d36955876
+Size: 307718
+
+Package: hicolor-icon-theme
+Architecture: all
+Installed-Size: 100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.17-12
+Homepage: https://www.freedesktop.org/wiki/Software/icon-theme/
+Description: Freedesktop.org Hicolor icon theme
+Filename: all/hicolor-icon-theme_0.17-12_all.deb
+SHA1: 0fe8b97eb09cfe5d53ff3903f2481d0789f570b6
+SHA256: fa8e27771a35b63160d050473d299c5416d57c981bbdbb20674a526c67d4a7a6
+Size: 4708
+
+Package: imagemagick-x
+Architecture: arm
+Installed-Size: 18312
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.9.5-1
+Homepage: https://www.imagemagick.org/
+Depends: fftw, fontconfig, freetype, fribidi, glib, harfbuzz, libandroid-support, libbz2, libcairo-x, libffi, libgraphite, libjpeg-turbo, liblzma, libpixman, libpng, libtiff, libuuid, libwebp, libx11, libxau, libxcb, libxdmcp, libxext, libxml2, littlecms, openjpeg, pango-x, pcre, zlib
+Conflicts: imagemagick
+Replaces: imagemagick
+Provides: imagemagick
+Description: Suite to create, edit, compose, or convert images in a variety of formats
+Filename: arm/imagemagick-x_7.0.9.5-1_arm.deb
+SHA1: f04bb5666c5bd008d02b448cc32db647ef90ce44
+SHA256: 3c7f286632d679c8e5f6b67218014efaa0fe7eba7bac5e935199b1dd48a5301f
+Size: 6862460
+
+Package: imagemagick-x-static
+Architecture: arm
+Installed-Size: 6412
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.9.5-1
+Homepage: https://www.imagemagick.org/
+Depends: imagemagick-x (= 7.0.9.5-1)
+Description: Static libraries for imagemagick-x
+Filename: arm/imagemagick-x-static_7.0.9.5-1_arm.deb
+SHA1: 7ffda0970545c58fcc22580fdfa57c33a48bf194
+SHA256: 1fcf4dac96aa7fafc6785af529245c37912c40ab8815ff809ab1986a715f885b
+Size: 1743754
+
+Package: imlib2
+Architecture: arm
+Installed-Size: 1076
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.1-10
+Homepage: https://sourceforge.net/projects/enlightenment/
+Depends: freetype, giflib, libandroid-shmem, libbz2, libid3tag, libjpeg-turbo, libpng, libtiff, libxext, zlib
+Description: Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
+Filename: arm/imlib2_1.5.1-10_arm.deb
+SHA1: 86694b02665472ed3b9cc68a75536a886ad2c4cc
+SHA256: 90b0fc261e24f8a3eb07665ce2b866060249224f89055d9ccf3d26638fc031a3
+Size: 473768
+
+Package: imlib2-static
+Architecture: arm
+Installed-Size: 420
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.1-10
+Homepage: https://sourceforge.net/projects/enlightenment/
+Depends: imlib2 (= 1.5.1-10)
+Description: Static libraries for imlib2
+Filename: arm/imlib2-static_1.5.1-10_arm.deb
+SHA1: 2850fb46b2e6a5028688d1a920f7f936a0e58194
+SHA256: 817c0b98e18744b9244d97064d38a1a4aac8608fdf91d1fa993b623c09fb6d9d
+Size: 114016
+
+Package: iso-codes
+Architecture: all
+Installed-Size: 2984
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.3-2
+Homepage: https://salsa.debian.org/iso-codes-team/iso-codes
+Description: Lists of the country, language, and currency names
+Filename: all/iso-codes_4.3-2_all.deb
+SHA1: 00ce6b85e24daf6b8930dc0948cbe34a0419c4e5
+SHA256: 879c9481a4ab34b5d9812da9347affbacbdcce5829c34eef25f2fac1fb2df479
+Size: 253660
+
+Package: libart-lgpl
+Architecture: arm
+Installed-Size: 312
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.3.21-6
+Homepage: https://www.levien.com/libart/
+Description: A library for high-performance 2D graphics
+Filename: arm/libart-lgpl_2.3.21-6_arm.deb
+SHA1: 9ed1f8d12554146a1b9f3812827a276ae2dc104c
+SHA256: 039fef8ce34b8d118db3a7b5c556db689a2ccc504b5595cc04dd0721f3060f50
+Size: 45480
+
+Package: libart-lgpl-static
+Architecture: arm
+Installed-Size: 144
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.3.21-6
+Homepage: https://www.levien.com/libart/
+Depends: libart-lgpl (= 2.3.21-6)
+Description: Static libraries for libart-lgpl
+Filename: arm/libart-lgpl-static_2.3.21-6_arm.deb
+SHA1: 01dab4af82db3d2403dc7d93d908a0ed27d919c2
+SHA256: 6d0096751993905983c4b55dfebe4924014c675a39f2f1e431b7de0ef9f782b2
+Size: 39312
+
+Package: libcairo-x
+Architecture: arm
+Installed-Size: 1172
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.16.0-11
+Homepage: https://cairographics.org
+Depends: fontconfig, freetype, glib, liblzo, libpixman, libpng, librsvg, libx11, libxcb, libxext, libxrender, poppler, zlib
+Conflicts: libcairo, libcairo-gobject, libcairo-dev
+Replaces: libcairo, libcairo-gobject
+Provides: libcairo, libcairo-gobject
+Description: Cairo 2D vector graphics library (with X)
+Filename: arm/libcairo-x_1.16.0-11_arm.deb
+SHA1: 7f48ddb5b5ea05b4b2a93fecd9475a2bbb3eb60c
+SHA256: 5f151852d9ef3fec8902b944b51bb7916f987480256d6e34c923ede2f002cdeb
+Size: 430820
+
+Package: libcairo-x-static
+Architecture: arm
+Installed-Size: 1788
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.16.0-11
+Homepage: https://cairographics.org
+Depends: libcairo-x (= 1.16.0-11)
+Description: Static libraries for libcairo-x
+Filename: arm/libcairo-x-static_1.16.0-11_arm.deb
+SHA1: 54cfe5e3e5a54b203ceaccd1bc15456257e6586d
+SHA256: 3a031c4b2f1426953d41521ac77a0a9c6be98e44a355cf6d19a0fc8ca16abab5
+Size: 534356
+
+Package: libdrm
+Architecture: arm
+Installed-Size: 696
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.4.100-1
+Homepage: https://dri.freedesktop.org/wiki/
+Description: Userspace interface to kernel DRM services
+Filename: arm/libdrm_2.4.100-1_arm.deb
+SHA1: 1b91a84ceea65f03403399c7ae7d436c8f7ae3ac
+SHA256: 54abbfcd25f98738eee1e7f557a3df8b9d36d87cce7d431c602f812058568ac5
+Size: 135602
+
+Package: libdrm-static
+Architecture: arm
+Installed-Size: 156
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.4.100-1
+Homepage: https://dri.freedesktop.org/wiki/
+Depends: libdrm (= 2.4.100-1)
+Description: Static libraries for libdrm
+Filename: arm/libdrm-static_2.4.100-1_arm.deb
+SHA1: ef2a2a3bdeec8dce121308a86d7ca8f12c17cbc0
+SHA256: 7d23e4ea7c87aafa30c5360de534ad140ba96269f3deefa27938ad31d0de8723
+Size: 37014
+
+Package: libepoxy
+Architecture: arm
+Installed-Size: 2264
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.4-1
+Homepage: https://github.com/anholt/libepoxy
+Depends: mesa
+Description: Library handling OpenGL function pointer management
+Filename: arm/libepoxy_1.5.4-1_arm.deb
+SHA1: 6fd0e4c982d3661c96957098ad6e7322e1ff21d5
+SHA256: 94cf59976db9c2c2905965f8cee0b5be2a732444d079962d2d41a3e3e4fd83ad
+Size: 239436
+
+Package: libevdev
+Architecture: arm
+Installed-Size: 228
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.8.0-2
+Homepage: https://www.freedesktop.org/wiki/Software/libevdev/
+Description: Wrapper library for evdev devices
+Filename: arm/libevdev_1.8.0-2_arm.deb
+SHA1: ba5824ebdeaf44a16b8c1e64653748d038c05403
+SHA256: 5fc5ddc5da036b047c1e6b90ff5555da735819e9d91fb6b4624032400f262753
+Size: 37956
+
+Package: libevdev-static
+Architecture: arm
+Installed-Size: 172
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.8.0-2
+Homepage: https://www.freedesktop.org/wiki/Software/libevdev/
+Depends: libevdev (= 1.8.0-2)
+Description: Static libraries for libevdev
+Filename: arm/libevdev-static_1.8.0-2_arm.deb
+SHA1: 5658db6e7669ebcc89c0fc1564237c5a0dfce7df
+SHA256: b660fea5a87ef0d2a00b4b334e1abda3186bc400379ad3f15d5427c95464d037
+Size: 30888
+
+Package: libfakekey
+Architecture: arm
+Installed-Size: 72
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.3-5
+Homepage: https://www.yoctoproject.org/tools-resources/projects/matchbox
+Depends: libx11, libxtst
+Description: X virtual keyboard library.
+Filename: arm/libfakekey_0.3-5_arm.deb
+SHA1: 562138b075516a90afd532ab312e1428f7922b1e
+SHA256: 26c0978465e27ae3746fe4aaa702afd69f8fa60e4726ea44e3258ba3ab5681bd
+Size: 7402
+
+Package: libfakekey-static
+Architecture: arm
+Installed-Size: 88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.3-5
+Homepage: https://www.yoctoproject.org/tools-resources/projects/matchbox
+Depends: libfakekey (= 0.3-5)
+Description: Static libraries for libfakekey
+Filename: arm/libfakekey-static_0.3-5_arm.deb
+SHA1: 94803a6798590f613df30c1e2799521018824d40
+SHA256: 27d4528dbcbf1d486f1b12406e1036d1fea4f834bcf225047311cb26a6f53a43
+Size: 16114
+
+Package: libfm
+Architecture: arm
+Installed-Size: 1252
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.1-5
+Homepage: https://lxde.org/
+Depends: atk, glib, gtk3, libandroid-support, libcairo-x, libexif, libffi, libfm, menu-cache, pango-x, pcre
+Conflicts: libfm-extra
+Replaces: libfm-extra
+Provides: libfm-extra (= 1.3.1)
+Description: Library for file management
+Filename: arm/libfm_1.3.1-5_arm.deb
+SHA1: 8ac71d9063450d6f3a770de7c48efab6fdefa79f
+SHA256: e6e115659787cf48633cc3c19602b5d97b6054f45609c131a99b96e516e95ff5
+Size: 258202
+
+Package: libfm-extra
+Architecture: arm
+Installed-Size: 92
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.1-5
+Homepage: https://lxde.org/
+Depends: glib
+Description: Extra library for file management
+Filename: arm/libfm-extra_1.3.1-5_arm.deb
+SHA1: 16e1527346b8d9a09b6a7aea14bae3ada9d771aa
+SHA256: f9396be25300e6bb5efcae98d3424949a4da6a50bb2ce32c62d98e7934e61ca1
+Size: 9624
+
+Package: libfm-extra-static
+Architecture: arm
+Installed-Size: 48
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.1-5
+Homepage: https://lxde.org/
+Depends: libfm-extra (= 1.3.1-5)
+Description: Static libraries for libfm-extra
+Filename: arm/libfm-extra-static_1.3.1-5_arm.deb
+SHA1: 76efbd71021a53cc76e7e6c0a2613df1ff0f583e
+SHA256: 0cf5a410bcbf8e27a0e36a9981b673f182ccec47b48718bf756b527c037a9523
+Size: 8296
+
+Package: libfm-static
+Architecture: arm
+Installed-Size: 912
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.1-5
+Homepage: https://lxde.org/
+Depends: libfm (= 1.3.1-5)
+Description: Static libraries for libfm
+Filename: arm/libfm-static_1.3.1-5_arm.deb
+SHA1: db38f0a1c4bdc28ca6c2ae432d6680643919530a
+SHA256: 4d910ffcd89ad32c512ca8372941bb12b8c8b5f860e6857dfb4244ba889bdb38
+Size: 242660
+
+Package: libfontenc
+Architecture: arm
+Installed-Size: 88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-5
+Homepage: https://xorg.freedesktop.org/
+Depends: zlib
+Description: X11 font encoding library
+Filename: arm/libfontenc_1.1.4-5_arm.deb
+SHA1: 258e05b34dc4a84450c9c4b2f9b31045bc636090
+SHA256: 1ba7a77d0a8e09f4c90d73db9c072f785a05add8dd012667335667213b89067a
+Size: 10360
+
+Package: libfontenc-static
+Architecture: arm
+Installed-Size: 56
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libfontenc (= 1.1.4-5)
+Description: Static libraries for libfontenc
+Filename: arm/libfontenc-static_1.1.4-5_arm.deb
+SHA1: 7ee6fabdb5c548c435056d86766f6b18dc2d6e95
+SHA256: 61c2f7f1229f0126ce1aa87dcc10ec196cec21131ae2870a8fb69a5f3ffaa7c5
+Size: 9500
+
+Package: libglade
+Architecture: arm
+Installed-Size: 220
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6.4-6
+Homepage: https://www.gnome.org/
+Depends: atk, fontconfig, freetype, gdk-pixbuf, glib, gtk2, libcairo-x, libxml2, pango-x
+Suggests: python2
+Description: Allows you to load glade interface files in a program at runtime
+Filename: arm/libglade_2.6.4-6_arm.deb
+SHA1: 302b896110ffc8e0f4ed02449965ed0c18e05967
+SHA256: f6b97381fe9f19ef74c86c9fb6cb8cad1fec32c6a66ffed21a8afb63cb9ea435
+Size: 37316
+
+Package: libglade-static
+Architecture: arm
+Installed-Size: 124
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6.4-6
+Homepage: https://www.gnome.org/
+Depends: libglade (= 2.6.4-6)
+Description: Static libraries for libglade
+Filename: arm/libglade-static_2.6.4-6_arm.deb
+SHA1: 893ec96ec39aa8d55385b87b7cbbf9410a3f1bec
+SHA256: 32d6bb14fab1dad623595d22798e62257b9bb313440b69ce83213f1b8079b987
+Size: 30038
+
+Package: libgnomecanvas
+Architecture: arm
+Installed-Size: 316
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.30.3-6
+Homepage: https://www.gnome.org/
+Depends: atk, glib, gtk2, libart-lgpl, libglade, pango-x
+Description: The GNOME Canvas library
+Filename: arm/libgnomecanvas_2.30.3-6_arm.deb
+SHA1: dfedb485f91237d8693f4be7b375075f0f70dad4
+SHA256: f25c94adb50d3f7dd4e127035291503d1cc52fa696cbe693d88c3ddd2deafa1a
+Size: 75214
+
+Package: libgnomecanvas-static
+Architecture: arm
+Installed-Size: 308
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.30.3-6
+Homepage: https://www.gnome.org/
+Depends: libgnomecanvas (= 2.30.3-6)
+Description: Static libraries for libgnomecanvas
+Filename: arm/libgnomecanvas-static_2.30.3-6_arm.deb
+SHA1: 055f085861983fb9c5b1beede19cd2b35e73e4bf
+SHA256: 7e06a43a81036356ebeac80c92fd9b56d8bda5298f86d9107d418a5600155cfa
+Size: 76456
+
+Package: libice
+Architecture: arm
+Installed-Size: 404
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.10-4
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Inter-Client Exchange library
+Filename: arm/libice_1.0.10-4_arm.deb
+SHA1: 6effb0c6ca2133e1c7fd80099a1a3c16d72014c2
+SHA256: 4acd1560e2b3a871e4f86bc0398da0d614e6ed5eee1720fcc96747f8e3ae1480
+Size: 63808
+
+Package: libice-static
+Architecture: arm
+Installed-Size: 132
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.10-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libice (= 1.0.10-4)
+Description: Static libraries for libice
+Filename: arm/libice-static_1.0.10-4_arm.deb
+SHA1: 5d2adae4f863ce77559272e520b37e11e37d493b
+SHA256: 337a176922cd371698a92155e7b2a8b020028dc5d64ca32b77b9f6bc81edb945
+Size: 33530
+
+Package: libnotify
+Architecture: arm
+Installed-Size: 176
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.7.8-5
+Homepage: https://developer.gnome.org/notification-spec/
+Depends: gdk-pixbuf, glib
+Description: Library for sending desktop notifications
+Filename: arm/libnotify_0.7.8-5_arm.deb
+SHA1: cf0ce2d388f8b9f43abe3e5665e47f45d23fd1b0
+SHA256: ed1eeb9fe19a7b8b3e382aed972dec2e86dd0d5ffb8b1711241e18427b04e3f1
+Size: 23028
+
+Package: libpciaccess
+Architecture: arm
+Installed-Size: 92
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.16-4
+Homepage: https://xorg.freedesktop.org/
+Description: X11 PCI access library
+Filename: arm/libpciaccess_0.16-4_arm.deb
+SHA1: d7a3cb8a436ecf9255ba5c31aa2d2f031c283861
+SHA256: bf625db59ead3534d8126e81aabfe1779fec22dde4dbf14435a36732b2ec15c5
+Size: 14940
+
+Package: libpciaccess-static
+Architecture: arm
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.16-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libpciaccess (= 0.16-4)
+Description: Static libraries for libpciaccess
+Filename: arm/libpciaccess-static_0.16-4_arm.deb
+SHA1: 4f0dbd56f087a9378a1ee90c04238ba2e250831c
+SHA256: 4a7eb3286edd71104940061d19f4fb03b3066c7abe1fda8bce5422bf42f6bb93
+Size: 13684
+
+Package: libsm
+Architecture: arm
+Installed-Size: 320
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libuuid
+Description: X11 Session Management library
+Filename: arm/libsm_1.2.3-8_arm.deb
+SHA1: dd138df21725dd99e7590eb9713f9a97e36dea22
+SHA256: 0dd3cbed26673cda3cd2378fa2a5ac303c48c44374aff226ce35e737d141fa07
+Size: 39178
+
+Package: libsm-static
+Architecture: arm
+Installed-Size: 64
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libsm (= 1.2.3-8)
+Description: Static libraries for libsm
+Filename: arm/libsm-static_1.2.3-8_arm.deb
+SHA1: 96f1aa2fe97ab4b48aae9004158cdc8eb55f8ae8
+SHA256: 4bb96f89845f2aa89650542f5d1d013051572c61fe24a896aad1aeaf0b03c0e9
+Size: 11128
+
+Package: libunique
+Architecture: arm
+Installed-Size: 316
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.6-4
+Homepage: https://gnome.org
+Depends: glib, gtk2
+Description: Library for writing single instance applications
+Filename: arm/libunique_1.1.6-4_arm.deb
+SHA1: 6203c2a9799f0412e30a64cf40ba50ad9f0f7bb0
+SHA256: 6ae552372f783126f6edd0ca287ce38a29ad82fe29c2c4d2ff82b3cd6f5b2b78
+Size: 31684
+
+Package: libunique-static
+Architecture: arm
+Installed-Size: 312
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.6-4
+Homepage: https://gnome.org
+Depends: libunique (= 1.1.6-4)
+Description: Static libraries for libunique
+Filename: arm/libunique-static_1.1.6-4_arm.deb
+SHA1: 9454cc8309397d089db7dd269040417afad9162d
+SHA256: ca5664b0c12dda13e55c4a40590e1edbfa059bafe630553e903b95f4fe78b5d5
+Size: 65420
+
+Package: libwayland
+Architecture: arm
+Installed-Size: 776
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.17.0-5
+Homepage: https://wayland.freedesktop.org/
+Depends: libandroid-support, libffi, libxml2, libexpat
+Description: Wayland protocol library
+Filename: arm/libwayland_1.17.0-5_arm.deb
+SHA1: bc8b0a6704438ff1d64bab2b048bd5576f51a467
+SHA256: 04c13adea88701ba42cc3dbc3617f900520abbf9606817e9a2f28845dd5cde32
+Size: 104190
+
+Package: libwayland-protocols
+Architecture: arm
+Installed-Size: 600
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.17-3
+Homepage: https://wayland.freedesktop.org/
+Depends: libandroid-support
+Description: Wayland protocols library
+Filename: arm/libwayland-protocols_1.17-3_arm.deb
+SHA1: 7535595d42c40ade9da1ee23df6ad269dbdc9d12
+SHA256: 34f161caa21094acefdc3ca73cdd2da0bc3a98084207d2c669b3b0d4f45f28bd
+Size: 56768
+
+Package: libwayland-static
+Architecture: arm
+Installed-Size: 484
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.17.0-5
+Homepage: https://wayland.freedesktop.org/
+Depends: libwayland (= 1.17.0-5)
+Description: Static libraries for libwayland
+Filename: arm/libwayland-static_1.17.0-5_arm.deb
+SHA1: 98edbc3f677bd586c98e9988036468b246f2f99e
+SHA256: 7a751e6be498be16725ea1660e9515f192084f22fd5bc21c1f0d48948d6564b2
+Size: 95992
+
+Package: libwnck
+Architecture: arm
+Installed-Size: 364
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.32.0-3
+Homepage: https://gitlab.gnome.org/GNOME/libwnck
+Depends: gtk2, startup-notification
+Description: Window Navigator Construction Kit
+Filename: arm/libwnck_3.32.0-3_arm.deb
+SHA1: 9f9cf18cffddeb0065352e457763caec890aa158
+SHA256: b5e971123f04f6f9761d749de35a5a45e89effcb45f721b7b7e261ba325686f6
+Size: 87798
+
+Package: libwnck-static
+Architecture: arm
+Installed-Size: 356
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.32.0-3
+Homepage: https://gitlab.gnome.org/GNOME/libwnck
+Depends: libwnck (= 3.32.0-3)
+Description: Static libraries for libwnck
+Filename: arm/libwnck-static_3.32.0-3_arm.deb
+SHA1: 7f6e95be4959cf9c7f0a1b2ec2cf710e41101f04
+SHA256: a7148c25fb9066d2663f5e0f558730d49cee82177568f72b152a615a5440bf7a
+Size: 88676
+
+Package: libx11
+Architecture: arm
+Installed-Size: 13880
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.6.9-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libandroid-support, libxcb
+Recommends: xorg-xauth
+Description: X11 client-side library
+Filename: arm/libx11_1.6.9-1_arm.deb
+SHA1: cfdb00030d171578e6b200cfff29f913eb59c6fe
+SHA256: f6df8aac5aefcdfc7873fef0830653e6b7a5f199b4cb7e479099bca47e3cb063
+Size: 1934510
+
+Package: libx11-static
+Architecture: arm
+Installed-Size: 1596
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.6.9-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11 (= 1.6.9-1)
+Description: Static libraries for libx11
+Filename: arm/libx11-static_1.6.9-1_arm.deb
+SHA1: 83e0b7f9865fc06d846fa19e06b7859acaab220e
+SHA256: e14d429d208316176566dcc3fb60f1eac42c8b5699515e5df227e9031eded905
+Size: 535698
+
+Package: libxau
+Architecture: arm
+Installed-Size: 116
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.9-6
+Homepage: https://xorg.freedesktop.org/
+Description: X11 authorisation library
+Filename: arm/libxau_1.0.9-6_arm.deb
+SHA1: ac7c207378014fc9d8b76cdb4bf27a335c9f90e6
+SHA256: 685c6ae09b52f1044cd6a37933563d912326a00fa0cba9b85dfcbda0bf513a65
+Size: 8046
+
+Package: libxau-static
+Architecture: arm
+Installed-Size: 48
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.9-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libxau (= 1.0.9-6)
+Description: Static libraries for libxau
+Filename: arm/libxau-static_1.0.9-6_arm.deb
+SHA1: 393d6d287f916b3e46431c9eebd6ee0ec8be118d
+SHA256: 9a267fd2758bf3aa13fd545e83a9cd4b35fb68dfd4d4941b537eff5902d9d553
+Size: 4722
+
+Package: libxaw
+Architecture: arm
+Installed-Size: 1620
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.13-16
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libsm, libuuid, libx11, libxau, libxcb, libxdmcp, libxext, libxmu, libxpm, libxt
+Description: X11 Athena Widget library
+Filename: arm/libxaw_1.0.13-16_arm.deb
+SHA1: 300fffb9d9c2851244cefd890b4b564c8f682ba2
+SHA256: 8df71eb6ac7875780b6a95bad71d855453658828dabfa770c8c8f3b2986de3ce
+Size: 268286
+
+Package: libxaw-static
+Architecture: arm
+Installed-Size: 804
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.13-16
+Homepage: https://xorg.freedesktop.org/
+Depends: libxaw (= 1.0.13-16)
+Description: Static libraries for libxaw
+Filename: arm/libxaw-static_1.0.13-16_arm.deb
+SHA1: 818fb33e73b964bcd43a93a00f63316b0d1fd145
+SHA256: 37f8577bd97560f134c650aa237ebfdd3205048f075b4d46895eccadf57529cb
+Size: 184460
+
+Package: libxcb
+Architecture: arm
+Installed-Size: 12364
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.13.1-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libxau, libxdmcp
+Recommends: xorg-xauth
+Description: X11 client-side library
+Filename: arm/libxcb_1.13.1-7_arm.deb
+SHA1: d8802d56faf6ba861c2c7c4cb1fc0b32cde2513d
+SHA256: 9a8ae76e4411a78e043146d69c4ad23f5594d5f35032b1f605895dac011f893f
+Size: 875878
+
+Package: libxcb-static
+Architecture: arm
+Installed-Size: 976
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.13.1-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb (= 1.13.1-7)
+Description: Static libraries for libxcb
+Filename: arm/libxcb-static_1.13.1-7_arm.deb
+SHA1: f0df74c5dffe77efcae3bf8208462e600f532d12
+SHA256: c56e4f516036bacfdf837a61a869bcaf1353b4bad990022da692f4736efae92e
+Size: 132138
+
+Package: libxcomposite
+Architecture: arm
+Installed-Size: 132
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp
+Description: X11 Composite extension library
+Filename: arm/libxcomposite_0.4.5-5_arm.deb
+SHA1: e197b399ef692fe4687113fa69df2afe54abfeb6
+SHA256: 27c7e24db3288f83d57c9e083fe151ccc5fa95bf356b5b6c2595c2aa88b73b63
+Size: 8822
+
+Package: libxcomposite-static
+Architecture: arm
+Installed-Size: 40
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxcomposite (= 0.4.5-5)
+Description: Static libraries for libxcomposite
+Filename: arm/libxcomposite-static_0.4.5-5_arm.deb
+SHA1: 966a768b4b8f007b067a467e414a11bf8e7319c8
+SHA256: 271c06e1faade7a15f2cf557520854e2aa86d3d1c802762daa00c5ef80dc0cef
+Size: 3132
+
+Package: libxcursor
+Architecture: arm
+Installed-Size: 248
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxfixes, libxrender
+Description: X cursor management library
+Filename: arm/libxcursor_1.2.0-5_arm.deb
+SHA1: 7875e9fcea66ed7c0e42b2ad9c2fc258c02be000
+SHA256: 09947af2a0c366230596c8ede23f48dd169802839e8af375aaf4972249e4e4c4
+Size: 24508
+
+Package: libxcursor-static
+Architecture: arm
+Installed-Size: 68
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxcursor (= 1.2.0-5)
+Description: Static libraries for libxcursor
+Filename: arm/libxcursor-static_1.2.0-5_arm.deb
+SHA1: 7edde2d83e30b547083a5d2d644a2d27dc54770a
+SHA256: bdc7e0aedd1a7d65b691f60d0c238718090919a6717894be5d890e5fb23a8cb2
+Size: 14824
+
+Package: libxdamage
+Architecture: arm
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxfixes
+Description: X11 damaged region extension library
+Filename: arm/libxdamage_1.1.5-5_arm.deb
+SHA1: d30d1e422cf8fd9bd4a5d9e177376c62cf7270ad
+SHA256: 423cdc203e6c302b9e4fe4b2efe62b0da6e7d863527c81fbb42c2a7d2d50e84c
+Size: 4668
+
+Package: libxdamage-static
+Architecture: arm
+Installed-Size: 40
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxdamage (= 1.1.5-5)
+Description: Static libraries for libxdamage
+Filename: arm/libxdamage-static_1.1.5-5_arm.deb
+SHA1: c88998ab93c002a80eb9ecf7b2f20766f9518633
+SHA256: 7539679f786c8a7e33c00f4c2f2d28e4d4e30d7ca47007a19c5cae4b8962d7bf
+Size: 3246
+
+Package: libxdmcp
+Architecture: arm
+Installed-Size: 184
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.3-6
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Display Manager Control Protocol library
+Filename: arm/libxdmcp_1.1.3-6_arm.deb
+SHA1: f6d112b9d87968c6d2154430f1800e3350bfe611
+SHA256: f7be425f03e4a56916b9c589fa1c55f89b13c7a75ee1a7c17cdcff6ba749c2be
+Size: 23100
+
+Package: libxdmcp-static
+Architecture: arm
+Installed-Size: 56
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.3-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libxdmcp (= 1.1.3-6)
+Description: Static libraries for libxdmcp
+Filename: arm/libxdmcp-static_1.1.3-6_arm.deb
+SHA1: 37f7191cf6016d8eba714d005951d53451cc9330
+SHA256: df2b5caaa5882df4d0456b11fc054f4dcf12fc933b73ba44bafae5a8dd828044
+Size: 6918
+
+Package: libxext
+Architecture: arm
+Installed-Size: 584
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.4-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp
+Description: X11 miscellaneous extensions library
+Filename: arm/libxext_1.3.4-5_arm.deb
+SHA1: 1b343909ae2a32a7b9a34226bf5a8e1540fcbf31
+SHA256: 3ccd26b51a34f322be02ebbaf8bbfdd9fc13ca3451c175044af8fe4474fd0b65
+Size: 96488
+
+Package: libxext-static
+Architecture: arm
+Installed-Size: 112
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.4-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxext (= 1.3.4-5)
+Description: Static libraries for libxext
+Filename: arm/libxext-static_1.3.4-5_arm.deb
+SHA1: acf2275655f1e20cd01a21b5363890344ac7ad48
+SHA256: 70044c3aee18e44571eed4826fa41900cf21f2af3d782d2bac42a0102498c7dd
+Size: 21736
+
+Package: libxfce4ui
+Architecture: arm
+Installed-Size: 2012
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.15.0-1
+Homepage: https://www.xfce.org/
+Depends: gtk2, gtk3, hicolor-icon-theme, libsm, libxfce4util, startup-notification, xfconf
+Description: Commonly used XFCE widgets among XFCE applications
+Filename: arm/libxfce4ui_4.15.0-1_arm.deb
+SHA1: ed7380c5dff88426ec08b536461d7773670c99b9
+SHA256: 9a412c3978548b29632f6cc7d6f6f9457d6b735c47fefc1f66e4cdd80b675d03
+Size: 211816
+
+Package: libxfce4ui-static
+Architecture: arm
+Installed-Size: 184
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.15.0-1
+Homepage: https://www.xfce.org/
+Depends: libxfce4ui (= 4.15.0-1)
+Description: Static libraries for libxfce4ui
+Filename: arm/libxfce4ui-static_4.15.0-1_arm.deb
+SHA1: f9f873c38135bc0b2f6f0676547672474ace0cd1
+SHA256: 6540caa3c44843ee324ff8ceef153f69f2d5e7b1f1f4c4acf7f9cf68bd9282d6
+Size: 40744
+
+Package: libxfce4util
+Architecture: arm
+Installed-Size: 1136
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.0-4
+Homepage: https://www.xfce.org/
+Depends: glib
+Description: Basic utility non-GUI functions for XFCE
+Filename: arm/libxfce4util_4.14.0-4_arm.deb
+SHA1: 284dc3063c03cb5a8df6f2e1d6d41000f3172bc6
+SHA256: 7691d9476f80f4bff0fae8c6a5320dda8735a7fd5b7544fbfd39357d7ccb85a3
+Size: 71370
+
+Package: libxfce4util-static
+Architecture: arm
+Installed-Size: 104
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.0-4
+Homepage: https://www.xfce.org/
+Depends: libxfce4util (= 4.14.0-4)
+Description: Static libraries for libxfce4util
+Filename: arm/libxfce4util-static_4.14.0-4_arm.deb
+SHA1: c9c54cdaf41ce69000dddc70577faec9d1e7fc5e
+SHA256: 507ed0be69a40aacc91c7b109c6f8f42b66741b5ee5b6452584cd6adf90f7c84
+Size: 21746
+
+Package: libxfixes
+Architecture: arm
+Installed-Size: 96
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.0.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: X11 miscellaneous 'fixes' extension library
+Filename: arm/libxfixes_5.0.3-9_arm.deb
+SHA1: 3a900bbb1db51912b0ef0baa5aa2a22adbecd243
+SHA256: a5edbfaaeea945d51fc035da11d517d91b08e33de966292fc8630eedc12738f5
+Size: 9628
+
+Package: libxfixes-static
+Architecture: arm
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.0.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: libxfixes (= 5.0.3-9)
+Description: Static libraries for libxfixes
+Filename: arm/libxfixes-static_5.0.3-9_arm.deb
+SHA1: 7ceb09de5a6ce4b013421e1799ba4ec8fa817de5
+SHA256: d347b353a2a2629ac424438d08445c5195ad976417768be71fcc35abc8a315b8
+Size: 6018
+
+Package: libxfont2
+Architecture: arm
+Installed-Size: 200
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.4-2
+Homepage: https://xorg.freedesktop.org/
+Depends: freetype, libfontenc, zlib
+Description: X11 font rasterisation library
+Filename: arm/libxfont2_2.0.4-2_arm.deb
+SHA1: 349856844c8bfa2217ddc0887349bf51f343e84a
+SHA256: 377a8eb824c57a12a55849c5c6605cd0865e5c261af4ad6ab9cc9d433365ec53
+Size: 83192
+
+Package: libxfont2-static
+Architecture: arm
+Installed-Size: 288
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.4-2
+Homepage: https://xorg.freedesktop.org/
+Depends: libxfont2 (= 2.0.4-2)
+Description: Static libraries for libxfont2
+Filename: arm/libxfont2-static_2.0.4-2_arm.deb
+SHA1: f00074f78a2133af6b8d0f954d23e19ecb3abd57
+SHA256: 58433a64a8e8c4d3076cab68724a934523cc355c2a5fd6ebb48ae4a9f498c7ef
+Size: 100022
+
+Package: libxft
+Architecture: arm
+Installed-Size: 156
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.3.3-5
+Homepage: https://xorg.freedesktop.org/
+Depends: fontconfig, freetype, libbz2, liblzma, libpng, libuuid, libx11, libxau, libxcb, libxdmcp, libxml2, libxrender
+Description: FreeType-based font drawing library for X
+Filename: arm/libxft_2.3.3-5_arm.deb
+SHA1: a6028870a80a8ba9efcabf89b6e342d24ac9128e
+SHA256: ac8e0b7cbe11833683bb18b6ee0099b2598e5bbe3eb2fa714847e454150306b7
+Size: 37342
+
+Package: libxft-static
+Architecture: arm
+Installed-Size: 112
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.3.3-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxft (= 2.3.3-5)
+Description: Static libraries for libxft
+Filename: arm/libxft-static_2.3.3-5_arm.deb
+SHA1: 7234a716c9f458d138774a17d08202da952357f8
+SHA256: c3905f5845abc0e475f6f113554adddf7821759c70be288b08eb5cf82e2b9176
+Size: 29998
+
+Package: libxi
+Architecture: arm
+Installed-Size: 756
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.7.10-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Description: X11 Input extension library
+Filename: arm/libxi_1.7.10-4_arm.deb
+SHA1: 13cdd980f9a1e0fd02dcd9323b360ac6bf5e05bc
+SHA256: ecc3d76b3453b7fe751c12def81b5deea76d67e323f4c7845cf8185110ccd822
+Size: 138210
+
+Package: libxi-static
+Architecture: arm
+Installed-Size: 144
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.7.10-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libxi (= 1.7.10-4)
+Description: Static libraries for libxi
+Filename: arm/libxi-static_1.7.10-4_arm.deb
+SHA1: 9010c59f7816cc8ef27f8a55be30ddd42f277cd9
+SHA256: e5f081d64900505531a4a5cbae693578340c4e472bde8efd21f62e032b05b18f
+Size: 23984
+
+Package: libxinerama
+Architecture: arm
+Installed-Size: 104
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Description: X11 Xinerama extension library
+Filename: arm/libxinerama_1.1.4-8_arm.deb
+SHA1: 60eef825116e609577581bcd1247a34998e16fc5
+SHA256: f15e70b16da0a656431bd4886d16d2955fcf1a888e570d6a8ed54200b62f1e1b
+Size: 7160
+
+Package: libxinerama-static
+Architecture: arm
+Installed-Size: 40
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libxinerama (= 1.1.4-8)
+Description: Static libraries for libxinerama
+Filename: arm/libxinerama-static_1.1.4-8_arm.deb
+SHA1: 0becdaa76a33f2a44a597d0d8c7a489b985ec455
+SHA256: 9e18436a755271f1f11719214f1c380085c51d914d7d39be6c1fef3b4e3263b0
+Size: 3194
+
+Package: libxkbcommon
+Architecture: arm
+Installed-Size: 592
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.9.1-1
+Homepage: https://xkbcommon.org/
+Depends: libxcb, xkeyboard-config
+Description: Keymap handling library for toolkits and window systems
+Filename: arm/libxkbcommon_0.9.1-1_arm.deb
+SHA1: 74e61c5f8d8c0279926904f60327c1200f4428e4
+SHA256: 812348d152944cd92ff8b70278f265ec922fba569dcc8c010cd125573994e538
+Size: 128946
+
+Package: libxkbfile
+Architecture: arm
+Installed-Size: 204
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp
+Description: X11 keyboard file manipulation library
+Filename: arm/libxkbfile_1.1.0-5_arm.deb
+SHA1: 60153c049647882cca571867a4bc3a384538edf6
+SHA256: ee7c2d793518c1869cf46e0739022a07cffb564eca6d92093c96714984d30b2f
+Size: 54808
+
+Package: libxkbfile-static
+Architecture: arm
+Installed-Size: 188
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxkbfile (= 1.1.0-5)
+Description: Static libraries for libxkbfile
+Filename: arm/libxkbfile-static_1.1.0-5_arm.deb
+SHA1: 035a59c35e578e012d61ff3acbaad18386d2f77a
+SHA256: abc8f74335b33b6245eab70d5b2fad568985143a0e74439ef2241d2c3d8894d2
+Size: 57984
+
+Package: libxklavier
+Architecture: arm
+Installed-Size: 196
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.4-1
+Homepage: https://www.freedesktop.org/wiki/Software/LibXklavier/
+Depends: glib, iso-codes, libxi, libxkbfile, libxml2, xkeyboard-config
+Description: High-level API for X Keyboard Extension
+Filename: arm/libxklavier_5.4-1_arm.deb
+SHA1: 600c2c5a0063e1b4a0dd8a08338ceabca6663c86
+SHA256: 0a32c01b925e9bbffcdb59069ec17ad1d2cb64a83c62d3b4ff0c9a9418c0e9ab
+Size: 42154
+
+Package: libxklavier-static
+Architecture: arm
+Installed-Size: 180
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.4-1
+Homepage: https://www.freedesktop.org/wiki/Software/LibXklavier/
+Depends: libxklavier (= 5.4-1)
+Description: Static libraries for libxklavier
+Filename: arm/libxklavier-static_5.4-1_arm.deb
+SHA1: 35ed4114f07e4f8e58c791b85ca64f5c0d3536e0
+SHA256: 582499dac840d4e5d906588fb34c2afe0dd608c0caad0d8db99132c35a222691
+Size: 43110
+
+Package: libxmu
+Architecture: arm
+Installed-Size: 416
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.3-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libsm, libuuid, libx11, libxau, libxcb, libxdmcp, libxext, libxt
+Description: X11 miscellaneous micro-utility library
+Filename: arm/libxmu_1.1.3-6_arm.deb
+SHA1: d564c3b8186d7ce0a597579c1380f4eba09a80e7
+SHA256: a956ae26199a3d7ce4d40e09ec1f747aa59cbead90522b534a07ac5bea95a527
+Size: 61966
+
+Package: libxmu-static
+Architecture: arm
+Installed-Size: 188
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.3-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libxmu (= 1.1.3-6)
+Description: Static libraries for libxmu
+Filename: arm/libxmu-static_1.1.3-6_arm.deb
+SHA1: c4692e5cb19baae40939c8f651013c94d849a66f
+SHA256: fc1c897c7a25f9fa317abf1d3c7aa4da753c26791f19d2bffdb4c2f0030a8fd6
+Size: 40550
+
+Package: libxpm
+Architecture: arm
+Installed-Size: 180
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.5.13-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxt
+Description: X11 pixmap library
+Filename: arm/libxpm_3.5.13-1_arm.deb
+SHA1: fc2f08dc2c1428089fb3157a1a515cc1324808c4
+SHA256: 1118717e81508942879be7f3173218df5cb44f6c3153c7073dd90adf57cede74
+Size: 40764
+
+Package: libxpm-static
+Architecture: arm
+Installed-Size: 112
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.5.13-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxpm (= 3.5.13-1)
+Description: Static libraries for libxpm
+Filename: arm/libxpm-static_3.5.13-1_arm.deb
+SHA1: 71da80a255fc7d5b5d25889bacb1fd42851aa905
+SHA256: 74c58d9b2d611ef37d77012e7ded486b45a1d3cf5b8d55b7fd53ab360106eec9
+Size: 26118
+
+Package: libxrandr
+Architecture: arm
+Installed-Size: 180
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.2-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxrender
+Description: X11 RandR extension library
+Filename: arm/libxrandr_1.5.2-5_arm.deb
+SHA1: 045e7c4502ca439158be388e5086bbc3cc91252e
+SHA256: cd84c36725ebaa791b7676f17d9cd9b02719391b5e0b10873d7cea56f8b99663
+Size: 20204
+
+Package: libxrandr-static
+Architecture: arm
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.2-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxrandr (= 1.5.2-5)
+Description: Static libraries for libxrandr
+Filename: arm/libxrandr-static_1.5.2-5_arm.deb
+SHA1: d3020a95d1042d136e0bbdc2f8039d48e2d18250
+SHA256: 6cd848540fe075f431e765c4d2df5616f77e4b33dd58f499a7db476051a3f9bd
+Size: 12806
+
+Package: libxrender
+Architecture: arm
+Installed-Size: 132
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.9.10-10
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: X Rendering Extension client library
+Filename: arm/libxrender_0.9.10-10_arm.deb
+SHA1: 7fd6cc4b8c51376c945de2cf291fca0f3dfbd771
+SHA256: d0d9217cd2f09cc1898f2ea9699444a02c322311b4eb9bcd9a9e70922fadc4ce
+Size: 22004
+
+Package: libxrender-static
+Architecture: arm
+Installed-Size: 72
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.9.10-10
+Homepage: https://xorg.freedesktop.org/
+Depends: libxrender (= 0.9.10-10)
+Description: Static libraries for libxrender
+Filename: arm/libxrender-static_0.9.10-10_arm.deb
+SHA1: ce7ba3f91ac51fc4c284e248eb588377cd277e41
+SHA256: 09785ab2b3c438bc0c2fc4d3a0f0eb8dc537954b3c59ca141009bc8f238966a5
+Size: 13224
+
+Package: libxshmfence
+Architecture: arm
+Installed-Size: 68
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3-9
+Homepage: https://xorg.freedesktop.org/
+Description: A library that exposes a event API on top of Linux futexes
+Filename: arm/libxshmfence_1.3-9_arm.deb
+SHA1: 1a1e37d77aab1843ab0075ef4977448013e7847d
+SHA256: 2ee2f39d8afc430c6f01da0fc1f80d20fc68682f11bd7ad96704ea721e906a13
+Size: 3786
+
+Package: libxshmfence-static
+Architecture: arm
+Installed-Size: 40
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: libxshmfence (= 1.3-9)
+Description: Static libraries for libxshmfence
+Filename: arm/libxshmfence-static_1.3-9_arm.deb
+SHA1: 7a3110afd77feb13430bbbb753e77665f5ce17b2
+SHA256: ec7065a99561c7ebdfda3333772c897160b5716d1f2bd7c8218de9579ba82ff6
+Size: 2772
+
+Package: libxss
+Architecture: arm
+Installed-Size: 140
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Description: X11 Screen Saver extension library
+Filename: arm/libxss_1.2.3-8_arm.deb
+SHA1: 6a34ce5a36177d26a0518c486ed01d03bfa43a7c
+SHA256: ddb0a1a507d373164cd4252472aed19eeb94368a9c5391bb75c7a83083fb8783
+Size: 11272
+
+Package: libxss-static
+Architecture: arm
+Installed-Size: 40
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libxss (= 1.2.3-8)
+Description: Static libraries for libxss
+Filename: arm/libxss-static_1.2.3-8_arm.deb
+SHA1: ca16e0e974d48f12eb731fea3f026e17d32f4eda
+SHA256: 44153441a5e1abbf30cd0153294012efa90d1fb9b4853b433fc78a5523258740
+Size: 3940
+
+Package: libxt
+Architecture: arm
+Installed-Size: 2980
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libsm, libuuid, libx11, libxau, libxcb, libxdmcp
+Description: X11 toolkit intrinsics library
+Filename: arm/libxt_1.2.0-5_arm.deb
+SHA1: 44badec0efee59ac7e9c7c5f68efcda59da07c49
+SHA256: 9369f3b991d7107c8d23993c01315641dcc1691fe7718ba8881c80d76f16cd0c
+Size: 475164
+
+Package: libxt-static
+Architecture: arm
+Installed-Size: 444
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxt (= 1.2.0-5)
+Description: Static libraries for libxt
+Filename: arm/libxt-static_1.2.0-5_arm.deb
+SHA1: a1dc566c6cd75885341e865c1a6d43dd418d61ac
+SHA256: 5cf26527bfdbc3326c27ba04d1454700728183f4864a8de2f982fa590d5ddb43
+Size: 139748
+
+Package: libxtst
+Architecture: arm
+Installed-Size: 224
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxi
+Description: X11 Testing -- Resource extension library
+Filename: arm/libxtst_1.2.3-8_arm.deb
+SHA1: 10107d0d66d0f0339ddd09438b64cac173605ec3
+SHA256: 3bbffd967bdb1a3b92e5236d55dbb8383297ef1d8c59b6bea95bd28d9935dadb
+Size: 27166
+
+Package: libxtst-static
+Architecture: arm
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libxtst (= 1.2.3-8)
+Description: Static libraries for libxtst
+Filename: arm/libxtst-static_1.2.3-8_arm.deb
+SHA1: 9b8a498f649b82b5eb25559cc30980c6041f0db5
+SHA256: ab26f10efc5bd40da1359bdc5de839ea114a3773c5b657c92f52eb3b16093506
+Size: 7714
+
+Package: libxxf86dga
+Architecture: arm
+Installed-Size: 188
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Description: X11 Direct Graphics Access extension library
+Filename: arm/libxxf86dga_1.1.5-5_arm.deb
+SHA1: 83f65206c58dd3256242524b615ed74d545ccd38
+SHA256: aab22f8f28000f67245bca95731e9fe5bdcbdf2ad61e11e9a12d473f46e82653
+Size: 16064
+
+Package: libxxf86dga-static
+Architecture: arm
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxxf86dga (= 1.1.5-5)
+Description: Static libraries for libxxf86dga
+Filename: arm/libxxf86dga-static_1.1.5-5_arm.deb
+SHA1: 2cc6b3710839e65a29acdf5bafde39063086aca2
+SHA256: eada8e654aa014c93b4a2ebad1bd1ac50d1d2bd97ac796042d2b82d4b578d669
+Size: 7414
+
+Package: libxxf86vm
+Architecture: arm
+Installed-Size: 184
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-11
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Description: X11 XFree86 video mode extension library
+Filename: arm/libxxf86vm_1.1.4-11_arm.deb
+SHA1: ea4dbed1bc73010feeadc2b6aaba7dc96f95cf28
+SHA256: 4a37923fe95b49208894c2311f0b0c674827d33e0df984a32ac1fed731274d7d
+Size: 12404
+
+Package: libxxf86vm-static
+Architecture: arm
+Installed-Size: 48
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-11
+Homepage: https://xorg.freedesktop.org/
+Depends: libxxf86vm (= 1.1.4-11)
+Description: Static libraries for libxxf86vm
+Filename: arm/libxxf86vm-static_1.1.4-11_arm.deb
+SHA1: 78ff2343042ab34b160572cb1fd57876f9dec451
+SHA256: e56b0f572a547fdaf258bdd68db27f2f1d94667e38d6f8e22d6e9e7bc37dc82c
+Size: 6188
+
+Package: loqui
+Architecture: arm
+Installed-Size: 504
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.6.4-6
+Homepage: https://launchpad.net/loqui
+Depends: atk, fontconfig, freetype, gdk-pixbuf, glib, gtk2, libandroid-shmem, libcairo-x, libffi, pango-x, pcre
+Description: IRC client for the Gtk+-2.0 environment
+Filename: arm/loqui_0.6.4-6_arm.deb
+SHA1: 59e92493fa6eab580879d98dd664c9a5dcfd2729
+SHA256: 2af087081f40773970cdd60fc5b7e8c0cc1fb4aad10ee8c292e7ae546a4b6572
+Size: 152374
+
+Package: lxde-icon-theme
+Architecture: all
+Installed-Size: 8512
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.5.1-3
+Homepage: https://lxde.org/
+Depends: gtk-update-icon-cache
+Description: LXDE default icon theme based on nuoveXT2
+Filename: all/lxde-icon-theme_0.5.1-3_all.deb
+SHA1: 1edc7c49acdd5a52c8eee030c5ec28c57fa7133c
+SHA256: 3402a8cbdd73ff6ac09d4e7962c604f4b583715ea43a0740a276855d0cbb476e
+Size: 4467422
+
+Package: lxmenu-data
+Architecture: all
+Installed-Size: 252
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.1.5-5
+Homepage: https://lxde.org/
+Description: Freedesktop.org desktop menus for LXDE
+Filename: all/lxmenu-data_0.1.5-5_all.deb
+SHA1: 6edfcb065ff982900a5e73ed1f49c6ea4013093c
+SHA256: 5f26ea960102cbe172b5ce70951f89154294e02ed5f8a187bf667743e81f2f5d
+Size: 44714
+
+Package: matchbox-keyboard
+Architecture: arm
+Installed-Size: 164
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.1.1-8
+Homepage: https://www.yoctoproject.org/software-item/matchbox/
+Depends: libexpat, libfakekey, libpng, libx11, libxft, libxrender, libxtst, zlib
+Recommends: ttf-dejavu
+Description: An on-screen virtual keyboard.
+Filename: arm/matchbox-keyboard_0.1.1-8_arm.deb
+SHA1: e4d95dabb4664d39ad9eccbbbb5edfecf75b474f
+SHA256: b2014bf08c84463d0d8e3dc34e41034f99fc0ae8a2d25b167c31f0713f72224e
+Size: 19898
+
+Package: menu-cache
+Architecture: arm
+Installed-Size: 152
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-6
+Homepage: https://lxde.org/
+Depends: glib, libfm-extra
+Description: Caching mechanism for freedesktop.org compliant menus
+Filename: arm/menu-cache_1.1.0-6_arm.deb
+SHA1: 15191629e4611ff97bbaa81fc592398954596b99
+SHA256: 18274d0dd104433f70b87e73faf31e2ad4e4aa7752809568bf5c27d3af63793e
+Size: 29088
+
+Package: menu-cache-static
+Architecture: arm
+Installed-Size: 56
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-6
+Homepage: https://lxde.org/
+Depends: menu-cache (= 1.1.0-6)
+Description: Static libraries for menu-cache
+Filename: arm/menu-cache-static_1.1.0-6_arm.deb
+SHA1: 810107a9a4b35a294a54e8d2f0bcdc5dd1f9ecc0
+SHA256: 21a6c141a6100ace3a19716c19da9dbc22b749d6588db66d6d6effa62e25ff7f
+Size: 9896
+
+Package: mesa
+Architecture: arm
+Installed-Size: 4308
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 17.3.9-14
+Homepage: https://www.mesa3d.org
+Depends: libandroid-shmem, libexpat, libdrm, libx11, libxdamage, libxext, libxml2, libxshmfence, zlib
+Conflicts: libmesa
+Replaces: libmesa
+Description: An open-source implementation of the OpenGL specification
+Filename: arm/mesa_17.3.9-14_arm.deb
+SHA1: f4288d7439a712975e9e256bb1e2d3685c4cf2bd
+SHA256: a35a13c53456d941f544073963eac83167818fdbea8d8306baa454b78dcaebcc
+Size: 1088256
+
+Package: mpv-x
+Architecture: arm
+Installed-Size: 1276
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.29.1-14
+Homepage: https://mpv.io/
+Depends: ffmpeg, libandroid-glob, libandroid-shmem, libass, libdrm, littlecms, libjpeg-turbo, libcaca, liblua52, libx11, libxext, libxinerama, libxss, libxrandr, openal-soft, pulseaudio, zlib
+Conflicts: mpv
+Replaces: mpv
+Description: Command-line media player
+Filename: arm/mpv-x_0.29.1-14_arm.deb
+SHA1: 5921a3d0b72ca6e1573d6aa964aa8172b7a2a53f
+SHA256: 90e1f09023b1deb2826abc65cf186547faef9d7694b2864d11e259a7ff7dc7b3
+Size: 664688
+
+Package: mtdev
+Architecture: arm
+Installed-Size: 100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://bitmath.org/code/mtdev/
+Description: A stand-alone library which transforms all variants of kernel MT events to the slotted type B protocol
+Filename: arm/mtdev_1.1.5-5_arm.deb
+SHA1: eabc70eae78c77395cfd76d6dfab9666245b0c55
+SHA256: bd2ef6c78ee6a5d3b34b435bc0107e8d44bbf4675e1d164d31dadbc1424b2d10
+Size: 13582
+
+Package: mtdev-static
+Architecture: arm
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://bitmath.org/code/mtdev/
+Depends: mtdev (= 1.1.5-5)
+Description: Static libraries for mtdev
+Filename: arm/mtdev-static_1.1.5-5_arm.deb
+SHA1: 8221b7724b6ef05118854f259de12b2ab1fadc6e
+SHA256: f88a9efe9801ee8dbbafec62af18fcceba16faa3741d9191c5fca9f9a866c31a
+Size: 7788
+
+Package: mtpaint
+Architecture: arm
+Installed-Size: 596
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.49.19-5
+Homepage: https://sourceforge.net/projects/mtpaint/
+Depends: atk, fontconfig, freetype, gdk-pixbuf, giflib, glib, gtk2, libandroid-glob, libandroid-shmem, libcairo-x, libjpeg-turbo, littlecms, pango-x, libpng, libtiff, libwebp, libx11, zlib
+Recommends: gifsicle
+Description: Simple paint program for creating icons and pixel based artwork
+Filename: arm/mtpaint_3.49.19-5_arm.deb
+SHA1: 512fe04f80851110850c5246683a2d6789a20a77
+SHA256: 759efadae649db6eda9787d34b9b1c4093eaf06ace3dc7e3db4dfeb802c9033c
+Size: 276174
+
+Package: obconf
+Architecture: arm
+Installed-Size: 440
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.4-8
+Homepage: http://openbox.org/wiki/ObConf:About
+Depends: atk, fontconfig, freetype, gdk-pixbuf, glib, gtk2, imlib2, libandroid-shmem, libcairo-x, libglade, libice, librsvg, libsm, libx11, libxft, libxml2, openbox, pango-x, startup-notification
+Description: A configuration tool for the Openbox window manager
+Filename: arm/obconf_2.0.4-8_arm.deb
+SHA1: 8416b4f0e261ac618e6ab0183e3be97b1b496d97
+SHA256: dd62fa209271e83b18d58cf638ab9d5fd709b7dedd86ccc517e462af411a6f62
+Size: 42924
+
+Package: openbox
+Architecture: arm
+Installed-Size: 1164
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.6.1-31
+Homepage: http://openbox.org
+Depends: bash, fontconfig, freetype, fribidi, gdk-pixbuf, glib, harfbuzz, imlib2, libandroid-shmem, libbz2, libcairo-x, libcroco, libffi, libgraphite, libice, liblzma, libpixman, libpng, librsvg, libsm, libuuid, libx11, libxau, libxcb, libxcursor, libxdmcp, libxext, libxfixes, libxft, libxinerama, libxml2, libxrandr, libxrender, pango-x, pcre, startup-notification, xcb-util, zlib
+Recommends: obconf
+Suggests: aterm, fltk, geany, the-powder-toy, dosbox
+Description: Highly configurable and lightweight X11 window manager
+Filename: arm/openbox_3.6.1-31_arm.deb
+SHA1: ac73fd560697ba9a0bd8bd93c5c6bd58618a49d3
+SHA256: bebaf4dda5f038a31ae3befaab93e449d7f25b36bbee621e88c3db0b070ee118
+Size: 216292
+
+Package: openbox-static
+Architecture: arm
+Installed-Size: 200
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.6.1-31
+Homepage: http://openbox.org
+Depends: openbox (= 3.6.1-31)
+Description: Static libraries for openbox
+Filename: arm/openbox-static_3.6.1-31_arm.deb
+SHA1: 52bcf02ba38c58572f6a4babbd376c0c97bb7373
+SHA256: 6e0f8fdfa3927aa3c70f0e36c5765ac036200ffe43c47865756ccd264cb37fad
+Size: 52272
+
+Package: openttd
+Architecture: arm
+Installed-Size: 15248
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.9.3-2
+Homepage: https://www.openttd.org/
+Depends: desktop-file-utils, fontconfig, hicolor-icon-theme, libicu, liblzma, liblzo, libpng, openttd-gfx, openttd-msx, openttd-sfx, sdl
+Description: An engine for running Transport Tycoon Deluxe
+Filename: arm/openttd_1.9.3-2_arm.deb
+SHA1: 8985e1a71ac138f639ad867763ca333a1063365b
+SHA256: 17b359fba03830f039503b09ead32c30730fc419aea3e9c19b8ccc0ae36a0746
+Size: 4185584
+
+Package: openttd-gfx
+Architecture: all
+Installed-Size: 5200
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.5.5-4
+Homepage: https://dev.openttdcoop.org/projects/opengfx
+Description: A free graphics set for openttd
+Filename: all/openttd-gfx_0.5.5-4_all.deb
+SHA1: 2dc538def670c592f6926c232369e61c0bbc001d
+SHA256: aa1a8044d1649aeaeb7b3a9220708623500f7922b253619a633b8c06f7dce1af
+Size: 2874042
+
+Package: openttd-msx
+Architecture: all
+Installed-Size: 816
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.3.1-4
+Homepage: https://bundles.openttdcoop.org/openmsx
+Description: Free music set for openttd
+Filename: all/openttd-msx_0.3.1-4_all.deb
+SHA1: df10b199359208867489f64a5f4342d997bd6996
+SHA256: ba97fc77de9b7bda0d5554128e3cac380fbbc862712fbb8611337b178bad9837
+Size: 87132
+
+Package: openttd-sfx
+Architecture: all
+Installed-Size: 12888
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.2.3-4
+Homepage: https://bundles.openttdcoop.org/opensfx
+Description: Free sound set for openttd
+Filename: all/openttd-sfx_0.2.3-4_all.deb
+SHA1: f8c7930437ff6ac2c8fe429611ada546ce154264
+SHA256: 910950ea2f35c9976dc428c1616e44081f3ac008a836453de25d361141c8dfa1
+Size: 9464108
+
+Package: pango-x
+Architecture: arm
+Installed-Size: 816
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.44.6-4
+Homepage: https://www.pango.org/
+Depends: fontconfig, fribidi, glib, harfbuzz, libcairo-x, libxft, zlib
+Conflicts: pango, pango-dev
+Replaces: pango
+Provides: pango
+Description: Library for laying out and rendering text (with X)
+Filename: arm/pango-x_1.44.6-4_arm.deb
+SHA1: 0a14b65642834fbf2e70c9a03eeefe07605b030e
+SHA256: eb205be818abe90d6ba13dcf53667a57515947486663ba0c465654fb358c0de6
+Size: 183608
+
+Package: pcmanfm
+Architecture: arm
+Installed-Size: 404
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.1-5
+Homepage: https://lxde.org/
+Depends: atk, glib, gtk3, libandroid-shmem, libcairo-x, libfm, libx11, lxmenu-data, pango-x
+Recommends: xarchiver
+Description: Extremely fast and lightweight file manager
+Filename: arm/pcmanfm_1.3.1-5_arm.deb
+SHA1: 2fdd86921379534bfde86fda3dc21eecd6f47d1c
+SHA256: 1e7470ec8cbe7bb17097e4eb58a7f548db17b40a8974e26d3767eb7f2785ff8a
+Size: 77626
+
+Package: pinentry-gtk
+Architecture: arm
+Installed-Size: 196
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-8
+Homepage: https://www.gnupg.org/related_software/pinentry/index.html
+Depends: atk, fontconfig, freetype, gdk-pixbuf, glib, gtk2, libandroid-shmem, libassuan, libcairo-x, libgpg-error, ncurses, pango-x
+Conflicts: pinentry
+Replaces: pinentry
+Provides: pinentry
+Description: Dialog allowing secure password entry (with gtk2 support)
+Filename: arm/pinentry-gtk_1.1.0-8_arm.deb
+SHA1: ff9399d5c2f3cdace9b914635a9dc690a5714fb3
+SHA256: 72869b6f581871469e7f90a4a5f88a6f9f31382d0a3e88ac955df5d8c9ad45e7
+Size: 46084
+
+Package: plotutils
+Architecture: arm
+Installed-Size: 2232
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6-9
+Homepage: https://directory.fsf.org/wiki/Plotutils
+Depends: libice, libpng, libsm, libx11, libxaw, libxext, libxmu, libxt, zlib
+Description: Set of utilities and libraries for plotting.
+Filename: arm/plotutils_2.6-9_arm.deb
+SHA1: 7d71e7987cef081349e6549b4e0924f281d00e1c
+SHA256: d94acdb9f499b5f984d1e2f49659dcf93dc59a41a4c448fbe3c3f09fe1d7d42e
+Size: 571022
+
+Package: plotutils-static
+Architecture: arm
+Installed-Size: 1460
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6-9
+Homepage: https://directory.fsf.org/wiki/Plotutils
+Depends: plotutils (= 2.6-9)
+Description: Static libraries for plotutils
+Filename: arm/plotutils-static_2.6-9_arm.deb
+SHA1: 3a9c52febd5b06a1c64eb294609fc14da1d10489
+SHA256: ac4e7ad51362b60bdb7131ece8d59f8beb60a8e0ef0f5d42ae72bd70abdcc9fd
+Size: 330156
+
+Package: polybar
+Architecture: arm
+Installed-Size: 1684
+Maintainer: Tristan Ross <spaceboyross@yandex.com>
+Version: 3.4.1-1
+Homepage: https://polybar.github.io
+Depends: fontconfig, freetype, libandroid-glob, libandroid-shmem, libc++, libcairo-x, libcurl, libxcb, pulseaudio, xcb-util-cursor, xcb-util-image, xcb-util-xrm, xcb-util-wm
+Description: A fast and easy-to-use status bar
+Filename: arm/polybar_3.4.1-1_arm.deb
+SHA1: 199d15900532dd3b4dea28ca812095a221f25caf
+SHA256: 1e397ef311e9264449a49103d8116821fa2584ce0738c4a6a04fa9cb479a43c5
+Size: 453940
+
+Package: putty
+Architecture: arm
+Installed-Size: 2980
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.73-1
+Homepage: https://www.chiark.greenend.org.uk/~sgtatham/putty/
+Depends: atk, gdk-pixbuf, glib, gtk3, libandroid-glob, libandroid-shmem, libcairo-x, libx11, pango-x
+Description: A terminal integrated SSH/Telnet client
+Filename: arm/putty_0.73-1_arm.deb
+SHA1: 45eb5a52386f031dd4e84e1412015093af2fe781
+SHA256: 787253e683ceadff9a8fdc905cc2ff2c42690cdca591dc0942f8592a05cc28c1
+Size: 549814
+
+Package: pypanel
+Architecture: arm
+Installed-Size: 184
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.4-16
+Homepage: https://sourceforge.net/projects/pypanel/
+Depends: freetype, imlib2, libandroid-shmem, libx11, libxft, python2, python2-xlib
+Description: A lightweight panel/taskbar for X11 window managers written in python.
+Filename: arm/pypanel_2.4-16_arm.deb
+SHA1: 15bfd3f7a50d1db2fe15886829bebb620f805c3a
+SHA256: ba4e8acb8ab2cf818ed9dd1af676caebf94d0497faf1d4832ec3b16d8fbfcfd4
+Size: 27246
+
+Package: python2-six
+Architecture: all
+Installed-Size: 164
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.12.0-5
+Homepage: https://pypi.org/project/six/
+Depends: python2
+Description: Python 2 and 3 compatibility utilities
+Filename: all/python2-six_1.12.0-5_all.deb
+SHA1: 1c498724148434015d7e849cf321568f60bfa66b
+SHA256: 45150773e8f3237d18c8f772731a606f4e715f628764ef8e804a887d6eb91624
+Size: 19002
+
+Package: python2-xlib
+Architecture: all
+Installed-Size: 1264
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.24-4
+Homepage: https://github.com/python-xlib/python-xlib
+Depends: libx11, python2, python2-six
+Description: A fully functional X client library for Python programs
+Filename: all/python2-xlib_0.24-4_all.deb
+SHA1: 30b4ed240810dd671b3ef1173a379261fb02d206
+SHA256: 8c5a3e0949f5a9854a83b930f3e68fe7c4d035a325248acae07da79f4cd825b7
+Size: 150872
+
+Package: qemu-common
+Architecture: arm
+Installed-Size: 14464
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcap, libcurl, libffi, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, openssl, pcre, sdl2, zlib
+Description: A set common files for the QEMU emulators
+Filename: arm/qemu-common_1:3.1.0-6_arm.deb
+SHA1: a042fccb3d610300a7732dfb7d542822fcb22de4
+SHA256: ed9490649c87e8f17bd7d215ab79add63c7d02c2594d2dbdc82441e3de40f76e
+Size: 3997254
+
+Package: qemu-system-aarch64
+Architecture: arm
+Installed-Size: 7684
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator (aarch64)
+Filename: arm/qemu-system-aarch64_1:3.1.0-6_arm.deb
+SHA1: 6e533d0ca29bc636b25c3ace651e3efccf41768b
+SHA256: df06fda6ed40fdd5a655c04ac6efb07235123f499954e8664c4c6d264c0ecd2c
+Size: 2280802
+
+Package: qemu-system-arm
+Architecture: arm
+Installed-Size: 7176
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator (arm)
+Filename: arm/qemu-system-arm_1:3.1.0-6_arm.deb
+SHA1: 687619de9265f2588f143fb3c5652a255f1ecac8
+SHA256: 85c91c56263518023af98d8838072a6bd12a674115d94c846ddc0784ae1e9f70
+Size: 2134712
+
+Package: qemu-system-i386
+Architecture: arm
+Installed-Size: 6660
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator and virtualizer (i386)
+Filename: arm/qemu-system-i386_1:3.1.0-6_arm.deb
+SHA1: ef4fe29ab822ad31e1430eba05e3ea2e3dcf5492
+SHA256: 4e4e28e82508592a755f712880b26cf5c1ec80efa701795560cffc5010ed065f
+Size: 1890128
+
+Package: qemu-system-riscv32
+Architecture: arm
+Installed-Size: 3572
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator (riscv32)
+Filename: arm/qemu-system-riscv32_1:3.1.0-6_arm.deb
+SHA1: 4765e1ce8b6287dda90095017f63e137c2b0f904
+SHA256: dcfc464c8f7eaf65a38bcdeb08a247d2f373f13ad5936bf10da67acdbe71d11e
+Size: 1264038
+
+Package: qemu-system-riscv64
+Architecture: arm
+Installed-Size: 3580
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator (riscv64)
+Filename: arm/qemu-system-riscv64_1:3.1.0-6_arm.deb
+SHA1: c19bd0dc3972580e894d1cff2acc1da71080d28a
+SHA256: edff2385361139d54ebc22db9774a49bee9c432fa650c063914723d70ed2ad9a
+Size: 1266216
+
+Package: qemu-system-x86_64
+Architecture: arm
+Installed-Size: 6696
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator and virtualizer (x86_64)
+Filename: arm/qemu-system-x86_64_1:3.1.0-6_arm.deb
+SHA1: d8e8c5dc203c222f63f2a112cb073a93409cb861
+SHA256: 35c93b7ca7896b5848b53bfb12c57f6279cdd933435b37ce343d9c46cd2af6ca
+Size: 1907102
+
+Package: qemu-utils
+Architecture: arm
+Installed-Size: 3100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libnettle, libnfs, libssh2, libxml2, qemu-common (= 1:3.1.0-6)
+Description: A set of utilities for working with the QEMU emulators
+Filename: arm/qemu-utils_1:3.1.0-6_arm.deb
+SHA1: cebde170f348fda96badbeb9d897ba6adc4dcc7b
+SHA256: 038ceeea0c3fa6ac51080d754d88455e5df7eacec8a6bc0dc6f99bed81850334
+Size: 640390
+
+Package: qgit
+Architecture: arm
+Installed-Size: 876
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.8-6
+Homepage: https://github.com/tibirna/qgit
+Depends: git, hicolor-icon-theme, qt5-base
+Description: A git GUI viewer
+Filename: arm/qgit_2.8-6_arm.deb
+SHA1: 37cd966ed4dfaa5b7513b20c3c4ac369684764fa
+SHA256: 014b45de7dc266249dcede36d82ab488228c202b16e067013af3697fd59d597b
+Size: 298614
+
+Package: qgit
+Architecture: arm
+Installed-Size: 892
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.9
+Homepage: https://github.com/tibirna/qgit
+Depends: git, hicolor-icon-theme, qt5-base
+Description: A git GUI viewer
+Filename: arm/qgit_2.9_arm.deb
+SHA1: c42041e76f184268d5e1abc7ee81bf2fc0b55436
+SHA256: 65cbcebe48c4fe0d126c011cac383a6703a781f815da2d9bcfbc03d721662d94
+Size: 306256
+
+Package: qt5-base
+Architecture: arm
+Installed-Size: 55576
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Description: A cross-platform application and UI framework
+Filename: arm/qt5-base_5.11.3-4_arm.deb
+SHA1: 60509df4848e6ff410fce0f7fb15883b913c39d6
+SHA256: 7fda59a563cc54a6b2c37b2f41563240e483355dbc5498f62c1b0ff0350768bc
+Size: 10963616
+
+Package: qt5-base
+Architecture: arm
+Installed-Size: 55568
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-5
+Homepage: https://qt-project.org/
+Breaks: qt5-x11extras-dev
+Depends: harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Replaces: qt5-x11extras-dev
+Description: A cross-platform application and UI framework
+Filename: arm/qt5-base_5.11.3-5_arm.deb
+SHA1: 21644b07057d1c874cbfd19fc3c496fe3c5b2a9a
+SHA256: 9e68db3506afa313e4725ca471835663104f36d45553e092eee91f38c41d7805
+Size: 10967218
+
+Package: qt5-base
+Architecture: arm
+Installed-Size: 59928
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-6
+Homepage: https://qt-project.org/
+Breaks: qt5-x11extras-dev
+Depends: harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Replaces: qt5-x11extras-dev
+Description: A cross-platform application and UI framework
+Filename: arm/qt5-base_5.11.3-6_arm.deb
+SHA1: 052c7b0e3c43f50e50bd83c709c3dee828efd020
+SHA256: 4decb14412da8f0ab9554efccca637d280c22da47c1f61a49eeedec026d27943
+Size: 12002686
+
+Package: qt5-base
+Architecture: arm
+Installed-Size: 53924
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-7
+Homepage: https://qt-project.org/
+Breaks: qt5-x11extras-dev
+Depends: harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Replaces: qt5-x11extras-dev
+Description: A cross-platform application and UI framework
+Filename: arm/qt5-base_5.11.3-7_arm.deb
+SHA1: 12d0f49bbaa441ee061924303615024005981c23
+SHA256: e8414665854da9924a0be6af9320e84c52d128926c54d618df47e02217eba9b0
+Size: 10202402
+
+Package: qt5-base
+Architecture: arm
+Installed-Size: 58660
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-8
+Homepage: https://qt-project.org/
+Breaks: qt5-x11extras-dev
+Depends: dbus, harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Replaces: qt5-x11extras-dev
+Description: A cross-platform application and UI framework
+Filename: arm/qt5-base_5.11.3-8_arm.deb
+SHA1: 31166e4fc82b7f62cf6c6d9170832ab5f054cb37
+SHA256: 0ef849013efcb949a1e9e1968e944e8f3546364f689ef3bdbf3c5e9a6e1ba8b8
+Size: 10990594
+
+Package: qt5-base
+Architecture: arm
+Installed-Size: 58660
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-9
+Homepage: https://qt-project.org/
+Breaks: qt5-x11extras-dev
+Depends: dbus, harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Replaces: qt5-x11extras-dev
+Description: A cross-platform application and UI framework
+Filename: arm/qt5-base_5.11.3-9_arm.deb
+SHA1: 37667ab24cdd126184e174983436ea1276156a0e
+SHA256: dcca9ffa3be502a6f7648c59423e220357f67e7d75bae03889e067c50eb37477
+Size: 10991946
+
+Package: qt5-base-static
+Architecture: arm
+Installed-Size: 4388
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base (= 5.11.3-4)
+Description: Static libraries for qt5-base
+Filename: arm/qt5-base-static_5.11.3-4_arm.deb
+SHA1: 631c099bfbc4554b61b930d6f35ac86dcd99e393
+SHA256: 2037abbf9120ce83f20d0d133fad3dc496f8b6ed9eae99d4393a5579a62a3f6d
+Size: 1067190
+
+Package: qt5-base-static
+Architecture: arm
+Installed-Size: 4388
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-5
+Homepage: https://qt-project.org/
+Depends: qt5-base (= 5.11.3-5)
+Description: Static libraries for qt5-base
+Filename: arm/qt5-base-static_5.11.3-5_arm.deb
+SHA1: ac4dd6eb9409b7146e758c19cf081502c68e162e
+SHA256: 8f9c053926a9bfd4d5583e56b315d825cb60ab03521d9f69887acab08f2ddc66
+Size: 1066478
+
+Package: qt5-declarative
+Architecture: arm
+Installed-Size: 1460
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-4)
+Description: Classes for QML and JavaScript languages
+Filename: arm/qt5-declarative_5.11.3-4_arm.deb
+SHA1: 9bece93a88e1f290f3a61b962a45f27ec9eb24c6
+SHA256: 38252410c3c5e6bfc53860c22f8fc014790a0344fd9d8b169608ea9c29ca0134
+Size: 240376
+
+Package: qt5-declarative
+Architecture: arm
+Installed-Size: 11028
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-5
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-5)
+Breaks: qt5-declarative-dev
+Replaces: qt5-declarative-dev
+Description: Classes for QML and JavaScript languages
+Filename: arm/qt5-declarative_5.11.3-5_arm.deb
+SHA1: 02e70ff0e2471126ec675572116ef47efa6574b5
+SHA256: d8862789c538c07e6e7b14ac1e14db1c5404adb65a0fa004e2ff36dfb5fdfdad
+Size: 1239416
+
+Package: qt5-declarative
+Architecture: arm
+Installed-Size: 11028
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-6
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-6)
+Breaks: qt5-declarative-dev
+Replaces: qt5-declarative-dev
+Description: Classes for QML and JavaScript languages
+Filename: arm/qt5-declarative_5.11.3-6_arm.deb
+SHA1: ef92bd0f6207d9a7dbdae9eb5bea7c837a47458f
+SHA256: 0065c8c78bee37e702109d6c2a9b5159d3eee8627a30649f711e05e470f4c065
+Size: 1238340
+
+Package: qt5-declarative
+Architecture: arm
+Installed-Size: 16724
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-7
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-7)
+Breaks: qt5-declarative-dev
+Replaces: qt5-declarative-dev
+Description: Classes for QML and JavaScript languages
+Filename: arm/qt5-declarative_5.11.3-7_arm.deb
+SHA1: 621b536c554d8dafa80ac11fd58180219c31dbac
+SHA256: 6bd457e41059365a0fde39a5935dc396503edda517e42f6d1bcb9fb92e3ec99f
+Size: 2921754
+
+Package: qt5-declarative
+Architecture: arm
+Installed-Size: 16724
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-8
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-8)
+Breaks: qt5-declarative-dev
+Replaces: qt5-declarative-dev
+Description: Classes for QML and JavaScript languages
+Filename: arm/qt5-declarative_5.11.3-8_arm.deb
+SHA1: a03124cd026fdea9c6754cb4ca5cc3211825d673
+SHA256: b17c5508f4eb0a45d82b5047d8ecf4206cd85eabfcb7a1dbd5d8d382eeca1be5
+Size: 2922444
+
+Package: qt5-declarative
+Architecture: arm
+Installed-Size: 16724
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-9
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-9)
+Breaks: qt5-declarative-dev
+Replaces: qt5-declarative-dev
+Description: Classes for QML and JavaScript languages
+Filename: arm/qt5-declarative_5.11.3-9_arm.deb
+SHA1: bcb50fac5cfdb628c291b40262211c49ee03210d
+SHA256: e96fd22920717d930a65c33db87bc72d23e29718940b1ebba782ad6ba495ece4
+Size: 2924930
+
+Package: qt5-declarative-dev
+Architecture: arm
+Installed-Size: 9600
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-declarative, qt5-base (= 5.11.3-4)
+Description: Classes for QML and JavaScript languages
+Filename: arm/qt5-declarative-dev_5.11.3-4_arm.deb
+SHA1: b672c591cea064e0e454df974f374904482cd2b7
+SHA256: d5a9d94c108f5b6f8b7be07c3f6b15967491bbf2d49565cbc8668c6ac9c415ce
+Size: 990862
+
+Package: qt5-tools
+Architecture: arm
+Installed-Size: 4376
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-4)
+Description: Qt development tools (incomplete !)
+Filename: arm/qt5-tools_5.11.3-4_arm.deb
+SHA1: f79a92e537fcc8cc94bf7f8e1355539c1fa51f0e
+SHA256: d96da5640e27860e3de1e76c04ec11408a002cc13ee033986543310f98eb99dc
+Size: 675388
+
+Package: qt5-tools
+Architecture: arm
+Installed-Size: 5540
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-5
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-5)
+Breaks: qt5-tools-dev
+Replaces: qt5-tools-dev
+Description: Qt development tools (incomplete !)
+Filename: arm/qt5-tools_5.11.3-5_arm.deb
+SHA1: ab077012d15a6a690249a9851897e0969e330d92
+SHA256: 966588fb6dd2dcd66aae06a80125092d3a6a49845359cc8d80a54b3357cad6e7
+Size: 824220
+
+Package: qt5-tools
+Architecture: arm
+Installed-Size: 5540
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-6
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-6)
+Breaks: qt5-tools-dev
+Replaces: qt5-tools-dev
+Description: Qt development tools (incomplete !)
+Filename: arm/qt5-tools_5.11.3-6_arm.deb
+SHA1: bfd70aef475b1dc80fb4de24e71791a101311f00
+SHA256: 9afd027f5410091b2f0feb6860e07502b0e296b6581a3a48349e9a39d24138fc
+Size: 823994
+
+Package: qt5-tools
+Architecture: arm
+Installed-Size: 5840
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-7
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-7)
+Breaks: qt5-tools-dev
+Replaces: qt5-tools-dev
+Description: Qt development tools (incomplete !)
+Filename: arm/qt5-tools_5.11.3-7_arm.deb
+SHA1: 50948b2c571937204c33e78e651d6a49fa57972a
+SHA256: eae8528d5aa94deff55f13458c4b465d7ea326cbbfce597c74c9cbd5993c286f
+Size: 905188
+
+Package: qt5-tools
+Architecture: arm
+Installed-Size: 5840
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-8
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-8)
+Breaks: qt5-tools-dev
+Replaces: qt5-tools-dev
+Description: Qt development tools (incomplete !)
+Filename: arm/qt5-tools_5.11.3-8_arm.deb
+SHA1: 3a2c8b60cff94791a5776d4a3e5d6902436be5de
+SHA256: a502f7ba61e53b25bb1f2e0b5d462b051a8653ede695f4fbb519e62cf904c973
+Size: 906308
+
+Package: qt5-tools
+Architecture: arm
+Installed-Size: 5840
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-9
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-9)
+Breaks: qt5-tools-dev
+Replaces: qt5-tools-dev
+Description: Qt development tools (incomplete !)
+Filename: arm/qt5-tools_5.11.3-9_arm.deb
+SHA1: 7332506ae5d13ecc8ae4abde43685f7d19261a22
+SHA256: ca2eb2f6140db6a7ebc972719470cbd6464589bb6b7e5a481a0b77b8817ffe9b
+Size: 906408
+
+Package: qt5-tools-dev
+Architecture: arm
+Installed-Size: 1192
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-tools, qt5-base (= 5.11.3-4)
+Description: Qt development tools (incomplete !)
+Filename: arm/qt5-tools-dev_5.11.3-4_arm.deb
+SHA1: e8eadfbcf5e3208bc3bf5d009e95af1e8f80f57b
+SHA256: 9dc3f7079f9b2b247a51c35fc2fdbea5870e62da212097ad52746e961501dccb
+Size: 153266
+
+Package: qt5-x11extras
+Architecture: arm
+Installed-Size: 28
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-4)
+Description: Qt platform-specific APIs for X11
+Filename: arm/qt5-x11extras_5.11.3-4_arm.deb
+SHA1: a4b0563738dcaa94ff05d0a2f1de57c7773d1ed4
+SHA256: 4d78ced578132cfc455959cd4fb83e0d7ff775a676ca97257930792e43f08b30
+Size: 834
+
+Package: qt5-x11extras
+Architecture: arm
+Installed-Size: 120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-5
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-5)
+Description: Qt platform-specific APIs for X11
+Filename: arm/qt5-x11extras_5.11.3-5_arm.deb
+SHA1: 0df66fa3dbc893811cc783de50b3a9b49bc39ba6
+SHA256: 6d8fbddf96bc29c5fab89fc82222a3748579999ea58e92fdcf96c2aa3ebaadbd
+Size: 5208
+
+Package: qt5-x11extras
+Architecture: arm
+Installed-Size: 120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-6
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-6)
+Description: Qt platform-specific APIs for X11
+Filename: arm/qt5-x11extras_5.11.3-6_arm.deb
+SHA1: f5a235576419d670dc2f1b187b4537bb2c7c584c
+SHA256: ac1cfd7a830438a72150f24df04ca1986fd9980333f59e6f61dfed0e6cec226d
+Size: 5202
+
+Package: qt5-x11extras
+Architecture: arm
+Installed-Size: 136
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-7
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-7)
+Description: Qt platform-specific APIs for X11
+Filename: arm/qt5-x11extras_5.11.3-7_arm.deb
+SHA1: 08955341ef051c8d639a3b1ff94c407a33c20b58
+SHA256: 6468a8ea286b9caee13135b8c65024b24b6e29d08a665368a10d2c4096fa4277
+Size: 9074
+
+Package: qt5-x11extras
+Architecture: arm
+Installed-Size: 136
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-8
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-8)
+Description: Qt platform-specific APIs for X11
+Filename: arm/qt5-x11extras_5.11.3-8_arm.deb
+SHA1: 2edfb4aacfed4a547e5ada0b87c38f339af11f53
+SHA256: 8637508aa367c67e375f1c0ce1c99ef0c59e703782158d8a443f515f64ea9323
+Size: 9074
+
+Package: qt5-x11extras
+Architecture: arm
+Installed-Size: 136
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-9
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-9)
+Description: Qt platform-specific APIs for X11
+Filename: arm/qt5-x11extras_5.11.3-9_arm.deb
+SHA1: 5baaafc8e3fba7c386136732d0b77384a7e7946c
+SHA256: a2636bdf85b7d703677ae3f457e0a38aeae05353ddb4a1c7e28897d93afdb298
+Size: 9074
+
+Package: qt5-x11extras-dev
+Architecture: arm
+Installed-Size: 120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-x11extras, qt5-base (= 5.11.3-4)
+Description: Qt platform-specific APIs for X11
+Filename: arm/qt5-x11extras-dev_5.11.3-4_arm.deb
+SHA1: 6673cdbc987f10ae5ea6e4fb617df59e0623c98b
+SHA256: 05c693ad6159713b1441856a6f0464a3f1ac662d9b9f1910eacc4bf9e90b1ba2
+Size: 5166
+
+Package: rofi
+Architecture: arm
+Installed-Size: 592
+Maintainer: Tristan Ross <spaceboyross@yandex.com>
+Version: 1.5.4-6
+Homepage: https://github.com/DaveDavenport/rofi
+Depends: libandroid-glob, libandroid-shmem, startup-notification, libxkbcommon, xcb-util-wm, xcb-util-xrm, librsvg, libcairo-x
+Description: A window switcher, application launcher and dmenu replacement
+Filename: arm/rofi_1.5.4-6_arm.deb
+SHA1: fa65816b3280094e4a26a94592ebb63e699e5648
+SHA256: e8124baf7c8a1ba3f25102124850ba76e0c14ae98a4543a006adb60fabe26552
+Size: 144784
+
+Package: sdl
+Architecture: arm
+Installed-Size: 1612
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.15-22
+Homepage: https://www.libsdl.org
+Depends: libandroid-glob, libflac, libogg, libsndfile, libvorbis, libx11, libxext, libxrandr, libxrender, pulseaudio
+Conflicts: libsdl
+Replaces: libsdl
+Description: A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard
+Filename: arm/sdl_1.2.15-22_arm.deb
+SHA1: 1a21acf57ff76b9b00d6a458f86544b8ab2428d9
+SHA256: 875a646eeee775c2ea4dfb3e0457c0e1c5a02bdaffca6d495bc99de46021ab3f
+Size: 287334
+
+Package: sdl-image
+Architecture: arm
+Installed-Size: 112
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.12-2
+Homepage: https://www.libsdl.org/projects/SDL_image/
+Depends: libjpeg-turbo, libpng, libtiff, sdl, zlib
+Description: A simple library to load images of various formats as SDL surfaces
+Filename: arm/sdl-image_1.2.12-2_arm.deb
+SHA1: 97a73a37aede1207addab5e96536df9fa1776511
+SHA256: a917e61bdb17bd4f029cb88b9d3a610e3f9671e77b4a8ba29c081e3cf90e6982
+Size: 22862
+
+Package: sdl-image-static
+Architecture: arm
+Installed-Size: 92
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.12-2
+Homepage: https://www.libsdl.org/projects/SDL_image/
+Depends: sdl-image (= 1.2.12-2)
+Description: Static libraries for sdl-image
+Filename: arm/sdl-image-static_1.2.12-2_arm.deb
+SHA1: e7f383dd89b85b4ef83418de517ecd8d4d95ffd6
+SHA256: 68c697090cb94bc27c4adac7f8e95f4fd80f842a9141489fdee22f1cff97600b
+Size: 21902
+
+Package: sdl-net
+Architecture: arm
+Installed-Size: 96
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.8-14
+Homepage: https://www.libsdl.org/projects/SDL_net/
+Depends: libandroid-glob, libflac, libogg, libsndfile, libvorbis, pulseaudio, sdl
+Conflicts: libsdl-net
+Replaces: libsdl-net
+Description: A small sample cross-platform networking library
+Filename: arm/sdl-net_1.2.8-14_arm.deb
+SHA1: 120e651e3aff3e135c16d5dea7516228d009f8d6
+SHA256: d8577779d7bc6ffd0ab0cc1e5a304d089af0d423991e6b9b8aa377a15eb03548
+Size: 13664
+
+Package: sdl-net-static
+Architecture: arm
+Installed-Size: 48
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.8-14
+Homepage: https://www.libsdl.org/projects/SDL_net/
+Depends: sdl-net (= 1.2.8-14)
+Description: Static libraries for sdl-net
+Filename: arm/sdl-net-static_1.2.8-14_arm.deb
+SHA1: 0f7ca0c818c3ddd1106946c7b8789edc403a62b7
+SHA256: 9a3998ad7ecc8bde0f0e8b351cbe66eba212fd2767db3a509a4ec89a9d0bbd93
+Size: 6424
+
+Package: sdl-static
+Architecture: arm
+Installed-Size: 500
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.15-22
+Homepage: https://www.libsdl.org
+Depends: sdl (= 1.2.15-22)
+Description: Static libraries for sdl
+Filename: arm/sdl-static_1.2.15-22_arm.deb
+SHA1: f4227b5bf651f27f9099463ccd0ff64439450899
+SHA256: a883b072fc0986b34cb209d37dd7bbee3628dd2eee783b1abdb09e4e3f73d60e
+Size: 148022
+
+Package: sdl2
+Architecture: arm
+Installed-Size: 2548
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.10-4
+Homepage: https://www.libsdl.org
+Depends: libandroid-glob, libflac, libogg, libsndfile, libvorbis, libx11, libxau, libxcb, libxcursor, libxdmcp, libxext, libxfixes, libxi, libxinerama, libxrandr, libxrender, libxss, libxxf86vm, pulseaudio
+Conflicts: libsdl2
+Replaces: libsdl2
+Description: A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard (version 2)
+Filename: arm/sdl2_2.0.10-4_arm.deb
+SHA1: 6c1583953d70994da4197e85c3ce2295f2e0fc6d
+SHA256: 2bcf427ebd22aaa8c968294a74c5feeced0e76fe7bf6c902a9efe8c373f25199
+Size: 461634
+
+Package: sdl2-image
+Architecture: arm
+Installed-Size: 156
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.5-6
+Homepage: https://www.libsdl.org/projects/SDL_image
+Depends: libandroid-glob, libflac, libjpeg-turbo, liblzma, libogg, libpng, libsndfile, libtiff, libvorbis, libwebp, libx11, libxau, libxcb, libxcursor, libxdmcp, libxext, libxfixes, libxi, libxinerama, libxrandr, libxrender, libxss, libxxf86vm, pulseaudio, sdl2, zlib
+Description: A simple library to load images of various formats as SDL surfaces (version 2)
+Filename: arm/sdl2-image_2.0.5-6_arm.deb
+SHA1: 665cf964d4073a3616616c80edab78776fe0b367
+SHA256: e0aa30562309db25a7e6d7c94ec75c0b0794c6562c8368cc6bb983b97c81ce3d
+Size: 48926
+
+Package: sdl2-image-static
+Architecture: arm
+Installed-Size: 156
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.5-6
+Homepage: https://www.libsdl.org/projects/SDL_image
+Depends: sdl2-image (= 2.0.5-6)
+Description: Static libraries for sdl2-image
+Filename: arm/sdl2-image-static_2.0.5-6_arm.deb
+SHA1: 0762718d25dcc19e254d43b6cd8d9096f9dc856d
+SHA256: 7be963016cb4f3356dfbb6714d63da4079cfea7e38742d584a7c7f410dbec271
+Size: 51044
+
+Package: sdl2-static
+Architecture: arm
+Installed-Size: 1564
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.10-4
+Homepage: https://www.libsdl.org
+Depends: sdl2 (= 2.0.10-4)
+Description: Static libraries for sdl2
+Filename: arm/sdl2-static_2.0.10-4_arm.deb
+SHA1: 3fc898ce5dc944eb26267cd3eea0a08d596ef695
+SHA256: b62c45d7544b7fcdce07797cac692744586ec06c58a8fd10df4dc44da3e68cb1
+Size: 375248
+
+Package: sdl2-ttf
+Architecture: arm
+Installed-Size: 108
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.15-5
+Homepage: https://www.libsdl.org/projects/SDL_ttf
+Depends: freetype, mesa, sdl2
+Description: A library that allows you to use TrueType fonts in your SDL applications (version 2)
+Filename: arm/sdl2-ttf_2.0.15-5_arm.deb
+SHA1: a318c8a7b28724dfba64b53ca01f2221721feba9
+SHA256: 1facb9ce43a574b7241429766b71e6c50c88faec46e12f722a0443916a2652b3
+Size: 16558
+
+Package: sdl2-ttf-static
+Architecture: arm
+Installed-Size: 56
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.15-5
+Homepage: https://www.libsdl.org/projects/SDL_ttf
+Depends: sdl2-ttf (= 2.0.15-5)
+Description: Static libraries for sdl2-ttf
+Filename: arm/sdl2-ttf-static_2.0.15-5_arm.deb
+SHA1: a127a238a19e9312a46a7ae12c66a02a92b3932c
+SHA256: 306779e832cadafc5516dbe8be16df549e1e337cb49653be59549d1b920c4cac
+Size: 10548
+
+Package: shared-mime-info
+Architecture: arm
+Installed-Size: 2364
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.15-1
+Homepage: https://freedesktop.org/Software/shared-mime-info
+Depends: coreutils, glib, libxml2
+Description: Freedesktop.org Shared MIME Info
+Filename: arm/shared-mime-info_1.15-1_arm.deb
+SHA1: c854b2e966b5695557b8722ab141607f06346362
+SHA256: f5e8a7331c1cc8e40b40de32973f7f7d6bd7a24660ed5be3a00aae303115db31
+Size: 244158
+
+Package: st
+Architecture: arm
+Installed-Size: 108
+Maintainer: Tristan Ross <spaceboyross@yandex.com>
+Version: 0.8.2-6
+Homepage: https://st.suckless.org/
+Depends: libxft, libxext
+Description: A simple virtual terminal emulator for X
+Filename: arm/st_0.8.2-6_arm.deb
+SHA1: 93e5bbce8097f9c008457741c641d5746af13f7a
+SHA256: 53f6776a77ce57d50e36e1ace0802434569de29cb402c64e36f15f45acbaf9bc
+Size: 28132
+
+Package: startup-notification
+Architecture: arm
+Installed-Size: 116
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.12-10
+Homepage: https://www.freedesktop.org/
+Depends: libx11, libxcb, xcb-util
+Description: Utility libraries for XC Binding
+Filename: arm/startup-notification_0.12-10_arm.deb
+SHA1: c9b4fc204ece6748a502e3641720008ea80cace9
+SHA256: 255edca2c384b8b56c559f0f5a0b6db9e8b06ad4ebafd24fc7a334ea69af3e33
+Size: 13322
+
+Package: startup-notification-static
+Architecture: arm
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.12-10
+Homepage: https://www.freedesktop.org/
+Depends: startup-notification (= 0.12-10)
+Description: Static libraries for startup-notification
+Filename: arm/startup-notification-static_0.12-10_arm.deb
+SHA1: b149417cd691f8db0c0d0a87fabfe29cb4684a5b
+SHA256: c598b8c8bfd99e26fb4dc7f8639f2e743389f484a7875f0413cf2dfe5c0e334f
+Size: 13014
+
+Package: telepathy-glib
+Architecture: arm
+Installed-Size: 21512
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.24.1-4
+Homepage: http://telepathy.freedesktop.org/
+Breaks: telepathy-glib-dev
+Depends: dbus-glib
+Replaces: telepathy-glib-dev
+Description: GLib bindings for the Telepathy D-Bus protocol
+Filename: arm/telepathy-glib_0.24.1-4_arm.deb
+SHA1: b06a4b54a6d3bd74e48c2aba23665bf11d8bd712
+SHA256: 1d4f8e2467a13b38286b4f638b64722355460c25ad36ad51c3f6f9a6c7360b0e
+Size: 1319954
+
+Package: telepathy-glib-static
+Architecture: arm
+Installed-Size: 3244
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.24.1-4
+Homepage: http://telepathy.freedesktop.org/
+Depends: telepathy-glib (= 0.24.1-4)
+Description: Static libraries for telepathy-glib
+Filename: arm/telepathy-glib-static_0.24.1-4_arm.deb
+SHA1: 1e197d5fe9d40d01f62247d7434fff29c3aeb4c9
+SHA256: 853b10b9483d9355d0fd0edbdb0de80317adbd6a6089a352a80a9b993359f331
+Size: 641620
+
+Package: termux-x11
+Architecture: arm
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0-1
+Homepage: https://github.com/termux/x11-packages
+Depends: libwayland
+Description: Utility to start X11 Termux add-on
+Filename: arm/termux-x11_1.0-1_arm.deb
+SHA1: 0d378f9fc6cac741796e8d0d06529a6add80b8f3
+SHA256: 6ab24d6bb10a147cfea87ff973e5158fdf6108f7d3418dcc8cb72bbf405471a3
+Size: 2652
+
+Package: the-powder-toy
+Architecture: arm
+Installed-Size: 1700
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 94.1-5
+Homepage: https://powdertoy.co.uk/
+Depends: fftw, libbz2, libc++, liblua52, sdl2, libx11, zlib
+Description: The Powder Toy is a free physics sandbox game
+Filename: arm/the-powder-toy_94.1-5_arm.deb
+SHA1: c3df5f242597defe49b8ead2a00871e3d8732508
+SHA256: a799a1fda05aa8296334d2842b10554f06ea9b726f96a3557ab981ae7ff677a6
+Size: 562412
+
+Package: thunar
+Architecture: arm
+Installed-Size: 6376
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.8.9-4
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Depends: desktop-file-utils, exo, hicolor-icon-theme, libexif, libnotify, libpng, libxfce4ui, libxfce4util
+Description: Modern file manager for XFCE environment
+Filename: arm/thunar_1.8.9-4_arm.deb
+SHA1: de237ca44c510206e835cc556cef20e0b6e32a1a
+SHA256: d246c03e5303b4cf5ccda3c1499316e29b89bf4014ed9e0900434c3a91a1b491
+Size: 958638
+
+Package: thunar-static
+Architecture: arm
+Installed-Size: 344
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.8.9-4
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Depends: thunar (= 1.8.9-4)
+Description: Static libraries for thunar
+Filename: arm/thunar-static_1.8.9-4_arm.deb
+SHA1: f4a81cc51add87db85e75cdc38eddcaca5475ae2
+SHA256: dd6c8b47480e5cf458874f6afec2ddd0efad78f8e6e0dcd70436f83ed597c347
+Size: 71414
+
+Package: tigervnc
+Architecture: arm
+Installed-Size: 2260
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.9.0-34
+Homepage: https://tigervnc.org/
+Depends: freetype, libandroid-shmem, libbz2, libc++, libdrm, libexpat, libgnutls, libjpeg-turbo, libpixman, libpng, libuuid, libx11, libxau, libxcb, libxdamage, libxdmcp, libxext, libxxf86vm, libxfixes, libxfont2, libxshmfence, mesa, openssl, perl, xkeyboard-config, xorg-xauth, xorg-xkbcomp
+Suggests: aterm, xorg-twm
+Description: Suite of VNC servers. Based on the VNC 4 branch of TightVNC.
+Filename: arm/tigervnc_1.9.0-34_arm.deb
+SHA1: 9d18f6b3ac500419897effe0b9e4e5a118fe1950
+SHA256: d723387a42875fd68b88e5ab3e3a5234ad6d59b0f63e8eb449dadaddf62faed9
+Size: 828322
+
+Package: tigervnc-viewer
+Architecture: arm
+Installed-Size: 372
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.9.0-34
+Homepage: https://tigervnc.org/
+Depends: fltk, fontconfig, libandroid-shmem, libc++, libgnutls, libice, libjpeg-turbo, libsm, libx11, libxcursor, libxext, libxfixes, libxft, libxinerama, libxrender, tigervnc (= 1.9.0-34)
+Conflicts: tigervnc (<< 1.9.0-4)
+Description: A VNC viewer from TigerVNC package
+Filename: arm/tigervnc-viewer_1.9.0-34_arm.deb
+SHA1: 10eed3782d1e6544548ee1a9795c072817949bd1
+SHA256: 215c0ae3f64aaf9c53a18ff583b41e0f6d8f931575a125120686ff8371d980a4
+Size: 121242
+
+Package: transmission-gtk
+Architecture: arm
+Installed-Size: 3544
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.94-7
+Homepage: https://transmissionbt.com/
+Depends: atk, gdk-pixbuf, glib, gtk3, libcairo-x, libcurl, libevent, openssl, pango-x, zlib
+Conflicts: transmission
+Replaces: transmission
+Description: Easy, lean and powerful BitTorrent client (gtk3)
+Filename: arm/transmission-gtk_2.94-7_arm.deb
+SHA1: b8589aa6960091ea6b67aacf313b88756a024cc4
+SHA256: 108d511ef1f26811d7c943bce66aacdf0afc2442c3b74c5455e56f9fb7a31824
+Size: 714030
+
+Package: ttf-dejavu
+Architecture: all
+Installed-Size: 10096
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.37-6
+Homepage: https://dejavu-fonts.github.io/
+Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+Filename: all/ttf-dejavu_2.37-6_all.deb
+SHA1: 68f1ee5f620822e038fdf0d193db1f58d0db6af6
+SHA256: 13cbbb961fb0f175adeb484c858a6718849bfdcc1f1cb3ee964712c5d31734fe
+Size: 2469248
+
+Package: uget
+Architecture: arm
+Installed-Size: 608
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.2.2-5
+Homepage: https://ugetdm.com/
+Depends: atk, gdk-pixbuf, glib, gstreamer, gtk3, libandroid-shmem, libcairo-x, libcurl, libnotify, openssl, pango-x
+Suggests: aria2
+Description: GTK+ download manager featuring download classification and HTML import
+Filename: arm/uget_2.2.2-5_arm.deb
+SHA1: 9dc1343e459bb641d3ec2efa21a9f4617b23b77a
+SHA256: 195a7054da7e383a3dafe54ae903c30b8bc9af0ebeb92367f9a55296c5f1d9f9
+Size: 184804
+
+Package: vim-gtk
+Architecture: arm
+Installed-Size: 28452
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 8.2.0000-1
+Homepage: https://www.vim.org
+Depends: gdk-pixbuf, glib, gtk3, libcairo-x, libice, libiconv, liblua, libsm, libx11, libxpm, libxt, ncurses, pango-x, python
+Conflicts: vim, vim-python, vim-runtime
+Description: Vi IMproved - enhanced vi editor
+Filename: arm/vim-gtk_8.2.0000-1_arm.deb
+SHA1: feaedee4d0645407e1b19a66aeb0900aa7c0ce07
+SHA256: d2286a8fd072cc8cca2540a28d95ef808c2f27f9b194ff25ed65aa823f34fad0
+Size: 5799634
+
+Package: wireshark-gtk
+Architecture: arm
+Installed-Size: 73768
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6.11-2
+Homepage: https://www.wireshark.org/
+Depends: atk, c-ares, desktop-file-utils, gdk-pixbuf, glib, gtk3, hicolor-icon-theme, krb5, libandroid-shmem, libcairo-x, libgcrypt, libgnutls, libgpg-error, liblua52, liblz4, libmaxminddb, libnghttp2, libnl, libpcap, libssh, libxml2, pango-x, zlib
+Conflicts: tshark, wireshark, wireshark-cli
+Replaces: tshark, wireshark, wireshark-cli
+Provides: tshark, wireshark, wireshark-cli
+Description: Network protocol analyzer
+Filename: arm/wireshark-gtk_2.6.11-2_arm.deb
+SHA1: e704f20115908569c89f07b6d839b32faa3b6c76
+SHA256: 64bc19325fd1f0f296cb62574918da70aa84758b5bf766dd044147f19b231018
+Size: 16663830
+
+Package: wireshark-gtk-static
+Architecture: arm
+Installed-Size: 94080
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6.11-2
+Homepage: https://www.wireshark.org/
+Depends: wireshark-gtk (= 2.6.11-2)
+Description: Static libraries for wireshark-gtk
+Filename: arm/wireshark-gtk-static_2.6.11-2_arm.deb
+SHA1: 1ed5db5179f49ac38f1f22becfa39f70483cb531
+SHA256: 6229a9b1f223d1f60446e839737d5b8d5e4c2d67d0f47d1432666f0555ce675e
+Size: 17664544
+
+Package: x2x
+Architecture: arm
+Installed-Size: 132
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 20180709-4
+Homepage: https://github.com/dottedmag/x2x
+Depends: libxtst
+Description: Allows the keyboard, mouse on one X display to be used to control another X display
+Filename: arm/x2x_20180709-4_arm.deb
+SHA1: f81e143ab0b3c1223b7ee3fc6be551d1792842db
+SHA256: 2a42779463433e74b5d7f65113d34d323ba5c4a7d5f73d68bbef28d3280db260
+Size: 24670
+
+Package: xarchiver
+Architecture: arm
+Installed-Size: 752
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.5.4.14-5
+Homepage: https://github.com/ib/xarchiver
+Depends: atk, binutils, bzip2, cpio, glib, gtk3, gzip, libandroid-shmem, libcairo-x, lzip, lzop, p7zip, tar, unrar, unzip, xz-utils, zip, zstd, zlib
+Description: GTK+ frontend to various command line archivers
+Filename: arm/xarchiver_0.5.4.14-5_arm.deb
+SHA1: 502cb16a786389c38461a1cfeb8f27c1db9861b4
+SHA256: b7e35db848096d7d275aae489c16bf54aeb01764c0073853a18b62be74ff635a
+Size: 340488
+
+Package: xbitmaps
+Architecture: all
+Installed-Size: 484
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.2-10
+Homepage: https://xorg.freedesktop.org/
+Description: X.org Bitmap files
+Filename: all/xbitmaps_1.1.2-10_all.deb
+SHA1: fad82c6b2832ec9901e628d2f7d9a1010870e7e3
+SHA256: eb0b5dbc07bc624084d9023c1f5081b7f2a56cc3c50df709d8c2e7b620e8af0c
+Size: 18344
+
+Package: xcb-proto
+Architecture: all
+Installed-Size: 1056
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.13-9
+Homepage: https://xcb.freedesktop.org/
+Conflicts: xcbproto
+Replaces: xcbproto
+Description: XML-XCB protocol descriptions
+Filename: all/xcb-proto_1.13-9_all.deb
+SHA1: dc6321a93ead4b81b12527f123442b3b73a72c9a
+SHA256: abbd53956d0337167abe8ac85b819790ab0d99eb889c151a95d9178c946cd8cb
+Size: 102260
+
+Package: xcb-util
+Architecture: arm
+Installed-Size: 108
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-9
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb
+Description: Utility libraries for XC Binding
+Filename: arm/xcb-util_0.4.0-9_arm.deb
+SHA1: 72fe0be91edcb3888364db43a694217eb04f2f1d
+SHA256: 9f317a90a5c50af76024864ba48567c5ee885dbe3b7a804af40c2d122c4fa497
+Size: 11274
+
+Package: xcb-util-cursor
+Architecture: arm
+Installed-Size: 92
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.1.3-8
+Homepage: https://cgit.freedesktop.org/xcb/util-cursor
+Depends: libandroid-shmem, libxcb, xcb-util-image, xcb-util-renderutil
+Description: XCB cursor library
+Filename: arm/xcb-util-cursor_0.1.3-8_arm.deb
+SHA1: 6590e711e11482b11a0a7239955ea382e344482f
+SHA256: a14e0ad18951c090f28fb7f00ee517ceb69b64c4bab36760a0940ff2595fafff
+Size: 11258
+
+Package: xcb-util-cursor-static
+Architecture: arm
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.1.3-8
+Homepage: https://cgit.freedesktop.org/xcb/util-cursor
+Depends: xcb-util-cursor (= 0.1.3-8)
+Description: Static libraries for xcb-util-cursor
+Filename: arm/xcb-util-cursor-static_0.1.3-8_arm.deb
+SHA1: 56cb8eef23cded8d4d66c0c0a805ce739df1996d
+SHA256: 79f57475c3dca5ea5cc0b6dceb35c5d0c7b9093c4581a128d6213175398dd87e
+Size: 7302
+
+Package: xcb-util-image
+Architecture: arm
+Installed-Size: 124
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libandroid-shmem, libxcb, xcb-util
+Description: Utility libraries for XC Binding - Port of Xlib's XImage and XShmImage functions
+Filename: arm/xcb-util-image_0.4.0-7_arm.deb
+SHA1: f4c75040a9650ae54f3de355415c297e5fe32fcc
+SHA256: 7fbe1247b0eb3fb47a924c08a72dd1ea715e646bc8aff78a80dc28c95d47f174
+Size: 16718
+
+Package: xcb-util-image-static
+Architecture: arm
+Installed-Size: 44
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-7
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util-image (= 0.4.0-7)
+Description: Static libraries for xcb-util-image
+Filename: arm/xcb-util-image-static_0.4.0-7_arm.deb
+SHA1: edb7dfd110d2944488a9aee0c066fc0136bcd050
+SHA256: 637e3475f95c9dd6d3abdff53fa18abbee7987e8b86367b237e711ac3b8ab924
+Size: 5914
+
+Package: xcb-util-keysyms
+Architecture: arm
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb
+Description: Utility libraries for XC Binding - Standard X key constants and conversion to/from keycodes
+Filename: arm/xcb-util-keysyms_0.4.0-7_arm.deb
+SHA1: 0fbd4557df2a3571a7094075352123b6f73f677f
+SHA256: 5ff60c5384f6585bdc6fa843e6f64b57894178107233100e49ee30e085d75638
+Size: 4242
+
+Package: xcb-util-keysyms-static
+Architecture: arm
+Installed-Size: 40
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-7
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util-keysyms (= 0.4.0-7)
+Description: Static libraries for xcb-util-keysyms
+Filename: arm/xcb-util-keysyms-static_0.4.0-7_arm.deb
+SHA1: a3b0966b3bfdfe57d266b66aec721513cad18660
+SHA256: 3b8289ec1cd0d5b5cab5355f415b585c6fb531446c9b96f6108dee25d8b68d45
+Size: 3248
+
+Package: xcb-util-renderutil
+Architecture: arm
+Installed-Size: 84
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.3.9-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb
+Description: Utility libraries for XC Binding - Convenience functions for the Render extension
+Filename: arm/xcb-util-renderutil_0.3.9-7_arm.deb
+SHA1: e92105d77e17ebc9e43d2edaca5cd5132b575d21
+SHA256: cd4822ba62664b82c1935940d28ff8c6d5a36976520da465a9b4eced1cf6bbc1
+Size: 5950
+
+Package: xcb-util-renderutil-static
+Architecture: arm
+Installed-Size: 44
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.3.9-7
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util-renderutil (= 0.3.9-7)
+Description: Static libraries for xcb-util-renderutil
+Filename: arm/xcb-util-renderutil-static_0.3.9-7_arm.deb
+SHA1: 1ceac674ab45fccb239dd6a9f3e09dd3113afacc
+SHA256: dc3eb1ce7a813db6e42b6adb0e77470b1fd360eb2eced738c23383e10e624404
+Size: 4416
+
+Package: xcb-util-static
+Architecture: arm
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-9
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util (= 0.4.0-9)
+Description: Static libraries for xcb-util
+Filename: arm/xcb-util-static_0.4.0-9_arm.deb
+SHA1: 0a3c9e65a9dda1a06c5c1f669e983982cf551e9a
+SHA256: 12c33fcb72b20550879bfed245ecb4bf6ee0d92743b776be93c6fd06f699bab9
+Size: 6690
+
+Package: xcb-util-wm
+Architecture: arm
+Installed-Size: 264
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.1-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb
+Description: Utility libraries for XC Binding - client and window-manager helpers for ICCCM
+Filename: arm/xcb-util-wm_0.4.1-7_arm.deb
+SHA1: ad4932efa6f566f6b95a448695b88b2cc62721a0
+SHA256: 4a98ff3b47d4d96370c76d5711662faa60f75431f7780000ef2c2eb9dcc75e6a
+Size: 30082
+
+Package: xcb-util-wm-static
+Architecture: arm
+Installed-Size: 100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.1-7
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util-wm (= 0.4.1-7)
+Description: Static libraries for xcb-util-wm
+Filename: arm/xcb-util-wm-static_0.4.1-7_arm.deb
+SHA1: 12d722c990c363869e65cea9d6e1bf66064cfb80
+SHA256: b3bed7974383d54ab92ad4279cab87fddaf63aa93a5da372313e337daa64d52b
+Size: 12902
+
+Package: xcb-util-xrm
+Architecture: arm
+Installed-Size: 92
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3-8
+Homepage: https://github.com/Airblader/xcb-util-xrm/
+Depends: libxau, libxcb, libxdmcp, xcb-util
+Description: XCB utility functions for the X resource manager
+Filename: arm/xcb-util-xrm_1.3-8_arm.deb
+SHA1: a645de7829561d50b526cbaaea49d93a11529606
+SHA256: 68c0052765fad73024fa85b62db24261626a41d8aa11cc6c53c734cafac76877
+Size: 10110
+
+Package: xcb-util-xrm-static
+Architecture: arm
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3-8
+Homepage: https://github.com/Airblader/xcb-util-xrm/
+Depends: xcb-util-xrm (= 1.3-8)
+Description: Static libraries for xcb-util-xrm
+Filename: arm/xcb-util-xrm-static_1.3-8_arm.deb
+SHA1: 4d166d6430efcb1106424ba54f687ffd2cde2ada
+SHA256: 7214c3fe4fa533c1fbfc60d44a69c9ce39fda38468be7aeebfe30249da81e5fa
+Size: 8280
+
+Package: xcompmgr
+Architecture: arm
+Installed-Size: 88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.8-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxcomposite, libxdamage, libxext, libxfixes, libxrender
+Description: Composite Window-effects manager for X.org
+Filename: arm/xcompmgr_1.1.8-5_arm.deb
+SHA1: 601eb20cedbe4a8f7d6ab6264582cd605229a6cb
+SHA256: eea3793791b8e4ef5408e5ec4833a4ea431b8d9f84143cf9c165fae5f2ac57b8
+Size: 15120
+
+Package: xfce
+Architecture: all
+Installed-Size: 4
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0-2
+Homepage: https://github.com/termux/x11-packages
+Depends: thunar, xfce4-panel, xfce4-session, xfce4-settings, xfconf, xfwm4
+Description: A metapackage that installs all parts of the XFCE desktop environment
+Filename: all/xfce_1.0-2_all.deb
+SHA1: b8b7935bd02220d7ba138e81a9742c62aec295bc
+SHA256: 13e1e5199ee93dd1c0124999d8dcba31ee850b7b1f4a9143e572ca5d2b9d6f5a
+Size: 738
+
+Package: xfce4-panel
+Architecture: arm
+Installed-Size: 3908
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.15.0-1
+Homepage: https://www.xfce.org/
+Depends: desktop-file-utils, exo, hicolor-icon-theme, garcon, libwnck, libxfce4ui, xfconf
+Description: Panel for the XFCE environment
+Filename: arm/xfce4-panel_4.15.0-1_arm.deb
+SHA1: 819a63039b1d79e98ee4677900536068682190cb
+SHA256: 21bc68a37d0e49e40021d2bcc0c1c5213f3ca81d313acb809b55a6199802b6b6
+Size: 565816
+
+Package: xfce4-panel-static
+Architecture: arm
+Installed-Size: 1076
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.15.0-1
+Homepage: https://www.xfce.org/
+Depends: xfce4-panel (= 4.15.0-1)
+Description: Static libraries for xfce4-panel
+Filename: arm/xfce4-panel-static_4.15.0-1_arm.deb
+SHA1: 2c43dee8e1dd1f1bd61935568e32741e56b09196
+SHA256: 83134eadf4f70aa883bf2268b05a833945ed92e2608270ad09eb985ffd2f2519
+Size: 177330
+
+Package: xfce4-session
+Architecture: arm
+Installed-Size: 1976
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.0-4
+Homepage: https://www.xfce.org/
+Depends: gnupg, hicolor-icon-theme, libsm, libwnck, libxfce4ui, xfce4-settings, xfdesktop, xfwm4, xorg-iceauth, xorg-xrdb
+Description: A session manager for XFCE environment
+Filename: arm/xfce4-session_4.14.0-4_arm.deb
+SHA1: 7a9ea9e4cd9c62e97657f99b66c295bed4c9f078
+SHA256: dd006c4c9f8349833ac925a1c19a63d37b1e4f5feaaa63e3d37ff621342652df
+Size: 262850
+
+Package: xfce4-settings
+Architecture: arm
+Installed-Size: 3752
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.1-2
+Homepage: https://www.xfce.org/
+Depends: exo, garcon, libnotify, libxfce4ui, libxklavier, lxde-icon-theme
+Description: Settings manager for XFCE environment
+Filename: arm/xfce4-settings_4.14.1-2_arm.deb
+SHA1: 6e6d41148a9f7d32657ae7e0c4d061b246aa33ba
+SHA256: fb4b099ae39ff6211f9566727e4e8b25e30207a68d593f07384954437aead20c
+Size: 502414
+
+Package: xfconf
+Architecture: arm
+Installed-Size: 1264
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.1-5
+Homepage: https://www.xfce.org/
+Depends: dbus, libxfce4util
+Description: Flexible, easy-to-use configuration management system
+Filename: arm/xfconf_4.14.1-5_arm.deb
+SHA1: be27f2382a81e8c36a7efab1fcc205e87454b83c
+SHA256: 4dbf304fe5fa17165ff8b50e6409af785201b4d66d9d50595c087eb78018e108
+Size: 119846
+
+Package: xfconf-static
+Architecture: arm
+Installed-Size: 156
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.1-5
+Homepage: https://www.xfce.org/
+Depends: xfconf (= 4.14.1-5)
+Description: Static libraries for xfconf
+Filename: arm/xfconf-static_4.14.1-5_arm.deb
+SHA1: 4d03d0796cc965e16a1ceb3db9c8519da205f781
+SHA256: eecfc8654a6147c462bf30bf8bc1a653b17308a3d521b15dc1382c8ce6fd9fd9
+Size: 33718
+
+Package: xfdesktop
+Architecture: arm
+Installed-Size: 3080
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.1-3
+Homepage: https://www.xfce.org/
+Depends: exo, garcon, hicolor-icon-theme, libwnck, libxfce4ui, startup-notification, thunar
+Description: A desktop manager for XFCE environment
+Filename: arm/xfdesktop_4.14.1-3_arm.deb
+SHA1: c08986fa19c4bfa98db313cb3e3823bd9c721c1e
+SHA256: 31c67816d7ecaa52b3fa901b9234e0187a6ff96fdd6669a84dd79a8d1149ffcf
+Size: 784064
+
+Package: xfwm4
+Architecture: arm
+Installed-Size: 5168
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.0-3
+Homepage: https://www.xfce.org/
+Depends: hicolor-icon-theme, libepoxy, libwnck, libxfce4ui, startup-notification, xfconf
+Description: Window manager for XFCE environment
+Filename: arm/xfwm4_4.14.0-3_arm.deb
+SHA1: 986b3826763564b1ec8582f192f72c1bb44ed0e9
+SHA256: b0423ab8a2d6355d5b3f51ecdcf118003fecf18a91630ff73d4edcb0c2011db7
+Size: 350408
+
+Package: xkeyboard-config
+Architecture: all
+Installed-Size: 3960
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.28-1
+Homepage: https://www.freedesktop.org/wiki/Software/XKeyboardConfig/
+Description: X keyboard configuration files
+Filename: all/xkeyboard-config_2.28-1_all.deb
+SHA1: fe95ca9958890b95a4eb51dd3b6848c826d19d4f
+SHA256: a3c77749498a97fbfaf774840964ad9479d15517eae9a8d00d62516e05a93939
+Size: 333612
+
+Package: xorg-font-util
+Architecture: arm
+Installed-Size: 320
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.2-2
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org font utilities
+Filename: arm/xorg-font-util_1.3.2-2_arm.deb
+SHA1: 05e6c8cda5e9770368a36202cc6d1199fb5eb585
+SHA256: 7ed317910a8cdb4dc82f798d22afe6b8d0ee27b5279bb1c5b96c913062316467
+Size: 23540
+
+Package: xorg-fonts-100dpi
+Architecture: all
+Installed-Size: 17292
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: fontconfig-utils, xorg-font-util, xorg-fonts-alias, xorg-fonts-encodings, xorg-mkfontscale
+Conflicts: xorg-fonts-lite
+Description: X.org 100dpi fonts
+Filename: all/xorg-fonts-100dpi_1.0.3-9_all.deb
+SHA1: 20a36733b822166622ec98549325a9ea8c96482b
+SHA256: f68ba300f7cae67b97aca61cf494baf584589825271be73125db26740616b860
+Size: 12382040
+
+Package: xorg-fonts-75dpi
+Architecture: all
+Installed-Size: 15996
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: fontconfig-utils, xorg-font-util, xorg-fonts-alias, xorg-fonts-encodings, xorg-mkfontscale
+Conflicts: xorg-fonts-lite
+Description: X.org 75dpi fonts
+Filename: all/xorg-fonts-75dpi_1.0.3-9_all.deb
+SHA1: 77325601df8d4d276dc78af3b009da8e5f28744e
+SHA256: a39f6b6bc7808e2f426da1f9b291529e979f26c0aecf8a291d19973ff6c94c96
+Size: 10726202
+
+Package: xorg-fonts-alias
+Architecture: all
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.3-7
+Homepage: https://xorg.freedesktop.org/
+Description: X.org font alias files
+Filename: all/xorg-fonts-alias_1.0.3-7_all.deb
+SHA1: 3f5962ffb466291e105321025a44f9c20345e325
+SHA256: 4814fe597cad2ff1ab66405deb9c397a413fa65ddbf2bbccf0002d0ea3c952aa
+Size: 2828
+
+Package: xorg-fonts-encodings
+Architecture: all
+Installed-Size: 808
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.5-4
+Homepage: https://xorg.freedesktop.org/
+Description: X.org font encoding files
+Filename: all/xorg-fonts-encodings_1.0.5-4_all.deb
+SHA1: 2da9403665534b76e9bb13e4f24c7e9ba2099429
+SHA256: 9e036e9695fad2149bb7d5e92e41ed874f373885906bbacf3679e21e6a4954af
+Size: 569400
+
+Package: xorg-iceauth
+Architecture: arm
+Installed-Size: 84
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.8-3
+Homepage: https://xorg.freedesktop.org/
+Depends: libice
+Description: ICE authority file utility
+Filename: arm/xorg-iceauth_1.0.8-3_arm.deb
+SHA1: da02da28456a6bcaa649a6b6fe9aa436ca30ce23
+SHA256: 84503e74863447c2472dc867a773cf13349cc7414ad89d840e871813668bd92b
+Size: 11058
+
+Package: xorg-luit
+Architecture: arm
+Installed-Size: 96
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.1-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libfontenc
+Description: Filter that can be run between an arbitrary application and a UTF-8 terminal emulator
+Filename: arm/xorg-luit_1.1.1-4_arm.deb
+SHA1: 540ba30365e11dc01878e0e779a326c7b15f5610
+SHA256: 9e5f9dec8b889a7a8774df8a86c0bfc033519674667dfd31b6726be0beec5079
+Size: 18184
+
+Package: xorg-mkfontscale
+Architecture: arm
+Installed-Size: 84
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.1-7
+Homepage: https://xorg.freedesktop.org/
+Depends: findutils, freetype, libfontenc, zlib
+Conflicts: xorg-mkfontdir
+Replaces: xorg-mkfontdir
+Description: Create an index of scalable font files for X
+Filename: arm/xorg-mkfontscale_1.2.1-7_arm.deb
+SHA1: 7ff3c40594a6d4f837a5fd135c01384ee4635960
+SHA256: 80d317c518cc7b98c4c8362395ea49d5e1fd4a03af9ba36cfc5cc533812efd7b
+Size: 16194
+
+Package: xorg-server-xvfb
+Architecture: arm
+Installed-Size: 1120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.20.5-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libandroid-shmem, libdrm, libpixman, libx11, libxau, libxfont2, libxinerama, libxkbfile, libxshmfence, mesa, openssl, xkeyboard-config, xorg-xkbcomp
+Conflicts: xorg-xvfb
+Replaces: xorg-xvfb
+Description: X virtual framebuffer
+Filename: arm/xorg-server-xvfb_1.20.5-4_arm.deb
+SHA1: 1fcb8600fedebd391be8c10e4d06d8c3555ecf13
+SHA256: 67ebf08fac699ac5cbf3d349c025071931504287ed26a6f1b5d359c05c4e00e6
+Size: 542542
+
+Package: xorg-twm
+Architecture: arm
+Installed-Size: 208
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.10-12
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libsm, libx11, libxext, libxmu, libxt
+Description: Tab Window Manager for the X Window System
+Filename: arm/xorg-twm_1.0.10-12_arm.deb
+SHA1: eb1eb42fb56ab8a75940f6ae44b4b0af8a725e13
+SHA256: 6e11ec8bd66b0e9f09c0d8479be86b8eabfe29a0df0a4ab7a18f8778b66e14d5
+Size: 82166
+
+Package: xorg-util-macros
+Architecture: all
+Installed-Size: 144
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.19.2-5
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org Autotools macros
+Filename: all/xorg-util-macros_1.19.2-5_all.deb
+SHA1: 69d9500d8255bd948400e9df61ff0f4eb96c6517
+SHA256: d2ac4a18094349646ca6bc218b4f874acf8f015bcfd87e1d69335b2727cc9390
+Size: 21496
+
+Package: xorg-xauth
+Architecture: arm
+Installed-Size: 96
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxext, libxmu
+Description: X.Org authorization settings program
+Filename: arm/xorg-xauth_1.1-4_arm.deb
+SHA1: d7cc1f0096a9ab54d05c616f3a3cbaa240880656
+SHA256: 5bc205643c42b0a7eb4e766ac3967a787cb2dcd5736cade053f2884a9b9236ea
+Size: 17150
+
+Package: xorg-xcalc
+Architecture: arm
+Installed-Size: 136
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxaw, libxt, xorg-fonts-75dpi | xorg-fonts-100dpi
+Description: Scientific calculator for X
+Filename: arm/xorg-xcalc_1.1.0-4_arm.deb
+SHA1: 8615aceb2891eb4e73bbd6f48994063d6a4ae901
+SHA256: 72a3c5e187c4902ebe912ab5b5d507744dbe5cb75e3c4d57dcaf160ee1325235
+Size: 22342
+
+Package: xorg-xclock
+Architecture: arm
+Installed-Size: 116
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.9-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxaw, libxft, libxkbfile, libxmu, libxrender, libxt
+Conflicts: xclock
+Replaces: xclock
+Description: X clock
+Filename: arm/xorg-xclock_1.0.9-4_arm.deb
+SHA1: 67166a745df3b13d971ae959b12bd37bf60b6373
+SHA256: e15d19f45e91fe9e619edb9c3af74fc6b4d6a9cba7585075b027d61824d26ca8
+Size: 24440
+
+Package: xorg-xdpyinfo
+Architecture: arm
+Installed-Size: 88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.2-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxcb, libxcomposite, libxext, libxi, libxinerama, libxrender, libxtst, libxxf86dga, libxxf86vm
+Description: Display information utility for X
+Filename: arm/xorg-xdpyinfo_1.3.2-6_arm.deb
+SHA1: 7bac5359dceb383ad950c5d544301716be5ceb6e
+SHA256: 3a95190456553d79ed3facdf372fc7b808d330566f631d95885007d593c53557
+Size: 14736
+
+Package: xorg-xev
+Architecture: arm
+Installed-Size: 84
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxrandr
+Description: Print contents of X events
+Filename: arm/xorg-xev_1.2.3-6_arm.deb
+SHA1: 8d687024550728ac24d15e620c222ab5aaf0798d
+SHA256: 0f2972f5c3cfd2178b80c7a0e346455ba4b95a8955a6e30b29284434fb3891e7
+Size: 10500
+
+Package: xorg-xhost
+Architecture: arm
+Installed-Size: 72
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.8-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxmu
+Description: Server access control program for X
+Filename: arm/xorg-xhost_1.0.8-1_arm.deb
+SHA1: 106965857bb3b729f2997b4a969eeb235989b99e
+SHA256: 85733917a4f0178c4675110b0040242ec421a539fa385075e5c4784b828f4ca2
+Size: 8188
+
+Package: xorg-xkbcomp
+Architecture: arm
+Installed-Size: 208
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.4.2-7
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxkbfile
+Description: X Keyboard description compiler
+Filename: arm/xorg-xkbcomp_1.4.2-7_arm.deb
+SHA1: 300c35e2a161fa40613b2c4cb775532b5bad9b32
+SHA256: d6e5a89bec57283c3e42c09e6266c99a0c1202b8df296ac931d622bef862ca1b
+Size: 66600
+
+Package: xorg-xlsfonts
+Architecture: arm
+Installed-Size: 80
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.6-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: List available X fonts
+Filename: arm/xorg-xlsfonts_1.0.6-5_arm.deb
+SHA1: 6c2dfe6ba427afb5c064475b74b8b2eb20322c1a
+SHA256: b213676d55982ada1a65124ff47b55e303cd5b2b571596432506ff3559634da3
+Size: 10850
+
+Package: xorg-xmessage
+Architecture: arm
+Installed-Size: 88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.5-9
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxaw, libxt
+Description: Display a message or query in a window
+Filename: arm/xorg-xmessage_1.0.5-9_arm.deb
+SHA1: a41aee74310078d4802c53a4e69562bb7d6490b2
+SHA256: 19c2ff03282588e22dc24e9ffba76a3daea412a20f91dfc158ded4c47ef3952b
+Size: 12216
+
+Package: xorg-xrdb
+Architecture: arm
+Installed-Size: 92
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.0-3
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxmu
+Description: X server resource database utility
+Filename: arm/xorg-xrdb_1.2.0-3_arm.deb
+SHA1: 16299e6cc0f0425b7fac2adcbad174ee688a2d69
+SHA256: b051f5ae3e8a0fcd31bde5bcdc0936c66a2a7d9f5b24a1f89481e55019d8c65a
+Size: 17118
+
+Package: xorg-xsetroot
+Architecture: arm
+Installed-Size: 80
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.2-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxcursor, libxmu
+Description: Classic X utility to set your root window background to a given pattern or color
+Filename: arm/xorg-xsetroot_1.1.2-8_arm.deb
+SHA1: ee669c83c7153c2b09c71c28775ea294df1e075a
+SHA256: 55c2a66057912e1fd0a83094b4f7252fd17e199b083724ccfc5545ea7dd2d4bd
+Size: 10922
+
+Package: xorgproto
+Architecture: all
+Installed-Size: 1748
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2019.2-2
+Homepage: https://xorg.freedesktop.org/
+Depends: xorg-util-macros
+Conflicts: x11-proto
+Replaces: x11-proto
+Description: X.Org X11 Protocol headers
+Filename: all/xorgproto_2019.2-2_all.deb
+SHA1: 49404c0fc96f14d57612ca41591d835e6a7b4875
+SHA256: 56d714062b92b9f96ad15527dfcc337ebef778c81492f7d2fa46f812d84681c3
+Size: 174222
+
+Package: xournal
+Architecture: arm
+Installed-Size: 596
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.8.2016-9
+Homepage: https://sourceforge.net/projects/xournal/
+Depends: atk, desktop-file-utils, fontconfig, freetype, glib, gtk2, hicolor-icon-theme, libandroid-shmem, libart-lgpl, libcairo, libgnomecanvas, pango-x, poppler, libx11, shared-mime-info, zlib
+Description: Notetaking and sketching application
+Filename: arm/xournal_0.4.8.2016-9_arm.deb
+SHA1: 06ae5e3e98a316c7b00bfff6f7718ae34afcade2
+SHA256: 5463a601e5f30bc22199238a02303d96f3646e8dca8d334bbe6b962c52bba009
+Size: 193756
+
+Package: xrdp
+Architecture: arm
+Installed-Size: 2244
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.9.11-2
+Homepage: https://github.com/neutrinolabs/xrdp
+Depends: libandroid-shmem, libcrypt, libice, libsm, libuuid, libx11, libxau, libxcb, libxfixes, libxdmcp, libxrandr, openssl, procps, tigervnc
+Description: An open source remote desktop protocol (RDP) server
+Filename: arm/xrdp_0.9.11-2_arm.deb
+SHA1: f32bf42f915828dd8cb12af49510e0e708fa8f8e
+SHA256: bc4a69d7702a4668fa638c3c4a8a36ac27fcfea266e2aa72749ee6fe4c5741e9
+Size: 305926
+
+Package: xrdp-static
+Architecture: arm
+Installed-Size: 436
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.9.11-2
+Homepage: https://github.com/neutrinolabs/xrdp
+Depends: xrdp (= 0.9.11-2)
+Description: Static libraries for xrdp
+Filename: arm/xrdp-static_0.9.11-2_arm.deb
+SHA1: c29bed56d894fa0d7e2f80113dfa1220ff5f17e7
+SHA256: 5a286024dc02ceb9d72fb308aefc447744b16654ca5d2fc72a0549d73c019dd0
+Size: 116720
+
+Package: xsel
+Architecture: arm
+Installed-Size: 88
+Maintainer: Doron Behar <me@doronbehar.com>
+Version: 1.2.0.20190505-4
+Homepage: http://www.kfish.org/software/xsel/
+Depends: libx11
+Description: Command-line program for getting and setting the contents of the X selection
+Filename: arm/xsel_1.2.0.20190505-4_arm.deb
+SHA1: c1491aee69cf48b50056f558186e09e91bf6bd1a
+SHA256: e2b24a9d88d2c13d7fe234f0d634837526a9ecf81896f6d4dc11d1b2b2d04d46
+Size: 15466
+
+Package: xterm
+Architecture: all
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 9999-4
+Homepage: https://github.com/termux/x11-packages
+Depends: aterm
+Description: A compatibility wrapper for Aterm
+Filename: all/xterm_9999-4_all.deb
+SHA1: 672b042baa00f8d9a8d52f2a5533fbf3ddfc2805
+SHA256: 9b6d8b95953ec8a371569b676f75c17ab90a6288ed8aeea827b18e31b11d22d1
+Size: 896
+
+Package: xtrans
+Architecture: all
+Installed-Size: 316
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.4.0-5
+Homepage: https://xorg.freedesktop.org/
+Description: X transport library
+Filename: all/xtrans_1.4.0-5_all.deb
+SHA1: 70035ff1c5d0f79230868f05d6c526452ca5cd97
+SHA256: 0b63be0baaac9703adfafd6b96dd8c8616a2be810058c7df54e0dec27b42039c
+Size: 42646
+
+Package: xwayland
+Architecture: arm
+Installed-Size: 1136
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.20.5-5
+Homepage: https://xorg.freedesktop.org/wiki/
+Depends: libandroid-shmem, libdrm, libpciaccess, libpixman, libx11, libxau, libxfont2, libxinerama, libxkbfile, libxshmfence, mesa, openssl, xkeyboard-config, xorg-xkbcomp, libwayland, libwayland-protocols, libepoxy
+Description: Wayland X11 server
+Filename: arm/xwayland_1.20.5-5_arm.deb
+SHA1: 5fdb3695c37e3f9470c8e0b1c79171935916fdfc
+SHA256: 2a7314be34cea0e283f161b088ccf9176586c86b08b61250ce0abdec477f317b
+Size: 551722
+
