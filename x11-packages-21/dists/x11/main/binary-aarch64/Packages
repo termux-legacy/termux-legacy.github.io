@@ -1,0 +1,3881 @@
+Package: adwaita-icon-theme
+Architecture: all
+Installed-Size: 42468
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.34.3-1
+Homepage: https://www.gnome.org
+Depends: hicolor-icon-theme
+Description: Freedesktop.org Hicolor icon theme
+Filename: all/adwaita-icon-theme_3.34.3-1_all.deb
+SHA1: 12f874eb08be39e412a3d1186fc57526dff3ca5c
+SHA256: 28df1544c21483f0aa2b53bf8dcae1d1bbbe261e320790697b78972125e901c7
+Size: 10798212
+
+Package: aterm
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.1-15
+Homepage: https://sourceforge.net/projects/aterm/
+Depends: libice, libsm, libx11, libxext, xorg-fonts-75dpi | xorg-fonts-100dpi
+Description: An xterm replacement with transparency support
+Filename: aarch64/aterm_1.0.1-15_aarch64.deb
+SHA1: efec9b126f97e2ef3be046ef37f65eb3af7a8b62
+SHA256: c2b9abada3af1e8985269d1889997854afcd210af267869e54c19f888d208dba
+Size: 57022
+
+Package: atk
+Architecture: aarch64
+Installed-Size: 480
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.34.1-1
+Homepage: https://www.gtk.org
+Depends: glib
+Conflicts: libatk
+Replaces: libatk
+Description: The interface definitions of accessibility infrastructure
+Filename: aarch64/atk_2.34.1-1_aarch64.deb
+SHA1: 88699ffa87a24a2abb8ae0a0a4e3ce2e851bc7ab
+SHA256: d8f6fe96276adf95a6ec23bb44377bf988c4813182ee2cb824a540d52cdb10d7
+Size: 65724
+
+Package: bochs
+Architecture: aarch64
+Installed-Size: 5324
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.6.9-3
+Homepage: http://bochs.sourceforge.net/
+Depends: atk, fontconfig, freetype, gdk-pixbuf, glib, gtk2, pango-x, libc++, libcairo-x, libgraphite, libx11, libxpm, libxrandr, ncurses, readline
+Description: Bochs is a highly portable open source IA-32 (x86) PC emulator and debugger written in C++.
+Filename: aarch64/bochs_2.6.9-3_aarch64.deb
+SHA1: e0de8794e8ff9f3ddbc5fd5e16b1c6d0e4746c97
+SHA256: cf3366effeae9af3e6c06f82883a21516ee269511150c5d3cd6ace6e58d57cb2
+Size: 1190880
+
+Package: dbus
+Architecture: aarch64
+Installed-Size: 1612
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.12.16-7
+Homepage: https://dbus.freedesktop.org
+Breaks: dbus-dev
+Depends: libexpat, libx11
+Replaces: dbus-dev
+Description: Freedesktop.org message bus system
+Filename: aarch64/dbus_1.12.16-7_aarch64.deb
+SHA1: ec07c9ccb2ba6846dcf895e1742aa3e06fe1c305
+SHA256: cbcd09448c270be37193fdffb377e05a82320159e71be966b3cd6f9751eefd8d
+Size: 391658
+
+Package: dbus-glib
+Architecture: aarch64
+Installed-Size: 388
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.110-5
+Homepage: https://dbus.freedesktop.org
+Breaks: dbus-glib-dev
+Depends: dbus, glib
+Replaces: dbus-glib-dev
+Description: GLib bindings for DBUS
+Filename: aarch64/dbus-glib_0.110-5_aarch64.deb
+SHA1: 8a47d8dc920404acc0d293a73630ab0d393b6cb3
+SHA256: 12c732c4a4470423713de8b9336a2f8328aa7ec14a1cf3a2cb3061bce4db332e
+Size: 65030
+
+Package: dbus-glib-static
+Architecture: aarch64
+Installed-Size: 292
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.110-5
+Homepage: https://dbus.freedesktop.org
+Depends: dbus-glib (= 0.110-5)
+Description: Static libraries for dbus-glib
+Filename: aarch64/dbus-glib-static_0.110-5_aarch64.deb
+SHA1: 329fa0c8b7e2863a461e5bfdb8401dfb1a3e2119
+SHA256: 3f5722860dcb038943e853a108e45a71c89a261946519fe75281343cd75287b9
+Size: 50010
+
+Package: dbus-static
+Architecture: aarch64
+Installed-Size: 644
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.12.16-7
+Homepage: https://dbus.freedesktop.org
+Depends: dbus (= 1.12.16-7)
+Description: Static libraries for dbus
+Filename: aarch64/dbus-static_1.12.16-7_aarch64.deb
+SHA1: e6c1a061d9c78781e68c07836277357a2033b346
+SHA256: cfb81793aede812eaf6d10f46c7e808a926df9bca2e1c4bb27a2e90e3ae6fd07
+Size: 118362
+
+Package: desktop-file-utils
+Architecture: aarch64
+Installed-Size: 256
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.24-2
+Homepage: https://www.freedesktop.org/wiki/Software/desktop-file-utils
+Depends: glib
+Description: Command line utilities for working with desktop entries
+Filename: aarch64/desktop-file-utils_0.24-2_aarch64.deb
+SHA1: 6a7b408d27c2e4b60fa86a180c997442e5bbf7fb
+SHA256: 08b6193cad44b32c82f99793ead7a30aac24a93a14c761c35818a35bf1a7cde4
+Size: 35284
+
+Package: dmenu
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.9-5
+Homepage: https://tools.suckless.org/dmenu/
+Depends: dash, freetype, libxinerama, libx11, libxft
+Description: Generic menu for X
+Filename: aarch64/dmenu_4.9-5_aarch64.deb
+SHA1: dc1b1412a5bff9aca8887c30f6e0a8c0325f4b9a
+SHA256: f7c898fed93024bdc7179b03afb163fc5a6d8cfea4d89e63f63fda8b0e5096b2
+Size: 14186
+
+Package: dosbox
+Architecture: aarch64
+Installed-Size: 1824
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.74.3-4
+Homepage: https://sourceforge.net/projects/dosbox/
+Depends: libc++, libpng, libx11, sdl, sdl-net, zlib
+Description: Emulator with builtin DOS for running DOS Games
+Filename: aarch64/dosbox_0.74.3-4_aarch64.deb
+SHA1: 1126a08f92b18102de02431db5031066552fcf8e
+SHA256: 790a26f57bdc9dc665380a9bc87ee361d511ef310637d888e2d3349562574bec
+Size: 518588
+
+Package: dwm
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: Tristan Ross <spaceboyross@yandex.com>
+Version: 6.2-5
+Homepage: https://dwm.suckless.org/
+Depends: libx11, libxinerama, libxft, freetype, st, dmenu
+Description: A dynamic window manager for X
+Filename: aarch64/dwm_6.2-5_aarch64.deb
+SHA1: 5e039f821ce6d6dee25a6f1fc020a52e9d9082e1
+SHA256: 75208dd97e1ca58d94cf5ed0b27af645839f8bdc81ada66b2ea0584aa15dafc2
+Size: 18902
+
+Package: emacs-x
+Architecture: aarch64
+Installed-Size: 99532
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 26.3-3
+Homepage: https://www.gnu.org/software/emacs/
+Depends: atk, fontconfig, freetype, gdk-pixbuf, giflib, glib, gtk3, libandroid-shmem, libcairo-x, libgnutls, libice, libjpeg-turbo, libpng, librsvg, libsm, libtiff, libx11, libxcb, libxext, libxfixes, libxft, libxinerama, libxml2, libxpm, libxrandr, libxrender, littlecms, ncurses, pango-x, zlib
+Conflicts: emacs
+Replaces: emacs
+Provides: emacs
+Description: Extensible, customizable text editor-and more (with X11 support)
+Filename: aarch64/emacs-x_26.3-3_aarch64.deb
+SHA1: 086c2e61622c54eb7874740a6fd3e93fa805ced7
+SHA256: a3d317eb581900a5fe5eea20d001e6da390c6e3639b6955ed720c75d657456ef
+Size: 34888622
+
+Package: exo
+Architecture: aarch64
+Installed-Size: 3600
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.12.10-1
+Homepage: https://www.xfce.org/
+Depends: hicolor-icon-theme, libxfce4ui
+Conflicts: libexo
+Replaces: libexo
+Provides: libexo
+Description: Application library for XFCE
+Filename: aarch64/exo_0.12.10-1_aarch64.deb
+SHA1: 8ebadf413da6876b9075a38c0a7c630059018c38
+SHA256: 23a036ed74dd2aeb2599bdb84d542232bf39018edf0073573a33e5d261d97823
+Size: 402080
+
+Package: exo-static
+Architecture: aarch64
+Installed-Size: 980
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.12.10-1
+Homepage: https://www.xfce.org/
+Depends: exo (= 0.12.10-1)
+Description: Static libraries for exo
+Filename: aarch64/exo-static_0.12.10-1_aarch64.deb
+SHA1: 78e04b12ff2f64e8671d635e2b47aa57c7672479
+SHA256: b8d9c8349edfd481bbd9b276bd87eed9484370fa862b562fc7a9e4b571140627
+Size: 129864
+
+Package: feh
+Architecture: aarch64
+Installed-Size: 536
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.3-1
+Homepage: https://feh.finalrewind.org/
+Depends: imlib2, libandroid-shmem, libcurl, libexif, libpng, libx11, libxinerama
+Description: Fast and light imlib2-based image viewer
+Filename: aarch64/feh_3.3-1_aarch64.deb
+SHA1: 26cb5435f025fa2882ba07727c5148c9dda75a92
+SHA256: b1f75644aeb12a3beda560c3c048625d90c62137325c9f9c8d8744673badebfa
+Size: 153764
+
+Package: florence
+Architecture: aarch64
+Installed-Size: 1132
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.6.3-11
+Homepage: https://sourceforge.net/projects/florence/
+Depends: atk, fontconfig, freetype, fribidi, gdk-pixbuf, glib, gstreamer, gtk3, harfbuzz, libandroid-shmem, libcairo-x, libcroco, libpixman, libpng, librsvg, libx11, libxcb, libxext, libxi, libxml2, libxrender, libxtst, pango-x, zlib
+Description: A configurable on-screen virtual keyboard
+Filename: aarch64/florence_0.6.3-11_aarch64.deb
+SHA1: 82f68e78b6ea7bb5a88355a95b62b64ac4e7553c
+SHA256: 414e41992c7455b928bb8382c792c575068026d00c38d7666d1da5f87972c342
+Size: 147474
+
+Package: fltk
+Architecture: aarch64
+Installed-Size: 2852
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.5-6
+Homepage: https://www.fltk.org/
+Depends: fontconfig, glu, libc++, libjpeg-turbo, libpng, libx11, libxcursor, libxext, libxfixes, libxft, libxinerama, libxrender, mesa, zlib
+Description: Graphical user interface toolkit for X
+Filename: aarch64/fltk_1.3.5-6_aarch64.deb
+SHA1: 11f5cea581b98e65396994769f1dce3d6573af31
+SHA256: 164ffe42900dcfa17840e9cd603c9bbf3ac19f7440bcc094fe05bc99195757b4
+Size: 701260
+
+Package: fltk-editor
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0-termux-9
+Homepage: https://www.fltk.org/
+Depends: fltk, libc++
+Description: Simple text editor
+Filename: aarch64/fltk-editor_1.0-termux-9_aarch64.deb
+SHA1: d713af5d21f7992ad787e1bca128a6cfa3518e9a
+SHA256: 6fdecfce75e3991a60b3ea2e227f27dd027b25afdc61fef7d7e6bc8e39d8a328
+Size: 16610
+
+Package: fltk-static
+Architecture: aarch64
+Installed-Size: 3328
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.5-6
+Homepage: https://www.fltk.org/
+Depends: fltk (= 1.3.5-6)
+Description: Static libraries for fltk
+Filename: aarch64/fltk-static_1.3.5-6_aarch64.deb
+SHA1: e18931e8940a4134dfac72df7cca724db4dd58a0
+SHA256: e7a7b202ddea6122895fa2300bc2899536f6388ea069c5d3da2e7d43a73b25cf
+Size: 572246
+
+Package: fluxbox
+Architecture: aarch64
+Installed-Size: 2500
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.7-16
+Homepage: http://www.fluxbox.org
+Depends: feh, fribidi, imlib2, libc++, libxft, libxinerama, libxpm, libxrandr, xorg-xmessage
+Recommends: aterm
+Description: A lightweight and highly-configurable window manager
+Filename: aarch64/fluxbox_1.3.7-16_aarch64.deb
+SHA1: bfbff15a608e543d7c96b5da7e0cf32933cb96ee
+SHA256: ca8eb162849ec8bd4c8f22889962f31fe0193fd0f1a8422298c71c20da8f0000
+Size: 466248
+
+Package: freeglut
+Architecture: aarch64
+Installed-Size: 436
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.2.1-1
+Homepage: http://freeglut.sourceforge.net/
+Depends: glu, libxi, libxrandr, mesa
+Description: Provides functionality for small OpenGL programs
+Filename: aarch64/freeglut_3.2.1-1_aarch64.deb
+SHA1: 94fcba3253329823603c7ce8ef4e240ce897f7dc
+SHA256: b57abebf83b03bca3dbe27b733581a47b92e9c495a47a88cba730fafe0c8ddac
+Size: 80906
+
+Package: freeglut-static
+Architecture: aarch64
+Installed-Size: 604
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.2.1-1
+Homepage: http://freeglut.sourceforge.net/
+Depends: freeglut (= 3.2.1-1)
+Description: Static libraries for freeglut
+Filename: aarch64/freeglut-static_3.2.1-1_aarch64.deb
+SHA1: cb45e2def0e67ca1acc6b4f9757d24119a4db4ad
+SHA256: 165075ff15c2da8cd8b382d7d09f4e3bef0677e2a77692da11725aba0c1d6923
+Size: 89858
+
+Package: galculator
+Architecture: aarch64
+Installed-Size: 976
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.1.4-9
+Homepage: https://sourceforge.net/projects/galculator/
+Depends: atk, gdk-pixbuf, glib, gtk3, libandroid-shmem, libcairo-x, pango-x
+Description: GTK+ based scientific calculator
+Filename: aarch64/galculator_2.1.4-9_aarch64.deb
+SHA1: 3fc816dc2fac4dfbb1a9c98d243b1eaab3fb1ec7
+SHA256: 50ff9e39524788ca23e2de42a33af1664652a8d7b5189c316f97cbec3833d105
+Size: 60754
+
+Package: garcon
+Architecture: aarch64
+Installed-Size: 1192
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.6.4-3
+Homepage: https://www.xfce.org/
+Depends: libxfce4ui
+Conflicts: libgarcon
+Replaces: libgarcon
+Provides: libgarcon
+Description: Implementation of the freedesktop.org menu specification
+Filename: aarch64/garcon_0.6.4-3_aarch64.deb
+SHA1: a79b1a8934939698118d0d4669cc92ce10231587
+SHA256: 5a76d1353a99456886116eed535a04d8fcc79cd20a26c2cfa5c157cea520a581
+Size: 85486
+
+Package: garcon-static
+Architecture: aarch64
+Installed-Size: 336
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.6.4-3
+Homepage: https://www.xfce.org/
+Depends: garcon (= 0.6.4-3)
+Description: Static libraries for garcon
+Filename: aarch64/garcon-static_0.6.4-3_aarch64.deb
+SHA1: d4b917b06ad80455229e9539577ed041b1e308b5
+SHA256: 9854e92766fc79b073945450ef5ae0f544dd55d09dbc6e5a59bc5b73781b2dcd
+Size: 48194
+
+Package: geany
+Architecture: aarch64
+Installed-Size: 8728
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.36.0-1
+Homepage: https://www.geany.org/
+Depends: atk, fontconfig, freetype, fribidi, gdk-pixbuf, glib, gtk3, harfbuzz, libandroid-glob, libandroid-shmem, libbz2, libc++, libcairo-x, libffi, libgraphite, liblzma, libpixman, libpng, libuuid, libx11, libxau, libxcb, libxdmcp, libxext, libxml2, libxrender, pango-x, pcre, zlib
+Recommends: clang, make
+Description: Fast and lightweight IDE
+Filename: aarch64/geany_1.36.0-1_aarch64.deb
+SHA1: b18ceb43e140ffd46597b9619be854bf6a19ee84
+SHA256: e9b37c1b4398ca49291beb64c641c3ca6f76aa6a4766f6c960030dfddd4579d3
+Size: 2421344
+
+Package: geany-static
+Architecture: aarch64
+Installed-Size: 6940
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.36.0-1
+Homepage: https://www.geany.org/
+Depends: geany (= 1.36.0-1)
+Description: Static libraries for geany
+Filename: aarch64/geany-static_1.36.0-1_aarch64.deb
+SHA1: 7f776c6d6ad5e0f22f928d4d12764224f2860fe1
+SHA256: 505ee9f4f97dbd47d505b34eb3198801bbb04f93a7ae217a91bdba2dac06f78b
+Size: 1080890
+
+Package: glu
+Architecture: aarch64
+Installed-Size: 412
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 9.0.1-4
+Homepage: https://cgit.freedesktop.org/mesa/glu/
+Depends: libandroid-shmem, libc++, libdrm, libexpat, libx11, libxau, libxcb, libxdamage, libxdmcp, libxext, libxfixes, libxshmfence, mesa, zlib
+Conflicts: libglu
+Replaces: libglu
+Description: Mesa OpenGL Utility library
+Filename: aarch64/glu_9.0.1-4_aarch64.deb
+SHA1: cad4f1f47744d875673f263f771276191bc5246a
+SHA256: 4de0f5913b3a24e9047fc5b3772dbc155f3b7bb25e9b72550223c5aa0df06227
+Size: 121928
+
+Package: glu-static
+Architecture: aarch64
+Installed-Size: 820
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 9.0.1-4
+Homepage: https://cgit.freedesktop.org/mesa/glu/
+Depends: glu (= 9.0.1-4)
+Description: Static libraries for glu
+Filename: aarch64/glu-static_9.0.1-4_aarch64.deb
+SHA1: 4f53fef04094e56b8e72e42d04a8491da002a477
+SHA256: 438c791f2bcf036178a22f9fd5345dd6c12ba2314f6f663916af129befc8555d
+Size: 167112
+
+Package: gpg-crypter
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.1-5
+Homepage: https://sourceforge.net/projects/gpg-crypter/
+Depends: atk, gdk-pixbuf, glib, gpgme, gtk3, libandroid-shmem, libassuan, libcairo-x, libgpg-error, pango-x, pinentry-gtk
+Description: A graphical front-end to GnuPG(GPG) using the GTK3 toolkit and libgpgme
+Filename: aarch64/gpg-crypter_0.4.1-5_aarch64.deb
+SHA1: 34463dd2035ae01a67b08d096ae0d8e20d107116
+SHA256: 65ebe881cab5197309e3a648aded339746452fb3d80aebdf09c5bf1de7405222
+Size: 16786
+
+Package: gtk-update-icon-cache
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.24.12-1
+Homepage: https://www.gtk.org/
+Depends: glib, gdk-pixbuf, libandroid-shmem
+Description: GTK+ icon cache updater
+Filename: aarch64/gtk-update-icon-cache_3.24.12-1_aarch64.deb
+SHA1: 6c75e0f08202d2223ac179dad54a2f9b64288f1a
+SHA256: e746d8e3d5f75c90357ffc72fab4719e5a94db6c4b0b34a46bce6e572a4d0f95
+Size: 9648
+
+Package: gtk2
+Architecture: aarch64
+Installed-Size: 7696
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.24.32-16
+Homepage: https://www.gtk.org/
+Depends: adwaita-icon-theme, atk, coreutils, desktop-file-utils, glib-bin, gtk-update-icon-cache, libcairo-x, librsvg, libxcomposite, libxcursor, libxdamage, libxi, libxinerama, libxrandr, pango-x, shared-mime-info, ttf-dejavu
+Conflicts: libgtk2
+Replaces: libgtk2
+Description: GObject-based multi-platform GUI toolkit (legacy)
+Filename: aarch64/gtk2_2.24.32-16_aarch64.deb
+SHA1: 6c3119a38781bbe0ebfa5f5a16cdb5e1865ef512
+SHA256: 77b4f8d8cc617422e95b710faf31386a61cef35bc4e0708f05f506a0fa235b6e
+Size: 1733500
+
+Package: gtk2-static
+Architecture: aarch64
+Installed-Size: 11332
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.24.32-16
+Homepage: https://www.gtk.org/
+Depends: gtk2 (= 2.24.32-16)
+Description: Static libraries for gtk2
+Filename: aarch64/gtk2-static_2.24.32-16_aarch64.deb
+SHA1: e6783c43130a914564cab4e126495c8a039d1313
+SHA256: 08f50fa477d213900c7cb856f953d18f4ae8615db363a2fe9b0c3858def49199
+Size: 1907100
+
+Package: gtk3
+Architecture: aarch64
+Installed-Size: 13760
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.24.12-1
+Homepage: https://www.gtk.org/
+Depends: adwaita-icon-theme, atk, coreutils, desktop-file-utils, gdk-pixbuf, glib, glib-bin, gtk-update-icon-cache, libcairo-x, libepoxy, libxcomposite, libxcursor, libxdamage, libxfixes, libxi, libxinerama, libxrandr, pango-x, shared-mime-info, ttf-dejavu
+Conflicts: libgtk3
+Replaces: libgtk3
+Description: GObject-based multi-platform GUI toolkit
+Filename: aarch64/gtk3_3.24.12-1_aarch64.deb
+SHA1: b48883e4941c245c0dd5706bf7e1d8379e2f4ac2
+SHA256: fa469fea34518de5ac196ca22a5003015b41e410e0fd9a2740b03797c67dee7d
+Size: 2776382
+
+Package: gtk3-static
+Architecture: aarch64
+Installed-Size: 15968
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.24.12-1
+Homepage: https://www.gtk.org/
+Depends: gtk3 (= 3.24.12-1)
+Description: Static libraries for gtk3
+Filename: aarch64/gtk3-static_3.24.12-1_aarch64.deb
+SHA1: e6b3ba6e0d2ff38f4c90cf77eab17cedbf36e3f9
+SHA256: 608e6d5e00312e0e2ca7eb8ebeed82aedf2c2760fdd79d8f3301589fbd36363f
+Size: 2524110
+
+Package: hexchat
+Architecture: aarch64
+Installed-Size: 1384
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.14.2-7
+Homepage: https://hexchat.github.io/
+Depends: gdk-pixbuf, glib, gtk2, liblua, libnotify, libx11, openssl, pango-x, python
+Description: A popular and easy to use graphical IRC (chat) client
+Filename: aarch64/hexchat_2.14.2-7_aarch64.deb
+SHA1: 14f9f6a266191d1fbd5458e695c8aa8018364cec
+SHA256: 6ef93ee76b347b61fa90389c51690a709d49af5b5ed047a961db32c29464c991
+Size: 304076
+
+Package: hicolor-icon-theme
+Architecture: all
+Installed-Size: 100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.17-12
+Homepage: https://www.freedesktop.org/wiki/Software/icon-theme/
+Description: Freedesktop.org Hicolor icon theme
+Filename: all/hicolor-icon-theme_0.17-12_all.deb
+SHA1: 0fe8b97eb09cfe5d53ff3903f2481d0789f570b6
+SHA256: fa8e27771a35b63160d050473d299c5416d57c981bbdbb20674a526c67d4a7a6
+Size: 4708
+
+Package: imagemagick-x
+Architecture: aarch64
+Installed-Size: 18844
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.9.5-1
+Homepage: https://www.imagemagick.org/
+Depends: fftw, fontconfig, freetype, fribidi, glib, harfbuzz, libandroid-support, libbz2, libcairo-x, libffi, libgraphite, libjpeg-turbo, liblzma, libpixman, libpng, libtiff, libuuid, libwebp, libx11, libxau, libxcb, libxdmcp, libxext, libxml2, littlecms, openjpeg, pango-x, pcre, zlib
+Conflicts: imagemagick
+Replaces: imagemagick
+Provides: imagemagick
+Description: Suite to create, edit, compose, or convert images in a variety of formats
+Filename: aarch64/imagemagick-x_7.0.9.5-1_aarch64.deb
+SHA1: f7cc9888fe80f2dd61f831c14cb0441a72b87c49
+SHA256: 006c26aba0f840269fc47722ed137205ddfa6c0a7fc6d1cea07f5fd7e75575db
+Size: 6759518
+
+Package: imagemagick-x-static
+Architecture: aarch64
+Installed-Size: 8404
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.9.5-1
+Homepage: https://www.imagemagick.org/
+Depends: imagemagick-x (= 7.0.9.5-1)
+Description: Static libraries for imagemagick-x
+Filename: aarch64/imagemagick-x-static_7.0.9.5-1_aarch64.deb
+SHA1: ea09c6625377c846254d457f9a3c86965f573c73
+SHA256: 791c175e3fa83e77f0db0a63afac1723f76b2056242864f6301a0f620006e69e
+Size: 1639170
+
+Package: imlib2
+Architecture: aarch64
+Installed-Size: 1176
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.1-10
+Homepage: https://sourceforge.net/projects/enlightenment/
+Depends: freetype, giflib, libandroid-shmem, libbz2, libid3tag, libjpeg-turbo, libpng, libtiff, libxext, zlib
+Description: Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
+Filename: aarch64/imlib2_1.5.1-10_aarch64.deb
+SHA1: 20070e5dc21e1143eb842d41919d6778e025515f
+SHA256: fd4e54e736149cf4b3af44def1e3a0e95af2b7a14f976826d64d1a9ca6d70439
+Size: 466098
+
+Package: imlib2-static
+Architecture: aarch64
+Installed-Size: 540
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.1-10
+Homepage: https://sourceforge.net/projects/enlightenment/
+Depends: imlib2 (= 1.5.1-10)
+Description: Static libraries for imlib2
+Filename: aarch64/imlib2-static_1.5.1-10_aarch64.deb
+SHA1: 74e9014c34752520a8342f87e8870580876e556c
+SHA256: c52c96b6cd218be2c0de1e21e68e64f1838588e5d6a03b8e823a8f666e744e0e
+Size: 113568
+
+Package: iso-codes
+Architecture: all
+Installed-Size: 2984
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.3-2
+Homepage: https://salsa.debian.org/iso-codes-team/iso-codes
+Description: Lists of the country, language, and currency names
+Filename: all/iso-codes_4.3-2_all.deb
+SHA1: 00ce6b85e24daf6b8930dc0948cbe34a0419c4e5
+SHA256: 879c9481a4ab34b5d9812da9347affbacbdcce5829c34eef25f2fac1fb2df479
+Size: 253660
+
+Package: libart-lgpl
+Architecture: aarch64
+Installed-Size: 316
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.3.21-6
+Homepage: https://www.levien.com/libart/
+Description: A library for high-performance 2D graphics
+Filename: aarch64/libart-lgpl_2.3.21-6_aarch64.deb
+SHA1: 8020c002d5e6b684f8d315a09d93b8bf4606397b
+SHA256: a74fa05da4486b1f80051592f1dcbf0606b4103a728b49e74f96529e39dc296f
+Size: 42208
+
+Package: libart-lgpl-static
+Architecture: aarch64
+Installed-Size: 176
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.3.21-6
+Homepage: https://www.levien.com/libart/
+Depends: libart-lgpl (= 2.3.21-6)
+Description: Static libraries for libart-lgpl
+Filename: aarch64/libart-lgpl-static_2.3.21-6_aarch64.deb
+SHA1: 171d3e6a0a8c4071d1a1e68280e04120bf11a8ce
+SHA256: 637566fbd926cc0a8ef388c05d89027a7f2ae56ce8206c31af44aa23045e3a57
+Size: 40022
+
+Package: libcairo-x
+Architecture: aarch64
+Installed-Size: 1388
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.16.0-11
+Homepage: https://cairographics.org
+Depends: fontconfig, freetype, glib, liblzo, libpixman, libpng, librsvg, libx11, libxcb, libxext, libxrender, poppler, zlib
+Conflicts: libcairo, libcairo-gobject, libcairo-dev
+Replaces: libcairo, libcairo-gobject
+Provides: libcairo, libcairo-gobject
+Description: Cairo 2D vector graphics library (with X)
+Filename: aarch64/libcairo-x_1.16.0-11_aarch64.deb
+SHA1: 0a9e957b04786c4a0854ebd18c67073f7de0c46b
+SHA256: 73bd4571e1106378db0ad9e0485993e785d2f2751a0754d82549270056329029
+Size: 407494
+
+Package: libcairo-x-static
+Architecture: aarch64
+Installed-Size: 2440
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.16.0-11
+Homepage: https://cairographics.org
+Depends: libcairo-x (= 1.16.0-11)
+Description: Static libraries for libcairo-x
+Filename: aarch64/libcairo-x-static_1.16.0-11_aarch64.deb
+SHA1: dee2736bfe525011a35413b2576696faeeb31f86
+SHA256: 6d23016681b823f3cf66be4af4c98ddf8d93c7dcdf30809fc99caeca38f429f7
+Size: 508028
+
+Package: libdrm
+Architecture: aarch64
+Installed-Size: 716
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.4.100-1
+Homepage: https://dri.freedesktop.org/wiki/
+Description: Userspace interface to kernel DRM services
+Filename: aarch64/libdrm_2.4.100-1_aarch64.deb
+SHA1: d6106025b818ea9a954a636e2444ac98b16ff889
+SHA256: 955d8e76023886c207515687dc1fe18f639e8073ad2db368e7d30dd4d5423355
+Size: 132230
+
+Package: libdrm-static
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.4.100-1
+Homepage: https://dri.freedesktop.org/wiki/
+Depends: libdrm (= 2.4.100-1)
+Description: Static libraries for libdrm
+Filename: aarch64/libdrm-static_2.4.100-1_aarch64.deb
+SHA1: aae8fc6fc648f9a14d1904107ca0129879474216
+SHA256: 083bdf684b08606b36f433c562415a40ac77891ef807c6a656021ff2f4659dac
+Size: 35206
+
+Package: libepoxy
+Architecture: aarch64
+Installed-Size: 2480
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.4-1
+Homepage: https://github.com/anholt/libepoxy
+Depends: mesa
+Description: Library handling OpenGL function pointer management
+Filename: aarch64/libepoxy_1.5.4-1_aarch64.deb
+SHA1: e24b55192d47a182e880f5632fceb76ee252bcbc
+SHA256: 4b9d844fb4d93e4f6456eb9bc5e5d1e2c3d2566a7a193b002f1734a9452367db
+Size: 270114
+
+Package: libevdev
+Architecture: aarch64
+Installed-Size: 272
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.8.0-2
+Homepage: https://www.freedesktop.org/wiki/Software/libevdev/
+Description: Wrapper library for evdev devices
+Filename: aarch64/libevdev_1.8.0-2_aarch64.deb
+SHA1: 3d0db57139e373287cb1b8a59f556544904a9fb0
+SHA256: 7f701c3f5494b025652321eabb83c0ecc508d68869ee8cd22f5738de0c6c90ad
+Size: 41454
+
+Package: libevdev-static
+Architecture: aarch64
+Installed-Size: 192
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.8.0-2
+Homepage: https://www.freedesktop.org/wiki/Software/libevdev/
+Depends: libevdev (= 1.8.0-2)
+Description: Static libraries for libevdev
+Filename: aarch64/libevdev-static_1.8.0-2_aarch64.deb
+SHA1: a1deca320c0b082f07e82e93d31f4e70e737fcd7
+SHA256: bd45ad82968f9b75d665dfc4a42ba0c34c95db6fbfe22ce1de52b658d0c58c1b
+Size: 25834
+
+Package: libfakekey
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.3-5
+Homepage: https://www.yoctoproject.org/tools-resources/projects/matchbox
+Depends: libx11, libxtst
+Description: X virtual keyboard library.
+Filename: aarch64/libfakekey_0.3-5_aarch64.deb
+SHA1: c803f59519f59d847bbc4c8e8d610e1c3d4640b2
+SHA256: 05b740116f0454fa30189b8be575dd8759c4ac2297a97c2ac319be445f25e72a
+Size: 4648
+
+Package: libfakekey-static
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.3-5
+Homepage: https://www.yoctoproject.org/tools-resources/projects/matchbox
+Depends: libfakekey (= 0.3-5)
+Description: Static libraries for libfakekey
+Filename: aarch64/libfakekey-static_0.3-5_aarch64.deb
+SHA1: 4e443f84b74fe97a8fe553f9028a2fa37fb681c6
+SHA256: 97071a0e5c17a39144a396fb002f967fc886c5b239ad23a3f44394a2d046fc04
+Size: 16720
+
+Package: libfm
+Architecture: aarch64
+Installed-Size: 1444
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.1-5
+Homepage: https://lxde.org/
+Depends: atk, glib, gtk3, libandroid-support, libcairo-x, libexif, libffi, libfm, menu-cache, pango-x, pcre
+Conflicts: libfm-extra
+Replaces: libfm-extra
+Provides: libfm-extra (= 1.3.1)
+Description: Library for file management
+Filename: aarch64/libfm_1.3.1-5_aarch64.deb
+SHA1: eda501ecbb77b43f7281b23118c4ac46d11fb3f3
+SHA256: 0a90f087dd2ae6a311b22627478ffe561868671b3c53da5de5deb1e58c453f37
+Size: 249840
+
+Package: libfm-extra
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.1-5
+Homepage: https://lxde.org/
+Depends: glib
+Description: Extra library for file management
+Filename: aarch64/libfm-extra_1.3.1-5_aarch64.deb
+SHA1: 78cb3e256f75685491cc4151e50320ed0025e9d1
+SHA256: d77da7c392707ab4132f90dccfa3d5c86ef0769b1c79977f52429852a5854ed7
+Size: 10126
+
+Package: libfm-extra-static
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.1-5
+Homepage: https://lxde.org/
+Depends: libfm-extra (= 1.3.1-5)
+Description: Static libraries for libfm-extra
+Filename: aarch64/libfm-extra-static_1.3.1-5_aarch64.deb
+SHA1: efd9f78e037e6a08a6330ce7d65ea08d2f233e94
+SHA256: 480e9454d46eb1a24cdd55dde1ae011bfd6b2811c0ab8247755f95d2a5ce3f0c
+Size: 8540
+
+Package: libfm-static
+Architecture: aarch64
+Installed-Size: 1368
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.1-5
+Homepage: https://lxde.org/
+Depends: libfm (= 1.3.1-5)
+Description: Static libraries for libfm
+Filename: aarch64/libfm-static_1.3.1-5_aarch64.deb
+SHA1: b6833e1b85407c701c90bdd4cea48e7d2abab1dd
+SHA256: 12ee98fcf61d67e696d71dbd8dca14579db8681dd86bc06405e5f8f892be0967
+Size: 240182
+
+Package: libfontenc
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-5
+Homepage: https://xorg.freedesktop.org/
+Depends: zlib
+Description: X11 font encoding library
+Filename: aarch64/libfontenc_1.1.4-5_aarch64.deb
+SHA1: 5db42e214db0b764fe53af849e5658827e43798d
+SHA256: e0f34a388f54f06a01a578df04be0867fbb8089e8c62bb1dfc714f5db795e3d9
+Size: 11130
+
+Package: libfontenc-static
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libfontenc (= 1.1.4-5)
+Description: Static libraries for libfontenc
+Filename: aarch64/libfontenc-static_1.1.4-5_aarch64.deb
+SHA1: 7df331b522767b6b2df5fe67e465c3ed52b1d707
+SHA256: 001d3ecf9ea8c998ee166ff15aac488b79cb0516e737936dbbedf98866184f56
+Size: 10082
+
+Package: libglade
+Architecture: aarch64
+Installed-Size: 248
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6.4-6
+Homepage: https://www.gnome.org/
+Depends: atk, fontconfig, freetype, gdk-pixbuf, glib, gtk2, libcairo-x, libxml2, pango-x
+Suggests: python2
+Description: Allows you to load glade interface files in a program at runtime
+Filename: aarch64/libglade_2.6.4-6_aarch64.deb
+SHA1: 77afc749f8b54b3d377a8aee52273bf98115e776
+SHA256: ae90f5a874bd85b0f2a4bd796ae6e19aa16ef36e2e8773615330b7058a4b760b
+Size: 37870
+
+Package: libglade-static
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6.4-6
+Homepage: https://www.gnome.org/
+Depends: libglade (= 2.6.4-6)
+Description: Static libraries for libglade
+Filename: aarch64/libglade-static_2.6.4-6_aarch64.deb
+SHA1: 14626a53ee7a1faca3b52909d6413b66bd7c5e54
+SHA256: 8b135118c42e2cfd0e681d0b07cfc63d1fcbf6a8df1b3c0fe6316c35ac157234
+Size: 30606
+
+Package: libgnomecanvas
+Architecture: aarch64
+Installed-Size: 348
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.30.3-6
+Homepage: https://www.gnome.org/
+Depends: atk, glib, gtk2, libart-lgpl, libglade, pango-x
+Description: The GNOME Canvas library
+Filename: aarch64/libgnomecanvas_2.30.3-6_aarch64.deb
+SHA1: c80172a572851d30eb57df5ad756e0cc85b41197
+SHA256: 87194b405fc9b9d5141a659985973a109a9bea110a681e31d96bfba29b7e2557
+Size: 69928
+
+Package: libgnomecanvas-static
+Architecture: aarch64
+Installed-Size: 444
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.30.3-6
+Homepage: https://www.gnome.org/
+Depends: libgnomecanvas (= 2.30.3-6)
+Description: Static libraries for libgnomecanvas
+Filename: aarch64/libgnomecanvas-static_2.30.3-6_aarch64.deb
+SHA1: 4e0b9f65f33fef9fa2f6e99ffdbbf1b92ba76f20
+SHA256: 373d2d940a7e86d2d7e303366ee6952c3f4d5fc63d7aaf43130774e477090676
+Size: 74966
+
+Package: libice
+Architecture: aarch64
+Installed-Size: 420
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.10-4
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Inter-Client Exchange library
+Filename: aarch64/libice_1.0.10-4_aarch64.deb
+SHA1: 253382e81e541258b80cad2b8dac1a8d6ac90ba6
+SHA256: 19bfde12286c6269dd427b727e2f161928bfaf9a7a563923bc4894ca07819113
+Size: 65136
+
+Package: libice-static
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.10-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libice (= 1.0.10-4)
+Description: Static libraries for libice
+Filename: aarch64/libice-static_1.0.10-4_aarch64.deb
+SHA1: 87cdbab309d08cece83f0d6e7a9200a617def3f8
+SHA256: a17e22a854328e77f3765f3025cfe0d928eca7cd03ca194c4a5fe4a44953e916
+Size: 34772
+
+Package: libnotify
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.7.8-5
+Homepage: https://developer.gnome.org/notification-spec/
+Depends: gdk-pixbuf, glib
+Description: Library for sending desktop notifications
+Filename: aarch64/libnotify_0.7.8-5_aarch64.deb
+SHA1: 735c18ff8094a5fb57cc0546d1a24256724f1e90
+SHA256: a2c36e523ec8233fba09f681ba77cd07e3e499ee38f3e6d6d97832004b172d03
+Size: 23512
+
+Package: libpciaccess
+Architecture: aarch64
+Installed-Size: 100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.16-4
+Homepage: https://xorg.freedesktop.org/
+Description: X11 PCI access library
+Filename: aarch64/libpciaccess_0.16-4_aarch64.deb
+SHA1: 33d5613cf202e410df9d1cb2cb827c40528b281e
+SHA256: d4296285809f5beeed7ce1b21269953dbc5dcb2af173fd5e49c9b55add2ca582
+Size: 15192
+
+Package: libpciaccess-static
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.16-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libpciaccess (= 0.16-4)
+Description: Static libraries for libpciaccess
+Filename: aarch64/libpciaccess-static_0.16-4_aarch64.deb
+SHA1: 97f1ad3baf1a5acfde1e529c8ce31d018fe24ba7
+SHA256: b8d6ee9536874bbc28ce63322a74b3a610ce0ff8dfcfb26903f2761670fae5a3
+Size: 13546
+
+Package: libsm
+Architecture: aarch64
+Installed-Size: 328
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libuuid
+Description: X11 Session Management library
+Filename: aarch64/libsm_1.2.3-8_aarch64.deb
+SHA1: ef83995c266875075af38bcd8dbb7718cd67193b
+SHA256: a2befb534cb1ae0c66d482785bf35f945d1ab765c545a0b42e517e632cc7faf2
+Size: 39296
+
+Package: libsm-static
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libsm (= 1.2.3-8)
+Description: Static libraries for libsm
+Filename: aarch64/libsm-static_1.2.3-8_aarch64.deb
+SHA1: 2e81a36584454fa09b951b1e979d1905e76a7583
+SHA256: 7e102eca3291cfd3aca3a2c10da3f4235c2ed2e534468efc4429d06094dad30d
+Size: 11414
+
+Package: libunique
+Architecture: aarch64
+Installed-Size: 328
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.6-4
+Homepage: https://gnome.org
+Depends: glib, gtk2
+Description: Library for writing single instance applications
+Filename: aarch64/libunique_1.1.6-4_aarch64.deb
+SHA1: 71aa1e7faf2a946dc19434c16e083a5aea9c17cc
+SHA256: 1a660b8c751476ff85523f3fa82551c0967e1c800afc726b418da2a2989e0c4b
+Size: 32252
+
+Package: libunique-static
+Architecture: aarch64
+Installed-Size: 388
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.6-4
+Homepage: https://gnome.org
+Depends: libunique (= 1.1.6-4)
+Description: Static libraries for libunique
+Filename: aarch64/libunique-static_1.1.6-4_aarch64.deb
+SHA1: 504e8c73ebabdb695850ae725145a40654d3ea92
+SHA256: cc1933b763b1c944cab402a4768bb1435491789e0dd8b8faa15e0359bd2bec3b
+Size: 66178
+
+Package: libwayland
+Architecture: aarch64
+Installed-Size: 828
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.17.0-5
+Homepage: https://wayland.freedesktop.org/
+Depends: libandroid-support, libffi, libxml2, libexpat
+Description: Wayland protocol library
+Filename: aarch64/libwayland_1.17.0-5_aarch64.deb
+SHA1: 97480d5e9ace8a0ecf6f8b45fd6b70d66dd5397a
+SHA256: e11eb9ac3417d4ef70a80c5e545f6911fc3a6d813b1384cd5670ebc46429c43a
+Size: 103950
+
+Package: libwayland-protocols
+Architecture: aarch64
+Installed-Size: 600
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.17-3
+Homepage: https://wayland.freedesktop.org/
+Depends: libandroid-support
+Description: Wayland protocols library
+Filename: aarch64/libwayland-protocols_1.17-3_aarch64.deb
+SHA1: 16c9d10e9c9277553ebdf1c60c7ffe6ccdd3b2d0
+SHA256: a369224a583722ea59374250ae75b925dd1950a60ee405a94f83d2e2bb7496c7
+Size: 56744
+
+Package: libwayland-static
+Architecture: aarch64
+Installed-Size: 648
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.17.0-5
+Homepage: https://wayland.freedesktop.org/
+Depends: libwayland (= 1.17.0-5)
+Description: Static libraries for libwayland
+Filename: aarch64/libwayland-static_1.17.0-5_aarch64.deb
+SHA1: 6f1660ff36c3116d4eec23986e9701155a109ad8
+SHA256: 28f443d759b78330e80107126c4d52c084d628835d5295864d3f192007202421
+Size: 97036
+
+Package: libwnck
+Architecture: aarch64
+Installed-Size: 428
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.32.0-3
+Homepage: https://gitlab.gnome.org/GNOME/libwnck
+Depends: gtk2, startup-notification
+Description: Window Navigator Construction Kit
+Filename: aarch64/libwnck_3.32.0-3_aarch64.deb
+SHA1: 921b87171a494fd94becab2ca629b2cc64388fb1
+SHA256: b8b1cbc4141fdf044ceeda363f96416258e0f04c742514e26efbc1ece23bd944
+Size: 84612
+
+Package: libwnck-static
+Architecture: aarch64
+Installed-Size: 508
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.32.0-3
+Homepage: https://gitlab.gnome.org/GNOME/libwnck
+Depends: libwnck (= 3.32.0-3)
+Description: Static libraries for libwnck
+Filename: aarch64/libwnck-static_3.32.0-3_aarch64.deb
+SHA1: 19ec2143981e55239c78dcc34545a7872fddf247
+SHA256: 1574b1c9d72b9084795ae39e6788b8cd1b0e843a3e88e4b7d3139c5f3a4b3b65
+Size: 87006
+
+Package: libx11
+Architecture: aarch64
+Installed-Size: 14052
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.6.9-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libandroid-support, libxcb
+Recommends: xorg-xauth
+Description: X11 client-side library
+Filename: aarch64/libx11_1.6.9-1_aarch64.deb
+SHA1: 42df5b7d194a7f3bd56973592137259c9143057c
+SHA256: 5fc44fc0d3d55a0d5f36dea4f11047f20f37107f5c0a7960a2fb1be8275e4de9
+Size: 1938876
+
+Package: libx11-static
+Architecture: aarch64
+Installed-Size: 2020
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.6.9-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11 (= 1.6.9-1)
+Description: Static libraries for libx11
+Filename: aarch64/libx11-static_1.6.9-1_aarch64.deb
+SHA1: ce3b52db06725c1db67dc9bf6499579ec0988ac6
+SHA256: 820b6300872c398e9ff67c9b1e726346be51be0f774c142ad38d573b1db4cbd7
+Size: 548146
+
+Package: libxau
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.9-6
+Homepage: https://xorg.freedesktop.org/
+Description: X11 authorisation library
+Filename: aarch64/libxau_1.0.9-6_aarch64.deb
+SHA1: b49cbf1ee1a6d2b3a149661b6e5deb889c5b3e89
+SHA256: 050b97027f93e34f47010618147b2c7136915a9bd351da352cfe78ce7d2381e8
+Size: 8354
+
+Package: libxau-static
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.9-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libxau (= 1.0.9-6)
+Description: Static libraries for libxau
+Filename: aarch64/libxau-static_1.0.9-6_aarch64.deb
+SHA1: 205dbed6befee015ccbb7122f7d3c579a079b473
+SHA256: 64946399b7f676c54f87dd2990665722ee55bd24f1a9607bddc6604b77c9f16d
+Size: 4938
+
+Package: libxaw
+Architecture: aarch64
+Installed-Size: 1824
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.13-16
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libsm, libuuid, libx11, libxau, libxcb, libxdmcp, libxext, libxmu, libxpm, libxt
+Description: X11 Athena Widget library
+Filename: aarch64/libxaw_1.0.13-16_aarch64.deb
+SHA1: bc4526e0a06ac1427839364cdf4ce14ab29650b9
+SHA256: e8c2e290dd0e235787fc5f930de65efd6c32aa093130c70e61b7fce1b8f516de
+Size: 268238
+
+Package: libxaw-static
+Architecture: aarch64
+Installed-Size: 1184
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.13-16
+Homepage: https://xorg.freedesktop.org/
+Depends: libxaw (= 1.0.13-16)
+Description: Static libraries for libxaw
+Filename: aarch64/libxaw-static_1.0.13-16_aarch64.deb
+SHA1: 3a9b3aa8e4f8c8ea7ccaa4b477e28c3fe69dabe7
+SHA256: 3bec92c3b49ff94f9d6a8fb0a264a827476b63a2d7a59625823e8da0a269fa98
+Size: 183010
+
+Package: libxcb
+Architecture: aarch64
+Installed-Size: 12512
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.13.1-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libxau, libxdmcp
+Recommends: xorg-xauth
+Description: X11 client-side library
+Filename: aarch64/libxcb_1.13.1-7_aarch64.deb
+SHA1: 7eae9f3fddcfad1de3fd9f19d8dd12a30d64c397
+SHA256: 9f3b7750af29e9f458b90e5a5c5dd19e61fee913e240998c9c511858650aac7b
+Size: 885100
+
+Package: libxcb-static
+Architecture: aarch64
+Installed-Size: 1156
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.13.1-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb (= 1.13.1-7)
+Description: Static libraries for libxcb
+Filename: aarch64/libxcb-static_1.13.1-7_aarch64.deb
+SHA1: fcfb04598bd8dde8be1768ffb67a25347f2f5635
+SHA256: 80361d9e4887684d5985bb185c681820ccc4ac5c1fffd50ffacff9ec1af314ff
+Size: 139016
+
+Package: libxcomposite
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp
+Description: X11 Composite extension library
+Filename: aarch64/libxcomposite_0.4.5-5_aarch64.deb
+SHA1: 5f954476f31ffcfda158cfda678125e00e804a7a
+SHA256: 1c0cff8b2134365c1fdf8a741f5fa7660ad279854a56ce0f4c175ed7236158c5
+Size: 9128
+
+Package: libxcomposite-static
+Architecture: aarch64
+Installed-Size: 44
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxcomposite (= 0.4.5-5)
+Description: Static libraries for libxcomposite
+Filename: aarch64/libxcomposite-static_0.4.5-5_aarch64.deb
+SHA1: cf5831e98a0f294b62a46d918cbb84f7d23dc4ee
+SHA256: aa3ab2dade3f2f84b8391e6c95787393b52efc90410e732ca24347d48eafa004
+Size: 3550
+
+Package: libxcursor
+Architecture: aarch64
+Installed-Size: 252
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxfixes, libxrender
+Description: X cursor management library
+Filename: aarch64/libxcursor_1.2.0-5_aarch64.deb
+SHA1: e6d542a4ec3a57a84201e0b5c2c57a0ee9a27239
+SHA256: 9cf452035718bf338f5611ace3b1d85e43bd00d784c1a6fb936caa3aae04ac13
+Size: 22382
+
+Package: libxcursor-static
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxcursor (= 1.2.0-5)
+Description: Static libraries for libxcursor
+Filename: aarch64/libxcursor-static_1.2.0-5_aarch64.deb
+SHA1: 1565c08a30f0d75a0c29028b601eb9e6adf4695a
+SHA256: dcd9cea1722c17430074fd7243c4fbb1593758784115adc8b6bf47dcb4803cfb
+Size: 15542
+
+Package: libxdamage
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxfixes
+Description: X11 damaged region extension library
+Filename: aarch64/libxdamage_1.1.5-5_aarch64.deb
+SHA1: 9a348b2a86ed2ba662076a5da5a7060d09899be1
+SHA256: c5de4b0f3194203c1fe2c09fe88f6ccff49b42fab1ef7d437841f79fef3a1b3c
+Size: 4964
+
+Package: libxdamage-static
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxdamage (= 1.1.5-5)
+Description: Static libraries for libxdamage
+Filename: aarch64/libxdamage-static_1.1.5-5_aarch64.deb
+SHA1: 6e62cab78df11a0135abcf6f77f907383089b12e
+SHA256: 8b0220c6a69d7ed703f22951d475d2191a192636d960e5a83288d053b75a17ba
+Size: 3538
+
+Package: libxdmcp
+Architecture: aarch64
+Installed-Size: 192
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.3-6
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Display Manager Control Protocol library
+Filename: aarch64/libxdmcp_1.1.3-6_aarch64.deb
+SHA1: 45aaedf6e774192ea6d15a06ae17631feef60ad9
+SHA256: ebfc5eeb281c80cbfbcd84cd6fb54cb7db0fc25dab6785a1e5016d5ddd0dcac3
+Size: 23402
+
+Package: libxdmcp-static
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.3-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libxdmcp (= 1.1.3-6)
+Description: Static libraries for libxdmcp
+Filename: aarch64/libxdmcp-static_1.1.3-6_aarch64.deb
+SHA1: d244f813c11cce248d6c6dcb7f54ac1d07c81fe5
+SHA256: 3ea2b501039366795036f7b9e2b991748263496efdfda855773877c7afe54a1e
+Size: 7284
+
+Package: libxext
+Architecture: aarch64
+Installed-Size: 596
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.4-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp
+Description: X11 miscellaneous extensions library
+Filename: aarch64/libxext_1.3.4-5_aarch64.deb
+SHA1: ce3eed9057ed370f1393d81dae8ccb95f5d5db5a
+SHA256: 82616697e28d80f360d8f2e668748f60b870ac5b8415eac8261538736044d01b
+Size: 95502
+
+Package: libxext-static
+Architecture: aarch64
+Installed-Size: 152
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.4-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxext (= 1.3.4-5)
+Description: Static libraries for libxext
+Filename: aarch64/libxext-static_1.3.4-5_aarch64.deb
+SHA1: 161ee00f68dee1d1291e46da07bb4c1021177666
+SHA256: 7383080e4883fa069848a7f171c75b593b79c95ac0cb67209097d44e0a910791
+Size: 23984
+
+Package: libxfce4ui
+Architecture: aarch64
+Installed-Size: 2064
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.15.0-1
+Homepage: https://www.xfce.org/
+Depends: gtk2, gtk3, hicolor-icon-theme, libsm, libxfce4util, startup-notification, xfconf
+Description: Commonly used XFCE widgets among XFCE applications
+Filename: aarch64/libxfce4ui_4.15.0-1_aarch64.deb
+SHA1: 594072ee6891022f3ed4728f03fd44bebe8d1f9c
+SHA256: 1ae670a62e234ace9fe7cb9c386cecd1cba3438a0951909ac716b019e9d8dbca
+Size: 213806
+
+Package: libxfce4ui-static
+Architecture: aarch64
+Installed-Size: 252
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.15.0-1
+Homepage: https://www.xfce.org/
+Depends: libxfce4ui (= 4.15.0-1)
+Description: Static libraries for libxfce4ui
+Filename: aarch64/libxfce4ui-static_4.15.0-1_aarch64.deb
+SHA1: ade4c861e542a747e35a0c0f13d43fe20216dc89
+SHA256: 24f054e5ad22c041ae6266f3343a01beb1819ca273b21ac8fdfe8de9bdee10d8
+Size: 40290
+
+Package: libxfce4util
+Architecture: aarch64
+Installed-Size: 1152
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.0-4
+Homepage: https://www.xfce.org/
+Depends: glib
+Description: Basic utility non-GUI functions for XFCE
+Filename: aarch64/libxfce4util_4.14.0-4_aarch64.deb
+SHA1: bddc610dab21e84925d36459eddb0b1e8a8f92fc
+SHA256: d1e27f975902af3ddeae703c35cb2916837b00b68d0884efbe4cbdcf76a03a21
+Size: 71916
+
+Package: libxfce4util-static
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.0-4
+Homepage: https://www.xfce.org/
+Depends: libxfce4util (= 4.14.0-4)
+Description: Static libraries for libxfce4util
+Filename: aarch64/libxfce4util-static_4.14.0-4_aarch64.deb
+SHA1: ed50b0a76c1075111d0a90f829121fff3d19c781
+SHA256: c02a91463ca849279cc46041116078d9d324eb3b0941204cd426f9c9a34e9b16
+Size: 21726
+
+Package: libxfixes
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.0.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: X11 miscellaneous 'fixes' extension library
+Filename: aarch64/libxfixes_5.0.3-9_aarch64.deb
+SHA1: bece14e7cde68b992ae03dc798664ae1081c8b20
+SHA256: 5f52ed1844be1dc22b5cb70cdb6366e8625a5a4e00cca9dd4c8e2887c17373b5
+Size: 10504
+
+Package: libxfixes-static
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.0.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: libxfixes (= 5.0.3-9)
+Description: Static libraries for libxfixes
+Filename: aarch64/libxfixes-static_5.0.3-9_aarch64.deb
+SHA1: dfc0cc7cb7051a9a45f3345789b4f7c363d57382
+SHA256: 98e16c0caf9bc23c44feb6525a894ebfd3e72fcbe3b470eb4c428c1a496332db
+Size: 7146
+
+Package: libxfont2
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.4-2
+Homepage: https://xorg.freedesktop.org/
+Depends: freetype, libfontenc, zlib
+Description: X11 font rasterisation library
+Filename: aarch64/libxfont2_2.0.4-2_aarch64.deb
+SHA1: 303a1db91cbebdb1e8c187e0938995234532eea2
+SHA256: c0859712d64f770f1bce0da2ad37fd31cbdc8525f2cdc720f3d590efd861b2fc
+Size: 83118
+
+Package: libxfont2-static
+Architecture: aarch64
+Installed-Size: 388
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.4-2
+Homepage: https://xorg.freedesktop.org/
+Depends: libxfont2 (= 2.0.4-2)
+Description: Static libraries for libxfont2
+Filename: aarch64/libxfont2-static_2.0.4-2_aarch64.deb
+SHA1: ba5e1531a44394dfe897374a3e163c7316b143b8
+SHA256: d9353d42faf4ada308f994ba7045cbbc9d120a757c1cf5986316dc2094406344
+Size: 102618
+
+Package: libxft
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.3.3-5
+Homepage: https://xorg.freedesktop.org/
+Depends: fontconfig, freetype, libbz2, liblzma, libpng, libuuid, libx11, libxau, libxcb, libxdmcp, libxml2, libxrender
+Description: FreeType-based font drawing library for X
+Filename: aarch64/libxft_2.3.3-5_aarch64.deb
+SHA1: f219adc057586f7cb68c2ebc833719e7202d32ab
+SHA256: 4753ce6d69c479757b4ea7fe115003b169dda41ba04a46107e1e19d0b286282f
+Size: 35626
+
+Package: libxft-static
+Architecture: aarch64
+Installed-Size: 152
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.3.3-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxft (= 2.3.3-5)
+Description: Static libraries for libxft
+Filename: aarch64/libxft-static_2.3.3-5_aarch64.deb
+SHA1: fbaea700df94e78cc0f39f6d03f3815174f8e7f4
+SHA256: 9217ddce4ecc0c4528794150a23714a88bd5c8ea0dfe297d1f3cfcfce06a9976
+Size: 31644
+
+Package: libxi
+Architecture: aarch64
+Installed-Size: 768
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.7.10-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Description: X11 Input extension library
+Filename: aarch64/libxi_1.7.10-4_aarch64.deb
+SHA1: f6cecd0caa528127f357f6b58312485af4b0a17e
+SHA256: 662a09b44c375a8b2d83053247bfc20f7b4e76fa983d753b282c0c073f727c7e
+Size: 136198
+
+Package: libxi-static
+Architecture: aarch64
+Installed-Size: 176
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.7.10-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libxi (= 1.7.10-4)
+Description: Static libraries for libxi
+Filename: aarch64/libxi-static_1.7.10-4_aarch64.deb
+SHA1: bda749b4a040f9bfb74299bd8d068e4f21b8d671
+SHA256: 314f618106c190120ba876d2c660510a89a05558fdce1842aa70080a90ebf21f
+Size: 25508
+
+Package: libxinerama
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Description: X11 Xinerama extension library
+Filename: aarch64/libxinerama_1.1.4-8_aarch64.deb
+SHA1: 32ef10fe19275bc61f7d99b223a04f6e8beadf47
+SHA256: a373f062b5d0e98410564124afb4f6263fe03aa8ef2723bb61d8f15444e1a1a0
+Size: 7376
+
+Package: libxinerama-static
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libxinerama (= 1.1.4-8)
+Description: Static libraries for libxinerama
+Filename: aarch64/libxinerama-static_1.1.4-8_aarch64.deb
+SHA1: 510eba62d8bf3dfb9847fb01779dce761b289712
+SHA256: 87f2dc21184f3adfaa12169ee5bda337bafa65f007a562b045db4abb0da43d22
+Size: 3342
+
+Package: libxkbcommon
+Architecture: aarch64
+Installed-Size: 620
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.9.1-1
+Homepage: https://xkbcommon.org/
+Depends: libxcb, xkeyboard-config
+Description: Keymap handling library for toolkits and window systems
+Filename: aarch64/libxkbcommon_0.9.1-1_aarch64.deb
+SHA1: 088b4b15e715281ef2bc60112d416b45bcfe70f1
+SHA256: 6ea9ff9463aa94839c269f9efbf50da700fd701895d43d1acab6d5b3eeb0f9fc
+Size: 125486
+
+Package: libxkbfile
+Architecture: aarch64
+Installed-Size: 228
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp
+Description: X11 keyboard file manipulation library
+Filename: aarch64/libxkbfile_1.1.0-5_aarch64.deb
+SHA1: 4b9aaadc8c9fa35ebc958e010cee7ee3ad151ff4
+SHA256: 06e15cd535145bd5a12864b11765762e2026f9b3a8863bb09436d9e2e0980a98
+Size: 52398
+
+Package: libxkbfile-static
+Architecture: aarch64
+Installed-Size: 256
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxkbfile (= 1.1.0-5)
+Description: Static libraries for libxkbfile
+Filename: aarch64/libxkbfile-static_1.1.0-5_aarch64.deb
+SHA1: 3c96a106bc8a3813c147e0fac564187b56b19dea
+SHA256: 1c9780f8d116531ae3dc60e34a82d40e1988cfb6b52565d4e4052a91061b39d0
+Size: 56142
+
+Package: libxklavier
+Architecture: aarch64
+Installed-Size: 212
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.4-1
+Homepage: https://www.freedesktop.org/wiki/Software/LibXklavier/
+Depends: glib, iso-codes, libxi, libxkbfile, libxml2, xkeyboard-config
+Description: High-level API for X Keyboard Extension
+Filename: aarch64/libxklavier_5.4-1_aarch64.deb
+SHA1: 5061c3c50b7394b5bb57488d3471ca2386cf562d
+SHA256: 7aeb9651aaa0ff996f3b762a4ab4b1c8150424d3f37b9d2b209b1d287331e3ec
+Size: 38608
+
+Package: libxklavier-static
+Architecture: aarch64
+Installed-Size: 236
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.4-1
+Homepage: https://www.freedesktop.org/wiki/Software/LibXklavier/
+Depends: libxklavier (= 5.4-1)
+Description: Static libraries for libxklavier
+Filename: aarch64/libxklavier-static_5.4-1_aarch64.deb
+SHA1: 9e310d4edbeb46b333de7438bee15eb6625b4b16
+SHA256: 80136671083fd889a71a376e32e69f6a5ebcdab339e7f3b77c6bd4723ab0486c
+Size: 40616
+
+Package: libxmu
+Architecture: aarch64
+Installed-Size: 444
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.3-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libsm, libuuid, libx11, libxau, libxcb, libxdmcp, libxext, libxt
+Description: X11 miscellaneous micro-utility library
+Filename: aarch64/libxmu_1.1.3-6_aarch64.deb
+SHA1: c05fc50fbc9d362e9419e294aa5d78034595e51c
+SHA256: 4ab8e22d09bdabf547ebf6243175ce0d11ef40f81d24b18b52c649552e4408cb
+Size: 60502
+
+Package: libxmu-static
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.3-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libxmu (= 1.1.3-6)
+Description: Static libraries for libxmu
+Filename: aarch64/libxmu-static_1.1.3-6_aarch64.deb
+SHA1: 723c4b4f1bc97876ca044c88d3f567e148bd5927
+SHA256: dcc2d1db71422f86aa4a8de973eeb4a86fe39a421227229080b1fa48f863f3eb
+Size: 41648
+
+Package: libxpm
+Architecture: aarch64
+Installed-Size: 200
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.5.13-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxt
+Description: X11 pixmap library
+Filename: aarch64/libxpm_3.5.13-1_aarch64.deb
+SHA1: 9c3ea339a9d9c7dea1e3592736d3df090f836d96
+SHA256: 5960b7f4de03754860feaf56566048130c0f0dbfecb69c0a1d38531c25877664
+Size: 37800
+
+Package: libxpm-static
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.5.13-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxpm (= 3.5.13-1)
+Description: Static libraries for libxpm
+Filename: aarch64/libxpm-static_3.5.13-1_aarch64.deb
+SHA1: 7e62b4daef28aab1269e58b6d31176bfd7864183
+SHA256: c78b6d34b2dbb06e6939a030aa16146fbc3b5f98b92c6f181bae9c1f4155fbc6
+Size: 27128
+
+Package: libxrandr
+Architecture: aarch64
+Installed-Size: 192
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.2-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxrender
+Description: X11 RandR extension library
+Filename: aarch64/libxrandr_1.5.2-5_aarch64.deb
+SHA1: e598b5f94025907a0650b80d157f4185c6f8e043
+SHA256: 983c7820f2a24987243da1a702abac30727670ccff659bd613607b66f70f0a2a
+Size: 20834
+
+Package: libxrandr-static
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.5.2-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxrandr (= 1.5.2-5)
+Description: Static libraries for libxrandr
+Filename: aarch64/libxrandr-static_1.5.2-5_aarch64.deb
+SHA1: d70b5b63e08eae7f2aed6e85f0e735c62cbf87ac
+SHA256: f2ee94e51fef6009288a4d48013b703273d78de8a3c0fcbc35462a1a7c559403
+Size: 13894
+
+Package: libxrender
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.9.10-10
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: X Rendering Extension client library
+Filename: aarch64/libxrender_0.9.10-10_aarch64.deb
+SHA1: b86d40cfb3766962f134546949ffb1eb535cf5e2
+SHA256: 11f0fbd644dff91d251cef27cb23c300c1804ac331597d377a65debe0a932d55
+Size: 19572
+
+Package: libxrender-static
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.9.10-10
+Homepage: https://xorg.freedesktop.org/
+Depends: libxrender (= 0.9.10-10)
+Description: Static libraries for libxrender
+Filename: aarch64/libxrender-static_0.9.10-10_aarch64.deb
+SHA1: f2f5265aba0baf66c75ae40fea937b43806ae7b4
+SHA256: b74dc5bfd62a4cf12b0424ef055b9080dc9afeafa2801237d70349fc11a30e8c
+Size: 14600
+
+Package: libxshmfence
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3-9
+Homepage: https://xorg.freedesktop.org/
+Description: A library that exposes a event API on top of Linux futexes
+Filename: aarch64/libxshmfence_1.3-9_aarch64.deb
+SHA1: 987e2161b30f2d45fc37cff361b961fa494d48b2
+SHA256: 111f3c7965bdf59e6aed0065eefd229f310163f6792b448b33d5e44f28e98b1a
+Size: 3928
+
+Package: libxshmfence-static
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: libxshmfence (= 1.3-9)
+Description: Static libraries for libxshmfence
+Filename: aarch64/libxshmfence-static_1.3-9_aarch64.deb
+SHA1: 958e3b6560d5f96a64485b628abbd97cb398497b
+SHA256: 9d8b278758a8e6f2ebf74df7bbd9745702622544065672dd693078668f9fc6e8
+Size: 2808
+
+Package: libxss
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Description: X11 Screen Saver extension library
+Filename: aarch64/libxss_1.2.3-8_aarch64.deb
+SHA1: 83f454e296e2481a59b8fcf6e8859e0d43520ca1
+SHA256: 48e99be7b949c2fac3f34c71d9d6772cd0ac9d20a65707affdecffec78f8922b
+Size: 11614
+
+Package: libxss-static
+Architecture: aarch64
+Installed-Size: 44
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libxss (= 1.2.3-8)
+Description: Static libraries for libxss
+Filename: aarch64/libxss-static_1.2.3-8_aarch64.deb
+SHA1: c4bb8821bbe66da96f337511786dee9923bc5b5f
+SHA256: b503e5593623e5781842000bc0fd86d8002ffb7d96742af01d1363e34d0eae0a
+Size: 4196
+
+Package: libxt
+Architecture: aarch64
+Installed-Size: 3068
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libsm, libuuid, libx11, libxau, libxcb, libxdmcp
+Description: X11 toolkit intrinsics library
+Filename: aarch64/libxt_1.2.0-5_aarch64.deb
+SHA1: 58b6ab19e0e34584dc63ef61f7f7eef7933809d1
+SHA256: aab5f37337841745b8a1101e65ab72d97e0b4a35410d79ef550f200d105e4a5f
+Size: 473730
+
+Package: libxt-static
+Architecture: aarch64
+Installed-Size: 660
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.0-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxt (= 1.2.0-5)
+Description: Static libraries for libxt
+Filename: aarch64/libxt-static_1.2.0-5_aarch64.deb
+SHA1: a54c0e5fdee7815d874cc021dedd84ec3b8ff0ad
+SHA256: d15b8f18842caf91d323947d7d28e44b34149cb3e9316d217bcebac8e6a8a9b4
+Size: 141006
+
+Package: libxtst
+Architecture: aarch64
+Installed-Size: 228
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxi
+Description: X11 Testing -- Resource extension library
+Filename: aarch64/libxtst_1.2.3-8_aarch64.deb
+SHA1: 84f19efdc7ab675550e46aebf633f0889d764d19
+SHA256: fe5daeafbdff49d1b46d49f8414a1e415b7ab1cf95df0040e4fcb859fd7a0c5a
+Size: 24936
+
+Package: libxtst-static
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libxtst (= 1.2.3-8)
+Description: Static libraries for libxtst
+Filename: aarch64/libxtst-static_1.2.3-8_aarch64.deb
+SHA1: f4b957ed449b1533cc0eebe4891eb0b95940632d
+SHA256: 5d65860d0c67254d38f3c0e84f4bd9146c6c995217dbbbfbd994667e2f000f6f
+Size: 8230
+
+Package: libxxf86dga
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Description: X11 Direct Graphics Access extension library
+Filename: aarch64/libxxf86dga_1.1.5-5_aarch64.deb
+SHA1: 6f74cb6aff24dd87fede122d76dc7d1677e52824
+SHA256: 3efff3c85958fb7351d62563b8d535b1f8c2bfe7907250ed9449a992ebbc5e5f
+Size: 13800
+
+Package: libxxf86dga-static
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxxf86dga (= 1.1.5-5)
+Description: Static libraries for libxxf86dga
+Filename: aarch64/libxxf86dga-static_1.1.5-5_aarch64.deb
+SHA1: 297e308b86f602deec5138a8fc001bf856253b3f
+SHA256: 6f8a7d6f422d1398223123b16b939ccd715e158d658ede356e30a191e0b21634
+Size: 8176
+
+Package: libxxf86vm
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-11
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Description: X11 XFree86 video mode extension library
+Filename: aarch64/libxxf86vm_1.1.4-11_aarch64.deb
+SHA1: ca784ad515e9a05cd51533875ee1da1a33aca70e
+SHA256: 09c6b211a012fec0bfc202b4564bce91eafd7ec3e6239e31f484a7bf9f38ad90
+Size: 12502
+
+Package: libxxf86vm-static
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.4-11
+Homepage: https://xorg.freedesktop.org/
+Depends: libxxf86vm (= 1.1.4-11)
+Description: Static libraries for libxxf86vm
+Filename: aarch64/libxxf86vm-static_1.1.4-11_aarch64.deb
+SHA1: 0158942153d85ab82f7d1e0c0755e393c2c91a64
+SHA256: d7bf68dd99f5056cf3a1ec887f83b50c592454dde8432c24cb3bd3729987fa11
+Size: 6324
+
+Package: loqui
+Architecture: aarch64
+Installed-Size: 600
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.6.4-6
+Homepage: https://launchpad.net/loqui
+Depends: atk, fontconfig, freetype, gdk-pixbuf, glib, gtk2, libandroid-shmem, libcairo-x, libffi, pango-x, pcre
+Description: IRC client for the Gtk+-2.0 environment
+Filename: aarch64/loqui_0.6.4-6_aarch64.deb
+SHA1: 0b19a9e532f6e38c017b1c74358d1fd32f76c1f7
+SHA256: b5aa184ed7c4250ee942fd2f321559b568bcb82ac7bc3a49c528197a359f4c9d
+Size: 142904
+
+Package: lxde-icon-theme
+Architecture: all
+Installed-Size: 8512
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.5.1-3
+Homepage: https://lxde.org/
+Depends: gtk-update-icon-cache
+Description: LXDE default icon theme based on nuoveXT2
+Filename: all/lxde-icon-theme_0.5.1-3_all.deb
+SHA1: 1edc7c49acdd5a52c8eee030c5ec28c57fa7133c
+SHA256: 3402a8cbdd73ff6ac09d4e7962c604f4b583715ea43a0740a276855d0cbb476e
+Size: 4467422
+
+Package: lxmenu-data
+Architecture: all
+Installed-Size: 252
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.1.5-5
+Homepage: https://lxde.org/
+Description: Freedesktop.org desktop menus for LXDE
+Filename: all/lxmenu-data_0.1.5-5_all.deb
+SHA1: 6edfcb065ff982900a5e73ed1f49c6ea4013093c
+SHA256: 5f26ea960102cbe172b5ce70951f89154294e02ed5f8a187bf667743e81f2f5d
+Size: 44714
+
+Package: matchbox-keyboard
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.1.1-8
+Homepage: https://www.yoctoproject.org/software-item/matchbox/
+Depends: libexpat, libfakekey, libpng, libx11, libxft, libxrender, libxtst, zlib
+Recommends: ttf-dejavu
+Description: An on-screen virtual keyboard.
+Filename: aarch64/matchbox-keyboard_0.1.1-8_aarch64.deb
+SHA1: 7f4c988ba4556c6368956952e00d1649f269ff18
+SHA256: f5d096999903702d622e51e1b41e27c09f04b77f2e956e9c76cb71f591c49ea6
+Size: 17542
+
+Package: menu-cache
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-6
+Homepage: https://lxde.org/
+Depends: glib, libfm-extra
+Description: Caching mechanism for freedesktop.org compliant menus
+Filename: aarch64/menu-cache_1.1.0-6_aarch64.deb
+SHA1: 5d0384e113dc492ed60c21626a126c63268a186c
+SHA256: 0e83cbbb6bb3651fd00ab67e347bf68e08b5ff110c375326c1d9a18aa29b1575
+Size: 29438
+
+Package: menu-cache-static
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-6
+Homepage: https://lxde.org/
+Depends: menu-cache (= 1.1.0-6)
+Description: Static libraries for menu-cache
+Filename: aarch64/menu-cache-static_1.1.0-6_aarch64.deb
+SHA1: 4168fed5145efa8374ac0ad453b0f6a969acbbd0
+SHA256: 2026ad965f86ef43718c2491a554cb11aa1e7f9bc2f7ae7b593276c191668fe0
+Size: 9758
+
+Package: mesa
+Architecture: aarch64
+Installed-Size: 5056
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 17.3.9-14
+Homepage: https://www.mesa3d.org
+Depends: libandroid-shmem, libexpat, libdrm, libx11, libxdamage, libxext, libxml2, libxshmfence, zlib
+Conflicts: libmesa
+Replaces: libmesa
+Description: An open-source implementation of the OpenGL specification
+Filename: aarch64/mesa_17.3.9-14_aarch64.deb
+SHA1: bfd5ba6bee6cd79eb8186110c0e463b38932afa7
+SHA256: bc81971d340b644d42f6eb36e661c4b52e575e3d169ab56ad3a666a5387bdca5
+Size: 1113588
+
+Package: mpv-x
+Architecture: aarch64
+Installed-Size: 1584
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.29.1-14
+Homepage: https://mpv.io/
+Depends: ffmpeg, libandroid-glob, libandroid-shmem, libass, libdrm, littlecms, libjpeg-turbo, libcaca, liblua52, libx11, libxext, libxinerama, libxss, libxrandr, openal-soft, pulseaudio, zlib
+Conflicts: mpv
+Replaces: mpv
+Description: Command-line media player
+Filename: aarch64/mpv-x_0.29.1-14_aarch64.deb
+SHA1: 1b364af952a0b6cd2a83edd962deb37b0040be31
+SHA256: 636bb074c2e680d8487ad04feed2c61e062776641a8751c28f9886f17daab9f9
+Size: 643926
+
+Package: mtdev
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://bitmath.org/code/mtdev/
+Description: A stand-alone library which transforms all variants of kernel MT events to the slotted type B protocol
+Filename: aarch64/mtdev_1.1.5-5_aarch64.deb
+SHA1: 7da68ea5d53101e31204a324029d0d770d863c73
+SHA256: d71eda1de69270d14401c44626b5855e7af9c7cd4225565ae4cf1e4363e54346
+Size: 11224
+
+Package: mtdev-static
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.5-5
+Homepage: https://bitmath.org/code/mtdev/
+Depends: mtdev (= 1.1.5-5)
+Description: Static libraries for mtdev
+Filename: aarch64/mtdev-static_1.1.5-5_aarch64.deb
+SHA1: 1c2c6658919ab2b3b8818bde429fbeaa1180e8bf
+SHA256: 426cb61e2065ceb8789e06f208e1fa2142097bc438288c7ec783b1069c75216a
+Size: 8284
+
+Package: mtpaint
+Architecture: aarch64
+Installed-Size: 800
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.49.19-5
+Homepage: https://sourceforge.net/projects/mtpaint/
+Depends: atk, fontconfig, freetype, gdk-pixbuf, giflib, glib, gtk2, libandroid-glob, libandroid-shmem, libcairo-x, libjpeg-turbo, littlecms, pango-x, libpng, libtiff, libwebp, libx11, zlib
+Recommends: gifsicle
+Description: Simple paint program for creating icons and pixel based artwork
+Filename: aarch64/mtpaint_3.49.19-5_aarch64.deb
+SHA1: d655b22914ad28463b8958b7d16e05803c63d914
+SHA256: d755db02071d7a9d7b1342a4a0c239f1609684d44a94c1d0f868f01e4f82c9d4
+Size: 278082
+
+Package: obconf
+Architecture: aarch64
+Installed-Size: 452
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.4-8
+Homepage: http://openbox.org/wiki/ObConf:About
+Depends: atk, fontconfig, freetype, gdk-pixbuf, glib, gtk2, imlib2, libandroid-shmem, libcairo-x, libglade, libice, librsvg, libsm, libx11, libxft, libxml2, openbox, pango-x, startup-notification
+Description: A configuration tool for the Openbox window manager
+Filename: aarch64/obconf_2.0.4-8_aarch64.deb
+SHA1: 3ff25c5394573431f0c86f206d6c74178aacb9b6
+SHA256: 7ffeb60e62c00c33bf241754eaea381d89a560e0d5e8f1d5034a2a3acb8b5bdd
+Size: 42438
+
+Package: openbox
+Architecture: aarch64
+Installed-Size: 1252
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.6.1-31
+Homepage: http://openbox.org
+Depends: bash, fontconfig, freetype, fribidi, gdk-pixbuf, glib, harfbuzz, imlib2, libandroid-shmem, libbz2, libcairo-x, libcroco, libffi, libgraphite, libice, liblzma, libpixman, libpng, librsvg, libsm, libuuid, libx11, libxau, libxcb, libxcursor, libxdmcp, libxext, libxfixes, libxft, libxinerama, libxml2, libxrandr, libxrender, pango-x, pcre, startup-notification, xcb-util, zlib
+Recommends: obconf
+Suggests: aterm, fltk, geany, the-powder-toy, dosbox
+Description: Highly configurable and lightweight X11 window manager
+Filename: aarch64/openbox_3.6.1-31_aarch64.deb
+SHA1: ac65802cd9ab24db8685bf676e9481032b9871a3
+SHA256: 15aed0c90848a2e5060962a900e909d7061d94520fd440b3e0c693286b2fa2bf
+Size: 211490
+
+Package: openbox-static
+Architecture: aarch64
+Installed-Size: 264
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.6.1-31
+Homepage: http://openbox.org
+Depends: openbox (= 3.6.1-31)
+Description: Static libraries for openbox
+Filename: aarch64/openbox-static_3.6.1-31_aarch64.deb
+SHA1: 8171258350bae5aaac2308839afa1eaa7c48ba1c
+SHA256: b7d5644949166bc681e1f3e0738a378446d02941118474e75192377a415f97f1
+Size: 51466
+
+Package: openttd
+Architecture: aarch64
+Installed-Size: 16800
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.9.3-2
+Homepage: https://www.openttd.org/
+Depends: desktop-file-utils, fontconfig, hicolor-icon-theme, libicu, liblzma, liblzo, libpng, openttd-gfx, openttd-msx, openttd-sfx, sdl
+Description: An engine for running Transport Tycoon Deluxe
+Filename: aarch64/openttd_1.9.3-2_aarch64.deb
+SHA1: 39287d5561bcc308a7bd2d4374e3b45b5f71aa6d
+SHA256: 1bade13a1861c9b5895916fb68fca16602d583f660d0f72677cb5b4f07351c59
+Size: 4225080
+
+Package: openttd-gfx
+Architecture: all
+Installed-Size: 5200
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.5.5-4
+Homepage: https://dev.openttdcoop.org/projects/opengfx
+Description: A free graphics set for openttd
+Filename: all/openttd-gfx_0.5.5-4_all.deb
+SHA1: 2dc538def670c592f6926c232369e61c0bbc001d
+SHA256: aa1a8044d1649aeaeb7b3a9220708623500f7922b253619a633b8c06f7dce1af
+Size: 2874042
+
+Package: openttd-msx
+Architecture: all
+Installed-Size: 816
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.3.1-4
+Homepage: https://bundles.openttdcoop.org/openmsx
+Description: Free music set for openttd
+Filename: all/openttd-msx_0.3.1-4_all.deb
+SHA1: df10b199359208867489f64a5f4342d997bd6996
+SHA256: ba97fc77de9b7bda0d5554128e3cac380fbbc862712fbb8611337b178bad9837
+Size: 87132
+
+Package: openttd-sfx
+Architecture: all
+Installed-Size: 12888
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.2.3-4
+Homepage: https://bundles.openttdcoop.org/opensfx
+Description: Free sound set for openttd
+Filename: all/openttd-sfx_0.2.3-4_all.deb
+SHA1: f8c7930437ff6ac2c8fe429611ada546ce154264
+SHA256: 910950ea2f35c9976dc428c1616e44081f3ac008a836453de25d361141c8dfa1
+Size: 9464108
+
+Package: pango-x
+Architecture: aarch64
+Installed-Size: 892
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.44.6-4
+Homepage: https://www.pango.org/
+Depends: fontconfig, fribidi, glib, harfbuzz, libcairo-x, libxft, zlib
+Conflicts: pango, pango-dev
+Replaces: pango
+Provides: pango
+Description: Library for laying out and rendering text (with X)
+Filename: aarch64/pango-x_1.44.6-4_aarch64.deb
+SHA1: d26ba26daa127d7ea4ee19e6c53814c14001b1a6
+SHA256: 63bab684bc7568d763f2f7cade072503b5c7160d615413693bc182133b0bcdd5
+Size: 177932
+
+Package: pcmanfm
+Architecture: aarch64
+Installed-Size: 452
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.1-5
+Homepage: https://lxde.org/
+Depends: atk, glib, gtk3, libandroid-shmem, libcairo-x, libfm, libx11, lxmenu-data, pango-x
+Recommends: xarchiver
+Description: Extremely fast and lightweight file manager
+Filename: aarch64/pcmanfm_1.3.1-5_aarch64.deb
+SHA1: 602af6820c2b05adf17334790198f4d33f9ed0b3
+SHA256: 476448241e122e37ef3fa4564f272600d00058541f2528a7d45a3cb285d73935
+Size: 74376
+
+Package: pinentry-gtk
+Architecture: aarch64
+Installed-Size: 216
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-8
+Homepage: https://www.gnupg.org/related_software/pinentry/index.html
+Depends: atk, fontconfig, freetype, gdk-pixbuf, glib, gtk2, libandroid-shmem, libassuan, libcairo-x, libgpg-error, ncurses, pango-x
+Conflicts: pinentry
+Replaces: pinentry
+Provides: pinentry
+Description: Dialog allowing secure password entry (with gtk2 support)
+Filename: aarch64/pinentry-gtk_1.1.0-8_aarch64.deb
+SHA1: ec7062b391ce6a4e5217edc6a29d588fc7a43dbc
+SHA256: 74bfa242878a4e9b3de7f00fab71c9c7cdbcf7f61d3cf645ab01b0e729d8ca22
+Size: 44724
+
+Package: plotutils
+Architecture: aarch64
+Installed-Size: 2596
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6-9
+Homepage: https://directory.fsf.org/wiki/Plotutils
+Depends: libice, libpng, libsm, libx11, libxaw, libxext, libxmu, libxt, zlib
+Description: Set of utilities and libraries for plotting.
+Filename: aarch64/plotutils_2.6-9_aarch64.deb
+SHA1: 21c97e5e7d8e92c3cd81a8bcf24b55ddcf14f4df
+SHA256: 182e1508a36addd2785c3905f3b6a18bc02881de34d9352468f2a50eb01da659
+Size: 568972
+
+Package: plotutils-static
+Architecture: aarch64
+Installed-Size: 1868
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6-9
+Homepage: https://directory.fsf.org/wiki/Plotutils
+Depends: plotutils (= 2.6-9)
+Description: Static libraries for plotutils
+Filename: aarch64/plotutils-static_2.6-9_aarch64.deb
+SHA1: e695563676cf89e2d0f1979ad3e84b42b7bfbcf7
+SHA256: 883217be4d7b69957de0d74397632e2bdb2cdeb1acc19ad65a567ea2a7ed5aa2
+Size: 311332
+
+Package: polybar
+Architecture: aarch64
+Installed-Size: 2324
+Maintainer: Tristan Ross <spaceboyross@yandex.com>
+Version: 3.4.1-1
+Homepage: https://polybar.github.io
+Depends: fontconfig, freetype, libandroid-glob, libandroid-shmem, libc++, libcairo-x, libcurl, libxcb, pulseaudio, xcb-util-cursor, xcb-util-image, xcb-util-xrm, xcb-util-wm
+Description: A fast and easy-to-use status bar
+Filename: aarch64/polybar_3.4.1-1_aarch64.deb
+SHA1: eba2fa592d03be2dcb04c7b115ead4bd5e567fc5
+SHA256: 1bd52b4adfbe42de82a74f345222ad0deb28cf4fcd8aaa89cda65ebf67c18489
+Size: 470226
+
+Package: putty
+Architecture: aarch64
+Installed-Size: 3920
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.73-1
+Homepage: https://www.chiark.greenend.org.uk/~sgtatham/putty/
+Depends: atk, gdk-pixbuf, glib, gtk3, libandroid-glob, libandroid-shmem, libcairo-x, libx11, pango-x
+Description: A terminal integrated SSH/Telnet client
+Filename: aarch64/putty_0.73-1_aarch64.deb
+SHA1: a952f3380b5065737daff276a065a42716de22e8
+SHA256: 0b6cf2e52e2723304e4733807524bb38f9bd06282144c52581d5e77800dd988f
+Size: 556510
+
+Package: pypanel
+Architecture: aarch64
+Installed-Size: 192
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.4-16
+Homepage: https://sourceforge.net/projects/pypanel/
+Depends: freetype, imlib2, libandroid-shmem, libx11, libxft, python2, python2-xlib
+Description: A lightweight panel/taskbar for X11 window managers written in python.
+Filename: aarch64/pypanel_2.4-16_aarch64.deb
+SHA1: 2dcad42f7b3208096e100d59f168ca90aa7b30ef
+SHA256: 5d1e0009b3679dfb5218d5fda7d30e3ca945a6d68a32a9c9a89a6d2f3ce1c0a5
+Size: 27488
+
+Package: python2-six
+Architecture: all
+Installed-Size: 164
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.12.0-5
+Homepage: https://pypi.org/project/six/
+Depends: python2
+Description: Python 2 and 3 compatibility utilities
+Filename: all/python2-six_1.12.0-5_all.deb
+SHA1: 1c498724148434015d7e849cf321568f60bfa66b
+SHA256: 45150773e8f3237d18c8f772731a606f4e715f628764ef8e804a887d6eb91624
+Size: 19002
+
+Package: python2-xlib
+Architecture: all
+Installed-Size: 1264
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.24-4
+Homepage: https://github.com/python-xlib/python-xlib
+Depends: libx11, python2, python2-six
+Description: A fully functional X client library for Python programs
+Filename: all/python2-xlib_0.24-4_all.deb
+SHA1: 30b4ed240810dd671b3ef1173a379261fb02d206
+SHA256: 8c5a3e0949f5a9854a83b930f3e68fe7c4d035a325248acae07da79f4cd825b7
+Size: 150872
+
+Package: qemu-common
+Architecture: aarch64
+Installed-Size: 14616
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcap, libcurl, libffi, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, openssl, pcre, sdl2, zlib
+Description: A set common files for the QEMU emulators
+Filename: aarch64/qemu-common_1:3.1.0-6_aarch64.deb
+SHA1: 160cad58e3da8280a7628bc081527fc5914364a9
+SHA256: 2c9431163bf3a86f34f564efb5a8869a13a4bd8b2cc203171dd932f15b1fc9a4
+Size: 3986916
+
+Package: qemu-system-aarch64
+Architecture: aarch64
+Installed-Size: 11188
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator (aarch64)
+Filename: aarch64/qemu-system-aarch64_1:3.1.0-6_aarch64.deb
+SHA1: cd37b0d98c3b9a67fa8f895f61945b6bef04d27a
+SHA256: ffcf5e9788a26fae39c416ac64dc7dfa49f39001cd8277b970eb132d0cf0c409
+Size: 2211988
+
+Package: qemu-system-arm
+Architecture: aarch64
+Installed-Size: 10592
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator (arm)
+Filename: aarch64/qemu-system-arm_1:3.1.0-6_aarch64.deb
+SHA1: 7d834fa0bb1efcd69a1b4eedaccf5e0e26a2af62
+SHA256: 55b625c2bff68bc9d83485226042e265f31dd99f9033dcbd142ef8d8f499fec4
+Size: 2071862
+
+Package: qemu-system-i386
+Architecture: aarch64
+Installed-Size: 9856
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator and virtualizer (i386)
+Filename: aarch64/qemu-system-i386_1:3.1.0-6_aarch64.deb
+SHA1: e2420b58fc31528df26934e3f2e2bf959bad9cb0
+SHA256: 536ae982273c7b10a1d7f50e0dd01586879efdda47df046e7c356958fe72edcc
+Size: 1827058
+
+Package: qemu-system-riscv32
+Architecture: aarch64
+Installed-Size: 4576
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator (riscv32)
+Filename: aarch64/qemu-system-riscv32_1:3.1.0-6_aarch64.deb
+SHA1: da7ed158a5700ed47b8b59bee5e79085ce089ab0
+SHA256: 9554bcf30f4bc06fb6facfc18aaf07656a886fe932e08671927046b0452b4ecc
+Size: 1201522
+
+Package: qemu-system-riscv64
+Architecture: aarch64
+Installed-Size: 4576
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator (riscv64)
+Filename: aarch64/qemu-system-riscv64_1:3.1.0-6_aarch64.deb
+SHA1: b77401ef986f3a809a93649395c3ae6f3ad45de4
+SHA256: 21ba75486deb65c412702941e731d91b2ec963d072eec5f918a633a80d20bcc4
+Size: 1201628
+
+Package: qemu-system-x86_64
+Architecture: aarch64
+Installed-Size: 9884
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, dtc, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libsasl, libssh2, libxml2, ncurses, qemu-common, sdl2, qemu-common (= 1:3.1.0-6)
+Description: A generic and open source machine emulator and virtualizer (x86_64)
+Filename: aarch64/qemu-system-x86_64_1:3.1.0-6_aarch64.deb
+SHA1: 3c207e3f45d06cef0a8a7b91c1b2d27d75212d34
+SHA256: 019512ff046c495c3ab4916205e5984d704850c748f6e1ae5168a962ecdb86e2
+Size: 1837870
+
+Package: qemu-utils
+Architecture: aarch64
+Installed-Size: 3808
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1:3.1.0-6
+Homepage: https://www.qemu.org
+Depends: capstone, glib, libandroid-shmem, libbz2, libc++, libcurl, libgnutls, libnettle, libnfs, libssh2, libxml2, qemu-common (= 1:3.1.0-6)
+Description: A set of utilities for working with the QEMU emulators
+Filename: aarch64/qemu-utils_1:3.1.0-6_aarch64.deb
+SHA1: 7eae08a3501b6711ba78c5ea7da4ea27d9e72e07
+SHA256: f645abb7057021c1c6e646997ca79532272c38c4f9ca728731fe0c4f5fb0e193
+Size: 598134
+
+Package: qgit
+Architecture: aarch64
+Installed-Size: 1132
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.8-6
+Homepage: https://github.com/tibirna/qgit
+Depends: git, hicolor-icon-theme, qt5-base
+Description: A git GUI viewer
+Filename: aarch64/qgit_2.8-6_aarch64.deb
+SHA1: 46bcb3da4b23fdd1b061bef2ef2595ae8104165e
+SHA256: 83adfa4cf6d436c9336f9f8070666deb8bb9a4035d5825042abbe788ce62f352
+Size: 293260
+
+Package: qgit
+Architecture: aarch64
+Installed-Size: 1156
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.9
+Homepage: https://github.com/tibirna/qgit
+Depends: git, hicolor-icon-theme, qt5-base
+Description: A git GUI viewer
+Filename: aarch64/qgit_2.9_aarch64.deb
+SHA1: f92b67e353c7d25e844d915d1edb2d0bc3731a86
+SHA256: 41c8ebb7e14f584b3a4be865a1bbd50aab434ade140211f34a483724c21971a5
+Size: 302468
+
+Package: qt5-base
+Architecture: aarch64
+Installed-Size: 63860
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Description: A cross-platform application and UI framework
+Filename: aarch64/qt5-base_5.11.3-4_aarch64.deb
+SHA1: 75325f2294ab608912b1a5f044ed60cb77e70380
+SHA256: 5c6cdc7edac98b1bad7bd255577bc428a1653224ccbf39bac8f9efb03c1275be
+Size: 10626280
+
+Package: qt5-base
+Architecture: aarch64
+Installed-Size: 63852
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-5
+Homepage: https://qt-project.org/
+Breaks: qt5-x11extras-dev
+Depends: harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Replaces: qt5-x11extras-dev
+Description: A cross-platform application and UI framework
+Filename: aarch64/qt5-base_5.11.3-5_aarch64.deb
+SHA1: 692bab5cc1246169c6ddac1389b78516b7d65fe7
+SHA256: 7d1cc911cbf4e4ad461058b2a4c4380825f92d5a6fb124d215cd375f1fc7d363
+Size: 10624600
+
+Package: qt5-base
+Architecture: aarch64
+Installed-Size: 68952
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-6
+Homepage: https://qt-project.org/
+Breaks: qt5-x11extras-dev
+Depends: harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Replaces: qt5-x11extras-dev
+Description: A cross-platform application and UI framework
+Filename: aarch64/qt5-base_5.11.3-6_aarch64.deb
+SHA1: c02d3304d3388c607b2e1dc4bfd3e457443a5108
+SHA256: 3c85aea1fb1b0237d279420cbe52e25090e9f908a06886d754922c68fbd99c41
+Size: 11579840
+
+Package: qt5-base
+Architecture: aarch64
+Installed-Size: 60912
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-7
+Homepage: https://qt-project.org/
+Breaks: qt5-x11extras-dev
+Depends: harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Replaces: qt5-x11extras-dev
+Description: A cross-platform application and UI framework
+Filename: aarch64/qt5-base_5.11.3-7_aarch64.deb
+SHA1: 818f31c282a5a66398c4722cab0076656719370e
+SHA256: 73ab5e69c78b764443a2ac41760b4a264f458ac8ca26ee14c7b7895b055a1dec
+Size: 9916420
+
+Package: qt5-base
+Architecture: aarch64
+Installed-Size: 66104
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-8
+Homepage: https://qt-project.org/
+Breaks: qt5-x11extras-dev
+Depends: dbus, harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Replaces: qt5-x11extras-dev
+Description: A cross-platform application and UI framework
+Filename: aarch64/qt5-base_5.11.3-8_aarch64.deb
+SHA1: aa30757ab2a17b47483915e0f104292a6687d011
+SHA256: a0732b638d2c80a9fd126f06567aa674412d38ba661e97a6979e3c70c45cf44f
+Size: 10674618
+
+Package: qt5-base
+Architecture: aarch64
+Installed-Size: 66104
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-9
+Homepage: https://qt-project.org/
+Breaks: qt5-x11extras-dev
+Depends: dbus, harfbuzz, libandroid-shmem, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib
+Replaces: qt5-x11extras-dev
+Description: A cross-platform application and UI framework
+Filename: aarch64/qt5-base_5.11.3-9_aarch64.deb
+SHA1: 9fb3cd219eff66523f50276e965505d51da60431
+SHA256: 4a01e3b3c9f3773a782964ac42ca63f6f28cffe0a8389a8849e61b292aec194e
+Size: 10674622
+
+Package: qt5-base-static
+Architecture: aarch64
+Installed-Size: 5128
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base (= 5.11.3-4)
+Description: Static libraries for qt5-base
+Filename: aarch64/qt5-base-static_5.11.3-4_aarch64.deb
+SHA1: 2c3dac97b45b952d1c24e38ab0c2bf307acc9d65
+SHA256: 59f5732c9d25297427d7d44d2970766674a459baa00d1c3d5df13efe642e3c0d
+Size: 983736
+
+Package: qt5-base-static
+Architecture: aarch64
+Installed-Size: 5128
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-5
+Homepage: https://qt-project.org/
+Depends: qt5-base (= 5.11.3-5)
+Description: Static libraries for qt5-base
+Filename: aarch64/qt5-base-static_5.11.3-5_aarch64.deb
+SHA1: b6be8777b5ecf325c3fb02bc742b96a56002615f
+SHA256: 33b7d489101274a69337d8272b2b2968950b8d3c1edb84ff46bd900fdbf19cd8
+Size: 984280
+
+Package: qt5-declarative
+Architecture: aarch64
+Installed-Size: 1716
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-4)
+Description: Classes for QML and JavaScript languages
+Filename: aarch64/qt5-declarative_5.11.3-4_aarch64.deb
+SHA1: 9ef7b322e62199ff8decc27d20e836dc97bf4ee7
+SHA256: 75addafe2f9ec879e4669aac96b08983875b18f736a208515049239a3406fa23
+Size: 229786
+
+Package: qt5-declarative
+Architecture: aarch64
+Installed-Size: 12308
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-5
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-5)
+Breaks: qt5-declarative-dev
+Replaces: qt5-declarative-dev
+Description: Classes for QML and JavaScript languages
+Filename: aarch64/qt5-declarative_5.11.3-5_aarch64.deb
+SHA1: 48757350532867f3760ed0cfe59ac78c858848e2
+SHA256: d5070622e39f8ab2d1b75bf5c8754c46f11abe211ea2c7b50defb53a24f0a20c
+Size: 1216838
+
+Package: qt5-declarative
+Architecture: aarch64
+Installed-Size: 12308
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-6
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-6)
+Breaks: qt5-declarative-dev
+Replaces: qt5-declarative-dev
+Description: Classes for QML and JavaScript languages
+Filename: aarch64/qt5-declarative_5.11.3-6_aarch64.deb
+SHA1: 3882c7c92fc97a2ed2f7d55ffdb1fdf06b60b83b
+SHA256: 9093e9aca85a534eec9ac63cafa2014d24720866d7494fffb1047d38ba64dd2b
+Size: 1215492
+
+Package: qt5-declarative
+Architecture: aarch64
+Installed-Size: 19948
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-7
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-7)
+Breaks: qt5-declarative-dev
+Replaces: qt5-declarative-dev
+Description: Classes for QML and JavaScript languages
+Filename: aarch64/qt5-declarative_5.11.3-7_aarch64.deb
+SHA1: 4dd64f6d9dc34e465be4a961fa5f98d0528a3a6e
+SHA256: f225878da55ac85495c528b87bef260a69b9165760dee15760800ed45fc92fed
+Size: 2764062
+
+Package: qt5-declarative
+Architecture: aarch64
+Installed-Size: 19948
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-8
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-8)
+Breaks: qt5-declarative-dev
+Replaces: qt5-declarative-dev
+Description: Classes for QML and JavaScript languages
+Filename: aarch64/qt5-declarative_5.11.3-8_aarch64.deb
+SHA1: 5b6edf58220102ad89f6294217ae522f573c8367
+SHA256: 3675002d3206c8df9538cceb439a0e055d5fb51a17313d1d3e58e598bb92674e
+Size: 2764486
+
+Package: qt5-declarative
+Architecture: aarch64
+Installed-Size: 19948
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-9
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-9)
+Breaks: qt5-declarative-dev
+Replaces: qt5-declarative-dev
+Description: Classes for QML and JavaScript languages
+Filename: aarch64/qt5-declarative_5.11.3-9_aarch64.deb
+SHA1: ae12f60cf17764f61fd0091838a4419dd255f41d
+SHA256: cb6043d9ae2585155b281b15a24dd4c555e3136e21d26ec6ed36ce560683a2eb
+Size: 2762728
+
+Package: qt5-declarative-dev
+Architecture: aarch64
+Installed-Size: 10624
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-declarative, qt5-base (= 5.11.3-4)
+Description: Classes for QML and JavaScript languages
+Filename: aarch64/qt5-declarative-dev_5.11.3-4_aarch64.deb
+SHA1: 6b69dec589e129af058efc92a7e1837cc9eb20cb
+SHA256: 0d7bb42be88d75667d59c214909851d6ff86af53e38f6f46302a85fe4dbac854
+Size: 963360
+
+Package: qt5-tools
+Architecture: aarch64
+Installed-Size: 5492
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-4)
+Description: Qt development tools (incomplete !)
+Filename: aarch64/qt5-tools_5.11.3-4_aarch64.deb
+SHA1: 4e89d6a0654e9fa6ba05c26b2e2732ecac5c70e0
+SHA256: 6bc9d944e57d088270977aba59e74e7bd4fcf5b4bcba477d0b2791a190f5e8a8
+Size: 670154
+
+Package: qt5-tools
+Architecture: aarch64
+Installed-Size: 6932
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-5
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-5)
+Breaks: qt5-tools-dev
+Replaces: qt5-tools-dev
+Description: Qt development tools (incomplete !)
+Filename: aarch64/qt5-tools_5.11.3-5_aarch64.deb
+SHA1: 9d62d93bc9226eb5159bfbb64c90074a49950ace
+SHA256: 805bdbee1eed1342d885db4f1064ca00d35674da2325931c93292561ab8520a3
+Size: 800896
+
+Package: qt5-tools
+Architecture: aarch64
+Installed-Size: 6932
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-6
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-6)
+Breaks: qt5-tools-dev
+Replaces: qt5-tools-dev
+Description: Qt development tools (incomplete !)
+Filename: aarch64/qt5-tools_5.11.3-6_aarch64.deb
+SHA1: 9dcd98d892d4def40b1d4c617bdfd1d591e2eca7
+SHA256: b3c7a7c8e6f4eedaf5923e939f85f5d606cb90f5157206de0ddfde9b3bd05286
+Size: 799928
+
+Package: qt5-tools
+Architecture: aarch64
+Installed-Size: 7324
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-7
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-7)
+Breaks: qt5-tools-dev
+Replaces: qt5-tools-dev
+Description: Qt development tools (incomplete !)
+Filename: aarch64/qt5-tools_5.11.3-7_aarch64.deb
+SHA1: f54e17c26292ee0c4c267d73e192dc72c834164d
+SHA256: 0dbfb84c9c1857fbf7f2c3e64fde5853d8735526adec2218f08ae526a5b2699c
+Size: 875314
+
+Package: qt5-tools
+Architecture: aarch64
+Installed-Size: 7324
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-8
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-8)
+Breaks: qt5-tools-dev
+Replaces: qt5-tools-dev
+Description: Qt development tools (incomplete !)
+Filename: aarch64/qt5-tools_5.11.3-8_aarch64.deb
+SHA1: 811188518b720d15c6a696e2659d6c683f1e162c
+SHA256: db5a3e6e0a102d4bb1e1b0e2c75e483f588556de0c3a1ab6a359b6de3f4e94b7
+Size: 875594
+
+Package: qt5-tools
+Architecture: aarch64
+Installed-Size: 7324
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-9
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-9)
+Breaks: qt5-tools-dev
+Replaces: qt5-tools-dev
+Description: Qt development tools (incomplete !)
+Filename: aarch64/qt5-tools_5.11.3-9_aarch64.deb
+SHA1: 3662aeeb4543c0202c8c6fdfa4e4223773bd725a
+SHA256: c8884e5209fd8a0c71a937a86890e7bf1586f79ce4aa04a7deb1bbe81f529897
+Size: 874888
+
+Package: qt5-tools-dev
+Architecture: aarch64
+Installed-Size: 1468
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-tools, qt5-base (= 5.11.3-4)
+Description: Qt development tools (incomplete !)
+Filename: aarch64/qt5-tools-dev_5.11.3-4_aarch64.deb
+SHA1: 27dff19cd71123c167fa7d240765cf1f5998837b
+SHA256: 44e4db922ae9b14d98afe77532c17c1f4550f6e7e181efb60d0da7289b038f91
+Size: 135676
+
+Package: qt5-x11extras
+Architecture: aarch64
+Installed-Size: 28
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-4)
+Description: Qt platform-specific APIs for X11
+Filename: aarch64/qt5-x11extras_5.11.3-4_aarch64.deb
+SHA1: 1b200fb0e1451963d28a1afea0b489c706fcff7b
+SHA256: 2e1aa1097dcba13eb7194d200e7e0fddab76c208225d56341dd786bb47673b59
+Size: 836
+
+Package: qt5-x11extras
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-5
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-5)
+Description: Qt platform-specific APIs for X11
+Filename: aarch64/qt5-x11extras_5.11.3-5_aarch64.deb
+SHA1: 55de2ae6f08596bcf2776ef87e0018105a38073e
+SHA256: 055ab7037d383e6c36506446740407c27869e78400ffb8360934fc2d6cb87de5
+Size: 5204
+
+Package: qt5-x11extras
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-6
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-6)
+Description: Qt platform-specific APIs for X11
+Filename: aarch64/qt5-x11extras_5.11.3-6_aarch64.deb
+SHA1: cca97f2439c214022a8f34e6dcc9c134cdd95d3c
+SHA256: fd15c68548b1bbecd258c0ecb9498e28069d9440cb3a388097e9d7cb8c81451a
+Size: 5202
+
+Package: qt5-x11extras
+Architecture: aarch64
+Installed-Size: 140
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-7
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-7)
+Description: Qt platform-specific APIs for X11
+Filename: aarch64/qt5-x11extras_5.11.3-7_aarch64.deb
+SHA1: 932119a9bf148f62bb254016cb1bd3bf0965ef3b
+SHA256: 8b969c2a53abd5d182359a76a3cadf0a9abcf192629b95cddd3aaf4680496fb2
+Size: 9192
+
+Package: qt5-x11extras
+Architecture: aarch64
+Installed-Size: 140
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-8
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-8)
+Description: Qt platform-specific APIs for X11
+Filename: aarch64/qt5-x11extras_5.11.3-8_aarch64.deb
+SHA1: d3e7ee830c1eff26de33eba73215e93e0d632a6d
+SHA256: a727ef64c98f7e6a1b5dc82fa4b0d8953564c8ce1b0757e289d08617672373e1
+Size: 9198
+
+Package: qt5-x11extras
+Architecture: aarch64
+Installed-Size: 140
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-9
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-base (= 5.11.3-9)
+Description: Qt platform-specific APIs for X11
+Filename: aarch64/qt5-x11extras_5.11.3-9_aarch64.deb
+SHA1: e9fac616e17f0f3d89db1e1411d8452ef40a860a
+SHA256: 2b01b4ffa5ea961b15c07afa5094dddcc0e3341842560d9205f0a2333932fb3e
+Size: 9202
+
+Package: qt5-x11extras-dev
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.11.3-4
+Homepage: https://qt-project.org/
+Depends: qt5-base, qt5-x11extras, qt5-base (= 5.11.3-4)
+Description: Qt platform-specific APIs for X11
+Filename: aarch64/qt5-x11extras-dev_5.11.3-4_aarch64.deb
+SHA1: 09d368de98534caefbc2cad0392b5fa05c7fdbe9
+SHA256: 773e7542d2129973ac41c7f8a7c64a998ecdda74d02dd84e284328c383477374
+Size: 5174
+
+Package: rofi
+Architecture: aarch64
+Installed-Size: 660
+Maintainer: Tristan Ross <spaceboyross@yandex.com>
+Version: 1.5.4-6
+Homepage: https://github.com/DaveDavenport/rofi
+Depends: libandroid-glob, libandroid-shmem, startup-notification, libxkbcommon, xcb-util-wm, xcb-util-xrm, librsvg, libcairo-x
+Description: A window switcher, application launcher and dmenu replacement
+Filename: aarch64/rofi_1.5.4-6_aarch64.deb
+SHA1: f0831d8ba05c43914459b775f2a498a62dfae18f
+SHA256: acc1e5a1f903acb4e5fe278cb451989b636404d2b3e70ceb206e4cf2efe02983
+Size: 141530
+
+Package: sdl
+Architecture: aarch64
+Installed-Size: 1672
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.15-22
+Homepage: https://www.libsdl.org
+Depends: libandroid-glob, libflac, libogg, libsndfile, libvorbis, libx11, libxext, libxrandr, libxrender, pulseaudio
+Conflicts: libsdl
+Replaces: libsdl
+Description: A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard
+Filename: aarch64/sdl_1.2.15-22_aarch64.deb
+SHA1: 528de6986b8b1a2aa78259561396602243693b83
+SHA256: a3e6fe0614d2f772a493badf6023a933c55ad9a909422eb1790936a7b1866efa
+Size: 278722
+
+Package: sdl-image
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.12-2
+Homepage: https://www.libsdl.org/projects/SDL_image/
+Depends: libjpeg-turbo, libpng, libtiff, sdl, zlib
+Description: A simple library to load images of various formats as SDL surfaces
+Filename: aarch64/sdl-image_1.2.12-2_aarch64.deb
+SHA1: 9884a813e40b8ca6116535acfeb3b0a09c8e9b6f
+SHA256: d023d5ce6d8676e1d3f6b73f78702b2c61e7799130ea7590cae560a91c997ddd
+Size: 20844
+
+Package: sdl-image-static
+Architecture: aarch64
+Installed-Size: 116
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.12-2
+Homepage: https://www.libsdl.org/projects/SDL_image/
+Depends: sdl-image (= 1.2.12-2)
+Description: Static libraries for sdl-image
+Filename: aarch64/sdl-image-static_1.2.12-2_aarch64.deb
+SHA1: 9c7abfae56ce3093e0168cc0e2256dfe17cea203
+SHA256: 9dcc30bf9e2ec1e6d59a6da34ff054fa8a9fc953e5b3fe00a4a23e00b2d5fb6a
+Size: 23154
+
+Package: sdl-net
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.8-14
+Homepage: https://www.libsdl.org/projects/SDL_net/
+Depends: libandroid-glob, libflac, libogg, libsndfile, libvorbis, pulseaudio, sdl
+Conflicts: libsdl-net
+Replaces: libsdl-net
+Description: A small sample cross-platform networking library
+Filename: aarch64/sdl-net_1.2.8-14_aarch64.deb
+SHA1: 0443a35f4d796b9778b40ac7ff81b9681584ffe7
+SHA256: d65cf11b80fd58c92e1d586c6296e50304904a833a5ec400dc0ae42d60970c0f
+Size: 10950
+
+Package: sdl-net-static
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.8-14
+Homepage: https://www.libsdl.org/projects/SDL_net/
+Depends: sdl-net (= 1.2.8-14)
+Description: Static libraries for sdl-net
+Filename: aarch64/sdl-net-static_1.2.8-14_aarch64.deb
+SHA1: ed701a28a9a5f1c2889e5ff6e138e291f0589bd2
+SHA256: ca996d558088a4773060cbe428ef95a92715d14d94bbf97c85a0ae70b1317658
+Size: 6354
+
+Package: sdl-static
+Architecture: aarch64
+Installed-Size: 676
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.15-22
+Homepage: https://www.libsdl.org
+Depends: sdl (= 1.2.15-22)
+Description: Static libraries for sdl
+Filename: aarch64/sdl-static_1.2.15-22_aarch64.deb
+SHA1: cc223ea8d6fc508fc771fdfc5806eef8989af483
+SHA256: 75696f0908a4c8fea9662053507505192fa523962bb22cb5875d955e6da7b351
+Size: 142654
+
+Package: sdl2
+Architecture: aarch64
+Installed-Size: 2668
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.10-4
+Homepage: https://www.libsdl.org
+Depends: libandroid-glob, libflac, libogg, libsndfile, libvorbis, libx11, libxau, libxcb, libxcursor, libxdmcp, libxext, libxfixes, libxi, libxinerama, libxrandr, libxrender, libxss, libxxf86vm, pulseaudio
+Conflicts: libsdl2
+Replaces: libsdl2
+Description: A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard (version 2)
+Filename: aarch64/sdl2_2.0.10-4_aarch64.deb
+SHA1: d62d3d809cb80b3ca4a92e370ba58a738a078883
+SHA256: 10aebbeef23a32c37ffe691e2f96717a1646fc11ba3ab48c6ad1182afdcbb712
+Size: 438634
+
+Package: sdl2-image
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.5-6
+Homepage: https://www.libsdl.org/projects/SDL_image
+Depends: libandroid-glob, libflac, libjpeg-turbo, liblzma, libogg, libpng, libsndfile, libtiff, libvorbis, libwebp, libx11, libxau, libxcb, libxcursor, libxdmcp, libxext, libxfixes, libxi, libxinerama, libxrandr, libxrender, libxss, libxxf86vm, pulseaudio, sdl2, zlib
+Description: A simple library to load images of various formats as SDL surfaces (version 2)
+Filename: aarch64/sdl2-image_2.0.5-6_aarch64.deb
+SHA1: 36cf1e5cb29a63e31a1f1e19fa3078e7d6048f28
+SHA256: 7beab81cf04ca2dd16645d2dd0454343d08da98ec8df74d1be8f168f05601b8c
+Size: 45358
+
+Package: sdl2-image-static
+Architecture: aarch64
+Installed-Size: 208
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.5-6
+Homepage: https://www.libsdl.org/projects/SDL_image
+Depends: sdl2-image (= 2.0.5-6)
+Description: Static libraries for sdl2-image
+Filename: aarch64/sdl2-image-static_2.0.5-6_aarch64.deb
+SHA1: e2fede579ed376886c3fc4e18213f019bb74be31
+SHA256: a1f5fec56ca832bd1e9ff11a38e23f5c0e2c1bf0f35810c51a911f839048717f
+Size: 51768
+
+Package: sdl2-static
+Architecture: aarch64
+Installed-Size: 1952
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.10-4
+Homepage: https://www.libsdl.org
+Depends: sdl2 (= 2.0.10-4)
+Description: Static libraries for sdl2
+Filename: aarch64/sdl2-static_2.0.10-4_aarch64.deb
+SHA1: e0a0d6a212e9efb92e4e9c49c2851f6a9c0e78f4
+SHA256: 96821395beacbfe106a4235eb3249d3a4ae1dc8a0983a2b3195793b8b42f31fc
+Size: 345498
+
+Package: sdl2-ttf
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.15-5
+Homepage: https://www.libsdl.org/projects/SDL_ttf
+Depends: freetype, mesa, sdl2
+Description: A library that allows you to use TrueType fonts in your SDL applications (version 2)
+Filename: aarch64/sdl2-ttf_2.0.15-5_aarch64.deb
+SHA1: e93fb07790311eaa30a2bcfe28e93051f615c13a
+SHA256: fb69b686390f0487d79f13c55494b5e1e4af1148f6cb3368e12b7d48ee0e7cf6
+Size: 13758
+
+Package: sdl2-ttf-static
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.0.15-5
+Homepage: https://www.libsdl.org/projects/SDL_ttf
+Depends: sdl2-ttf (= 2.0.15-5)
+Description: Static libraries for sdl2-ttf
+Filename: aarch64/sdl2-ttf-static_2.0.15-5_aarch64.deb
+SHA1: dce2232fe3cfae1e3643c92a884b6249e159bae2
+SHA256: e9de97e8cbc7d6453681db1f5654de93c462d825515fba119c95902ff9e1b790
+Size: 10676
+
+Package: shared-mime-info
+Architecture: aarch64
+Installed-Size: 2372
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.15-1
+Homepage: https://freedesktop.org/Software/shared-mime-info
+Depends: coreutils, glib, libxml2
+Description: Freedesktop.org Shared MIME Info
+Filename: aarch64/shared-mime-info_1.15-1_aarch64.deb
+SHA1: 6451532c54ebe7bb4b520709c52cbbc23d84f88c
+SHA256: e16cfef077cc18c15e44da957a7a0a2c7f6ebbb759120e0527ed3b706f88acb8
+Size: 241512
+
+Package: st
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: Tristan Ross <spaceboyross@yandex.com>
+Version: 0.8.2-6
+Homepage: https://st.suckless.org/
+Depends: libxft, libxext
+Description: A simple virtual terminal emulator for X
+Filename: aarch64/st_0.8.2-6_aarch64.deb
+SHA1: 38977ccd327ead7dbef8c0c76938a3b1b0bbf58f
+SHA256: 08d67c8af843925e6063818312a37b68f821172a4896edc24af706f2bf7eac4a
+Size: 26984
+
+Package: startup-notification
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.12-10
+Homepage: https://www.freedesktop.org/
+Depends: libx11, libxcb, xcb-util
+Description: Utility libraries for XC Binding
+Filename: aarch64/startup-notification_0.12-10_aarch64.deb
+SHA1: d78caac274f59382bd26ae36e0d27d656047bcdc
+SHA256: 6fffc6f7606ab3577396400b7da5b0c456b1c808340d283928d838a5f9986cc6
+Size: 13840
+
+Package: startup-notification-static
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.12-10
+Homepage: https://www.freedesktop.org/
+Depends: startup-notification (= 0.12-10)
+Description: Static libraries for startup-notification
+Filename: aarch64/startup-notification-static_0.12-10_aarch64.deb
+SHA1: aa66539af9af8a76cbb7d295b3e82c0d284038a2
+SHA256: f22737e6614b127744ba33f0d5423c42d3e9d8870c149b6fb4b579d7bb90dc64
+Size: 13022
+
+Package: telepathy-glib
+Architecture: aarch64
+Installed-Size: 21788
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.24.1-4
+Homepage: http://telepathy.freedesktop.org/
+Breaks: telepathy-glib-dev
+Depends: dbus-glib
+Replaces: telepathy-glib-dev
+Description: GLib bindings for the Telepathy D-Bus protocol
+Filename: aarch64/telepathy-glib_0.24.1-4_aarch64.deb
+SHA1: a8343b1c094fb3477981e2402ee83ddd45e008b6
+SHA256: ef9de5024da3b3c2224626f4d72f66d29d22693d9e238b4b65eae79b1cc5fc1d
+Size: 1317062
+
+Package: telepathy-glib-static
+Architecture: aarch64
+Installed-Size: 4716
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.24.1-4
+Homepage: http://telepathy.freedesktop.org/
+Depends: telepathy-glib (= 0.24.1-4)
+Description: Static libraries for telepathy-glib
+Filename: aarch64/telepathy-glib-static_0.24.1-4_aarch64.deb
+SHA1: 2b7b0f23036f25a9329c769f185b334153214b17
+SHA256: b09574fe3a9a0277a7aaff5d69e724d5caeedf644034d2c970121639f3656b32
+Size: 650398
+
+Package: termux-x11
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0-1
+Homepage: https://github.com/termux/x11-packages
+Depends: libwayland
+Description: Utility to start X11 Termux add-on
+Filename: aarch64/termux-x11_1.0-1_aarch64.deb
+SHA1: c05e7b71f6729dd8a257e9c676e79edfe9a843db
+SHA256: 4940bf8fb724cb584c779a4f5eb8583596f275ac5fded910bdca2ef5f0d66fa6
+Size: 2754
+
+Package: the-powder-toy
+Architecture: aarch64
+Installed-Size: 2340
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 94.1-5
+Homepage: https://powdertoy.co.uk/
+Depends: fftw, libbz2, libc++, liblua52, sdl2, libx11, zlib
+Description: The Powder Toy is a free physics sandbox game
+Filename: aarch64/the-powder-toy_94.1-5_aarch64.deb
+SHA1: cd77c33390a8e59d9f37ad15ab1ba65d9f7ea671
+SHA256: 29438bbbdd61d609e08a35acd12a6397be694d1221f6d060155b8eb87ae6c0e3
+Size: 597246
+
+Package: thunar
+Architecture: aarch64
+Installed-Size: 6584
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.8.9-4
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Depends: desktop-file-utils, exo, hicolor-icon-theme, libexif, libnotify, libpng, libxfce4ui, libxfce4util
+Description: Modern file manager for XFCE environment
+Filename: aarch64/thunar_1.8.9-4_aarch64.deb
+SHA1: e1356b1bc4e0367106fa1627a5cb57548390553b
+SHA256: abdf8375abc7516368879890c46a8c68baa958892e0cde7fa320ae7241b633b8
+Size: 946430
+
+Package: thunar-static
+Architecture: aarch64
+Installed-Size: 504
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.8.9-4
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Depends: thunar (= 1.8.9-4)
+Description: Static libraries for thunar
+Filename: aarch64/thunar-static_1.8.9-4_aarch64.deb
+SHA1: 75867299ebd8f4337c705c73773f90ae001d5fea
+SHA256: 7cad76432c27a93f36724baab9727858a9bda3b50727583e7b4dc135106d195f
+Size: 71852
+
+Package: tigervnc
+Architecture: aarch64
+Installed-Size: 3088
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.9.0-34
+Homepage: https://tigervnc.org/
+Depends: freetype, libandroid-shmem, libbz2, libc++, libdrm, libexpat, libgnutls, libjpeg-turbo, libpixman, libpng, libuuid, libx11, libxau, libxcb, libxdamage, libxdmcp, libxext, libxxf86vm, libxfixes, libxfont2, libxshmfence, mesa, openssl, perl, xkeyboard-config, xorg-xauth, xorg-xkbcomp
+Suggests: aterm, xorg-twm
+Description: Suite of VNC servers. Based on the VNC 4 branch of TightVNC.
+Filename: aarch64/tigervnc_1.9.0-34_aarch64.deb
+SHA1: d77c7935eea9ea5c1f2b61c422aee334607f8518
+SHA256: 0fbfe5a26c578bffdb349be8c6cb3618013802ae82a951264e54bf58e97f1b05
+Size: 837506
+
+Package: tigervnc-viewer
+Architecture: aarch64
+Installed-Size: 488
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.9.0-34
+Homepage: https://tigervnc.org/
+Depends: fltk, fontconfig, libandroid-shmem, libc++, libgnutls, libice, libjpeg-turbo, libsm, libx11, libxcursor, libxext, libxfixes, libxft, libxinerama, libxrender, tigervnc (= 1.9.0-34)
+Conflicts: tigervnc (<< 1.9.0-4)
+Description: A VNC viewer from TigerVNC package
+Filename: aarch64/tigervnc-viewer_1.9.0-34_aarch64.deb
+SHA1: aa498f6ead35cc52adb5efec9f937913612525b8
+SHA256: 12db307059b856caf306d013ba9918f29dad9d6ab870a7c2b5c2eae5b495db1a
+Size: 127002
+
+Package: transmission-gtk
+Architecture: aarch64
+Installed-Size: 4236
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.94-7
+Homepage: https://transmissionbt.com/
+Depends: atk, gdk-pixbuf, glib, gtk3, libcairo-x, libcurl, libevent, openssl, pango-x, zlib
+Conflicts: transmission
+Replaces: transmission
+Description: Easy, lean and powerful BitTorrent client (gtk3)
+Filename: aarch64/transmission-gtk_2.94-7_aarch64.deb
+SHA1: 1f6c56dd4eff5ffb4f32c304420b6fb4bb107d21
+SHA256: 57dab2f8e817c8904a7e48b95d35ff1f566690578510356740a18629d334cf1d
+Size: 701346
+
+Package: ttf-dejavu
+Architecture: all
+Installed-Size: 10096
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.37-6
+Homepage: https://dejavu-fonts.github.io/
+Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+Filename: all/ttf-dejavu_2.37-6_all.deb
+SHA1: 68f1ee5f620822e038fdf0d193db1f58d0db6af6
+SHA256: 13cbbb961fb0f175adeb484c858a6718849bfdcc1f1cb3ee964712c5d31734fe
+Size: 2469248
+
+Package: uget
+Architecture: aarch64
+Installed-Size: 716
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.2.2-5
+Homepage: https://ugetdm.com/
+Depends: atk, gdk-pixbuf, glib, gstreamer, gtk3, libandroid-shmem, libcairo-x, libcurl, libnotify, openssl, pango-x
+Suggests: aria2
+Description: GTK+ download manager featuring download classification and HTML import
+Filename: aarch64/uget_2.2.2-5_aarch64.deb
+SHA1: 15bef90b677e8c280a9db08fb84176bb21e69af4
+SHA256: f6f50473a26734db35fe356ea61207089b6b7554d0e3a3d4a7194df9ade71da0
+Size: 180118
+
+Package: vim-gtk
+Architecture: aarch64
+Installed-Size: 29104
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 8.2.0000-1
+Homepage: https://www.vim.org
+Depends: gdk-pixbuf, glib, gtk3, libcairo-x, libice, libiconv, liblua, libsm, libx11, libxpm, libxt, ncurses, pango-x, python
+Conflicts: vim, vim-python, vim-runtime
+Description: Vi IMproved - enhanced vi editor
+Filename: aarch64/vim-gtk_8.2.0000-1_aarch64.deb
+SHA1: db6f96ab3e004db317d428917728e362f689d853
+SHA256: c470e53234799fb56d98a3aa987ea38362162dc00607f7d62f4ebe92c48e1bc9
+Size: 5793318
+
+Package: wireshark-gtk
+Architecture: aarch64
+Installed-Size: 100796
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6.11-2
+Homepage: https://www.wireshark.org/
+Depends: atk, c-ares, desktop-file-utils, gdk-pixbuf, glib, gtk3, hicolor-icon-theme, krb5, libandroid-shmem, libcairo-x, libgcrypt, libgnutls, libgpg-error, liblua52, liblz4, libmaxminddb, libnghttp2, libnl, libpcap, libssh, libxml2, pango-x, zlib
+Conflicts: tshark, wireshark, wireshark-cli
+Replaces: tshark, wireshark, wireshark-cli
+Provides: tshark, wireshark, wireshark-cli
+Description: Network protocol analyzer
+Filename: aarch64/wireshark-gtk_2.6.11-2_aarch64.deb
+SHA1: 183ec32cc6b18068f0d06da61f840a512b5877d3
+SHA256: a4b5e0530141aa92f064e1b5f1c090c7626a7ec1be1270ca036fbf15d950e995
+Size: 18161494
+
+Package: wireshark-gtk-static
+Architecture: aarch64
+Installed-Size: 123756
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.6.11-2
+Homepage: https://www.wireshark.org/
+Depends: wireshark-gtk (= 2.6.11-2)
+Description: Static libraries for wireshark-gtk
+Filename: aarch64/wireshark-gtk-static_2.6.11-2_aarch64.deb
+SHA1: a16fdc0bac59a1326b1552311c3c96400e78206a
+SHA256: bc9d008a043ee7bd6a9eab2d3a99ef794f467f49747b9a69e7f2853159992560
+Size: 14869096
+
+Package: x2x
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 20180709-4
+Homepage: https://github.com/dottedmag/x2x
+Depends: libxtst
+Description: Allows the keyboard, mouse on one X display to be used to control another X display
+Filename: aarch64/x2x_20180709-4_aarch64.deb
+SHA1: 70924652d7f763340aa3e3275ba380d5a6981a07
+SHA256: 01cbcc2d63dac85ddbf81e5f8d91740efe220c5bd20cb4b93e796375909a2efd
+Size: 22208
+
+Package: xarchiver
+Architecture: aarch64
+Installed-Size: 792
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.5.4.14-5
+Homepage: https://github.com/ib/xarchiver
+Depends: atk, binutils, bzip2, cpio, glib, gtk3, gzip, libandroid-shmem, libcairo-x, lzip, lzop, p7zip, tar, unrar, unzip, xz-utils, zip, zstd, zlib
+Description: GTK+ frontend to various command line archivers
+Filename: aarch64/xarchiver_0.5.4.14-5_aarch64.deb
+SHA1: 3db36e8bc1d4517cf8537e09418126df62309f4a
+SHA256: 153942c4b962f68aad65fe064a38d1c21c11c772b3a30b71f7fe3b6bc68ef2ae
+Size: 331166
+
+Package: xbitmaps
+Architecture: all
+Installed-Size: 484
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.2-10
+Homepage: https://xorg.freedesktop.org/
+Description: X.org Bitmap files
+Filename: all/xbitmaps_1.1.2-10_all.deb
+SHA1: fad82c6b2832ec9901e628d2f7d9a1010870e7e3
+SHA256: eb0b5dbc07bc624084d9023c1f5081b7f2a56cc3c50df709d8c2e7b620e8af0c
+Size: 18344
+
+Package: xcb-proto
+Architecture: all
+Installed-Size: 1056
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.13-9
+Homepage: https://xcb.freedesktop.org/
+Conflicts: xcbproto
+Replaces: xcbproto
+Description: XML-XCB protocol descriptions
+Filename: all/xcb-proto_1.13-9_all.deb
+SHA1: dc6321a93ead4b81b12527f123442b3b73a72c9a
+SHA256: abbd53956d0337167abe8ac85b819790ab0d99eb889c151a95d9178c946cd8cb
+Size: 102260
+
+Package: xcb-util
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-9
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb
+Description: Utility libraries for XC Binding
+Filename: aarch64/xcb-util_0.4.0-9_aarch64.deb
+SHA1: a2cf6dba9556916c2646ccacd3fe5d46163d1177
+SHA256: ead3523ce1f3225a4527b4e6b7ee5a8bb86cbe6aeeb90092701349db42f8830f
+Size: 8948
+
+Package: xcb-util-cursor
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.1.3-8
+Homepage: https://cgit.freedesktop.org/xcb/util-cursor
+Depends: libandroid-shmem, libxcb, xcb-util-image, xcb-util-renderutil
+Description: XCB cursor library
+Filename: aarch64/xcb-util-cursor_0.1.3-8_aarch64.deb
+SHA1: b73353f2943a2580a9de5565e26c4afd530ace24
+SHA256: 1736ff387e10630a4424560244b952f971224665ca06b77d68014e3023076e35
+Size: 8668
+
+Package: xcb-util-cursor-static
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.1.3-8
+Homepage: https://cgit.freedesktop.org/xcb/util-cursor
+Depends: xcb-util-cursor (= 0.1.3-8)
+Description: Static libraries for xcb-util-cursor
+Filename: aarch64/xcb-util-cursor-static_0.1.3-8_aarch64.deb
+SHA1: 222f7f487570947b6ef93db81913ace3455d30a1
+SHA256: decdbc08d115f8bc79fcec3391ca8c731cc7bbb38964f28a21d7a8aa45fdce2d
+Size: 7432
+
+Package: xcb-util-image
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libandroid-shmem, libxcb, xcb-util
+Description: Utility libraries for XC Binding - Port of Xlib's XImage and XShmImage functions
+Filename: aarch64/xcb-util-image_0.4.0-7_aarch64.deb
+SHA1: ce63461dd5f699b025a9c578152a55a03512ae62
+SHA256: 4606af4c31067fe715a1114917d6ca20415becc61ff2a5117e1027a707f5d40c
+Size: 14284
+
+Package: xcb-util-image-static
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-7
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util-image (= 0.4.0-7)
+Description: Static libraries for xcb-util-image
+Filename: aarch64/xcb-util-image-static_0.4.0-7_aarch64.deb
+SHA1: 52723ffadc4c9b674aa1cb646d0297ffe1864ab7
+SHA256: ba164f96e592e107611a90d902502f904b418841c0c095808c5fcca33a3c2ccf
+Size: 6184
+
+Package: xcb-util-keysyms
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb
+Description: Utility libraries for XC Binding - Standard X key constants and conversion to/from keycodes
+Filename: aarch64/xcb-util-keysyms_0.4.0-7_aarch64.deb
+SHA1: 8f76cd3cf6393d46751ae1267dc777b8d324a330
+SHA256: 3b12d1060a4b54d3a343cb0d8033a92bcb6edabf50fde6713789c6ef912f1b56
+Size: 4634
+
+Package: xcb-util-keysyms-static
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-7
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util-keysyms (= 0.4.0-7)
+Description: Static libraries for xcb-util-keysyms
+Filename: aarch64/xcb-util-keysyms-static_0.4.0-7_aarch64.deb
+SHA1: ecb0ca6ec27fda093727e7d8fbc0c98d18e70b22
+SHA256: ecca247745a63b9b80d1f011f262bec655a1a1e2b8d018aad23f5049aa1f4efd
+Size: 3498
+
+Package: xcb-util-renderutil
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.3.9-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb
+Description: Utility libraries for XC Binding - Convenience functions for the Render extension
+Filename: aarch64/xcb-util-renderutil_0.3.9-7_aarch64.deb
+SHA1: a949d83cc3f1d10527d877d2e5af757eff6b7db6
+SHA256: 18877b2fa10a580b06f2bdeaa508d69b3ea1d2ff8247235f6e889ab7b6562e0e
+Size: 6248
+
+Package: xcb-util-renderutil-static
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.3.9-7
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util-renderutil (= 0.3.9-7)
+Description: Static libraries for xcb-util-renderutil
+Filename: aarch64/xcb-util-renderutil-static_0.3.9-7_aarch64.deb
+SHA1: 3f68af96c95ead14471779a7f4187a41a943b0f9
+SHA256: f5288be8a11583c1a026e0acb647f178a791df29233e61170aa28c16174595fa
+Size: 4630
+
+Package: xcb-util-static
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.0-9
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util (= 0.4.0-9)
+Description: Static libraries for xcb-util
+Filename: aarch64/xcb-util-static_0.4.0-9_aarch64.deb
+SHA1: 8f591c9c7aa79b1275a9e241d5111010c935b8f4
+SHA256: 52824d3bbedefce709244b3a4bf3edd225c0f6e882ba30d19164301dfb38a4ae
+Size: 6056
+
+Package: xcb-util-wm
+Architecture: aarch64
+Installed-Size: 272
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.1-7
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb
+Description: Utility libraries for XC Binding - client and window-manager helpers for ICCCM
+Filename: aarch64/xcb-util-wm_0.4.1-7_aarch64.deb
+SHA1: 75d6d0a648b00177bbb428a9f860fc688fcf9d1b
+SHA256: a6b8f6ea9a827caf108bc9fbcab43e0899f85fbf5c007515fe77abea8f5312e6
+Size: 27546
+
+Package: xcb-util-wm-static
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.1-7
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util-wm (= 0.4.1-7)
+Description: Static libraries for xcb-util-wm
+Filename: aarch64/xcb-util-wm-static_0.4.1-7_aarch64.deb
+SHA1: 8d491b3f9df51b41eea6106062f31dced8881616
+SHA256: b512026503f57478eea8363b8c5dcaf7deb422a99bdf85fec3daa7b1d8be191e
+Size: 12676
+
+Package: xcb-util-xrm
+Architecture: aarch64
+Installed-Size: 100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3-8
+Homepage: https://github.com/Airblader/xcb-util-xrm/
+Depends: libxau, libxcb, libxdmcp, xcb-util
+Description: XCB utility functions for the X resource manager
+Filename: aarch64/xcb-util-xrm_1.3-8_aarch64.deb
+SHA1: 80468e535d9ac879ba19000dc1baa002339cc526
+SHA256: 31725c7d1f93bbfadc57bca5e278f890a120d53414be17cf8403d19d12891849
+Size: 10388
+
+Package: xcb-util-xrm-static
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3-8
+Homepage: https://github.com/Airblader/xcb-util-xrm/
+Depends: xcb-util-xrm (= 1.3-8)
+Description: Static libraries for xcb-util-xrm
+Filename: aarch64/xcb-util-xrm-static_1.3-8_aarch64.deb
+SHA1: e5a7b11469a8880f1987c3dd586e428953315ca9
+SHA256: bb5b4a8fff5af1ab6d001016b2849b1acd244bc0fe7dbc900aa1624f8c019766
+Size: 8366
+
+Package: xcompmgr
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.8-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxcomposite, libxdamage, libxext, libxfixes, libxrender
+Description: Composite Window-effects manager for X.org
+Filename: aarch64/xcompmgr_1.1.8-5_aarch64.deb
+SHA1: 651980d1272d8ac1724434de4fa89977a5f6ced5
+SHA256: a3dfbce49469aedfd9a588b2ee4cbc996235e6f9a5ba255b9f140dc265119926
+Size: 12658
+
+Package: xfce
+Architecture: all
+Installed-Size: 4
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0-2
+Homepage: https://github.com/termux/x11-packages
+Depends: thunar, xfce4-panel, xfce4-session, xfce4-settings, xfconf, xfwm4
+Description: A metapackage that installs all parts of the XFCE desktop environment
+Filename: all/xfce_1.0-2_all.deb
+SHA1: b8b7935bd02220d7ba138e81a9742c62aec295bc
+SHA256: 13e1e5199ee93dd1c0124999d8dcba31ee850b7b1f4a9143e572ca5d2b9d6f5a
+Size: 738
+
+Package: xfce4-panel
+Architecture: aarch64
+Installed-Size: 4088
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.15.0-1
+Homepage: https://www.xfce.org/
+Depends: desktop-file-utils, exo, hicolor-icon-theme, garcon, libwnck, libxfce4ui, xfconf
+Description: Panel for the XFCE environment
+Filename: aarch64/xfce4-panel_4.15.0-1_aarch64.deb
+SHA1: 15e3db1362d0dd8c079cd4201c7322e03b4268ea
+SHA256: 6651436462244357fe6c900e7f4cc0d9348f2433bd88163c634e976b97892b6f
+Size: 547790
+
+Package: xfce4-panel-static
+Architecture: aarch64
+Installed-Size: 1520
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.15.0-1
+Homepage: https://www.xfce.org/
+Depends: xfce4-panel (= 4.15.0-1)
+Description: Static libraries for xfce4-panel
+Filename: aarch64/xfce4-panel-static_4.15.0-1_aarch64.deb
+SHA1: 5003c70a930d5f2ae3fd1ba31d2f748a4fc74d0f
+SHA256: 98fae89b06f76767a72c8746de45a1ac5c58fc54572d95cbd43d64481519b649
+Size: 172876
+
+Package: xfce4-session
+Architecture: aarch64
+Installed-Size: 2060
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.0-4
+Homepage: https://www.xfce.org/
+Depends: gnupg, hicolor-icon-theme, libsm, libwnck, libxfce4ui, xfce4-settings, xfdesktop, xfwm4, xorg-iceauth, xorg-xrdb
+Description: A session manager for XFCE environment
+Filename: aarch64/xfce4-session_4.14.0-4_aarch64.deb
+SHA1: eb04a6239bfadabb2febcb607d6549a0f81d48f1
+SHA256: 678ba63fa8d607add5e82df99ded55130454d84d7fc15fc17bb4ee808c6915d5
+Size: 257510
+
+Package: xfce4-settings
+Architecture: aarch64
+Installed-Size: 3848
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.1-2
+Homepage: https://www.xfce.org/
+Depends: exo, garcon, libnotify, libxfce4ui, libxklavier, lxde-icon-theme
+Description: Settings manager for XFCE environment
+Filename: aarch64/xfce4-settings_4.14.1-2_aarch64.deb
+SHA1: 8c7bc36ea0a362f74cd4db34174e54a427012ed7
+SHA256: d36765edc5a023212471dcd4a29679f4b1225dcddf7cf0a838def80c7e324b14
+Size: 490552
+
+Package: xfconf
+Architecture: aarch64
+Installed-Size: 1308
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.1-5
+Homepage: https://www.xfce.org/
+Depends: dbus, libxfce4util
+Description: Flexible, easy-to-use configuration management system
+Filename: aarch64/xfconf_4.14.1-5_aarch64.deb
+SHA1: bc60c438baf559a7de2b981edcfdc8019fe80be4
+SHA256: 1dd3926ddda9066aa71a129efbfd2fa2545800cfd08d9bb3face69ed35bba5e5
+Size: 116270
+
+Package: xfconf-static
+Architecture: aarch64
+Installed-Size: 224
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.1-5
+Homepage: https://www.xfce.org/
+Depends: xfconf (= 4.14.1-5)
+Description: Static libraries for xfconf
+Filename: aarch64/xfconf-static_4.14.1-5_aarch64.deb
+SHA1: d7afecd796c0429c0a1d00d214a2012e0a11a2a4
+SHA256: 184fabe1394d3b1dd77096495aa987569d16c78ee33859aefb1e85b8e079f88a
+Size: 34334
+
+Package: xfdesktop
+Architecture: aarch64
+Installed-Size: 3184
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.1-3
+Homepage: https://www.xfce.org/
+Depends: exo, garcon, hicolor-icon-theme, libwnck, libxfce4ui, startup-notification, thunar
+Description: A desktop manager for XFCE environment
+Filename: aarch64/xfdesktop_4.14.1-3_aarch64.deb
+SHA1: c25d9a47442919a4cac8e2c1c5d5df9d57245d23
+SHA256: 85e5dc80a6fdd85ab65f91efe4bcf8e486fd92d1f7f40c856c4094ae51ba94e4
+Size: 777164
+
+Package: xfwm4
+Architecture: aarch64
+Installed-Size: 5252
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.14.0-3
+Homepage: https://www.xfce.org/
+Depends: hicolor-icon-theme, libepoxy, libwnck, libxfce4ui, startup-notification, xfconf
+Description: Window manager for XFCE environment
+Filename: aarch64/xfwm4_4.14.0-3_aarch64.deb
+SHA1: 098eec7fc674e6c8a91926c627573d1e7a09db0e
+SHA256: 3a6bd2b3f4dbacebe3cf8c471695b808a7878fdaa10033b64b79d28f3cbf540e
+Size: 344216
+
+Package: xkeyboard-config
+Architecture: all
+Installed-Size: 3960
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.28-1
+Homepage: https://www.freedesktop.org/wiki/Software/XKeyboardConfig/
+Description: X keyboard configuration files
+Filename: all/xkeyboard-config_2.28-1_all.deb
+SHA1: fe95ca9958890b95a4eb51dd3b6848c826d19d4f
+SHA256: a3c77749498a97fbfaf774840964ad9479d15517eae9a8d00d62516e05a93939
+Size: 333612
+
+Package: xorg-font-util
+Architecture: aarch64
+Installed-Size: 332
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.2-2
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org font utilities
+Filename: aarch64/xorg-font-util_1.3.2-2_aarch64.deb
+SHA1: d0798c0e37ddd2b68f09eb2ebb94b51438ff67be
+SHA256: bdbb9aa0e89354f3daeb21440ab71ccc52022fbe42cc4a72b0bceb24370515cb
+Size: 24038
+
+Package: xorg-fonts-100dpi
+Architecture: all
+Installed-Size: 17292
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: fontconfig-utils, xorg-font-util, xorg-fonts-alias, xorg-fonts-encodings, xorg-mkfontscale
+Conflicts: xorg-fonts-lite
+Description: X.org 100dpi fonts
+Filename: all/xorg-fonts-100dpi_1.0.3-9_all.deb
+SHA1: 20a36733b822166622ec98549325a9ea8c96482b
+SHA256: f68ba300f7cae67b97aca61cf494baf584589825271be73125db26740616b860
+Size: 12382040
+
+Package: xorg-fonts-75dpi
+Architecture: all
+Installed-Size: 15996
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: fontconfig-utils, xorg-font-util, xorg-fonts-alias, xorg-fonts-encodings, xorg-mkfontscale
+Conflicts: xorg-fonts-lite
+Description: X.org 75dpi fonts
+Filename: all/xorg-fonts-75dpi_1.0.3-9_all.deb
+SHA1: 77325601df8d4d276dc78af3b009da8e5f28744e
+SHA256: a39f6b6bc7808e2f426da1f9b291529e979f26c0aecf8a291d19973ff6c94c96
+Size: 10726202
+
+Package: xorg-fonts-alias
+Architecture: all
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.3-7
+Homepage: https://xorg.freedesktop.org/
+Description: X.org font alias files
+Filename: all/xorg-fonts-alias_1.0.3-7_all.deb
+SHA1: 3f5962ffb466291e105321025a44f9c20345e325
+SHA256: 4814fe597cad2ff1ab66405deb9c397a413fa65ddbf2bbccf0002d0ea3c952aa
+Size: 2828
+
+Package: xorg-fonts-encodings
+Architecture: all
+Installed-Size: 808
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.5-4
+Homepage: https://xorg.freedesktop.org/
+Description: X.org font encoding files
+Filename: all/xorg-fonts-encodings_1.0.5-4_all.deb
+SHA1: 2da9403665534b76e9bb13e4f24c7e9ba2099429
+SHA256: 9e036e9695fad2149bb7d5e92e41ed874f373885906bbacf3679e21e6a4954af
+Size: 569400
+
+Package: xorg-iceauth
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.8-3
+Homepage: https://xorg.freedesktop.org/
+Depends: libice
+Description: ICE authority file utility
+Filename: aarch64/xorg-iceauth_1.0.8-3_aarch64.deb
+SHA1: a606a6500146188d93ea0cab5b2fe5ae342534ee
+SHA256: 241c1b0c681732cc3a92dbe622a9aebc201c8d548ef8a38abc3c2d2a3e1a018f
+Size: 11654
+
+Package: xorg-luit
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.1-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libfontenc
+Description: Filter that can be run between an arbitrary application and a UTF-8 terminal emulator
+Filename: aarch64/xorg-luit_1.1.1-4_aarch64.deb
+SHA1: 80fce4e57fda54f5a54e586a5009cfbd3f1d3a2f
+SHA256: 142a878a6a65a5ce95886741a25d72fc998c2b974b59664e48e701e95c1cdadc
+Size: 16334
+
+Package: xorg-mkfontscale
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.1-7
+Homepage: https://xorg.freedesktop.org/
+Depends: findutils, freetype, libfontenc, zlib
+Conflicts: xorg-mkfontdir
+Replaces: xorg-mkfontdir
+Description: Create an index of scalable font files for X
+Filename: aarch64/xorg-mkfontscale_1.2.1-7_aarch64.deb
+SHA1: 4689f4590777b8ec2ebd1e3340980cceabe0fe40
+SHA256: fee71bc81621cd9bf5c88ae43b05a873c235def6bdde6884156208bf85524676
+Size: 17162
+
+Package: xorg-server-xvfb
+Architecture: aarch64
+Installed-Size: 1432
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.20.5-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libandroid-shmem, libdrm, libpixman, libx11, libxau, libxfont2, libxinerama, libxkbfile, libxshmfence, mesa, openssl, xkeyboard-config, xorg-xkbcomp
+Conflicts: xorg-xvfb
+Replaces: xorg-xvfb
+Description: X virtual framebuffer
+Filename: aarch64/xorg-server-xvfb_1.20.5-4_aarch64.deb
+SHA1: 2e374a12868ebd5e6db7a77f91ee6763b06bea5d
+SHA256: 4d40503dd3bd0a33f1c7039b7a7382a930068f04011098906517e8c44c510583
+Size: 535666
+
+Package: xorg-twm
+Architecture: aarch64
+Installed-Size: 244
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.10-12
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libsm, libx11, libxext, libxmu, libxt
+Description: Tab Window Manager for the X Window System
+Filename: aarch64/xorg-twm_1.0.10-12_aarch64.deb
+SHA1: 5c8e1f93f460624c0938b0106527c932672e26b2
+SHA256: 96be0bf6f5902f53a379e10d2741fdcf72d525f9296ccf3c845c9c5826228bc4
+Size: 78516
+
+Package: xorg-util-macros
+Architecture: all
+Installed-Size: 144
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.19.2-5
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org Autotools macros
+Filename: all/xorg-util-macros_1.19.2-5_all.deb
+SHA1: 69d9500d8255bd948400e9df61ff0f4eb96c6517
+SHA256: d2ac4a18094349646ca6bc218b4f874acf8f015bcfd87e1d69335b2727cc9390
+Size: 21496
+
+Package: xorg-xauth
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxext, libxmu
+Description: X.Org authorization settings program
+Filename: aarch64/xorg-xauth_1.1-4_aarch64.deb
+SHA1: 04ce003006789a2404ea921d90ad58bcf1b7f816
+SHA256: a3d28c41dfbdac6b35edc6a6e88b59e86cf5405b614437ec78e2a5f5ba1873a6
+Size: 17960
+
+Package: xorg-xcalc
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.0-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxaw, libxt, xorg-fonts-75dpi | xorg-fonts-100dpi
+Description: Scientific calculator for X
+Filename: aarch64/xorg-xcalc_1.1.0-4_aarch64.deb
+SHA1: 60ff434cc19a8a34f9b25ca9c934645e5f566737
+SHA256: 2280c5bc60275dd264023d37c8ba19610564683ebb4be133fcbbde877d7b43e0
+Size: 19674
+
+Package: xorg-xclock
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.9-4
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxaw, libxft, libxkbfile, libxmu, libxrender, libxt
+Conflicts: xclock
+Replaces: xclock
+Description: X clock
+Filename: aarch64/xorg-xclock_1.0.9-4_aarch64.deb
+SHA1: 5db44f2081056118dd16df99234c43fc10b274df
+SHA256: af50daabcbe901e9a2b3252f176199c3e6313bb099456dac521f22e1210979da
+Size: 21858
+
+Package: xorg-xdpyinfo
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.3.2-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxcb, libxcomposite, libxext, libxi, libxinerama, libxrender, libxtst, libxxf86dga, libxxf86vm
+Description: Display information utility for X
+Filename: aarch64/xorg-xdpyinfo_1.3.2-6_aarch64.deb
+SHA1: db4ca6d07d78af2a024fa5631ce44a4d9ff48231
+SHA256: 41614fe63d54413a799acf74105777b01aedba27999aeceed07251f2c931a73a
+Size: 12066
+
+Package: xorg-xev
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.3-6
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxrandr
+Description: Print contents of X events
+Filename: aarch64/xorg-xev_1.2.3-6_aarch64.deb
+SHA1: 577e98940b7eb79e6fac8927cf4ca9123e4b2b87
+SHA256: bdd5640e5e0135b5bd31af69abfdac58510f5678c67cd446299c96fce5f0f784
+Size: 10518
+
+Package: xorg-xhost
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.8-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxmu
+Description: Server access control program for X
+Filename: aarch64/xorg-xhost_1.0.8-1_aarch64.deb
+SHA1: d18d9cf39f059bc2dc2218db056c047c8c9260a7
+SHA256: 57be0189b966b79e2318b6343d89a0b9b14af9fc75fbe029486d8bcaae4334d2
+Size: 8410
+
+Package: xorg-xkbcomp
+Architecture: aarch64
+Installed-Size: 236
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.4.2-7
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxkbfile
+Description: X Keyboard description compiler
+Filename: aarch64/xorg-xkbcomp_1.4.2-7_aarch64.deb
+SHA1: a057cc000dffbed1e82d64ef1632720079ab289d
+SHA256: 3fd8ff06f06cf5d77c1d92e25229b6e9ed58af9bf7ec7660921f3b4105c930d0
+Size: 64888
+
+Package: xorg-xlsfonts
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.6-5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: List available X fonts
+Filename: aarch64/xorg-xlsfonts_1.0.6-5_aarch64.deb
+SHA1: ed2fa9f16043838ee04b6c4a9da0b369966c773b
+SHA256: 6d04814d588fc663d3cb8bf4612f6da351903f10038ead89ae19cdcf534b3f20
+Size: 8312
+
+Package: xorg-xmessage
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.5-9
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxaw, libxt
+Description: Display a message or query in a window
+Filename: aarch64/xorg-xmessage_1.0.5-9_aarch64.deb
+SHA1: 8c1034af1113a356873128b21fffe66f2a083861
+SHA256: ce88c1d253c50af8945ed5c9afe6798ce54ddf7a64365b78fa0d059cb7170d68
+Size: 9586
+
+Package: xorg-xrdb
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.2.0-3
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxmu
+Description: X server resource database utility
+Filename: aarch64/xorg-xrdb_1.2.0-3_aarch64.deb
+SHA1: d427325e7831f792748d3fab0f061a7b146c5139
+SHA256: 4a11fde6912be67f2fb914683b477c817372cd6be387a2c82470c8d4aeab6b45
+Size: 14374
+
+Package: xorg-xsetroot
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.2-8
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxcursor, libxmu
+Description: Classic X utility to set your root window background to a given pattern or color
+Filename: aarch64/xorg-xsetroot_1.1.2-8_aarch64.deb
+SHA1: abb767578eafeaae154fbc6c803a9709ea2cf0a1
+SHA256: cd497fc97efb8a1d01ff72b287a187271809724c0e4e9008ccf8514ed65d8d53
+Size: 8224
+
+Package: xorgproto
+Architecture: all
+Installed-Size: 1748
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2019.2-2
+Homepage: https://xorg.freedesktop.org/
+Depends: xorg-util-macros
+Conflicts: x11-proto
+Replaces: x11-proto
+Description: X.Org X11 Protocol headers
+Filename: all/xorgproto_2019.2-2_all.deb
+SHA1: 49404c0fc96f14d57612ca41591d835e6a7b4875
+SHA256: 56d714062b92b9f96ad15527dfcc337ebef778c81492f7d2fa46f812d84681c3
+Size: 174222
+
+Package: xournal
+Architecture: aarch64
+Installed-Size: 656
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.4.8.2016-9
+Homepage: https://sourceforge.net/projects/xournal/
+Depends: atk, desktop-file-utils, fontconfig, freetype, glib, gtk2, hicolor-icon-theme, libandroid-shmem, libart-lgpl, libcairo, libgnomecanvas, pango-x, poppler, libx11, shared-mime-info, zlib
+Description: Notetaking and sketching application
+Filename: aarch64/xournal_0.4.8.2016-9_aarch64.deb
+SHA1: 012524b43eb2cad49bb2055ebfbbee7b71d6c372
+SHA256: 236c9049be8618aa1c321defe211d15c65c812df74b71bc05fb631b9aca394ff
+Size: 195688
+
+Package: xrdp
+Architecture: aarch64
+Installed-Size: 2368
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.9.11-2
+Homepage: https://github.com/neutrinolabs/xrdp
+Depends: libandroid-shmem, libcrypt, libice, libsm, libuuid, libx11, libxau, libxcb, libxfixes, libxdmcp, libxrandr, openssl, procps, tigervnc
+Description: An open source remote desktop protocol (RDP) server
+Filename: aarch64/xrdp_0.9.11-2_aarch64.deb
+SHA1: 94cf0663c173a92825050c519eaf0b4fbade12ef
+SHA256: 8f5e7c3481bc624692f808d90b7c7a7aa55a95c899e31a8b266cf35ef61eb7d8
+Size: 296248
+
+Package: xrdp-static
+Architecture: aarch64
+Installed-Size: 584
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.9.11-2
+Homepage: https://github.com/neutrinolabs/xrdp
+Depends: xrdp (= 0.9.11-2)
+Description: Static libraries for xrdp
+Filename: aarch64/xrdp-static_0.9.11-2_aarch64.deb
+SHA1: 1407ff94c2ae64be97a0774f7c2d3539f4a44dcf
+SHA256: 32d330cee245eb01f04840e85aa3d1089a087f126565364caaa38b4b7b489c76
+Size: 120216
+
+Package: xsel
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: Doron Behar <me@doronbehar.com>
+Version: 1.2.0.20190505-4
+Homepage: http://www.kfish.org/software/xsel/
+Depends: libx11
+Description: Command-line program for getting and setting the contents of the X selection
+Filename: aarch64/xsel_1.2.0.20190505-4_aarch64.deb
+SHA1: be6fb483a926850bbfc50d17ac143d97943ebe48
+SHA256: c7ef59795013628f5b92e6037941a4aecb561920f66ee9b29d4980ed4058ed7f
+Size: 13024
+
+Package: xterm
+Architecture: all
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 9999-4
+Homepage: https://github.com/termux/x11-packages
+Depends: aterm
+Description: A compatibility wrapper for Aterm
+Filename: all/xterm_9999-4_all.deb
+SHA1: 672b042baa00f8d9a8d52f2a5533fbf3ddfc2805
+SHA256: 9b6d8b95953ec8a371569b676f75c17ab90a6288ed8aeea827b18e31b11d22d1
+Size: 896
+
+Package: xtrans
+Architecture: all
+Installed-Size: 316
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.4.0-5
+Homepage: https://xorg.freedesktop.org/
+Description: X transport library
+Filename: all/xtrans_1.4.0-5_all.deb
+SHA1: 70035ff1c5d0f79230868f05d6c526452ca5cd97
+SHA256: 0b63be0baaac9703adfafd6b96dd8c8616a2be810058c7df54e0dec27b42039c
+Size: 42646
+
+Package: xwayland
+Architecture: aarch64
+Installed-Size: 1468
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.20.5-5
+Homepage: https://xorg.freedesktop.org/wiki/
+Depends: libandroid-shmem, libdrm, libpciaccess, libpixman, libx11, libxau, libxfont2, libxinerama, libxkbfile, libxshmfence, mesa, openssl, xkeyboard-config, xorg-xkbcomp, libwayland, libwayland-protocols, libepoxy
+Description: Wayland X11 server
+Filename: aarch64/xwayland_1.20.5-5_aarch64.deb
+SHA1: db4093ac9f6b8d69d33d47e2656fecddd32155fa
+SHA256: db5fa70650005a3bf2502f9b4a2504c1da755dad88f1638212070e7c379034a6
+Size: 544094
+
