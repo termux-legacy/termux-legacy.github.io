@@ -1,0 +1,53 @@
+Package: gitflow-avh
+Architecture: all
+Installed-Size: 448
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.12.3-3
+Homepage: https://github.com/petervanderdoes/gitflow/
+Depends: dash, git
+Description: Extend git with Vincent Driessen's branching model. The AVH Edition adds more functionality.
+Filename: all/gitflow-avh_1.12.3-3_all.deb
+SHA1: 1c5be8499e1897d416a3a8802bd058fc5d803716
+SHA256: 52722ec456d12cd0be731f5fb9d9dd8057dcb36df7f372fb1d378d18c1e1be6d
+Size: 31612
+
+Package: metasploit
+Architecture: all
+Installed-Size: 48
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 5.0.65-1
+Homepage: https://www.metasploit.com/
+Depends: apr, apr-util, autoconf, bison, clang, coreutils, curl, findutils, git, libffi, libgmp, libiconv, libpcap, libsqlite, libtool, libxml2, libxslt, make, ncurses, ncurses, ncurses-utils, openssl, pkg-config, postgresql, readline, resolv-conf, ruby, tar, termux-elf-cleaner, termux-tools, unzip, wget, zip, zlib
+Description: Advanced open-source platform for developing, testing and using exploit code. (installer)
+Filename: all/metasploit_5.0.65-1_all.deb
+SHA1: 1bc0b62dce9b893a48cf6fb1f7c0e514c46a528e
+SHA256: 7881709be218b2e3e490918202b10f2c2957b48fa53e076906333ed5746dce85
+Size: 2724
+
+Package: pandoc
+Architecture: all
+Installed-Size: 97372
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.9-2
+Homepage: https://pandoc.org/
+Depends: qemu-user-x86_64
+Description: Universal markup converter
+Filename: all/pandoc_2.9-2_all.deb
+SHA1: 6c4188e497b3354b47fd5f89b852a63bed87ad7e
+SHA256: 17f0894f41cb61d41a85150fbbbd0f877b266a454961252dd063109443adfec3
+Size: 12497660
+
+Package: zeronet
+Architecture: all
+Installed-Size: 6252
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.7.1-3
+Homepage: https://zeronet.io/
+Depends: bash, clang, make, openssl-tool, pkg-config, python
+Recommends: tor
+Description: Decentralized websites using Bitcoin crypto and BitTorrent network
+Filename: all/zeronet_0.7.1-3_all.deb
+SHA1: d33532844ae4c2586b0c2f9c57178d75ff824939
+SHA256: d6711efbb91861e0a805fcc3158f2f365f3007369fbc3ab1768e942fe3411635
+Size: 1107900
+
