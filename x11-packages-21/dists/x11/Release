@@ -1,0 +1,73 @@
+Origin: Bintray
+Label: Bintray
+Suite: x11
+Codename: x11
+Date: Sun, 22 Dec 2019 22:05:39 UTC
+Components: main
+Architectures: aarch64 amd64 arm i386 i686 x86_64
+MD5Sum:
+ a2fecb99e1715fc85b7ff7570d74babc           142029 main/binary-aarch64/Packages
+ 9c633abaf6e5e0673a576ce613adc83d            30154 main/binary-aarch64/Packages.bz2
+ 2708ef4347081253f2485a5ec02ec777            38021 main/binary-aarch64/Packages.gz
+ 1e36d69952caa90ade58a432dc879db9             9828 main/binary-all/Packages
+ 54f0a9ead5b0127be10a2a3a6327257c             3179 main/binary-all/Packages.bz2
+ 42b05b2bb75f7735f99b51895a16dd63             3260 main/binary-all/Packages.gz
+ 1e36d69952caa90ade58a432dc879db9             9828 main/binary-amd64/Packages
+ 54f0a9ead5b0127be10a2a3a6327257c             3179 main/binary-amd64/Packages.bz2
+ 42b05b2bb75f7735f99b51895a16dd63             3260 main/binary-amd64/Packages.gz
+ 8b775f0545d6132bfa93b56b06f6e14e           138788 main/binary-arm/Packages
+ 7e93e597c6c6b8fa08ef346018276ce7            30164 main/binary-arm/Packages.bz2
+ 2d1c896ebb3c44d2aba4eeba9267ede7            37886 main/binary-arm/Packages.gz
+ 1e36d69952caa90ade58a432dc879db9             9828 main/binary-i386/Packages
+ 54f0a9ead5b0127be10a2a3a6327257c             3179 main/binary-i386/Packages.bz2
+ 42b05b2bb75f7735f99b51895a16dd63             3260 main/binary-i386/Packages.gz
+ 2b803cfd81c8c651bf3a5262a66f143a           139601 main/binary-i686/Packages
+ 3873d0ef6de72b683126a7609a3eb661            30173 main/binary-i686/Packages.bz2
+ be6453291db031c22df05c6bd35fd585            37914 main/binary-i686/Packages.gz
+ 0e73f17be984b6a7d6ec7ad29ec92d3f           141237 main/binary-x86_64/Packages
+ 432aacc96aa38cac8a20ef72df2f8d53            30193 main/binary-x86_64/Packages.bz2
+ 468a8478cbaaa7f31523b59c43824dda            37926 main/binary-x86_64/Packages.gz
+SHA1:
+ f159b1c02426dddf0248f575f37097072df6d05b           142029 main/binary-aarch64/Packages
+ 45808139f19f585e4750ba3ba27cd3c2a527a3ae            30154 main/binary-aarch64/Packages.bz2
+ fe84bfd31b0b772491a83a16cbc91f57ce03d331            38021 main/binary-aarch64/Packages.gz
+ 91c2e3c2f8552f7766598f2957488909fb70dcbe             9828 main/binary-all/Packages
+ 09bec5fd11f67b3c506d0442a83fac3b99ee4797             3179 main/binary-all/Packages.bz2
+ dc43d253eef5a5275c8cce92207a10c17847471d             3260 main/binary-all/Packages.gz
+ 91c2e3c2f8552f7766598f2957488909fb70dcbe             9828 main/binary-amd64/Packages
+ 09bec5fd11f67b3c506d0442a83fac3b99ee4797             3179 main/binary-amd64/Packages.bz2
+ dc43d253eef5a5275c8cce92207a10c17847471d             3260 main/binary-amd64/Packages.gz
+ 42b4095133daa0dbd1dd4fa5a7554cb7d16e1735           138788 main/binary-arm/Packages
+ e86c7ee6970762f250b41f2a845a62ada8349c7f            30164 main/binary-arm/Packages.bz2
+ 74e10e5a42b57d39f11dda0a3e642474a030aa1b            37886 main/binary-arm/Packages.gz
+ 91c2e3c2f8552f7766598f2957488909fb70dcbe             9828 main/binary-i386/Packages
+ 09bec5fd11f67b3c506d0442a83fac3b99ee4797             3179 main/binary-i386/Packages.bz2
+ dc43d253eef5a5275c8cce92207a10c17847471d             3260 main/binary-i386/Packages.gz
+ 9365aab8770d6e43a5688b7b727a14d139e61a19           139601 main/binary-i686/Packages
+ ce07b530034445084176c91fbb3d3ca62c39a60e            30173 main/binary-i686/Packages.bz2
+ 8dbdff63376198ce527b53a8d41c23f882ce5536            37914 main/binary-i686/Packages.gz
+ c9717c460fca0d83a09bdf50c7b0b59a312c5a7e           141237 main/binary-x86_64/Packages
+ 6a34a0750a79d1e6baef8a0184eadef7e9c9323d            30193 main/binary-x86_64/Packages.bz2
+ 618b0dca387123b42f533d1f7d21cd95b4a4e79e            37926 main/binary-x86_64/Packages.gz
+SHA256:
+ 2ebb7fa05c500d95b3cf210548aa3696a267d72b362cb06ddacb74d64447a3cd           142029 main/binary-aarch64/Packages
+ 6aa7b403f7c702cba34c1c614794b5aaccfaf625c9ddaca17385cc6527cc9b11            30154 main/binary-aarch64/Packages.bz2
+ 8bcf8355699a77ba3a9bd242f07280fe58da917b5f2deff996dc4a901cfdef38            38021 main/binary-aarch64/Packages.gz
+ 5930f2d64e6afbbc5183633ffe88fff926b7beb12fbb099afbea73b53178e1f3             9828 main/binary-all/Packages
+ 1f9f6e8f24922e1b7655a3d57bb0c47b47937ee594e7d4a3234dc87a725e9fdb             3179 main/binary-all/Packages.bz2
+ cdbe16e391df79f7a3f9dbb1dfbc988a676a2ec73807e0f96530e43841612006             3260 main/binary-all/Packages.gz
+ 5930f2d64e6afbbc5183633ffe88fff926b7beb12fbb099afbea73b53178e1f3             9828 main/binary-amd64/Packages
+ 1f9f6e8f24922e1b7655a3d57bb0c47b47937ee594e7d4a3234dc87a725e9fdb             3179 main/binary-amd64/Packages.bz2
+ cdbe16e391df79f7a3f9dbb1dfbc988a676a2ec73807e0f96530e43841612006             3260 main/binary-amd64/Packages.gz
+ e838667653f252a642c649d6e43655b1041f9267aea68b23e92c3b7930cdd28b           138788 main/binary-arm/Packages
+ bef85441c61c104a4982f3bccbc854baa9ec98e02bfa365c4dfaf6148ba946e1            30164 main/binary-arm/Packages.bz2
+ 4610d8cd6c60f91d22b81a6e8baa875375373cef4596bf780046bf7401ed1dba            37886 main/binary-arm/Packages.gz
+ 5930f2d64e6afbbc5183633ffe88fff926b7beb12fbb099afbea73b53178e1f3             9828 main/binary-i386/Packages
+ 1f9f6e8f24922e1b7655a3d57bb0c47b47937ee594e7d4a3234dc87a725e9fdb             3179 main/binary-i386/Packages.bz2
+ cdbe16e391df79f7a3f9dbb1dfbc988a676a2ec73807e0f96530e43841612006             3260 main/binary-i386/Packages.gz
+ 9632a5e8b743d8f382de84e5fc2d0816441090732e464c6c12514ce08a5d1869           139601 main/binary-i686/Packages
+ d05b2aeff52ddaa94191e7cc14e8ce507b7454bc914ee980e5e1e77a24e542f6            30173 main/binary-i686/Packages.bz2
+ 88d86f18be8a862c72d89bd41211c5a743e58c05fae50869a7fc85647ec2d585            37914 main/binary-i686/Packages.gz
+ 0acb86d3a884635000ed68633edc3c353b317d54a999942bbfbba95d81a7626e           141237 main/binary-x86_64/Packages
+ 1f342ddbfdf8908668d69a4761e964b722eb8e7469ed519917839adff09d28dc            30193 main/binary-x86_64/Packages.bz2
+ b1a0bb211a9ef6ad96bc4230147b95a6303682eb906be75273770a3f79ae8972            37926 main/binary-x86_64/Packages.gz
